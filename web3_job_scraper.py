@@ -255,15 +255,42 @@ def scrape_defi_jobs() -> list[dict]:
 
 
 def scrape_hashtagweb3() -> list[dict]:
-    """Skip internal nav, only capture links to real external job pages."""
+    """Skip internal nav and social links, only capture real job pages."""
     jobs, seen_urls = [], set()
+    # Domains that are never job postings
+    skip_domains = {
+        "linkedin.com", "twitter.com", "x.com", "instagram.com",
+        "telegram.org", "t.me", "facebook.com", "youtube.com",
+    }
     r = get("https://hashtagweb3.com/jobs")
     if not r: return jobs
-    for a in soup(r).select("a[href]"):
+    s = soup(r)
+    for a in s.select("a[href]"):
         href = a["href"]
         if not href.startswith("http"): continue
-        if "hashtagweb3.com" in href: continue   # skip all internal links
-        title = clean(a.get_text())
+        if "hashtagweb3.com" in href: continue
+        # Skip social media links
+        if any(d in href for d in skip_domains): continue
+        # Skip Telegram promo links
+        if "t.me/" in href: continue
+
+        # Get title — HashtagWeb3 concatenates company name onto title text.
+        # Each job link wraps a title element and a company element separately.
+        # Try to grab just the job title span/element, not the company name.
+        title_el = a.find(class_=lambda c: c and any(
+            x in c for x in ["title", "job-title", "position", "role", "name"]
+        )) if a else None
+        if title_el:
+            title = clean(title_el.get_text())
+        else:
+            # Fall back: take full text but strip known company suffixes
+            raw = clean(a.get_text())
+            # Company names are often appended with no space — split on capital letters
+            # after a lowercase letter (camelCase boundary)
+            title = re.sub(r"([a-z])([A-Z])", r"\1 | \2", raw)
+            # Take only the part before the pipe (the job title)
+            title = title.split(" | ")[0].strip()
+
         if href in seen_urls: continue
         seen_urls.add(href)
         if is_real_job(title, href):
