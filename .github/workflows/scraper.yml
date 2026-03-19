@@ -27,7 +27,7 @@ jobs:
           restore-keys: seen-jobs-
 
       - name: Run scraper
-        run: run: python web3_job_scraper.py > digest.txt
+        run: python web3_job_scraper.py > digest.txt
 
       - name: Send to Slack
         run: |
