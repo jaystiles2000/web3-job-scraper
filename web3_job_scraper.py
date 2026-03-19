@@ -74,20 +74,28 @@ def clean(t: str) -> str:
 def clean_company(name: str) -> str:
     """Clean up company names extracted from URLs."""
     import urllib.parse
-    name = urllib.parse.unquote(name)          # decode %20 etc
-    name = re.sub(r"[-_]", " ", name)          # hyphens to spaces
-    name = re.sub(r"\b[0-9a-f]{4,}\b", "", name, flags=re.IGNORECASE)  # strip hex IDs
+    name = urllib.parse.unquote(name)
+    name = re.sub(r"[-_]", " ", name)
+    # Strip trailing " 2" or " 2 <uuid>" suffixes Getro adds
+    name = re.sub(r"\s+2\s+[0-9a-f\s]{8,}$", "", name, flags=re.IGNORECASE)
+    name = re.sub(r"\s+2$", "", name.strip())
+    # Strip hex UUID fragments
+    name = re.sub(r"\b[0-9a-f]{4,}\b", "", name, flags=re.IGNORECASE)
+    # Strip long greenhouse board slugs like "m0dbathenextthingltd"
+    if len(name.replace(" ", "")) > 20 and " " not in name.strip():
+        return ""
     name = re.sub(r"\s+", " ", name).strip()
-    # Title case but preserve known acronyms
+    # Title case preserving acronyms
+    acronyms = {"AI", "HQ", "CEO", "CTO", "CFO", "BD", "VC", "UK", "US",
+                "UAE", "KYC", "AML", "DeFi", "NFT", "DAO", "ZK", "DEX",
+                "RWA", "SDK", "API", "SVM", "EVM", "GTM", "SDR"}
     words = []
     for w in name.split():
-        if w.upper() in {"AI", "HQ", "CEO", "CTO", "CFO", "BD", "VC", "UK", "US", "UAE", "KYC", "AML", "DeFi", "NFT", "DAO"}:
+        if w.upper() in acronyms:
             words.append(w.upper())
         else:
             words.append(w.capitalize())
-    name = " ".join(words)
-    name = re.sub(r"\s+", " ", name).strip()
-    return name
+    return " ".join(words).strip()
 
 def clean_location(loc: str) -> str:
     """Only return location if it looks like a real place, not a word fragment."""
@@ -149,8 +157,8 @@ BLOCKED_COMPANIES = {
     "ng cash", "coinswitch kuber",
     # HR/recruiting software
     "ashby",
-    # Non-crypto fintech
-    "ftmo",
+    # Non-crypto fintech / gaming / other
+    "ftmo", "discord", "inworld ai", "tellus", "hadrian",
     # Big tech with no web3 angle
     "audible", "amazon web services",
 }
@@ -162,10 +170,24 @@ BLOCKED_URL_FRAGMENTS = {
     "people-job-posts.vercel.app",
     "crossriver.com",
     "current.com/careers",
+    "wellfound.com",           # Tellus and similar non-web3
+}
+
+# Junk job titles to always skip regardless of source
+JUNK_JOB_TITLES = {
+    "don't see any role for you? be the wild card",
+    "don t see any role for you be the wild card",
+    "general application",
+    "general applications",
 }
 
 def is_web3_relevant(job: dict) -> bool:
     """Filter out obvious non-web3 jobs from aggregator boards."""
+    # Always filter junk titles regardless of source
+    title_lower = job.get("title", "").lower().strip()
+    if title_lower in JUNK_JOB_TITLES:
+        return False
+
     pure_sources = {
         "EthereumJobBoard", "BitcoinerJobs", "TalentWeb3",
         "DeFi.jobs", "CryptoJobsList", "CryptocurrencyJobs",
@@ -412,8 +434,13 @@ def scrape_hashtagweb3() -> list[dict]:
         raw = clean(a.get_text())
         # Split at camelCase boundary e.g. "Senior EngineerAshby" -> "Senior Engineer"
         title = re.sub(r"([a-z])([A-Z][a-z])", r"\1||||\2", raw).split("||||")[0].strip()
-        # Also strip if a known company name got appended without space
-        title = re.sub(r"(Ashby|Crossmint|Coinbase|Fireblocks|Phantom|Lido|VALR)$", "", title).strip()
+        # Strip company names appended with no space (common in HashtagWeb3)
+        title = re.sub(
+            r"(Ashby|Crossmint|Coinbase|Fireblocks|Phantom|Lido|VALR|"
+            r"OP Labs|Sui Foundation|Solana Foundation|BCB Group|Tellus|"
+            r"1Inch|1inch|Worldcoin|Binance|Ripple|Circle|Alchemy|"
+            r"LayerZero|Offchain Labs|Consensys|Eigen|Gensyn)$",
+            "", title).strip()
 
         # Extract company from URL where possible
         company = ""
