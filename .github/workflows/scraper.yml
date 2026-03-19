@@ -1,7 +1,5 @@
 name: Web3 Job Scraper
 
---reset
-
 on:
   schedule:
     - cron: '0 8 * * *'   # 8am UTC daily
@@ -29,7 +27,7 @@ jobs:
           restore-keys: seen-jobs-
 
       - name: Run scraper
-        run: python web3_job_scraper.py --output email > digest.txt
+        run: run: python web3_job_scraper.py > digest.txt
 
       - name: Send to Slack
         run: |
