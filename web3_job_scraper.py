@@ -157,8 +157,10 @@ BLOCKED_COMPANIES = {
     "ng cash", "coinswitch kuber",
     # HR/recruiting software
     "ashby",
-    # Non-crypto fintech / gaming / other
+    # Non-crypto companies that appear via portfolio boards
     "ftmo", "discord", "inworld ai", "tellus", "hadrian",
+    "indeed",    # job board itself appearing as a company
+    "world",     # Worldcoin slug "world-2" resolves to just "World"
     # Big tech with no web3 angle
     "audible", "amazon web services",
 }
@@ -170,7 +172,34 @@ BLOCKED_URL_FRAGMENTS = {
     "people-job-posts.vercel.app",
     "crossriver.com",
     "current.com/careers",
-    "wellfound.com",           # Tellus and similar non-web3
+    "wellfound.com",
+    "indeed.com/viewjob",      # Indeed job links via Multicoin board
+}
+
+# Company name fixes — map messy extracted names to clean versions
+COMPANY_NAME_FIXES = {
+    "chainalysis careers": "Chainalysis",
+    "chainalysis-careers": "Chainalysis",
+    "mesh 3": "Mesh",
+    "breeze 2": "Breeze",
+    "3box labs 2": "3Box Labs",
+    "douro labs 2": "Douro Labs",
+    "kast 2": "Kast",
+    "anza 2": "Anza",
+    "range 2": "Range",
+    "crossmint 2": "Crossmint",
+    "1inch 2": "1inch",
+    "openzeppelin 2": "OpenZeppelin",
+    "layerzero 2": "LayerZero",
+    "binance 2": "Binance",
+    "keyrock 2": "Keyrock",
+    "whitebit 2": "WhiteBIT",
+    "op labs": "OP Labs",
+    "oplabs": "OP Labs",
+    "nomic.foundation": "Nomic Foundation",
+    "lido.fi": "Lido",
+    "monad.foundation": "Monad Foundation",
+    "tools for humanity": "Tools for Humanity",
 }
 
 # Junk job titles to always skip regardless of source
@@ -291,8 +320,32 @@ def scrape_ethereumjobboard() -> list[dict]:
 
 
 def scrape_bitcoinerjobs() -> list[dict]:
-    jobs = []
-    for e in feedparser.parse("https://bitcoinerjobs.com/feed").entries:
+    """Niceboard-powered — try their public JSON API."""
+    jobs, seen_urls = [], set()
+    # Niceboard exposes a public jobs JSON endpoint
+    r = get("https://bitcoinerjobs.com/api/jobs?limit=50&status=published")
+    if r:
+        try:
+            data = r.json()
+            items = data if isinstance(data, list) else data.get("jobs", data.get("data", []))
+            for job in items:
+                title = clean(job.get("title", ""))
+                url = job.get("url") or job.get("job_url") or job.get("apply_url", "")
+                company = job.get("company", {})
+                if isinstance(company, dict):
+                    company = company.get("name", "")
+                norm = normalise_url(url)
+                if norm in seen_urls: continue
+                seen_urls.add(norm)
+                if is_real_job(title, url):
+                    jobs.append({"title": title, "company": company,
+                                 "url": url, "source": "BitcoinerJobs"})
+            if jobs:
+                return jobs
+        except Exception:
+            pass
+    # Fallback: try RSS
+    for e in feedparser.parse("https://bitcoinerjobs.com/feed.xml").entries:
         title = clean(e.title)
         company = getattr(e, "author", "")
         if is_real_job(title, e.link):
@@ -347,7 +400,35 @@ def _getro(slug: str, display: str, base_url: str) -> list[dict]:
 
 def scrape_safary()      -> list[dict]: return _getro("safary",     "Safary",      "https://jobs.safary.club/jobs")
 def scrape_solana_jobs() -> list[dict]: return _getro("solana",     "SolanaJobs",  "https://jobs.solana.com/jobs")
-def scrape_a16z_crypto() -> list[dict]: return _getro("a16zcrypto", "a16z Crypto", "https://a16zcrypto.com/jobs/")
+def scrape_a16z_crypto() -> list[dict]:
+    """a16z crypto jobs — try Getro network API then ashbyhq fallback."""
+    jobs, seen_urls = [], set()
+    # a16z uses jobs.a16z.com which redirects to ashbyhq
+    for base in [
+        "https://jobs.a16z.com/jobs",
+        "https://a16zcrypto.com/jobs/",
+    ]:
+        r = get(base)
+        if not r: continue
+        s = soup(r)
+        for a in s.select("a[href*='/jobs/'], a[href*='ashbyhq.com']"):
+            href = a.get("href", "")
+            if not href.startswith("http"):
+                href = base.rstrip("/") + href
+            norm = normalise_url(href)
+            if norm in seen_urls: continue
+            seen_urls.add(norm)
+            title = clean(a.get_text())
+            company = ""
+            m = re.search(r"ashbyhq\.com/([^/]+)/", href)
+            if m:
+                company = clean_company(m.group(1))
+            if is_real_job(title, href):
+                jobs.append({"title": title, "company": company,
+                             "url": href, "source": "a16z Crypto"})
+        if jobs:
+            break
+    return jobs
 def scrape_bitkraft()    -> list[dict]: return _getro("bitkraft",   "BITKRAFT VC", "https://careers.bitkraft.vc/jobs")
 
 
@@ -371,43 +452,116 @@ def scrape_cryptojobslist() -> list[dict]:
 
 
 def scrape_cryptocurrencyjobs() -> list[dict]:
-    jobs = []
-    for e in feedparser.parse("https://cryptocurrencyjobs.co/feed/").entries:
-        title = clean(e.title)
-        if not is_real_job(title, e.link): continue
-        loc = ""
-        summary = getattr(e, "summary", "")
-        m = re.search(r"(Remote|[\w\s]+,\s*[\w\s]+)", summary)
-        if m: loc = m.group(1).strip()[:40]
-        jobs.append({"title": title, "company": "", "url": e.link,
-                     "source": "CryptocurrencyJobs", "location": loc})
+    """Try multiple feed URLs — site uses Next.js so HTML scraping is unreliable."""
+    jobs, seen_urls = [], set()
+    feed_urls = [
+        "https://cryptocurrencyjobs.co/feed/",
+        "https://cryptocurrencyjobs.co/feed.xml",
+        "https://cryptocurrencyjobs.co/rss.xml",
+        "https://cryptocurrencyjobs.co/rss",
+    ]
+    for feed_url in feed_urls:
+        feed = feedparser.parse(feed_url)
+        if feed.entries:
+            for e in feed.entries:
+                title = clean(e.title)
+                if not is_real_job(title, e.link): continue
+                norm = normalise_url(e.link)
+                if norm in seen_urls: continue
+                seen_urls.add(norm)
+                loc = ""
+                summary = getattr(e, "summary", "")
+                m = re.search(r"(Remote|[\w\s]+,\s*[\w\s]+)", summary)
+                if m: loc = clean_location(m.group(1).strip()[:40])
+                company = ""
+                cm = re.search(r"at ([\w\s]+)$", title)
+                if cm: company = cm.group(1).strip()
+                jobs.append({"title": title, "company": company, "url": e.link,
+                             "source": "CryptocurrencyJobs", "location": loc})
+            break  # stop at first working feed
+    # HTML fallback
+    if not jobs:
+        r = get("https://cryptocurrencyjobs.co/")
+        if r:
+            s = soup(r)
+            for a in s.select("a[href*='/jobs/']"):
+                title = clean(a.get_text())
+                href = a["href"]
+                if not href.startswith("http"):
+                    href = "https://cryptocurrencyjobs.co" + href
+                norm = normalise_url(href)
+                if norm in seen_urls: continue
+                seen_urls.add(norm)
+                if is_real_job(title, href):
+                    jobs.append({"title": title, "company": "", "url": href,
+                                 "source": "CryptocurrencyJobs"})
     return jobs
 
 
 def scrape_myweb3jobs() -> list[dict]:
-    jobs = []
-    for e in feedparser.parse("https://myweb3jobs.com/feed/").entries:
-        title = clean(e.title)
-        if is_real_job(title, e.link):
-            jobs.append({"title": title, "company": "", "url": e.link,
-                         "source": "MyWeb3Jobs"})
+    """WordPress site — try RSS feed variants, then HTML."""
+    jobs, seen_urls = [], set()
+    feed_urls = [
+        "https://myweb3jobs.com/feed/",
+        "https://myweb3jobs.com/job-feed/",
+        "https://myweb3jobs.com/?feed=rss2",
+        "https://myweb3jobs.com/?post_type=job_listing&feed=rss2",
+    ]
+    for feed_url in feed_urls:
+        feed = feedparser.parse(feed_url)
+        if feed.entries:
+            for e in feed.entries:
+                title = clean(e.title)
+                norm = normalise_url(e.link)
+                if norm in seen_urls: continue
+                seen_urls.add(norm)
+                if is_real_job(title, e.link):
+                    jobs.append({"title": title, "company": "", "url": e.link,
+                                 "source": "MyWeb3Jobs"})
+            break
+    # HTML fallback — WP Job Manager uses /job/ URLs
+    if not jobs:
+        r = get("https://myweb3jobs.com/")
+        if r:
+            s = soup(r)
+            for a in s.select("a[href*='/job/'], a[href*='/jobs/']"):
+                title = clean(a.get_text())
+                href = a["href"]
+                if not href.startswith("http"):
+                    href = "https://myweb3jobs.com" + href
+                norm = normalise_url(href)
+                if norm in seen_urls: continue
+                seen_urls.add(norm)
+                if is_real_job(title, href):
+                    jobs.append({"title": title, "company": "", "url": href,
+                                 "source": "MyWeb3Jobs"})
     return jobs
 
 
 def scrape_defi_jobs() -> list[dict]:
+    """DeFi.jobs - Webflow site, jobs are in HTML as /jobs/slug links."""
     jobs, seen_urls = [], set()
     r = get("https://www.defi.jobs/")
     if not r: return jobs
-    for a in soup(r).select("a[href*='/jobs/']"):
-        title = clean(a.get_text())
-        href = a["href"]
+    s = soup(r)
+    # Jobs link to /jobs/job-title-slug
+    for a in s.select("a[href]"):
+        href = a.get("href", "")
+        # Must match /jobs/ with a slug after it (not just /jobs)
+        if not re.search(r"/jobs/[a-z0-9-]{3,}", href):
+            continue
         if not href.startswith("http"):
             href = "https://www.defi.jobs" + href
         norm = normalise_url(href)
         if norm in seen_urls: continue
         seen_urls.add(norm)
+        title = clean(a.get_text())
+        if not title:
+            # Try to get title from slug
+            slug = href.rstrip("/").split("/")[-1]
+            title = slug.replace("-", " ").title()
         if is_real_job(title, href):
-            jobs.append({"title": title, "company": "", "url": href,
+            jobs.append({"title": title, "company": "Hype Talent", "url": href,
                          "source": "DeFi.jobs"})
     return jobs
 
@@ -430,16 +584,20 @@ def scrape_hashtagweb3() -> list[dict]:
         if norm in seen_urls: continue
         seen_urls.add(norm)
 
-        # Get clean title: split camelCase company suffix off the end
+        # Get clean title: split camelCase or domain-appended company suffix
         raw = clean(a.get_text())
         # Split at camelCase boundary e.g. "Senior EngineerAshby" -> "Senior Engineer"
-        title = re.sub(r"([a-z])([A-Z][a-z])", r"\1||||\2", raw).split("||||")[0].strip()
-        # Strip company names appended with no space (common in HashtagWeb3)
+        # Also handles "Growth PMmoonshot.money" and "Engineer3Box Labs"
+        title = re.sub(r"([a-z0-9])([A-Z][a-z])", r"\1||||\2", raw).split("||||")[0].strip()
+        # Strip appended domain names e.g. "moonshot.money", "3Box Labs"
+        title = re.sub(r"[\s]*(\d[A-Z]\w+\s+\w+|\w+\.\w+)$", "", title).strip()
+        # Strip known company names appended with no space
         title = re.sub(
             r"(Ashby|Crossmint|Coinbase|Fireblocks|Phantom|Lido|VALR|"
             r"OP Labs|Sui Foundation|Solana Foundation|BCB Group|Tellus|"
             r"1Inch|1inch|Worldcoin|Binance|Ripple|Circle|Alchemy|"
-            r"LayerZero|Offchain Labs|Consensys|Eigen|Gensyn)$",
+            r"LayerZero|Offchain Labs|Consensys|Eigen|Gensyn|Matrixport|"
+            r"Nansen|Range|Veda|Breeze|Anchorage|Paradigm|Chainalysis)$",
             "", title).strip()
 
         # Extract company from URL where possible
@@ -463,37 +621,56 @@ def scrape_hashtagweb3() -> list[dict]:
 
 
 def scrape_blockchainheadhunter() -> list[dict]:
+    """BlockchainHeadhunter loads jobs via JS — scrape their sitemap instead."""
     jobs, seen_urls = [], set()
-    r = get("https://blockchainheadhunter.com/jobs")
-    if not r: return jobs
-    for a in soup(r).select("a[href*='/job/']"):
-        title = clean(a.get_text())
-        href = a["href"]
-        if not href.startswith("http"):
-            href = "https://blockchainheadhunter.com" + href
-        norm = normalise_url(href)
-        if norm in seen_urls: continue
-        seen_urls.add(norm)
-        if is_real_job(title, href):
-            jobs.append({"title": title, "company": "", "url": href,
-                         "source": "BlockchainHeadhunter"})
+    # Try sitemap first as it contains static job URLs
+    r = get("https://blockchainheadhunter.com/sitemap.xml")
+    if r:
+        urls = re.findall(r"<loc>(https://blockchainheadhunter\.com/[^<]+)</loc>", r.text)
+        for href in urls:
+            # Job pages have a slug pattern like /senior-engineer-company
+            if any(x in href for x in ["/for-companies", "/news", "/about",
+                                        "/contact", "/blog", "/education",
+                                        "/jobs", "/sitemap", "/sponsored"]):
+                continue
+            norm = normalise_url(href)
+            if norm in seen_urls: continue
+            seen_urls.add(norm)
+            # Extract title from slug
+            slug = href.rstrip("/").split("/")[-1]
+            title = slug.replace("-", " ").title()
+            if is_real_job(title, href):
+                jobs.append({"title": title, "company": "", "url": href,
+                             "source": "BlockchainHeadhunter"})
     return jobs
 
 
 def scrape_bitcoinjobs() -> list[dict]:
+    """BitcoinJobs uses /job-title-company slugs not /job/id paths."""
     jobs, seen_urls = [], set()
     r = get("https://bitcoinjobs.com/")
     if not r: return jobs
-    for a in soup(r).select("a[href*='/job/']"):
-        title = clean(a.get_text())
+    s = soup(r)
+    # Job cards are <a> tags linking to slugs like /software-engineer-river
+    for a in s.select("a[href]"):
         href = a["href"]
-        if not href.startswith("http"):
-            href = "https://bitcoinjobs.com" + href
-        norm = normalise_url(href)
+        # Must be a root-level slug (not nav links)
+        if not re.match(r"^/[a-z][a-z0-9-]+$", href):
+            continue
+        if href in ["/", "/companies", "/job-alerts", "/categories", "/post"]:
+            continue
+        full_href = "https://bitcoinjobs.com" + href
+        norm = normalise_url(full_href)
         if norm in seen_urls: continue
         seen_urls.add(norm)
-        if is_real_job(title, href):
-            jobs.append({"title": title, "company": "", "url": href,
+        # Get title from the h2 inside the card if possible
+        h2 = a.find("h2")
+        title = clean(h2.get_text()) if h2 else clean(a.get_text())
+        # Get company — usually the next text node or a separate element
+        company_el = a.find(string=re.compile(r"[A-Z][a-z]"))
+        company = ""
+        if is_real_job(title, full_href):
+            jobs.append({"title": title, "company": company, "url": full_href,
                          "source": "BitcoinJobs"})
     return jobs
 
