@@ -29,21 +29,32 @@ jobs:
       - name: Run scraper
         run: python web3_job_scraper.py > digest.txt
 
-      - name: Send to Slack
+      - name: Send to Telegram
         run: |
           python - <<'EOF'
           import urllib.request, json, os
+
           body = open("digest.txt").read()
-          chunks = [body[i:i+3900] for i in range(0, len(body), 3900)]
+          token = os.environ['TELEGRAM_TOKEN']
+          chat_id = os.environ['TELEGRAM_CHAT_ID']
+
+          # Telegram max message length is 4096 chars, split if needed
+          chunks = [body[i:i+4000] for i in range(0, len(body), 4000)]
           for chunk in chunks:
-              data = json.dumps({"text": chunk}).encode()
+              data = json.dumps({
+                  "chat_id": chat_id,
+                  "text": chunk,
+                  "parse_mode": "HTML",
+                  "disable_web_page_preview": True
+              }).encode()
               req = urllib.request.Request(
-                  os.environ['SLACK_WEBHOOK'],
+                  f"https://api.telegram.org/bot{token}/sendMessage",
                   data=data,
                   headers={"Content-Type": "application/json"}
               )
               urllib.request.urlopen(req)
-          print("Sent to Slack!")
+          print("Sent to Telegram!")
           EOF
         env:
-          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
