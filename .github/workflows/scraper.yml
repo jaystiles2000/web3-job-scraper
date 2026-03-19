@@ -1,0 +1,42 @@
+name: Web3 Job Scraper
+
+on:
+  schedule:
+    - cron: '0 8 * * *'   # 8am UTC daily
+  workflow_dispatch:        # lets you trigger it manually too
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4 feedparser lxml
+
+      - name: Restore seen jobs cache
+        uses: actions/cache@v4
+        with:
+          path: seen_jobs.json
+          key: seen-jobs-${{ github.run_id }}
+          restore-keys: seen-jobs-
+
+      - name: Run scraper
+        run: python web3_job_scraper.py --output email > digest.txt
+
+      - name: Send email digest
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 587
+          username: ${{ secrets.EMAIL_USER }}
+          password: ${{ secrets.EMAIL_PASS }}
+          subject: "Web3 Jobs Digest"
+          to: jay.stiles@plexusrs.com
+          from: jay.stiles@plexusrs.com
+          body: file://digest.txt
