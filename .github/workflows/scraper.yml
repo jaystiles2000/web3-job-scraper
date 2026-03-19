@@ -2,8 +2,8 @@ name: Web3 Job Scraper
 
 on:
   schedule:
-    - cron: '0 8 * * *'   # 8am UTC daily
-  workflow_dispatch:        # lets you trigger it manually too
+    - cron: '0 8 * * *'
+  workflow_dispatch:
 
 jobs:
   scrape:
@@ -34,7 +34,6 @@ jobs:
           python - <<'EOF'
           import urllib.request, json, os
           body = open("digest.txt").read()
-          # Slack has a 4000 char limit per message, chunk if needed
           chunks = [body[i:i+3900] for i in range(0, len(body), 3900)]
           for chunk in chunks:
               data = json.dumps({"text": chunk}).encode()
