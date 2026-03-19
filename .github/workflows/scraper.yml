@@ -36,33 +36,27 @@ jobs:
 
           token = os.environ['TELEGRAM_TOKEN']
           chat_id = os.environ['TELEGRAM_CHAT_ID']
-
-          print(f"Token length: {len(token)}")
-          print(f"Chat ID: {chat_id}")
-          print(f"URL: https://api.telegram.org/bot{token[:10]}...")
-
           body = open("digest.txt").read()
+
+          # Strip HTML tags for plain text
+          import re
+          body = re.sub(r'<[^>]+>', '', body)
+
           chunks = [body[i:i+4000] for i in range(0, len(body), 4000)]
           for chunk in chunks:
+              if not chunk.strip():
+                  continue
               data = json.dumps({
                   "chat_id": chat_id,
-                  "text": chunk,
-                  "parse_mode": "HTML",
-                  "disable_web_page_preview": True
+                  "text": chunk
               }).encode()
               req = urllib.request.Request(
                   f"https://api.telegram.org/bot{token}/sendMessage",
                   data=data,
                   headers={"Content-Type": "application/json"}
               )
-              try:
-                  urllib.request.urlopen(req)
-                  print("Sent!")
-              except Exception as e:
-                  print(f"Error: {e}")
-                  import urllib.error
-                  if hasattr(e, 'read'):
-                      print(f"Response: {e.read().decode()}")
+              resp = urllib.request.urlopen(req)
+              print(f"Sent chunk, response: {resp.status}")
           EOF
         env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
