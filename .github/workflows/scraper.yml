@@ -27,7 +27,7 @@ jobs:
           restore-keys: seen-jobs-
 
       - name: Run scraper
-        run: python web3_job_scraper.py > digest.txt
+        run: python web3_job_scraper.py > digest.txt 2>/dev/null
 
       - name: Send to Telegram
         run: |
