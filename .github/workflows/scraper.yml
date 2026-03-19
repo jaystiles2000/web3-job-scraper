@@ -29,13 +29,22 @@ jobs:
       - name: Run scraper
         run: python web3_job_scraper.py --output email > digest.txt
 
-      - name: Send email digest
-        uses: dawidd6/action-send-mail@v3
-        with:
-          server_address: smtp.office365.com
-          server_port: 587
-          username: ${{ secrets.EMAIL_USER }}
-          password: ${{ secrets.EMAIL_PASS }}
-          subject: "Web3 Jobs Digest"
-          to: jay.stiles@plexusrs.com
-          from: jaystiles@hotmail.co.uk
+      - name: Send to Slack
+        run: |
+          python - <<'EOF'
+          import urllib.request, json, os
+          body = open("digest.txt").read()
+          # Slack has a 4000 char limit per message, chunk if needed
+          chunks = [body[i:i+3900] for i in range(0, len(body), 3900)]
+          for chunk in chunks:
+              data = json.dumps({"text": chunk}).encode()
+              req = urllib.request.Request(
+                  os.environ['SLACK_WEBHOOK'],
+                  data=data,
+                  headers={"Content-Type": "application/json"}
+              )
+              urllib.request.urlopen(req)
+          print("Sent to Slack!")
+          EOF
+        env:
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
