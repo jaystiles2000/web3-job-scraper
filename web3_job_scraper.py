@@ -71,6 +71,41 @@ def clean(t: str) -> str:
     t = re.sub(r"\s+", " ", t)
     return t
 
+def clean_company(name: str) -> str:
+    """Clean up company names extracted from URLs."""
+    import urllib.parse
+    name = urllib.parse.unquote(name)          # decode %20 etc
+    name = re.sub(r"[-_]", " ", name)          # hyphens to spaces
+    name = re.sub(r"\b[0-9a-f]{4,}\b", "", name, flags=re.IGNORECASE)  # strip hex IDs
+    name = re.sub(r"\s+", " ", name).strip()
+    # Title case but preserve known acronyms
+    words = []
+    for w in name.split():
+        if w.upper() in {"AI", "HQ", "CEO", "CTO", "CFO", "BD", "VC", "UK", "US", "UAE", "KYC", "AML", "DeFi", "NFT", "DAO"}:
+            words.append(w.upper())
+        else:
+            words.append(w.capitalize())
+    name = " ".join(words)
+    name = re.sub(r"\s+", " ", name).strip()
+    return name
+
+def clean_location(loc: str) -> str:
+    """Only return location if it looks like a real place, not a word fragment."""
+    if not loc:
+        return ""
+    loc = loc.strip().title()
+    # Must be at least 4 chars and not a common false positive
+    skip = {
+        "Lead", "Defi", "Engineer", "Manager", "Remote Ok", "Trader",
+        "Strategy", "Partnerships", "Management", "Developer", "Emea",
+        "Latam", "Apac", "Newark", "Paulo", "Porto", "Franc", "Xico",
+        "America", "Asia", "Kong", "York", "States", "Kingdom",
+        "Arlington", "Dubai", "Malta", "Singapore Ok",
+    }
+    if loc in skip or len(loc) < 3:
+        return ""
+    return loc
+
 def normalise_url(url: str) -> str:
     """
     Strip tracking params and anchors so the same job linked from
@@ -107,10 +142,17 @@ def make_seen_id(title: str, company: str, norm_url: str) -> str:
 # ---------------------------------------------------------------------------
 
 BLOCKED_COMPANIES = {
+    # HR/payroll/banking - not web3
     "deel", "loft", "earnin", "mercury", "cross river", "runway",
     "valon", "wingspan", "carta", "addi", "sentilink", "current",
-    "branch international", "veem", "taxbit", "clutch",
-    "yuno", "ng cash", "coinswitch kuber",
+    "branch international", "veem", "taxbit", "clutch", "yuno",
+    "ng cash", "coinswitch kuber",
+    # HR/recruiting software
+    "ashby",
+    # Non-crypto fintech
+    "ftmo",
+    # Big tech with no web3 angle
+    "audible", "amazon web services",
 }
 
 BLOCKED_URL_FRAGMENTS = {
@@ -118,6 +160,8 @@ BLOCKED_URL_FRAGMENTS = {
     "branchinternational.applytojob.com",
     "veem.applytojob.com",
     "people-job-posts.vercel.app",
+    "crossriver.com",
+    "current.com/careers",
 }
 
 def is_web3_relevant(job: dict) -> bool:
@@ -138,14 +182,31 @@ def is_web3_relevant(job: dict) -> bool:
     return True
 
 def loc_from_url(url: str) -> str:
-    """CryptoJobsList embeds location in URL slug."""
-    m = re.search(r"/jobs/[^/]+-([a-z][a-z-]+)-at-[^/]+$", url)
-    if m:
-        raw = m.group(1).replace("-", " ").title()
-        if raw.lower() in {"remote", "global", "worldwide"}:
-            return "Remote"
-        if len(raw.split()) <= 4 and len(raw) > 3:
-            return raw
+    """CryptoJobsList embeds location in URL: /jobs/title-CITY-COUNTRY-at-company"""
+    # Pattern: everything between last run of location words and -at-company
+    m = re.search(r"/jobs/[^/]+-at-[^/]+$", url)
+    if not m:
+        return ""
+    # Strip the -at-company suffix, then strip the job title prefix
+    # URL format: job-title-words-LOCATION-WORDS-at-company
+    slug = re.sub(r"-at-[^/]+$", "", url.split("/jobs/")[-1])
+    # Known location keywords to look for at the end of the slug
+    loc_patterns = [
+        r"(remote)$",
+        r"(worldwide)$",
+        r"(global)$",
+        r"([a-z]+-remote)$",
+        r"(united-states)$",
+        r"(united-kingdom)$",
+        r"(hong-kong)$",
+        r"([a-z]+-[a-z]+)$",   # two-word location like "new-york" or "latin-america"
+        r"([a-z]+)$",           # single word location
+    ]
+    for pat in loc_patterns:
+        lm = re.search(pat, slug)
+        if lm:
+            raw = lm.group(1).replace("-", " ").title()
+            return clean_location(raw)
     return ""
 
 JUNK_TITLES = {
@@ -255,7 +316,8 @@ def _getro(slug: str, display: str, base_url: str) -> list[dict]:
         company = ""
         m = re.search(r"/companies/([^/]+)/jobs/", href)
         if m:
-            company = re.sub(r"-\d+$", "", m.group(1)).replace("-", " ").title()
+            raw = re.sub(r"-[0-9a-f-]{8,}$", "", m.group(1))  # strip UUID suffixes
+            company = clean_company(raw)
         if is_real_job(title, href):
             jobs.append({"title": title, "company": company, "url": href,
                          "source": display, "location": loc_from_url(href)})
@@ -346,9 +408,12 @@ def scrape_hashtagweb3() -> list[dict]:
         if norm in seen_urls: continue
         seen_urls.add(norm)
 
-        # Get clean title: split camelCase company suffix
+        # Get clean title: split camelCase company suffix off the end
         raw = clean(a.get_text())
-        title = re.sub(r"([a-z])([A-Z])", r"\1||||\2", raw).split("||||")[0].strip()
+        # Split at camelCase boundary e.g. "Senior EngineerAshby" -> "Senior Engineer"
+        title = re.sub(r"([a-z])([A-Z][a-z])", r"\1||||\2", raw).split("||||")[0].strip()
+        # Also strip if a known company name got appended without space
+        title = re.sub(r"(Ashby|Crossmint|Coinbase|Fireblocks|Phantom|Lido|VALR)$", "", title).strip()
 
         # Extract company from URL where possible
         company = ""
@@ -357,11 +422,11 @@ def scrape_hashtagweb3() -> list[dict]:
             r"ashbyhq\.com/([^/]+)/",
             r"lever\.co/([^/]+)/",
             r"jobs\.[^/]+/companies/([^/]+)/jobs",
+            r"gem\.com/([^/]+)/",
         ]:
             m = re.search(pat, href)
             if m:
-                company = re.sub(r"[-_]", " ", m.group(1)).title()
-                company = re.sub(r"\d+$", "", company).strip()
+                company = clean_company(m.group(1))
                 break
 
         if is_real_job(title, href):
@@ -493,7 +558,7 @@ def run(reset: bool = False) -> list[dict]:
     for job in all_new:
         title   = job.get("title", "").strip()
         company = job.get("company", "").strip()
-        loc     = job.get("location", "").strip()
+        loc     = clean_location(job.get("location", ""))
         sal     = job.get("salary", "").strip()
         url     = job.get("url", "").strip()
 
