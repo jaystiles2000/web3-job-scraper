@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """
-Web3 Job Board Daily Scraper — v2
+Web3 Job Board Daily Scraper — v3
 ===================================
-Scrapes web3/crypto job boards and surfaces only NEW listings each run.
-Stores seen job IDs in seen_jobs.json to diff day-over-day.
+- Global deduplication across all boards by normalised URL
+- Extracts: title, company, location, salary, link
+- Removes duplicate jobs that appear on multiple boards
 
 Requirements:
     pip install requests beautifulsoup4 feedparser lxml
@@ -15,6 +16,7 @@ import time
 import argparse
 from datetime import datetime
 from pathlib import Path
+from urllib.parse import urlparse, urlunparse, parse_qs, urlencode
 
 import requests
 from bs4 import BeautifulSoup
@@ -63,17 +65,89 @@ def get(url: str, timeout=15):
 def soup(r) -> BeautifulSoup:
     return BeautifulSoup(r.text, "lxml")
 
-def make_id(source: str, title: str, url: str = "") -> str:
-    slug = re.sub(r"[^a-z0-9]", "", (title + url).lower())
-    return f"{source}::{slug[:80]}"
-
 def clean(t: str) -> str:
     t = t.strip()
     t = re.sub(r"Read more about.*", "", t, flags=re.IGNORECASE).strip()
     t = re.sub(r"\s+", " ", t)
     return t
 
-# Titles and URL patterns that indicate nav/category links, not real jobs
+def normalise_url(url: str) -> str:
+    """
+    Strip tracking params and anchors so the same job linked from
+    multiple boards deduplicates correctly.
+    e.g. ?utm_source=... and #content are removed.
+    """
+    try:
+        p = urlparse(url)
+        # Remove fragment (#content etc)
+        # Strip utm_* and tracking query params
+        qs = parse_qs(p.query, keep_blank_values=True)
+        clean_qs = {k: v for k, v in qs.items()
+                    if not k.startswith("utm_")
+                    and k not in ("gh_src", "lever-source[]", "gh_jid")}
+        clean_query = urlencode(clean_qs, doseq=True)
+        cleaned = urlunparse((p.scheme, p.netloc, p.path, p.params, clean_query, ""))
+        return cleaned.lower().rstrip("/")
+    except Exception:
+        return url.lower().rstrip("/")
+
+def make_seen_id(title: str, company: str, norm_url: str) -> str:
+    """Dedup key: same title + same company = same job, even across boards."""
+    t = re.sub(r"[^a-z0-9]", "", title.lower())[:60]
+    c = re.sub(r"[^a-z0-9]", "", company.lower())[:30]
+    if t and c:
+        return f"job::{t}::{c}"
+    if norm_url and len(norm_url) > 20:
+        return f"url::{norm_url}"
+    return f"title::{t}"
+
+
+# ---------------------------------------------------------------------------
+# Non-web3 company blocklist
+# ---------------------------------------------------------------------------
+
+BLOCKED_COMPANIES = {
+    "deel", "loft", "earnin", "mercury", "cross river", "runway",
+    "valon", "wingspan", "carta", "addi", "sentilink", "current",
+    "branch international", "veem", "taxbit", "clutch",
+    "yuno", "ng cash", "coinswitch kuber",
+}
+
+BLOCKED_URL_FRAGMENTS = {
+    "loft.teamtailor.com",
+    "branchinternational.applytojob.com",
+    "veem.applytojob.com",
+    "people-job-posts.vercel.app",
+}
+
+def is_web3_relevant(job: dict) -> bool:
+    """Filter out obvious non-web3 jobs from aggregator boards."""
+    pure_sources = {
+        "EthereumJobBoard", "BitcoinerJobs", "TalentWeb3",
+        "DeFi.jobs", "CryptoJobsList", "CryptocurrencyJobs",
+        "MyWeb3Jobs", "BlockchainHeadhunter", "BitcoinJobs",
+    }
+    if job.get("source") in pure_sources:
+        return True
+    company = job.get("company", "").lower().strip()
+    if any(blocked in company for blocked in BLOCKED_COMPANIES):
+        return False
+    url = job.get("url", "").lower()
+    if any(frag in url for frag in BLOCKED_URL_FRAGMENTS):
+        return False
+    return True
+
+def loc_from_url(url: str) -> str:
+    """CryptoJobsList embeds location in URL slug."""
+    m = re.search(r"/jobs/[^/]+-([a-z][a-z-]+)-at-[^/]+$", url)
+    if m:
+        raw = m.group(1).replace("-", " ").title()
+        if raw.lower() in {"remote", "global", "worldwide"}:
+            return "Remote"
+        if len(raw.split()) <= 4 and len(raw) > 3:
+            return raw
+    return ""
+
 JUNK_TITLES = {
     "post job", "post a job", "find a job", "find jobs", "all jobs",
     "companies", "sign up", "login", "log in", "for candidates",
@@ -81,22 +155,6 @@ JUNK_TITLES = {
     "sales", "operations", "non tech", "metaverse", "crypto", "gaming",
     "blockchain", "customer support", "entry level", "finance", "legal",
     "research", "devops", "rust", "java", "golang", "moderator",
-    "web3 engineering jobs", "web3 design jobs", "web3 marketing jobs",
-    "web3 sales jobs", "web3 operations jobs", "web3 other jobs",
-    "public relations (pr)jobs", "customer supportjobs", "salesjobs",
-    "marketingjobs", "human resources (hr)jobs", "technical writerjobs",
-    "social media managerjobs", "quality assurance (qa)jobs",
-    "front end developerjobs", "project managerjobs", "seojobs",
-    "designjobs", "financejobs", "creative directorjobs",
-    "customer success managerjobs", "copywritingjobs", "legaljobs",
-    "researchjobs", "machine learning engineerjobs", "devopsjobs",
-    "ux researcherjobs", "data sciencejobs", "ios developerjobs",
-    "ui designerjobs", "javajobs", ".net developerjobs",
-    "react developerjobs", "rustjobs", "cyber securityjobs",
-    "user experience (ux)jobs", "digital marketingjobs", "moderatorjobs",
-    "graphic designjobs", "data scientistjobs", "data analystjobs",
-    "full stack developerjobs", "content writerjobs", "golangjobs",
-    "software engineerjobs", "entry leveljobs",
 }
 
 BAD_URL_PATTERNS = [
@@ -106,7 +164,9 @@ BAD_URL_PATTERNS = [
     r"/jobs/\w+-jobs$",
     r"company/jobs/create",
     r"/post$", r"/post-job",
-    r"#$",
+    r"t\.me/", r"linkedin\.com/company/",
+    r"twitter\.com", r"x\.com/hashtag",
+    r"instagram\.com", r"facebook\.com",
 ]
 
 def is_real_job(title: str, url: str) -> bool:
@@ -119,18 +179,6 @@ def is_real_job(title: str, url: str) -> bool:
             return False
     return True
 
-def loc_from_url(url: str) -> str:
-    """CryptoJobsList embeds location in URL slug: /jobs/title-LOCATION-at-company"""
-    m = re.search(r"/jobs/[^/]+-([a-z][a-z-]+)-at-[^/]+$", url)
-    if m:
-        raw = m.group(1).replace("-", " ").title()
-        # Skip if it looks like a word, not a place
-        if len(raw) > 3 and not raw.lower() in {"remote", "global", "worldwide"}:
-            return raw
-        elif raw.lower() in {"remote", "global", "worldwide"}:
-            return "Remote"
-    return ""
-
 # ---------------------------------------------------------------------------
 # Scrapers
 # ---------------------------------------------------------------------------
@@ -139,15 +187,23 @@ def scrape_ethereumjobboard() -> list[dict]:
     jobs, seen_urls = [], set()
     r = get("https://www.ethereumjobboard.com/jobs")
     if not r: return jobs
-    for a in soup(r).select("a[href*='/jobs/']"):
-        title = clean(a.get_text())
-        href = a["href"]
+    s = soup(r)
+    for card in s.select("a[href*='/jobs/']"):
+        title = clean(card.get_text())
+        href = card["href"]
         if not href.startswith("http"):
             href = "https://www.ethereumjobboard.com" + href
-        if href in seen_urls: continue
-        seen_urls.add(href)
+        norm = normalise_url(href)
+        if norm in seen_urls: continue
+        seen_urls.add(norm)
+        # Try to find company from URL slug
+        company = ""
+        m = re.search(r"/jobs/[^/]+-([^/]+)$", href)
+        if m:
+            company = m.group(1).replace("-", " ").title()
         if is_real_job(title, href):
-            jobs.append({"title": title, "url": href, "source": "EthereumJobBoard"})
+            jobs.append({"title": title, "company": company, "url": href,
+                         "source": "EthereumJobBoard"})
     return jobs
 
 
@@ -155,8 +211,10 @@ def scrape_bitcoinerjobs() -> list[dict]:
     jobs = []
     for e in feedparser.parse("https://bitcoinerjobs.com/feed").entries:
         title = clean(e.title)
+        company = getattr(e, "author", "")
         if is_real_job(title, e.link):
-            jobs.append({"title": title, "url": e.link, "source": "BitcoinerJobs"})
+            jobs.append({"title": title, "company": company, "url": e.link,
+                         "source": "BitcoinerJobs"})
     return jobs
 
 
@@ -169,31 +227,38 @@ def scrape_talentweb3() -> list[dict]:
         href = a["href"]
         if not href.startswith("http"):
             href = "https://talentweb3.careers-page.com" + href
-        if href in seen_urls: continue
-        seen_urls.add(href)
+        norm = normalise_url(href)
+        if norm in seen_urls: continue
+        seen_urls.add(norm)
         if is_real_job(title, href):
-            jobs.append({"title": title, "url": href, "source": "TalentWeb3"})
+            jobs.append({"title": title, "company": "", "url": href,
+                         "source": "TalentWeb3"})
     return jobs
 
 
 def _getro(slug: str, display: str, base_url: str) -> list[dict]:
-    """Shared scraper for Getro-powered boards — deduplicates URLs properly."""
+    """Shared scraper for Getro-powered boards."""
     jobs, seen_urls = [], set()
     r = get(base_url)
     if not r: return jobs
-    for a in soup(r).select("a[href*='/jobs/']"):
+    s = soup(r)
+    for a in s.select("a[href*='/jobs/']"):
         title = clean(a.get_text())
-        if "Read more" in title or not title: continue
+        if not title or "Read more" in title: continue
         href = a["href"]
         if not href.startswith("http"):
             href = base_url.rstrip("/") + href
-        # Normalise: strip #content anchor for dedup, keep full URL
-        base_href = href.split("#")[0]
-        if base_href in seen_urls: continue
-        seen_urls.add(base_href)
+        norm = normalise_url(href)
+        if norm in seen_urls: continue
+        seen_urls.add(norm)
+        # Extract company from URL: /companies/COMPANY/jobs/...
+        company = ""
+        m = re.search(r"/companies/([^/]+)/jobs/", href)
+        if m:
+            company = re.sub(r"-\d+$", "", m.group(1)).replace("-", " ").title()
         if is_real_job(title, href):
-            jobs.append({"title": title, "url": href, "source": display,
-                         "location": loc_from_url(href)})
+            jobs.append({"title": title, "company": company, "url": href,
+                         "source": display, "location": loc_from_url(href)})
     return jobs
 
 def scrape_safary()      -> list[dict]: return _getro("safary",     "Safary",      "https://jobs.safary.club/jobs")
@@ -207,11 +272,17 @@ def scrape_cryptojobslist() -> list[dict]:
     for e in feedparser.parse("https://cryptojobslist.com/rss").entries:
         title = clean(e.title)
         url = e.link
-        if url in seen_urls: continue
-        seen_urls.add(url)
+        norm = normalise_url(url)
+        if norm in seen_urls: continue
+        seen_urls.add(norm)
+        # Extract company from URL: /jobs/title-at-COMPANY
+        company = ""
+        m = re.search(r"-at-([^/]+)$", url)
+        if m:
+            company = m.group(1).replace("-", " ").title()
         if is_real_job(title, url):
-            jobs.append({"title": title, "url": url, "source": "CryptoJobsList",
-                         "location": loc_from_url(url)})
+            jobs.append({"title": title, "company": company, "url": url,
+                         "source": "CryptoJobsList", "location": loc_from_url(url)})
     return jobs
 
 
@@ -224,8 +295,8 @@ def scrape_cryptocurrencyjobs() -> list[dict]:
         summary = getattr(e, "summary", "")
         m = re.search(r"(Remote|[\w\s]+,\s*[\w\s]+)", summary)
         if m: loc = m.group(1).strip()[:40]
-        jobs.append({"title": title, "url": e.link, "source": "CryptocurrencyJobs",
-                     "location": loc})
+        jobs.append({"title": title, "company": "", "url": e.link,
+                     "source": "CryptocurrencyJobs", "location": loc})
     return jobs
 
 
@@ -234,7 +305,8 @@ def scrape_myweb3jobs() -> list[dict]:
     for e in feedparser.parse("https://myweb3jobs.com/feed/").entries:
         title = clean(e.title)
         if is_real_job(title, e.link):
-            jobs.append({"title": title, "url": e.link, "source": "MyWeb3Jobs"})
+            jobs.append({"title": title, "company": "", "url": e.link,
+                         "source": "MyWeb3Jobs"})
     return jobs
 
 
@@ -247,54 +319,54 @@ def scrape_defi_jobs() -> list[dict]:
         href = a["href"]
         if not href.startswith("http"):
             href = "https://www.defi.jobs" + href
-        if href in seen_urls: continue
-        seen_urls.add(href)
+        norm = normalise_url(href)
+        if norm in seen_urls: continue
+        seen_urls.add(norm)
         if is_real_job(title, href):
-            jobs.append({"title": title, "url": href, "source": "DeFi.jobs"})
+            jobs.append({"title": title, "company": "", "url": href,
+                         "source": "DeFi.jobs"})
     return jobs
 
 
 def scrape_hashtagweb3() -> list[dict]:
-    """Skip internal nav and social links, only capture real job pages."""
+    """Only external job links, no social/nav, title fixed via URL slug."""
     jobs, seen_urls = [], set()
-    # Domains that are never job postings
     skip_domains = {
         "linkedin.com", "twitter.com", "x.com", "instagram.com",
-        "telegram.org", "t.me", "facebook.com", "youtube.com",
+        "t.me", "facebook.com", "youtube.com", "telegram.org",
     }
     r = get("https://hashtagweb3.com/jobs")
     if not r: return jobs
-    s = soup(r)
-    for a in s.select("a[href]"):
+    for a in soup(r).select("a[href]"):
         href = a["href"]
         if not href.startswith("http"): continue
         if "hashtagweb3.com" in href: continue
-        # Skip social media links
         if any(d in href for d in skip_domains): continue
-        # Skip Telegram promo links
-        if "t.me/" in href: continue
+        norm = normalise_url(href)
+        if norm in seen_urls: continue
+        seen_urls.add(norm)
 
-        # Get title — HashtagWeb3 concatenates company name onto title text.
-        # Each job link wraps a title element and a company element separately.
-        # Try to grab just the job title span/element, not the company name.
-        title_el = a.find(class_=lambda c: c and any(
-            x in c for x in ["title", "job-title", "position", "role", "name"]
-        )) if a else None
-        if title_el:
-            title = clean(title_el.get_text())
-        else:
-            # Fall back: take full text but strip known company suffixes
-            raw = clean(a.get_text())
-            # Company names are often appended with no space — split on capital letters
-            # after a lowercase letter (camelCase boundary)
-            title = re.sub(r"([a-z])([A-Z])", r"\1 | \2", raw)
-            # Take only the part before the pipe (the job title)
-            title = title.split(" | ")[0].strip()
+        # Get clean title: split camelCase company suffix
+        raw = clean(a.get_text())
+        title = re.sub(r"([a-z])([A-Z])", r"\1||||\2", raw).split("||||")[0].strip()
 
-        if href in seen_urls: continue
-        seen_urls.add(href)
+        # Extract company from URL where possible
+        company = ""
+        for pat in [
+            r"greenhouse\.io/([^/]+)/jobs",
+            r"ashbyhq\.com/([^/]+)/",
+            r"lever\.co/([^/]+)/",
+            r"jobs\.[^/]+/companies/([^/]+)/jobs",
+        ]:
+            m = re.search(pat, href)
+            if m:
+                company = re.sub(r"[-_]", " ", m.group(1)).title()
+                company = re.sub(r"\d+$", "", company).strip()
+                break
+
         if is_real_job(title, href):
-            jobs.append({"title": title, "url": href, "source": "HashtagWeb3"})
+            jobs.append({"title": title, "company": company, "url": href,
+                         "source": "HashtagWeb3"})
     return jobs
 
 
@@ -307,10 +379,12 @@ def scrape_blockchainheadhunter() -> list[dict]:
         href = a["href"]
         if not href.startswith("http"):
             href = "https://blockchainheadhunter.com" + href
-        if href in seen_urls: continue
-        seen_urls.add(href)
+        norm = normalise_url(href)
+        if norm in seen_urls: continue
+        seen_urls.add(norm)
         if is_real_job(title, href):
-            jobs.append({"title": title, "url": href, "source": "BlockchainHeadhunter"})
+            jobs.append({"title": title, "company": "", "url": href,
+                         "source": "BlockchainHeadhunter"})
     return jobs
 
 
@@ -323,10 +397,12 @@ def scrape_bitcoinjobs() -> list[dict]:
         href = a["href"]
         if not href.startswith("http"):
             href = "https://bitcoinjobs.com" + href
-        if href in seen_urls: continue
-        seen_urls.add(href)
+        norm = normalise_url(href)
+        if norm in seen_urls: continue
+        seen_urls.add(norm)
         if is_real_job(title, href):
-            jobs.append({"title": title, "url": href, "source": "BitcoinJobs"})
+            jobs.append({"title": title, "company": "", "url": href,
+                         "source": "BitcoinJobs"})
     return jobs
 
 
@@ -357,6 +433,10 @@ SCRAPERS = [
 
 def run(reset: bool = False) -> list[dict]:
     seen = set() if reset else load_seen()
+
+    # Global URL dedup across all boards in this run
+    this_run_urls: set[str] = set()
+
     all_new: list[dict] = []
 
     print(f"\n{'='*55}")
@@ -375,12 +455,22 @@ def run(reset: bool = False) -> list[dict]:
 
         new = []
         for job in jobs:
-            jid = make_id(job["source"], job["title"], job.get("url", ""))
-            if jid not in seen:
-                seen.add(jid)
-                new.append(job)
+            norm = normalise_url(job.get("url", ""))
+            jid  = make_seen_id(job["title"], job.get("company", ""), norm)
 
-        print(f"  {len(jobs)} found, {len(new)} new")
+            # Filter out obvious non-web3 jobs
+            if not is_web3_relevant(job):
+                continue
+
+            # Skip if seen in a previous run OR already seen in this run
+            if jid in seen or norm in this_run_urls:
+                continue
+
+            seen.add(jid)
+            this_run_urls.add(norm)
+            new.append(job)
+
+        print(f"  {len(jobs)} found, {len(new)} new (after global dedup)")
         all_new.extend(new)
         time.sleep(REQUEST_DELAY)
 
@@ -391,28 +481,33 @@ def run(reset: bool = False) -> list[dict]:
     # ---------------------------------------------------------------------------
 
     if not all_new:
-        print(f"✅ *Web3 Jobs — {datetime.now().strftime('%d %b %Y')}*\nNo new jobs since last run.")
+        print(f"*Web3 Jobs — {datetime.now().strftime('%d %b %Y')}*\nNo new jobs since last run.")
         return all_new
-
-    by_source: dict[str, list] = {}
-    for job in all_new:
-        by_source.setdefault(job["source"], []).append(job)
 
     lines = [
         f":new: *Web3 Jobs — {datetime.now().strftime('%d %b %Y')}*",
-        f"_{len(all_new)} new jobs across {len(by_source)} boards_",
+        f"_{len(all_new)} new jobs_",
+        "",
     ]
 
-    for source, jobs in sorted(by_source.items()):
-        lines.append(f"\n*── {source} ({len(jobs)}) ──*")
-        for job in jobs:
-            loc = job.get("location", "").strip()
-            sal = job.get("salary", "").strip()
-            block = [f"• *{job['title']}*"]
-            if loc:   block.append(f"  :round_pushpin: {loc}")
-            if sal:   block.append(f"  :moneybag: {sal}")
-            block.append(f"  :link: {job['url']}")
-            lines.append("\n".join(block))
+    for job in all_new:
+        title   = job.get("title", "").strip()
+        company = job.get("company", "").strip()
+        loc     = job.get("location", "").strip()
+        sal     = job.get("salary", "").strip()
+        url     = job.get("url", "").strip()
+
+        block = [f"*{title}*"]
+        if company:
+            block.append(f"🏢 {company}")
+        if sal:
+            block.append(f"💰 {sal}")
+        if loc:
+            block.append(f"📍 {loc}")
+        block.append(f"🔗 {url}")
+        block.append("")  # blank line between jobs
+
+        lines.extend(block)
 
     print("\n".join(lines))
     return all_new
