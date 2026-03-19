@@ -204,8 +204,10 @@ COMPANY_NAME_FIXES = {
     "range 2": "Range",
     "crossmint 2": "Crossmint",
     "1inch 2": "1inch",
+    "1inch network": "1inch",
     "openzeppelin 2": "OpenZeppelin",
     "layerzero 2": "LayerZero",
+    "layerzerolabs": "LayerZero Labs",
     "binance 2": "Binance",
     "keyrock 2": "Keyrock",
     "whitebit 2": "WhiteBIT",
@@ -215,7 +217,26 @@ COMPANY_NAME_FIXES = {
     "lido.fi": "Lido",
     "monad.foundation": "Monad Foundation",
     "tools for humanity": "Tools for Humanity",
+    "streamingfast": "StreamingFast",
+    "mystenlabs": "Mysten Labs",
+    "aptoslabs": "Aptos Labs",
+    "avalabs": "Ava Labs",
+    "skymavis": "Sky Mavis",
+    "bcbgroup": "BCB Group",
+    "tryjeeves": "Jeeves",
+    "talos trading": "Talos",
+    "talos-trading": "Talos",
+    "cruxclimate": "Crux Climate",
+    "opensea": "OpenSea",
+    "eigen labs": "EigenLayer",
 }
+
+def apply_company_fixes(name: str) -> str:
+    """Apply known company name fixes."""
+    if not name:
+        return name
+    fixed = COMPANY_NAME_FIXES.get(name.lower().strip())
+    return fixed if fixed else name
 
 # Junk job titles to always skip regardless of source
 JUNK_JOB_TITLES = {
@@ -654,6 +675,12 @@ def scrape_hashtagweb3() -> list[dict]:
             "Ava Labs", "Bastion", "OpenSea", "Opensea", "Sardine",
             "Jeeves", "LayerZero Labs", "Aptos Labs", "Aptoslabs",
             "Kast", "Helius", "Anza", "Wintermute", "Worldcoin", "World",
+            "StreamingFast", "Streamingfast", "Kalshi", "Ondo Finance",
+            "Talos", "Monad Foundation", "Nomic Foundation", "1inch Network",
+            "1Inch Network", "Ripple", "Multicoin Capital", "Dragonfly",
+            "Pantera Capital", "Shima Capital", "3Box Labs", "Ceramic",
+            "BCB Group", "VALR", "Immutable", "Polygon", "Starkware",
+            "Scroll", "Celestia", "Wormhole", "Axelar", "dYdX",
         ]
         for suffix in company_suffixes:
             if title.endswith(suffix):
@@ -856,7 +883,7 @@ def run(reset: bool = False) -> list[dict]:
 
     for job in all_new:
         title   = job.get("title", "").strip()
-        company = job.get("company", "").strip()
+        company = apply_company_fixes(job.get("company", "").strip())
         loc     = clean_location(job.get("location", ""))
         sal     = job.get("salary", "").strip()
         url     = job.get("url", "").strip()
