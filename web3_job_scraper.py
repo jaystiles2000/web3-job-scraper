@@ -370,9 +370,11 @@ def scrape_bitcoinerjobs() -> list[dict]:
             if jobs: return jobs
         except Exception:
             continue
-    # HTML fallback — scrape the jobs listing page
-    for url in ["https://bitcoinerjobs.com/", "https://bitcoinerjobs.com/jobs"]:
-        r = get(url)
+    # HTML fallback — scrape category pages which list actual job postings
+    categories = ["engineering", "business-operations", "marketing",
+                  "product", "other", "media-and-events"]
+    for cat in categories:
+        r = get(f"https://bitcoinerjobs.com/category/{cat}")
         if not r: continue
         s = soup(r)
         for a in s.select("a[href]"):
@@ -380,20 +382,31 @@ def scrape_bitcoinerjobs() -> list[dict]:
             if not href.startswith("http"):
                 href = "https://bitcoinerjobs.com" + href
             if "bitcoinerjobs.com" not in href: continue
-            # Skip nav links
-            if href.rstrip("/") in ["https://bitcoinerjobs.com",
-                                     "https://bitcoinerjobs.com/companies",
-                                     "https://bitcoinerjobs.com/post"]:
-                continue
+            # Job links look like /job-title-company or contain /jobs/
+            path = href.replace("https://bitcoinerjobs.com", "").rstrip("/")
+            # Skip known non-job pages
+            skip = {"/", "/companies", "/post", "/categories", "/places",
+                    "/tos", "/privacy", "/seeker/login", "/seeker/signup",
+                    "/employer/login", "/employer/signup", "/job-alerts"}
+            if path in skip: continue
+            if path.startswith("/category"): continue
+            if path.startswith("/company"): continue
+            # Must look like a job slug - at least 2 hyphens
+            if path.count("-") < 2: continue
             norm = normalise_url(href)
             if norm in seen_urls: continue
             seen_urls.add(norm)
             title = clean(a.get_text())
             if not title or len(title) < 5: continue
+            # Skip descriptions and metadata text
+            if len(title) > 100: continue
+            if any(x in title.lower() for x in ["jobs", "bitcoin company",
+                                                  "bitcoin wealth", "mining industry",
+                                                  "atomic economy"]): continue
             if is_real_job(title, href):
                 jobs.append({"title": title, "company": "",
                              "url": href, "source": "BitcoinerJobs"})
-        if jobs: break
+        time.sleep(0.5)
     return jobs
 
 
@@ -572,29 +585,26 @@ def scrape_myweb3jobs() -> list[dict]:
 
 
 def scrape_defi_jobs() -> list[dict]:
-    """DeFi.jobs - Webflow site. Get title from link text, skip slug fallback."""
+    """DeFi.jobs - Webflow site, job links contain /jobs/ with a slug."""
     jobs, seen_urls = [], set()
     r = get("https://www.defi.jobs/")
     if not r: return jobs
     s = soup(r)
-    for a in s.select("a[href]"):
+    for a in s.select("a[href*='/jobs/']"):
         href = a.get("href", "")
-        if not re.search(r"/jobs/[a-z0-9-]{3,}", href):
+        # Must be a real job slug, not just /jobs
+        if not re.search(r"/jobs/[a-z0-9][a-z0-9-]{4,}", href):
             continue
         if not href.startswith("http"):
             href = "https://www.defi.jobs" + href
         norm = normalise_url(href)
         if norm in seen_urls: continue
         seen_urls.add(norm)
-        # Get the visible link text — skip if empty (image-only links)
         title = clean(a.get_text())
         if not title or len(title) < 5:
             continue
-        # Strip trailing numbers that are slug dedup suffixes e.g. " 3", " 9"
+        # Strip trailing dedup numbers e.g. " 3", " 9"
         title = re.sub(r"\s+\d+$", "", title).strip()
-        # Fix "R D" -> "R&D", "Devops" -> "DevOps" etc
-        title = title.replace(" R D ", " R&D ").replace("Devops", "DevOps")
-        # Company is not exposed on listing page — leave blank
         if is_real_job(title, href):
             jobs.append({"title": title, "company": "", "url": href,
                          "source": "DeFi.jobs"})
@@ -623,22 +633,32 @@ def scrape_hashtagweb3() -> list[dict]:
         raw = clean(a.get_text())
         title = raw
 
-        # Strip appended domain names e.g. "moonshot.money", "3Box Labs"
-        # Only strip at word boundaries to avoid cutting real titles
-        title = re.sub(r"\s+\w+\.\w+$", "", title).strip()  # trailing domain like moonshot.money
+        # Strip appended domain names e.g. "moonshot.money"
+        title = re.sub(r"\s+\w+\.\w+$", "", title).strip()
 
-        # Strip number-prefixed company names like "3Box Labs", "3box labs"
+        # Strip number-prefixed company names like "3Box Labs"
         title = re.sub(r"\s*\d+[A-Z][A-Za-z\s]+$", "", title).strip()
 
-        # Strip known company names appended with no space using word boundary
-        title = re.sub(
-            r"(?<=[a-z])(Ashby|Crossmint|Coinbase|Fireblocks|Phantom|Lido|VALR|"
-            r"OP Labs|Sui Foundation|Solana Foundation|BCB Group|Tellus|"
-            r"1Inch|Worldcoin|Binance|Ripple|Circle|Alchemy|"
-            r"LayerZero|Offchain Labs|Consensys|Eigen|Gensyn|Matrixport|"
-            r"Nansen|Range|Veda|Breeze|Anchorage|Paradigm|Chainalysis|"
-            r"FTMO|Ftmo|World|Indeed)$",
-            "", title).strip()
+        # Strip known company names appended directly (with or without space)
+        # Use a broad pattern: if the title ends with a known company name, strip it
+        company_suffixes = [
+            "Uniswap", "UniSwap", "Anchorage Digital", "Anchorage",
+            "Ashby", "Crossmint", "Coinbase", "Fireblocks", "Phantom",
+            "Lido", "VALR", "Binance", "Ripple", "Circle", "Alchemy",
+            "LayerZero", "Offchain Labs", "Consensys", "Eigen", "EigenLayer",
+            "Gensyn", "Matrixport", "Nansen", "Range", "Veda", "Breeze",
+            "Paradigm", "Chainalysis", "Polygon Labs", "Polygon", "BitGo",
+            "Bitgo", "Lightspark", "Sky Mavis", "Aave", "Mysten Labs",
+            "Solana Foundation", "Sui Foundation", "OP Labs", "OPLabs",
+            "Spade", "Method", "Walrus Foundation", "Crux", "Avalabs",
+            "Ava Labs", "Bastion", "OpenSea", "Opensea", "Sardine",
+            "Jeeves", "LayerZero Labs", "Aptos Labs", "Aptoslabs",
+            "Kast", "Helius", "Anza", "Wintermute", "Worldcoin", "World",
+        ]
+        for suffix in company_suffixes:
+            if title.endswith(suffix):
+                title = title[:-len(suffix)].strip()
+                break
 
         # Extract company from URL where possible
         company = ""
