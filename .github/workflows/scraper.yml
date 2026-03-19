@@ -32,11 +32,10 @@ jobs:
       - name: Send email digest
         uses: dawidd6/action-send-mail@v3
         with:
-          server_address: smtp.gmail.com
+          server_address: smtp.office365.com
           server_port: 587
           username: ${{ secrets.EMAIL_USER }}
           password: ${{ secrets.EMAIL_PASS }}
           subject: "Web3 Jobs Digest"
           to: jay.stiles@plexusrs.com
-          from: ${{ secrets.EMAIL_USER }}
-          body: file://digest.txt
+          from: jaystiles@hotmail.co.uk
