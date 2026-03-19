@@ -38,5 +38,5 @@ jobs:
           password: ${{ secrets.EMAIL_PASS }}
           subject: "Web3 Jobs Digest"
           to: jay.stiles@plexusrs.com
-          from: jay.stiles@plexusrs.com
+          from: ${{ secrets.EMAIL_USER }}
           body: file://digest.txt
