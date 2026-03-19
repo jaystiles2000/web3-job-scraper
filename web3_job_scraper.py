@@ -393,6 +393,8 @@ def _getro(slug: str, display: str, base_url: str) -> list[dict]:
         if m:
             raw = re.sub(r"-[0-9a-f-]{8,}$", "", m.group(1))  # strip UUID suffixes
             company = clean_company(raw)
+        # Strip trailing digits left over from slug dedup e.g. "Senior Product Owner1"
+        title = re.sub(r"\s*\d+$", "", title).strip()
         if is_real_job(title, href):
             jobs.append({"title": title, "company": company, "url": href,
                          "source": display, "location": loc_from_url(href)})
@@ -539,15 +541,13 @@ def scrape_myweb3jobs() -> list[dict]:
 
 
 def scrape_defi_jobs() -> list[dict]:
-    """DeFi.jobs - Webflow site, jobs are in HTML as /jobs/slug links."""
+    """DeFi.jobs - Webflow site. Get title from link text, skip slug fallback."""
     jobs, seen_urls = [], set()
     r = get("https://www.defi.jobs/")
     if not r: return jobs
     s = soup(r)
-    # Jobs link to /jobs/job-title-slug
     for a in s.select("a[href]"):
         href = a.get("href", "")
-        # Must match /jobs/ with a slug after it (not just /jobs)
         if not re.search(r"/jobs/[a-z0-9-]{3,}", href):
             continue
         if not href.startswith("http"):
@@ -555,13 +555,17 @@ def scrape_defi_jobs() -> list[dict]:
         norm = normalise_url(href)
         if norm in seen_urls: continue
         seen_urls.add(norm)
+        # Get the visible link text — skip if empty (image-only links)
         title = clean(a.get_text())
-        if not title:
-            # Try to get title from slug
-            slug = href.rstrip("/").split("/")[-1]
-            title = slug.replace("-", " ").title()
+        if not title or len(title) < 5:
+            continue
+        # Strip trailing numbers that are slug dedup suffixes e.g. " 3", " 9"
+        title = re.sub(r"\s+\d+$", "", title).strip()
+        # Fix "R D" -> "R&D", "Devops" -> "DevOps" etc
+        title = title.replace(" R D ", " R&D ").replace("Devops", "DevOps")
+        # Company is not exposed on listing page — leave blank
         if is_real_job(title, href):
-            jobs.append({"title": title, "company": "Hype Talent", "url": href,
+            jobs.append({"title": title, "company": "", "url": href,
                          "source": "DeFi.jobs"})
     return jobs
 
@@ -621,27 +625,55 @@ def scrape_hashtagweb3() -> list[dict]:
 
 
 def scrape_blockchainheadhunter() -> list[dict]:
-    """BlockchainHeadhunter loads jobs via JS — scrape their sitemap instead."""
+    """BlockchainHeadhunter - try multiple approaches to get jobs."""
     jobs, seen_urls = [], set()
-    # Try sitemap first as it contains static job URLs
-    r = get("https://blockchainheadhunter.com/sitemap.xml")
-    if r:
+    skip_paths = {"/for-companies", "/news", "/about", "/contact",
+                  "/blog", "/education", "/jobs", "/sponsored",
+                  "/apply", "/submit-cv"}
+    # Try sitemap variants
+    for sitemap in ["https://blockchainheadhunter.com/sitemap.xml",
+                     "https://blockchainheadhunter.com/sitemap_index.xml",
+                     "https://blockchainheadhunter.com/page-sitemap.xml"]:
+        r = get(sitemap)
+        if not r: continue
         urls = re.findall(r"<loc>(https://blockchainheadhunter\.com/[^<]+)</loc>", r.text)
+        if not urls: continue
         for href in urls:
-            # Job pages have a slug pattern like /senior-engineer-company
-            if any(x in href for x in ["/for-companies", "/news", "/about",
-                                        "/contact", "/blog", "/education",
-                                        "/jobs", "/sitemap", "/sponsored"]):
-                continue
+            path = "/" + href.split("blockchainheadhunter.com/")[-1].rstrip("/")
+            if any(path.startswith(s) for s in skip_paths): continue
+            if href.count("/") < 4: continue  # must have a slug
             norm = normalise_url(href)
             if norm in seen_urls: continue
             seen_urls.add(norm)
-            # Extract title from slug
             slug = href.rstrip("/").split("/")[-1]
-            title = slug.replace("-", " ").title()
+            title = re.sub(r"-\d+$", "", slug).replace("-", " ").title()
             if is_real_job(title, href):
                 jobs.append({"title": title, "company": "", "url": href,
                              "source": "BlockchainHeadhunter"})
+        if jobs: break
+    # HTML fallback with broader selector
+    if not jobs:
+        r = get("https://blockchainheadhunter.com/jobs")
+        if r:
+            s = soup(r)
+            for a in s.select("a[href]"):
+                href = a.get("href", "")
+                if not href.startswith("http"):
+                    href = "https://blockchainheadhunter.com" + href
+                if "blockchainheadhunter.com" not in href: continue
+                path = "/" + href.split("blockchainheadhunter.com/")[-1].rstrip("/")
+                if any(path.startswith(s) for s in skip_paths): continue
+                if path.count("/") < 1 or path in ["/", ""]: continue
+                norm = normalise_url(href)
+                if norm in seen_urls: continue
+                seen_urls.add(norm)
+                title = clean(a.get_text())
+                if not title:
+                    slug = href.rstrip("/").split("/")[-1]
+                    title = slug.replace("-", " ").title()
+                if is_real_job(title, href):
+                    jobs.append({"title": title, "company": "", "url": href,
+                                 "source": "BlockchainHeadhunter"})
     return jobs
 
 
