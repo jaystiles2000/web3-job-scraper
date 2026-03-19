@@ -34,11 +34,14 @@ jobs:
           python - <<'EOF'
           import urllib.request, json, os
 
-          body = open("digest.txt").read()
           token = os.environ['TELEGRAM_TOKEN']
           chat_id = os.environ['TELEGRAM_CHAT_ID']
 
-          # Telegram max message length is 4096 chars, split if needed
+          print(f"Token length: {len(token)}")
+          print(f"Chat ID: {chat_id}")
+          print(f"URL: https://api.telegram.org/bot{token[:10]}...")
+
+          body = open("digest.txt").read()
           chunks = [body[i:i+4000] for i in range(0, len(body), 4000)]
           for chunk in chunks:
               data = json.dumps({
@@ -52,8 +55,14 @@ jobs:
                   data=data,
                   headers={"Content-Type": "application/json"}
               )
-              urllib.request.urlopen(req)
-          print("Sent to Telegram!")
+              try:
+                  urllib.request.urlopen(req)
+                  print("Sent!")
+              except Exception as e:
+                  print(f"Error: {e}")
+                  import urllib.error
+                  if hasattr(e, 'read'):
+                      print(f"Response: {e.read().decode()}")
           EOF
         env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
