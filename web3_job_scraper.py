@@ -564,7 +564,278 @@ def scrape_a16z_crypto() -> list[dict]:
             jobs.append({"title": title, "company": company,
                          "url": href, "source": "a16z Crypto"})
     return jobs
-def scrape_bitkraft()    -> list[dict]: return _getro("bitkraft",   "BITKRAFT VC", "https://careers.bitkraft.vc/jobs")
+def scrape_bitkraft()         -> list[dict]: return _getro("bitkraft",        "BITKRAFT VC",        "https://careers.bitkraft.vc/jobs")
+def scrape_multicoin()        -> list[dict]: return _getro("multicoin",       "Multicoin Capital",  "https://jobs.multicoin.capital")
+def scrape_delphi()           -> list[dict]: return _getro("delphi",          "Delphi Ventures",    "https://jobs.delphiventures.io/jobs")
+def scrape_galaxy_vc()        -> list[dict]: return _getro("galaxy",          "Galaxy Ventures",    "https://venturecareers.galaxy.com/jobs")
+def scrape_jump()             -> list[dict]: return _getro("jumpcrypto",      "Jump Crypto",        "https://jobs.jumpcrypto.com/jobs")
+def scrape_polychain()        -> list[dict]: return _getro("polychain",       "Polychain",          "https://jobs.polychain.capital/jobs")
+def scrape_framework()        -> list[dict]: return _getro("framework",       "Framework Ventures", "https://jobs.framework.ventures")
+def scrape_coinfund()         -> list[dict]: return _getro("coinfund",        "CoinFund",           "https://jobs.coinfund.io/jobs")
+def scrape_outlier()          -> list[dict]: return _getro("outlierventures", "Outlier Ventures",   "https://jobs.outlierventures.io")
+def scrape_electric()         -> list[dict]: return _getro("electriccapital", "Electric Capital",   "https://jobs.electriccapital.com/jobs")
+def scrape_variant()          -> list[dict]: return _getro("variant",         "Variant Fund",       "https://jobs.variant.fund")
+def scrape_pantera()          -> list[dict]: return _getro("pantera",         "Pantera Capital",    "https://jobs.panteracapital.com/jobs")
+def scrape_lemniscap()        -> list[dict]: return _getro("lemniscap",       "Lemniscap",          "https://careers.lemniscap.com/jobs")
+def scrape_dragonfly()        -> list[dict]: return _getro("dragonfly",       "Dragonfly",          "https://jobs.dragonfly.xyz")
+def scrape_avax()             -> list[dict]: return _getro("avax",            "Avalanche Ecosystem","https://jobs.avax.network")
+def scrape_ton()              -> list[dict]: return _getro("ton",             "TON Ecosystem",      "https://jobs.ton.org")
+def scrape_blockchain_assoc() -> list[dict]: return _getro("blockchainassociation", "Blockchain Association", "https://jobs.theblockchainassociation.org/jobs")
+
+
+def scrape_remote3() -> list[dict]:
+    jobs, seen_urls = [], set()
+    r = get("https://www.remote3.co/remote-web3-jobs")
+    if not r: return jobs
+    for a in soup(r).select("a[href*='/web3-job/'], a[href*='/jobs/']"):
+        title = clean(a.get_text())
+        href = a.get("href", "")
+        if not href.startswith("http"):
+            href = "https://www.remote3.co" + href
+        norm = normalise_url(href)
+        if norm in seen_urls: continue
+        seen_urls.add(norm)
+        if is_real_job(title, href) and not is_intern(title):
+            jobs.append({"title": title, "company": "", "url": href, "source": "Remote3"})
+    return jobs
+
+
+def scrape_web3career() -> list[dict]:
+    jobs, seen_urls = [], set()
+    r = get("https://web3.career/")
+    if not r: return jobs
+    for a in soup(r).select("a[href]"):
+        href = a.get("href", "")
+        if not re.match(r"^/[a-z0-9-]+-[0-9]+$", href):
+            continue
+        full = "https://web3.career" + href
+        norm = normalise_url(full)
+        if norm in seen_urls: continue
+        seen_urls.add(norm)
+        title = clean(a.get_text())
+        if is_real_job(title, full) and not is_intern(title):
+            jobs.append({"title": title, "company": "", "url": full, "source": "Web3.career"})
+    return jobs
+
+
+def scrape_cryptodotjobs() -> list[dict]:
+    jobs, seen_urls = [], set()
+    feed = feedparser.parse("https://crypto.jobs/feed")
+    for e in feed.entries:
+        title = clean(e.title)
+        norm = normalise_url(e.link)
+        if norm in seen_urls: continue
+        seen_urls.add(norm)
+        if is_real_job(title, e.link) and not is_intern(title):
+            jobs.append({"title": title, "company": "", "url": e.link, "source": "Crypto.jobs"})
+    if jobs: return jobs
+    r = get("https://crypto.jobs/jobs")
+    if not r: return jobs
+    for a in soup(r).select("a[href*='/jobs/']"):
+        title = clean(a.get_text())
+        href = a.get("href", "")
+        if not href.startswith("http"):
+            href = "https://crypto.jobs" + href
+        norm = normalise_url(href)
+        if norm in seen_urls: continue
+        seen_urls.add(norm)
+        if is_real_job(title, href) and not is_intern(title):
+            jobs.append({"title": title, "company": "", "url": href, "source": "Crypto.jobs"})
+    return jobs
+
+
+def scrape_jobstash() -> list[dict]:
+    jobs, seen_urls = [], set()
+    r = get("https://api.jobstash.xyz/jobs?page=1&limit=50")
+    if r:
+        try:
+            data = r.json()
+            items = data.get("data", data if isinstance(data, list) else [])
+            for job in items:
+                title = clean(str(job.get("title", "")))
+                url = job.get("url", job.get("apply_url", ""))
+                company = job.get("organization", {})
+                if isinstance(company, dict):
+                    company = company.get("name", "")
+                elif not isinstance(company, str):
+                    company = ""
+                if not url: continue
+                norm = normalise_url(url)
+                if norm in seen_urls: continue
+                seen_urls.add(norm)
+                if is_real_job(title, url) and not is_intern(title):
+                    jobs.append({"title": title, "company": company, "url": url, "source": "Jobstash"})
+            if jobs: return jobs
+        except Exception:
+            pass
+    return jobs
+
+
+def scrape_stablecoin_jobs() -> list[dict]:
+    jobs, seen_urls = [], set()
+    r = get("https://www.stablecoin-jobs.com/")
+    if not r: return jobs
+    for a in soup(r).select("a[href]"):
+        href = a.get("href", "")
+        if not href.startswith("http"):
+            href = "https://www.stablecoin-jobs.com" + href
+        if "stablecoin-jobs.com" not in href: continue
+        norm = normalise_url(href)
+        if norm in seen_urls: continue
+        seen_urls.add(norm)
+        title = clean(a.get_text())
+        if is_real_job(title, href) and not is_intern(title):
+            jobs.append({"title": title, "company": "", "url": href, "source": "StablecoinJobs"})
+    return jobs
+
+
+def scrape_beincrypto() -> list[dict]:
+    """BeInCrypto jobs section."""
+    jobs, seen_urls = [], set()
+    r = get("https://beincrypto.com/jobs/")
+    if not r: return jobs
+    for a in soup(r).select("a[href*='/jobs/']"):
+        title = clean(a.get_text())
+        href = a.get("href", "")
+        if not href.startswith("http"):
+            href = "https://beincrypto.com" + href
+        if "beincrypto.com" not in href: continue
+        norm = normalise_url(href)
+        if norm in seen_urls: continue
+        seen_urls.add(norm)
+        if is_real_job(title, href) and not is_intern(title):
+            jobs.append({"title": title, "company": "", "url": href, "source": "BeInCrypto"})
+    return jobs
+
+
+def scrape_blockchainjobseurope() -> list[dict]:
+    """BlockchainJobsEurope - European focused board."""
+    jobs, seen_urls = [], set()
+    for feed_url in ["https://blockchainjobseurope.com/feed/",
+                     "https://blockchainjobseurope.com/rss/"]:
+        feed = feedparser.parse(feed_url)
+        if feed.entries:
+            for e in feed.entries:
+                title = clean(e.title)
+                norm = normalise_url(e.link)
+                if norm in seen_urls: continue
+                seen_urls.add(norm)
+                if is_real_job(title, e.link) and not is_intern(title):
+                    jobs.append({"title": title, "company": "", "url": e.link,
+                                 "source": "BlockchainJobsEurope"})
+            break
+    if not jobs:
+        r = get("https://blockchainjobseurope.com")
+        if r:
+            for a in soup(r).select("a[href*='/job/'], a[href*='/jobs/']"):
+                title = clean(a.get_text())
+                href = a.get("href", "")
+                if not href.startswith("http"):
+                    href = "https://blockchainjobseurope.com" + href
+                norm = normalise_url(href)
+                if norm in seen_urls: continue
+                seen_urls.add(norm)
+                if is_real_job(title, href) and not is_intern(title):
+                    jobs.append({"title": title, "company": "", "url": href,
+                                 "source": "BlockchainJobsEurope"})
+    return jobs
+
+
+def scrape_cryptojobshub() -> list[dict]:
+    """CryptoJobsHub aggregator."""
+    jobs, seen_urls = [], set()
+    for feed_url in ["https://cryptojobshub.com/feed/",
+                     "https://cryptojobshub.com/rss"]:
+        feed = feedparser.parse(feed_url)
+        if feed.entries:
+            for e in feed.entries:
+                title = clean(e.title)
+                norm = normalise_url(e.link)
+                if norm in seen_urls: continue
+                seen_urls.add(norm)
+                if is_real_job(title, e.link) and not is_intern(title):
+                    jobs.append({"title": title, "company": "", "url": e.link,
+                                 "source": "CryptoJobsHub"})
+            break
+    if not jobs:
+        r = get("https://cryptojobshub.com")
+        if r:
+            for a in soup(r).select("a[href*='/job/'], a[href*='/jobs/']"):
+                title = clean(a.get_text())
+                href = a.get("href", "")
+                if not href.startswith("http"):
+                    href = "https://cryptojobshub.com" + href
+                norm = normalise_url(href)
+                if norm in seen_urls: continue
+                seen_urls.add(norm)
+                if is_real_job(title, href) and not is_intern(title):
+                    jobs.append({"title": title, "company": "", "url": href,
+                                 "source": "CryptoJobsHub"})
+    return jobs
+
+
+def scrape_blockchain_works() -> list[dict]:
+    """Blockchain.works job board."""
+    jobs, seen_urls = [], set()
+    r = get("https://blockchain.works-hub.com/jobs")
+    if not r:
+        r = get("https://blockchain.works/jobs")
+    if not r: return jobs
+    for a in soup(r).select("a[href*='/jobs/'], a[href*='/job/']"):
+        title = clean(a.get_text())
+        href = a.get("href", "")
+        if not href.startswith("http"):
+            href = "https://blockchain.works-hub.com" + href
+        norm = normalise_url(href)
+        if norm in seen_urls: continue
+        seen_urls.add(norm)
+        if is_real_job(title, href) and not is_intern(title):
+            jobs.append({"title": title, "company": "", "url": href,
+                         "source": "BlockchainWorks"})
+    return jobs
+
+
+def scrape_builtin_web3() -> list[dict]:
+    """Built In web3 jobs section."""
+    jobs, seen_urls = [], set()
+    r = get("https://builtin.com/jobs/web3")
+    if not r: return jobs
+    for a in soup(r).select("a[href*='/job/']"):
+        title = clean(a.get_text())
+        href = a.get("href", "")
+        if not href.startswith("http"):
+            href = "https://builtin.com" + href
+        norm = normalise_url(href)
+        if norm in seen_urls: continue
+        seen_urls.add(norm)
+        if is_real_job(title, href) and not is_intern(title):
+            # Try to get company from parent
+            company = ""
+            parent = a.find_parent(class_=re.compile(r"company|employer|org"))
+            if parent:
+                company = clean(parent.get_text())[:50]
+            jobs.append({"title": title, "company": company, "url": href,
+                         "source": "BuiltIn"})
+    return jobs
+
+
+def scrape_crypto_jobs_ch() -> list[dict]:
+    """Crypto-jobs.ch - Swiss/European crypto jobs."""
+    jobs, seen_urls = [], set()
+    r = get("https://crypto-jobs.ch/search")
+    if not r: return jobs
+    for a in soup(r).select("a[href*='/jobs/'], a[href*='/job/']"):
+        title = clean(a.get_text())
+        href = a.get("href", "")
+        if not href.startswith("http"):
+            href = "https://crypto-jobs.ch" + href
+        norm = normalise_url(href)
+        if norm in seen_urls: continue
+        seen_urls.add(norm)
+        if is_real_job(title, href) and not is_intern(title):
+            jobs.append({"title": title, "company": "", "url": href,
+                         "source": "CryptoJobsCH"})
+    return jobs
 
 
 def scrape_cryptojobslist() -> list[dict]:
@@ -1072,23 +1343,57 @@ def is_intern(title: str) -> bool:
 # ---------------------------------------------------------------------------
 
 SCRAPERS = [
+    # Pure web3 boards
     scrape_ethereumjobboard,
     scrape_bitcoinerjobs,
     scrape_talentweb3,
-    scrape_safary,
-    scrape_solana_jobs,
-    scrape_a16z_crypto,
-    scrape_bitkraft,
-    scrape_cryptojobslist,
-    scrape_cryptocurrencyjobs,
     scrape_myweb3jobs,
     scrape_defi_jobs,
     scrape_hashtagweb3,
     scrape_blockchainheadhunter,
     scrape_bitcoinjobs,
+    scrape_stablecoin_jobs,
+    # VC portfolio boards
+    scrape_safary,
+    scrape_bitkraft,
+    scrape_multicoin,
+    scrape_delphi,
+    scrape_galaxy_vc,
+    scrape_jump,
+    scrape_polychain,
+    scrape_framework,
+    scrape_coinfund,
+    scrape_outlier,
+    scrape_electric,
+    scrape_variant,
+    scrape_pantera,
+    scrape_lemniscap,
+    scrape_dragonfly,
+    scrape_a16z_crypto,
+    # Ecosystem boards
+    scrape_solana_jobs,
+    scrape_avax,
+    scrape_ton,
+    scrape_blockchain_assoc,
+    # Aggregators
+    scrape_cryptojobslist,
+    scrape_cryptocurrencyjobs,
+    scrape_cryptodotjobs,
+    scrape_remote3,
+    scrape_web3career,
+    scrape_jobstash,
+    # Direct company boards
     scrape_direct_companies,
+    # Early stage
     scrape_wellfound,
     scrape_workatastartup,
+    # Additional boards
+    scrape_beincrypto,
+    scrape_blockchainjobseurope,
+    scrape_cryptojobshub,
+    scrape_blockchain_works,
+    scrape_builtin_web3,
+    scrape_crypto_jobs_ch,
 ]
 
 # ---------------------------------------------------------------------------
