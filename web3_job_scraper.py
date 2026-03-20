@@ -210,7 +210,9 @@ BLOCKED_COMPANIES = {
     "indeed",    # job board itself appearing as a company
     "world",     # Worldcoin slug "world-2" resolves to just "World"
     # Big tech with no web3 angle
-    "audible", "amazon web services",
+    "audible", "amazon web services", "amazon",
+    # Data center / mining infrastructure (not web3 jobs)
+    "crusoe", "genesis digital assets",
 }
 
 BLOCKED_URL_FRAGMENTS = {
@@ -587,11 +589,14 @@ def scrape_remote3() -> list[dict]:
     jobs, seen_urls = [], set()
     r = get("https://www.remote3.co/remote-web3-jobs")
     if not r: return jobs
-    for a in soup(r).select("a[href*='/web3-job/'], a[href*='/jobs/']"):
+    for a in soup(r).select("a[href*='/web3-job/']"):
+        # Only actual job pages - /web3-job/job-slug not /jobs/category-jobs
         title = clean(a.get_text())
         href = a.get("href", "")
         if not href.startswith("http"):
             href = "https://www.remote3.co" + href
+        # Skip category pages
+        if href.endswith("-jobs") or href.endswith("-jobs/"): continue
         norm = normalise_url(href)
         if norm in seen_urls: continue
         seen_urls.add(norm)
@@ -709,36 +714,8 @@ def scrape_beincrypto() -> list[dict]:
 
 
 def scrape_blockchainjobseurope() -> list[dict]:
-    """BlockchainJobsEurope - European focused board."""
-    jobs, seen_urls = [], set()
-    for feed_url in ["https://blockchainjobseurope.com/feed/",
-                     "https://blockchainjobseurope.com/rss/"]:
-        feed = feedparser.parse(feed_url)
-        if feed.entries:
-            for e in feed.entries:
-                title = clean(e.title)
-                norm = normalise_url(e.link)
-                if norm in seen_urls: continue
-                seen_urls.add(norm)
-                if is_real_job(title, e.link) and not is_intern(title):
-                    jobs.append({"title": title, "company": "", "url": e.link,
-                                 "source": "BlockchainJobsEurope"})
-            break
-    if not jobs:
-        r = get("https://blockchainjobseurope.com")
-        if r:
-            for a in soup(r).select("a[href*='/job/'], a[href*='/jobs/']"):
-                title = clean(a.get_text())
-                href = a.get("href", "")
-                if not href.startswith("http"):
-                    href = "https://blockchainjobseurope.com" + href
-                norm = normalise_url(href)
-                if norm in seen_urls: continue
-                seen_urls.add(norm)
-                if is_real_job(title, href) and not is_intern(title):
-                    jobs.append({"title": title, "company": "", "url": href,
-                                 "source": "BlockchainJobsEurope"})
-    return jobs
+    """BlockchainJobsEurope - it's actually a blog, skip it."""
+    return []
 
 
 def scrape_cryptojobshub() -> list[dict]:
@@ -775,20 +752,27 @@ def scrape_cryptojobshub() -> list[dict]:
 
 
 def scrape_blockchain_works() -> list[dict]:
-    """Blockchain.works job board."""
+    """Blockchain.works-hub job board."""
     jobs, seen_urls = [], set()
     r = get("https://blockchain.works-hub.com/jobs")
-    if not r:
-        r = get("https://blockchain.works/jobs")
     if not r: return jobs
-    for a in soup(r).select("a[href*='/jobs/'], a[href*='/job/']"):
+    for a in soup(r).select("a[href*='/jobs/']"):
         title = clean(a.get_text())
         href = a.get("href", "")
         if not href.startswith("http"):
             href = "https://blockchain.works-hub.com" + href
+        # Skip pagination and nav links
+        if "page=" in href: continue
+        if "search?" in href: continue
+        if "hire.withgoogle" in href: continue
+        # Must be a job slug (has alphanumeric ID at end)
+        if not re.search(r"/jobs/[a-z0-9-]{5,}$", href): continue
         norm = normalise_url(href)
         if norm in seen_urls: continue
         seen_urls.add(norm)
+        # Skip titles that are nav items
+        if not title or len(title) < 5: continue
+        if title.lower() in {"careers", "show more jobs", "view all jobs"}: continue
         if is_real_job(title, href) and not is_intern(title):
             jobs.append({"title": title, "company": "", "url": href,
                          "source": "BlockchainWorks"})
