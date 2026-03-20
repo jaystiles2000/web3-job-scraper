@@ -98,36 +98,65 @@ def clean_company(name: str) -> str:
     return " ".join(words).strip()
 
 def clean_location(loc: str) -> str:
-    """Only return location if it looks like a real place, not a word fragment."""
+    """Only return location if it looks like a real place."""
     if not loc:
         return ""
     loc = loc.strip().title()
-    # Normalise known multi-word locations that get truncated
+
+    # Direct fixes for truncated/mangled locations
     loc_fixes = {
-        "Kong": "Hong Kong",
-        "Kong Sar": "Hong Kong",
-        "Hong Kong Sar": "Hong Kong",
-        "York": "New York",
-        "States": "United States",
-        "Kingdom": "United Kingdom",
-        "Xico": "Mexico",
-        "Paulo": "Sao Paulo",
-        "America": "Latin America",
-        "Francisco": "San Francisco",
+        "Kong": "Hong Kong", "Kong Sar": "Hong Kong",
+        "Hong Kong Sar": "Hong Kong", "York": "New York",
+        "States": "United States", "Kingdom": "United Kingdom",
+        "Xico": "Mexico", "Paulo": "Sao Paulo",
+        "Francisco": "San Francisco", "America": "Latin America",
+        "Uae": "UAE", "Uae Dubai": "Dubai",
     }
     if loc in loc_fixes:
         return loc_fixes[loc]
-    # Skip single-word fragments that aren't real places
-    skip = {
-        "Lead", "Defi", "Engineer", "Manager", "Remote Ok", "Trader",
-        "Strategy", "Partnerships", "Management", "Developer",
-        "Emea", "Latam", "Apac", "Newark", "Porto", "Franc",
-        "Arlington", "Malta", "Singapore Ok", "Asia", "Europe",
-        "Engineer", "Consultant", "Analyst", "Director",
+
+    # Accepted real locations
+    valid_locations = {
+        "Remote", "Worldwide", "Global", "United States", "United Kingdom",
+        "New York", "San Francisco", "London", "Singapore", "Dubai",
+        "Hong Kong", "Berlin", "Amsterdam", "Zurich", "Geneva",
+        "Lisbon", "Madrid", "Paris", "Tokyo", "Seoul", "Sydney",
+        "Toronto", "Vancouver", "Austin", "Miami", "Los Angeles",
+        "Chicago", "Boston", "Seattle", "Denver", "Atlanta",
+        "Latin America", "Europe", "Asia", "EMEA", "APAC", "LATAM",
+        "Remote US", "Remote UK", "Remote Europe", "Remote Global",
+        "Malta", "Portugal", "Spain", "Brazil", "India", "Poland",
+        "Germany", "Netherlands", "France", "Italy", "Canada",
+        "Australia", "Japan", "South Korea", "UAE", "Sao Paulo",
+        "Mexico", "Argentina", "Colombia", "Nigeria", "Kenya",
+        "New York NY", "Jersey City NJ", "Houston TX",
     }
-    if loc in skip or len(loc) < 3:
-        return ""
-    return loc
+
+    # Check exact match
+    if loc in valid_locations:
+        return loc
+
+    # Check if it starts with a valid location
+    for valid in valid_locations:
+        if loc.startswith(valid):
+            return valid
+
+    # If 2 words or less and looks like a place (not a job title word)
+    words = loc.split()
+    job_words = {
+        "engineer", "manager", "developer", "analyst", "lead", "director",
+        "specialist", "consultant", "associate", "coordinator", "executive",
+        "officer", "architect", "designer", "researcher", "scientist",
+        "trader", "programmer", "founder", "head", "chief", "senior",
+        "junior", "staff", "principal", "defi", "blockchain", "crypto",
+        "remote", "acquisition", "content", "product", "platform",
+        "attribution", "strategy", "partnerships", "management",
+    }
+    if len(words) <= 2 and not any(w.lower() in job_words for w in words):
+        if len(loc) >= 3:
+            return loc
+
+    return ""
 
 def normalise_url(url: str) -> str:
     """
@@ -257,6 +286,11 @@ JUNK_JOB_TITLES = {
     "don t see any role for you be the wild card",
     "general application",
     "general applications",
+    "join our community",
+    "web3 recruiter (full-time/part-time/intern)",
+    "no open positions",
+    "see all jobs",
+    "view all jobs",
 }
 
 def is_web3_relevant(job: dict) -> bool:
@@ -357,12 +391,23 @@ def scrape_ethereumjobboard() -> list[dict]:
         norm = normalise_url(href)
         if norm in seen_urls: continue
         seen_urls.add(norm)
-        # Try to find company from URL slug
+        # Company is the LAST hyphen-segment of the slug
+        # e.g. /jobs/head-of-security-open-sea -> "Open Sea" -> needs fixing
+        # Better: look for known company names in the slug
         company = ""
-        m = re.search(r"/jobs/[^/]+-([^/]+)$", href)
-        if m:
-            company = m.group(1).replace("-", " ").title()
-        if is_real_job(title, href):
+        slug = href.rstrip("/").split("/")[-1]
+        # Remove the job title part - company is typically after the last major word
+        # Try to get company from a sibling element in the HTML
+        parent = card.find_parent()
+        if parent:
+            # Look for company name in nearby text
+            for el in parent.find_all(string=True):
+                text = el.strip()
+                if text and text != title and 3 < len(text) < 50:
+                    if text not in ["Full time", "Part time", "Remote", "Contract"]:
+                        company = text
+                        break
+        if is_real_job(title, href) and not is_intern(title):
             jobs.append({"title": title, "company": company, "url": href,
                          "source": "EthereumJobBoard"})
     return jobs
@@ -697,6 +742,9 @@ def scrape_hashtagweb3() -> list[dict]:
             "Bitso", "Morpho Labs", "Morpho", "Blackbird", "M^0 Labs",
             "Coinbase", "Kraken", "Gemini", "Galaxy", "Offchain Labs",
             "CoinSwitch Kuber", "CoinSwitch", "Sovrun", "Pixion Games",
+            "Blockworks", "Magic Eden", "Sei Labs", "Li Fi", "Mesh",
+            "Figment", "Temporal", "Lever", "Flow Blockchain",
+            "OpenZeppelin", "Addressable",
         ]
         for suffix in company_suffixes:
             if title.endswith(suffix):
