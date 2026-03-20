@@ -213,6 +213,10 @@ BLOCKED_COMPANIES = {
     "audible", "amazon web services", "amazon",
     # Data center / mining infrastructure (not web3 jobs)
     "crusoe", "genesis digital assets",
+    # Non-web3 that keep slipping through
+    "audible inc", "audible", "amazon", "amazon web services",
+    "delta exchange",  # Indian crypto exchange, not web3 native
+    "employinc", "employ inc",
 }
 
 BLOCKED_URL_FRAGMENTS = {
@@ -224,6 +228,8 @@ BLOCKED_URL_FRAGMENTS = {
     "current.com/careers",
     "wellfound.com",
     "indeed.com/viewjob",      # Indeed job links via Multicoin board
+    "careers.employinc.com",   # Non-web3 HR company
+    "hire.withgoogle.com",     # Google hiring nav link
 }
 
 # Company name fixes — map messy extracted names to clean versions
@@ -393,22 +399,30 @@ def scrape_ethereumjobboard() -> list[dict]:
         norm = normalise_url(href)
         if norm in seen_urls: continue
         seen_urls.add(norm)
-        # Company is the LAST hyphen-segment of the slug
-        # e.g. /jobs/head-of-security-open-sea -> "Open Sea" -> needs fixing
-        # Better: look for known company names in the slug
-        company = ""
+        # Extract company from URL slug
+        # Format: /jobs/job-title-words-company-name
+        # Strategy: title words are known, remainder is company
         slug = href.rstrip("/").split("/")[-1]
-        # Remove the job title part - company is typically after the last major word
-        # Try to get company from a sibling element in the HTML
-        parent = card.find_parent()
-        if parent:
-            # Look for company name in nearby text
-            for el in parent.find_all(string=True):
-                text = el.strip()
-                if text and text != title and 3 < len(text) < 50:
-                    if text not in ["Full time", "Part time", "Remote", "Contract"]:
-                        company = text
-                        break
+        title_slug = re.sub(r"[^a-z0-9]", "-", title.lower())
+        # Remove title portion from slug to get company
+        company = ""
+        # Try to find company by removing title-like prefix from slug
+        title_words = set(re.sub(r"[^a-z]", " ", title.lower()).split())
+        slug_parts = slug.split("-")
+        # Find where title words end and company begins
+        company_parts = []
+        title_matched = 0
+        for i, part in enumerate(slug_parts):
+            if part in title_words and title_matched < len(title_words):
+                title_matched += 1
+            else:
+                company_parts = slug_parts[i:]
+                break
+        if company_parts:
+            company = " ".join(company_parts).title()
+            # Clean up known noise
+            if company.lower() in {"remote", "global", "worldwide", "full", "time"}:
+                company = ""
         if is_real_job(title, href) and not is_intern(title):
             jobs.append({"title": title, "company": company, "url": href,
                          "source": "EthereumJobBoard"})
