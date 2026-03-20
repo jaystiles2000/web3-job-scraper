@@ -233,6 +233,15 @@ COMPANY_NAME_FIXES = {
     "cruxclimate": "Crux Climate",
     "opensea": "OpenSea",
     "eigen labs": "EigenLayer",
+    "m0dbathenextthingltd": "M^0 Labs",
+    "blackbird labs inc": "Blackbird",
+    "blackbird-labs-inc": "Blackbird",
+    "tools for humanity": "Tools for Humanity",
+    "ondo-finance": "Ondo Finance",
+    "ondo finance": "Ondo Finance",
+    "wintermute trading": "Wintermute",
+    "layerzerolabs": "LayerZero Labs",
+    "offchain labs": "Offchain Labs",
 }
 
 def apply_company_fixes(name: str) -> str:
@@ -685,6 +694,9 @@ def scrape_hashtagweb3() -> list[dict]:
             "Pantera Capital", "Shima Capital", "3Box Labs", "Ceramic",
             "BCB Group", "VALR", "Immutable", "Polygon", "Starkware",
             "Scroll", "Celestia", "Wormhole", "Axelar", "dYdX",
+            "Bitso", "Morpho Labs", "Morpho", "Blackbird", "M^0 Labs",
+            "Coinbase", "Kraken", "Gemini", "Galaxy", "Offchain Labs",
+            "CoinSwitch Kuber", "CoinSwitch", "Sovrun", "Pixion Games",
         ]
         for suffix in company_suffixes:
             if title.endswith(suffix):
