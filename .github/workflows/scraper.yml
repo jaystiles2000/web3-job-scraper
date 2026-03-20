@@ -81,7 +81,16 @@ jobs:
               print("No new raises to send")
               exit(0)
 
+          # Strip HTML tags and deduplicate lines
           body = re.sub(r'<[^>]+>', '', body)
+          seen_lines = set()
+          deduped = []
+          for line in body.splitlines():
+              if line not in seen_lines:
+                  seen_lines.add(line)
+                  deduped.append(line)
+          body = "\n".join(deduped)
+
           chunks = [body[i:i+4000] for i in range(0, len(body), 4000)]
           for chunk in chunks:
               if not chunk.strip():
