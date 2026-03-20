@@ -59,7 +59,7 @@ def get(url: str, timeout=15):
         r.raise_for_status()
         return r
     except Exception as e:
-        print(f"  [WARN] {url}: {e}")
+        print(f"  [WARN] {url}: {e}", file=sys.stderr)
         return None
 
 def soup(r) -> BeautifulSoup:
@@ -133,18 +133,22 @@ def normalise_url(url: str) -> str:
     """
     Strip tracking params and anchors so the same job linked from
     multiple boards deduplicates correctly.
-    e.g. ?utm_source=... and #content are removed.
     """
     try:
         p = urlparse(url)
-        # Remove fragment (#content etc)
-        # Strip utm_* and tracking query params
+        # Normalise LinkedIn regional subdomains to linkedin.com
+        netloc = p.netloc
+        if "linkedin.com" in netloc:
+            netloc = "www.linkedin.com"
+        # Strip all tracking/referral query params
         qs = parse_qs(p.query, keep_blank_values=True)
         clean_qs = {k: v for k, v in qs.items()
                     if not k.startswith("utm_")
-                    and k not in ("gh_src", "lever-source[]", "gh_jid")}
+                    and k not in ("gh_src", "lever-source[]", "gh_jid",
+                                  "utm_medium", "utm_campaign", "utm_content",
+                                  "gh_src", "trk", "src")}
         clean_query = urlencode(clean_qs, doseq=True)
-        cleaned = urlunparse((p.scheme, p.netloc, p.path, p.params, clean_query, ""))
+        cleaned = urlunparse((p.scheme, netloc, p.path, p.params, clean_query, ""))
         return cleaned.lower().rstrip("/")
     except Exception:
         return url.lower().rstrip("/")
@@ -830,18 +834,19 @@ def run(reset: bool = False) -> list[dict]:
 
     all_new: list[dict] = []
 
-    print(f"\n{'='*55}")
-    print(f"  Web3 Scraper — {datetime.now().strftime('%Y-%m-%d %H:%M')}")
-    print(f"  Seen jobs on record: {len(seen)}")
-    print(f"{'='*55}\n")
+    import sys
+    print(f"\n{'='*55}", file=sys.stderr)
+    print(f"  Web3 Scraper — {datetime.now().strftime('%Y-%m-%d %H:%M')}", file=sys.stderr)
+    print(f"  Seen jobs on record: {len(seen)}", file=sys.stderr)
+    print(f"{'='*55}\n", file=sys.stderr)
 
     for fn in SCRAPERS:
         name = fn.__name__.replace("scrape_", "")
-        print(f"→ {name}...")
+        print(f"→ {name}...", file=sys.stderr)
         try:
             jobs = fn()
         except Exception as e:
-            print(f"  [ERROR] {e}")
+            print(f"  [ERROR] {e}", file=sys.stderr)
             jobs = []
 
         new = []
@@ -861,7 +866,7 @@ def run(reset: bool = False) -> list[dict]:
             this_run_urls.add(norm)
             new.append(job)
 
-        print(f"  {len(jobs)} found, {len(new)} new (after global dedup)")
+        print(f"  {len(jobs)} found, {len(new)} new (after global dedup)", file=sys.stderr)
         all_new.extend(new)
         time.sleep(REQUEST_DELAY)
 
@@ -876,8 +881,8 @@ def run(reset: bool = False) -> list[dict]:
         return all_new
 
     lines = [
-        f":new: *Web3 Jobs — {datetime.now().strftime('%d %b %Y')}*",
-        f"_{len(all_new)} new jobs_",
+        f"🆕 <b>Web3 Jobs — {datetime.now().strftime('%d %b %Y %H:%M')}</b>",
+        f"<i>{len(all_new)} new jobs</i>",
         "",
     ]
 
@@ -888,15 +893,23 @@ def run(reset: bool = False) -> list[dict]:
         sal     = job.get("salary", "").strip()
         url     = job.get("url", "").strip()
 
-        block = [f"*{title}*"]
+        # Clean URL for display - strip tracking params
+        display_url = normalise_url(url)
+        # For LinkedIn, extract just the job view URL cleanly
+        if "linkedin.com" in display_url:
+            m = re.search(r"(https://www\.linkedin\.com/jobs/view/[^?&]+)", url)
+            if m:
+                display_url = m.group(1)
+
+        block = [f"<b>{title}</b>"]
         if company:
             block.append(f"🏢 {company}")
         if sal:
             block.append(f"💰 {sal}")
         if loc:
             block.append(f"📍 {loc}")
-        block.append(f"🔗 {url}")
-        block.append("")  # blank line between jobs
+        block.append(f"🔗 {display_url}")
+        block.append("")
 
         lines.extend(block)
 
