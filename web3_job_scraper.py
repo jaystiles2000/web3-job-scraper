@@ -893,11 +893,14 @@ def run(reset: bool = False) -> list[dict]:
         sal     = job.get("salary", "").strip()
         url     = job.get("url", "").strip()
 
-        # Clean URL for display - strip tracking params
+        # Clean URL for display
         display_url = normalise_url(url)
-        # For LinkedIn, extract just the job view URL cleanly
+        # Strip #content anchor from Getro URLs (not needed, causes Telegram truncation)
+        display_url = display_url.split("#")[0].rstrip("/")
+        # For LinkedIn, strip all tracking params cleanly
         if "linkedin.com" in display_url:
-            m = re.search(r"(https://www\.linkedin\.com/jobs/view/[^?&]+)", url)
+            # Keep only the base job URL up to the numeric ID
+            m = re.search(r"(https://[a-z.]*linkedin\.com/jobs/view/[a-z0-9-]+-\d+)", url)
             if m:
                 display_url = m.group(1)
 
