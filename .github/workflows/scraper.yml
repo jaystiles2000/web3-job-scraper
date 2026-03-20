@@ -29,7 +29,7 @@ jobs:
           restore-keys: seen-data-
 
       - name: Run scraper
-        run: python web3_job_scraper.py > jobs_digest.txt 2>/dev/null
+        run: python web3_job_scraper.py --reset > jobs_digest.txt 2>/dev/null
 
       - name: Run raises scraper
         run: python raises_scraper.py > raises_digest.txt
