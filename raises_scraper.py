@@ -34,18 +34,22 @@ HEADERS = {
 # Keywords that indicate a funding/raise article
 # ---------------------------------------------------------------------------
 
+# Must contain at least one of these SPECIFIC funding phrases
 RAISE_KEYWORDS = [
-    "raises", "raised", "funding", "fundraise", "fundraising",
-    "seed round", "series a", "series b", "series c", "pre-seed",
-    "investment", "invested", "investor", "venture", "backed",
-    "million", "$m", "funding round", "capital raise", "closed round",
-    "led by", "participation from", "strategic round", "grant",
+    "raises $", "raised $", "secures $", "secured $",
+    "closes $", "closed $", "funding round", "seed round",
+    "series a", "series b", "series c", "series d",
+    "pre-seed", "raises funding", "raised funding",
+    "capital raise", "venture round", "investment round",
+    "million round", "billion round", "led by", "co-led by",
+    "raises million", "raises billion",
 ]
 
-# Keywords that indicate it's NOT a raise (price news, general market etc)
+# Keywords that indicate it's NOT a raise
 NOISE_KEYWORDS = [
-    "price", "market cap", "trading", "exchange listing",
-    "airdrop", "hack", "exploit", "scam", "rug pull",
+    "lawsuit", "layoffs", "hack", "exploit", "scam", "rug pull",
+    "price", "market cap", "trading volume", "exchange listing",
+    "airdrop", "arrested", "fraud", "penalty", "fine", "sec charges",
 ]
 
 # ---------------------------------------------------------------------------
@@ -223,11 +227,14 @@ def run(reset: bool = False) -> list[dict]:
     ]
 
     for raise_ in all_new:
+        # Clean URL - strip tracking params
+        clean_url = raise_["url"].split("?utm_")[0].split("&utm_")[0]
+        
         block = [f"<b>{raise_['title']}</b>"]
         if raise_["amount"]:
             block.append(f"💵 {raise_['amount']}")
         block.append(f"📰 {raise_['source']}")
-        block.append(f"🔗 {raise_['url']}")
+        block.append(f"🔗 {clean_url}")
         block.append("")
         lines.extend(block)
 
