@@ -802,6 +802,212 @@ def scrape_bitcoinjobs() -> list[dict]:
 
 
 # ---------------------------------------------------------------------------
+# Direct company careers pages
+# ---------------------------------------------------------------------------
+
+CRYPTO_COMPANIES_GREENHOUSE = [
+    ("Uniswap",         "uniswap"),
+    ("Fireblocks",      "fireblocks"),
+    ("Chainalysis",     "chainalysis"),
+    ("Alchemy",         "alchemy"),
+    ("EigenLayer",      "eigen-labs"),
+    ("Lightspark",      "lightspark"),
+    ("OP Labs",         "oplabs"),
+    ("Phantom",         "phantom"),
+    ("Lido",            "lido"),
+    ("OpenSea",         "opensea"),
+    ("Anchorage",       "anchorage"),
+    ("BitGo",           "bitgo"),
+    ("Gensyn",          "gensyn"),
+    ("Aptos Labs",      "aptoslabs"),
+    ("Ava Labs",        "avalabs"),
+    ("Aave",            "aave"),
+    ("Mysten Labs",     "mystenlabs"),
+    ("Bastion",         "bastion"),
+    ("Sardine",         "sardine"),
+    ("Nomic Foundation","nomic"),
+    ("LayerZero Labs",  "layerzerolabs"),
+    ("Coinbase",        "coinbase"),
+    ("Ripple",          "ripple"),
+    ("Circle",          "circle"),
+    ("Kraken",          "kraken"),
+    ("Gemini",          "gemini"),
+    ("Nansen",          "nansen"),
+    ("Blockaid",        "blockaid"),
+    ("M^0 Labs",        "m0dbathenextthingltd"),
+    ("Kalshi",          "kalshi"),
+    ("TaxBit",          "taxbit"),
+    ("Spade",           "spade"),
+    ("BCB Group",       "bcbgroup"),
+    ("Gensyn",          "gensyn"),
+]
+
+CRYPTO_COMPANIES_ASHBY = [
+    ("Uniswap",             "uniswap"),
+    ("Lightspark",          "lightspark"),
+    ("Sky Mavis",           "skymavis"),
+    ("OP Labs",             "oplabs"),
+    ("Phantom",             "phantom"),
+    ("Lido",                "lido.fi"),
+    ("OpenSea",             "opensea"),
+    ("EigenLayer",          "eigen-labs"),
+    ("Mysten Labs",         "mystenlabs"),
+    ("Bastion",             "bastion"),
+    ("Sardine",             "sardine"),
+    ("Method",              "method"),
+    ("Walrus Foundation",   "walrus"),
+    ("Solana Foundation",   "solana%20foundation"),
+    ("Sui Foundation",      "sui%20foundation"),
+    ("Chainalysis",         "chainalysis-careers"),
+    ("Nomic Foundation",    "nomic.foundation"),
+    ("Crux",                "cruxclimate"),
+    ("Monad Foundation",    "monad.foundation"),
+    ("Tools for Humanity",  "tools%20for%20humanity"),
+    ("Paradigm",            "paradigm"),
+    ("Talos",               "talos-trading"),
+    ("Ondo Finance",        "ondo-finance"),
+    ("Blackbird",           "blackbird-labs-inc"),
+    ("Privy",               "privy"),
+    ("Turnkey",             "turnkey"),
+    ("Blockaid",            "blockaid"),
+]
+
+
+def scrape_company_greenhouse(company: str, slug: str) -> list[dict]:
+    """Scrape a company's Greenhouse job board directly."""
+    jobs, seen_urls = [], set()
+    for base in [
+        f"https://job-boards.greenhouse.io/{slug}",
+        f"https://job-boards.eu.greenhouse.io/{slug}",
+        f"https://boards.greenhouse.io/{slug}",
+    ]:
+        r = get(base)
+        if not r: continue
+        s = soup(r)
+        for a in s.select("a[href*='/jobs/']"):
+            title = clean(a.get_text())
+            href = a.get("href", "")
+            if not href.startswith("http"):
+                href = base + href
+            norm = normalise_url(href)
+            if norm in seen_urls: continue
+            seen_urls.add(norm)
+            if is_real_job(title, href) and not is_intern(title):
+                jobs.append({"title": title, "company": company,
+                             "url": href, "source": "Direct"})
+        if jobs: break
+    return jobs
+
+
+def scrape_company_ashby(company: str, slug: str) -> list[dict]:
+    """Scrape a company's Ashby job board directly."""
+    jobs, seen_urls = [], set()
+    import urllib.parse
+    decoded_slug = urllib.parse.unquote(slug)
+    r = get(f"https://jobs.ashbyhq.com/{slug}")
+    if not r: return jobs
+    s = soup(r)
+    for a in s.select("a[href]"):
+        href = a.get("href", "")
+        if not href.startswith("http"):
+            href = f"https://jobs.ashbyhq.com{href}"
+        if slug.lower() not in href.lower() and decoded_slug.lower() not in href.lower():
+            continue
+        if "/jobs/" not in href: continue
+        title = clean(a.get_text())
+        norm = normalise_url(href)
+        if norm in seen_urls: continue
+        seen_urls.add(norm)
+        if is_real_job(title, href) and not is_intern(title):
+            jobs.append({"title": title, "company": company,
+                         "url": href, "source": "Direct"})
+    return jobs
+
+
+def scrape_wellfound() -> list[dict]:
+    """Wellfound (AngelList) - early stage crypto startups."""
+    jobs, seen_urls = [], set()
+    for search in ["crypto", "web3", "blockchain", "defi"]:
+        r = get(f"https://wellfound.com/jobs?q={search}&remote=true")
+        if not r: continue
+        s = soup(r)
+        for a in s.select("a[href*='/jobs/']"):
+            title = clean(a.get_text())
+            href = a.get("href", "")
+            if not href.startswith("http"):
+                href = "https://wellfound.com" + href
+            norm = normalise_url(href)
+            if norm in seen_urls: continue
+            seen_urls.add(norm)
+            if is_real_job(title, href) and not is_intern(title):
+                jobs.append({"title": title, "company": "",
+                             "url": href, "source": "Wellfound"})
+        time.sleep(0.5)
+    return jobs
+
+
+def scrape_workatastartup() -> list[dict]:
+    """Y Combinator Work at a Startup - early stage crypto companies."""
+    jobs, seen_urls = [], set()
+    r = get("https://www.workatastartup.com/jobs?industry=crypto&industry=blockchain")
+    if not r: return jobs
+    s = soup(r)
+    for a in s.select("a[href*='/jobs/']"):
+        title = clean(a.get_text())
+        href = a.get("href", "")
+        if not href.startswith("http"):
+            href = "https://www.workatastartup.com" + href
+        norm = normalise_url(href)
+        if norm in seen_urls: continue
+        seen_urls.add(norm)
+        if is_real_job(title, href) and not is_intern(title):
+            # Try to get company name from parent element
+            company = ""
+            parent = a.find_parent(class_=re.compile(r"company|startup|firm"))
+            if parent:
+                company_el = parent.find(class_=re.compile(r"name|title"))
+                if company_el:
+                    company = clean(company_el.get_text())
+            jobs.append({"title": title, "company": company,
+                         "url": href, "source": "YC Startups"})
+    return jobs
+
+
+def scrape_direct_companies() -> list[dict]:
+    """Scrape all known crypto company job boards directly."""
+    all_jobs = []
+    print(f"→ Direct company boards ({len(CRYPTO_COMPANIES_GREENHOUSE + CRYPTO_COMPANIES_ASHBY)} companies)...", file=sys.stderr)
+
+    for company, slug in CRYPTO_COMPANIES_GREENHOUSE:
+        try:
+            jobs = scrape_company_greenhouse(company, slug)
+            all_jobs.extend(jobs)
+        except Exception as e:
+            print(f"  [WARN] {company}: {e}", file=sys.stderr)
+        time.sleep(0.3)
+
+    for company, slug in CRYPTO_COMPANIES_ASHBY:
+        try:
+            jobs = scrape_company_ashby(company, slug)
+            all_jobs.extend(jobs)
+        except Exception as e:
+            print(f"  [WARN] {company}: {e}", file=sys.stderr)
+        time.sleep(0.3)
+
+    return all_jobs
+
+
+def is_intern(title: str) -> bool:
+    """Filter out intern roles."""
+    t = title.lower()
+    return any(x in t for x in [
+        "intern", "internship", "co-op", "coop",
+        "student", "graduate program", "apprentice",
+        "fellowship", "phd fellowship",
+    ])
+
+
+# ---------------------------------------------------------------------------
 # Registry
 # ---------------------------------------------------------------------------
 
@@ -820,6 +1026,9 @@ SCRAPERS = [
     scrape_hashtagweb3,
     scrape_blockchainheadhunter,
     scrape_bitcoinjobs,
+    scrape_direct_companies,
+    scrape_wellfound,
+    scrape_workatastartup,
 ]
 
 # ---------------------------------------------------------------------------
@@ -856,6 +1065,10 @@ def run(reset: bool = False) -> list[dict]:
 
             # Filter out obvious non-web3 jobs
             if not is_web3_relevant(job):
+                continue
+
+            # Filter out intern roles
+            if is_intern(job.get("title", "")):
                 continue
 
             # Skip if seen in a previous run OR already seen in this run
