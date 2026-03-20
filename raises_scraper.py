@@ -34,22 +34,24 @@ HEADERS = {
 # Keywords that indicate a funding/raise article
 # ---------------------------------------------------------------------------
 
-# Must contain at least one of these SPECIFIC funding phrases
+# Must contain at least one of these funding phrases
 RAISE_KEYWORDS = [
     "raises $", "raised $", "secures $", "secured $",
     "closes $", "closed $", "funding round", "seed round",
     "series a", "series b", "series c", "series d",
     "pre-seed", "raises funding", "raised funding",
     "capital raise", "venture round", "investment round",
-    "million round", "billion round", "led by", "co-led by",
-    "raises million", "raises billion",
+    "raises million", "raises billion", "led by", "co-led by",
+    "million in funding", "million funding", "billion in funding",
+    "million investment", "million raise", "new funding",
+    "strategic investment", "backed by", "venture capital",
 ]
 
-# Keywords that indicate it's NOT a raise
+# Keywords that mean it's NOT a raise — if title contains these, skip
 NOISE_KEYWORDS = [
-    "lawsuit", "layoffs", "hack", "exploit", "scam", "rug pull",
-    "price", "market cap", "trading volume", "exchange listing",
-    "airdrop", "arrested", "fraud", "penalty", "fine", "sec charges",
+    "lawsuit", "layoffs", "lays off", "hack", "exploit", "scam",
+    "rug pull", "arrested", "fraud", "penalty", "fine",
+    "sec charges", "price prediction", "market cap",
 ]
 
 # ---------------------------------------------------------------------------
@@ -57,25 +59,30 @@ NOISE_KEYWORDS = [
 # ---------------------------------------------------------------------------
 
 FEEDS = [
+    # Dedicated funding/investment RSS tags - highest signal
     {
-        "name": "The Block",
+        "name": "Cointelegraph Investments",
+        "url": "https://cointelegraph.com/rss/tag/investments",
+    },
+    {
+        "name": "CoinDesk Business",
+        "url": "https://www.coindesk.com/arc/outboundfeeds/rss/?outputType=json&_website=coindesk&from=0&size=10&_sourceInclude=headlines.basic,description.basic,canonical_url,publish_date,taxonomy",
+    },
+    {
+        "name": "The Block Funding",
         "url": "https://www.theblock.co/rss.xml",
+    },
+    {
+        "name": "Blockworks",
+        "url": "https://blockworks.co/feed",
     },
     {
         "name": "Decrypt",
         "url": "https://decrypt.co/feed",
     },
     {
-        "name": "CoinDesk",
-        "url": "https://www.coindesk.com/arc/outboundfeeds/rss/",
-    },
-    {
         "name": "DLNews",
         "url": "https://www.dlnews.com/rss/",
-    },
-    {
-        "name": "Blockworks",
-        "url": "https://blockworks.co/feed",
     },
     {
         "name": "The Defiant",
@@ -86,10 +93,54 @@ FEEDS = [
         "url": "https://cryptoslate.com/feed/",
     },
     {
-        "name": "Cointelegraph",
-        "url": "https://cointelegraph.com/rss/tag/investments",
+        "name": "Bitcoinist",
+        "url": "https://bitcoinist.com/feed/",
+    },
+    {
+        "name": "CryptoNews",
+        "url": "https://cryptonews.com/news/feed/",
     },
 ]
+
+# ---------------------------------------------------------------------------
+# Rootdata scraper - fast at listing new raises, no API key needed
+# ---------------------------------------------------------------------------
+
+def scrape_rootdata() -> list[dict]:
+    """Rootdata.com lists new raises quickly, often before news sites."""
+    raises = []
+    try:
+        r = requests.get(
+            "https://www.rootdata.com/api/projects/funding?page=1&pageSize=20",
+            headers=HEADERS,
+            timeout=10
+        )
+        if r.ok:
+            data = r.json()
+            items = data.get("data", data.get("list", []))
+            for item in items:
+                name = item.get("name", item.get("projectName", ""))
+                amount = item.get("amount", item.get("fundingAmount", ""))
+                round_type = item.get("round", item.get("roundType", ""))
+                date = item.get("date", item.get("fundingDate", ""))
+                url = f"https://www.rootdata.com/Projects/detail/{item.get('id', '')}"
+
+                if not name:
+                    continue
+
+                amount_str = f"${amount}M" if amount else ""
+                title = f"{name} raises {amount_str} {round_type}".strip()
+
+                raises.append({
+                    "title": title,
+                    "source": "Rootdata",
+                    "url": url,
+                    "amount": amount_str,
+                    "summary": "",
+                })
+    except Exception as e:
+        print(f"  [WARN] Rootdata: {e}", file=sys.stderr)
+    return raises
 
 # ---------------------------------------------------------------------------
 # Store
@@ -158,6 +209,21 @@ def run(reset: bool = False) -> list[dict]:
     print(f"  Seen raises on record: {len(seen)}", file=sys.stderr)
     print(f"{'='*55}\n", file=sys.stderr)
 
+    # Scrape Rootdata first - fastest source
+    print(f"→ Rootdata...", file=sys.stderr)
+    try:
+        rootdata_raises = scrape_rootdata()
+        new_count = 0
+        for raise_ in rootdata_raises:
+            entry_id = re.sub(r"[^a-z0-9]", "", raise_["url"].lower())[:80]
+            if entry_id not in seen:
+                seen.add(entry_id)
+                all_new.append(raise_)
+                new_count += 1
+        print(f"  {len(rootdata_raises)} found, {new_count} new", file=sys.stderr)
+    except Exception as e:
+        print(f"  [ERROR] {e}", file=sys.stderr)
+
     for feed_info in FEEDS:
         name = feed_info["name"]
         url = feed_info["url"]
@@ -184,7 +250,7 @@ def run(reset: bool = False) -> list[dict]:
             if published:
                 pub_time = datetime(*published[:6], tzinfo=timezone.utc)
                 age = datetime.now(timezone.utc) - pub_time
-                if age > timedelta(hours=3):
+                if age > timedelta(hours=6):
                     continue
 
             if not is_raise_article(title, summary):
