@@ -177,10 +177,30 @@ def normalise_url(url: str) -> str:
                                   "utm_medium", "utm_campaign", "utm_content",
                                   "gh_src", "trk", "src")}
         clean_query = urlencode(clean_qs, doseq=True)
+        # Always strip fragment/anchor (e.g. #content from Getro boards)
         cleaned = urlunparse((p.scheme, netloc, p.path, p.params, clean_query, ""))
         return cleaned.lower().rstrip("/")
     except Exception:
         return url.lower().rstrip("/")
+
+
+def clean_display_url(url: str) -> str:
+    """Strip fragment, tracking params and utm from display URLs."""
+    # Strip #anchor (e.g. #content from Getro)
+    url = url.split("#")[0]
+    # Strip utm params
+    if "utm_" in url or "?gh_src" in url:
+        try:
+            p = urlparse(url)
+            qs = parse_qs(p.query, keep_blank_values=True)
+            clean_qs = {k: v for k, v in qs.items()
+                        if not k.startswith("utm_")
+                        and k not in ("gh_src", "trk", "src")}
+            clean_query = urlencode(clean_qs, doseq=True)
+            url = urlunparse((p.scheme, p.netloc, p.path, p.params, clean_query, ""))
+        except Exception:
+            pass
+    return url.rstrip("/")
 
 def make_seen_id(title: str, company: str, norm_url: str) -> str:
     """Dedup key: same title + same company = same job, even across boards."""
@@ -1469,13 +1489,10 @@ def run(reset: bool = False) -> list[dict]:
         sal     = job.get("salary", "").strip()
         url     = job.get("url", "").strip()
 
-        # Clean URL for display
-        display_url = normalise_url(url)
-        # Strip #content anchor from Getro URLs (not needed, causes Telegram truncation)
-        display_url = display_url.split("#")[0].rstrip("/")
-        # For LinkedIn, strip all tracking params cleanly
+        # Clean URL for display - strip fragments, anchors, tracking params
+        display_url = clean_display_url(url)
+        # For LinkedIn, keep only the clean base job URL
         if "linkedin.com" in display_url:
-            # Keep only the base job URL up to the numeric ID
             m = re.search(r"(https://[a-z.]*linkedin\.com/jobs/view/[a-z0-9-]+-\d+)", url)
             if m:
                 display_url = m.group(1)
