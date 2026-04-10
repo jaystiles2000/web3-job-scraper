@@ -617,6 +617,105 @@ def scrape_dragonfly()        -> list[dict]: return _getro("dragonfly",       "D
 def scrape_avax()             -> list[dict]: return _getro("avax",            "Avalanche Ecosystem","https://jobs.avax.network")
 def scrape_ton()              -> list[dict]: return _getro("ton",             "TON Ecosystem",      "https://jobs.ton.org")
 def scrape_blockchain_assoc() -> list[dict]: return _getro("blockchainassociation", "Blockchain Association", "https://jobs.theblockchainassociation.org/jobs")
+def scrape_fabric_vc()        -> list[dict]: return _getro("fabric",          "Fabric VC",          "https://careers.fabric.vc/jobs")
+def scrape_octopus()          -> list[dict]: return _getro("octopusventures", "Octopus Ventures",   "https://talent.octopusventures.com/jobs")
+def scrape_base_hirechain()   -> list[dict]: return _getro("basehirechain",   "Base Ecosystem",     "https://base.hirechain.io/")
+
+
+def scrape_venturecapitalcareers() -> list[dict]:
+    """VentureCapitalCareers.com - VC portfolio jobs."""
+    jobs, seen_urls = [], set()
+    r = get("https://venturecapitalcareers.com/jobs")
+    if not r: return jobs
+    for a in soup(r).select("a[href*='/jobs/'], a[href*='/job/']"):
+        title = clean(a.get_text())
+        href = a.get("href", "")
+        if not href.startswith("http"):
+            href = "https://venturecapitalcareers.com" + href
+        if "venturecapitalcareers.com" not in href: continue
+        norm = normalise_url(href)
+        if norm in seen_urls: continue
+        seen_urls.add(norm)
+        if is_real_job(title, href) and not is_intern(title):
+            jobs.append({"title": title, "company": "", "url": href, "source": "VCCareers"})
+    return jobs
+
+
+def scrape_defi_jobs_xyz() -> list[dict]:
+    """DeFi-jobs.xyz niche board."""
+    jobs, seen_urls = [], set()
+    for feed_url in ["https://defi-jobs.xyz/feed/", "https://defi-jobs.xyz/rss"]:
+        feed = feedparser.parse(feed_url)
+        if feed.entries:
+            for e in feed.entries:
+                title = clean(e.title)
+                norm = normalise_url(e.link)
+                if norm in seen_urls: continue
+                seen_urls.add(norm)
+                if is_real_job(title, e.link) and not is_intern(title):
+                    jobs.append({"title": title, "company": "", "url": e.link, "source": "DeFiJobsXYZ"})
+            if jobs: return jobs
+    r = get("https://defi-jobs.xyz")
+    if not r: return jobs
+    for a in soup(r).select("a[href*='/job/'], a[href*='/jobs/']"):
+        title = clean(a.get_text())
+        href = a.get("href", "")
+        if not href.startswith("http"):
+            href = "https://defi-jobs.xyz" + href
+        norm = normalise_url(href)
+        if norm in seen_urls: continue
+        seen_urls.add(norm)
+        if is_real_job(title, href) and not is_intern(title):
+            jobs.append({"title": title, "company": "", "url": href, "source": "DeFiJobsXYZ"})
+    return jobs
+
+
+def scrape_cryptojobs_com() -> list[dict]:
+    """Cryptojobs.com aggregator."""
+    jobs, seen_urls = [], set()
+    for feed_url in ["https://cryptojobs.com/feed/", "https://cryptojobs.com/rss"]:
+        feed = feedparser.parse(feed_url)
+        if feed.entries:
+            for e in feed.entries:
+                title = clean(e.title)
+                norm = normalise_url(e.link)
+                if norm in seen_urls: continue
+                seen_urls.add(norm)
+                if is_real_job(title, e.link) and not is_intern(title):
+                    jobs.append({"title": title, "company": "", "url": e.link, "source": "CryptoJobs.com"})
+            if jobs: return jobs
+    r = get("https://cryptojobs.com/jobs")
+    if not r: return jobs
+    for a in soup(r).select("a[href*='/job/'], a[href*='/jobs/']"):
+        title = clean(a.get_text())
+        href = a.get("href", "")
+        if not href.startswith("http"):
+            href = "https://cryptojobs.com" + href
+        if "cryptojobs.com" not in href: continue
+        norm = normalise_url(href)
+        if norm in seen_urls: continue
+        seen_urls.add(norm)
+        if is_real_job(title, href) and not is_intern(title):
+            jobs.append({"title": title, "company": "", "url": href, "source": "CryptoJobs.com"})
+    return jobs
+
+
+def scrape_crypto_jobs_ch() -> list[dict]:
+    """Crypto-jobs.ch - Swiss/European crypto jobs."""
+    jobs, seen_urls = [], set()
+    r = get("https://crypto-jobs.ch/search")
+    if not r: return jobs
+    for a in soup(r).select("a[href*='/jobs/'], a[href*='/job/']"):
+        title = clean(a.get_text())
+        href = a.get("href", "")
+        if not href.startswith("http"):
+            href = "https://crypto-jobs.ch" + href
+        norm = normalise_url(href)
+        if norm in seen_urls: continue
+        seen_urls.add(norm)
+        if is_real_job(title, href) and not is_intern(title):
+            jobs.append({"title": title, "company": "", "url": href, "source": "CryptoJobsCH"})
+    return jobs
 
 
 def scrape_remote3() -> list[dict]:
@@ -1151,6 +1250,23 @@ def scrape_bitcoinjobs() -> list[dict]:
 
 
 # ---------------------------------------------------------------------------
+# Big companies - still shown but separated into their own section
+# ---------------------------------------------------------------------------
+
+BIG_COMPANIES = {
+    "coinbase", "kraken", "binance", "gemini", "crypto.com", "crypto com",
+    "okx", "bitfinex", "bitmex", "robinhood", "ripple", "circle",
+    "galaxy", "galaxy digital", "jpmorgan", "jpmorgan chase co",
+    "goldman sachs", "deloitte", "amazon", "amazon web services",
+    "coindesk", "consensys", "chainalysis", "fireblocks", "anchorage",
+    "anchorage digital", "bitgo", "ledger", "trezor", "polygon labs",
+    "chainlink labs", "stellar development foundation", "ethereum foundation",
+    "solana foundation", "sui foundation", "ava labs", "aptos labs",
+    "animoca brands", "grayscale", "ark invest", "bitwise",
+    "trm labs", "elliptic", "nansen", "messari",
+}
+
+# ---------------------------------------------------------------------------
 # Direct company careers pages
 # ---------------------------------------------------------------------------
 
@@ -1412,6 +1528,12 @@ SCRAPERS = [
     scrape_blockchain_works,
     scrape_builtin_web3,
     scrape_crypto_jobs_ch,
+    scrape_fabric_vc,
+    scrape_octopus,
+    scrape_base_hirechain,
+    scrape_venturecapitalcareers,
+    scrape_defi_jobs_xyz,
+    scrape_cryptojobs_com,
 ]
 
 # ---------------------------------------------------------------------------
@@ -1476,27 +1598,17 @@ def run(reset: bool = False) -> list[dict]:
         print(f"*Web3 Jobs — {datetime.now().strftime('%d %b %Y')}*\nNo new jobs since last run.")
         return all_new
 
-    lines = [
-        f"🆕 <b>Web3 Jobs — {datetime.now().strftime('%d %b %Y %H:%M')}</b>",
-        f"<i>{len(all_new)} new jobs</i>",
-        "",
-    ]
-
-    for job in all_new:
+    def format_job_block(job: dict) -> list:
         title   = job.get("title", "").strip()
         company = apply_company_fixes(job.get("company", "").strip())
         loc     = clean_location(job.get("location", ""))
         sal     = job.get("salary", "").strip()
         url     = job.get("url", "").strip()
-
-        # Clean URL for display - strip fragments, anchors, tracking params
         display_url = clean_display_url(url)
-        # For LinkedIn, keep only the clean base job URL
         if "linkedin.com" in display_url:
             m = re.search(r"(https://[a-z.]*linkedin\.com/jobs/view/[a-z0-9-]+-\d+)", url)
             if m:
                 display_url = m.group(1)
-
         block = [f"<b>{title}</b>"]
         if company:
             block.append(f"🏢 {company}")
@@ -1506,10 +1618,39 @@ def run(reset: bool = False) -> list[dict]:
             block.append(f"📍 {loc}")
         block.append(f"🔗 {display_url}")
         block.append("")
+        return block
 
-        lines.extend(block)
+    # Split into regular jobs and big company jobs
+    regular_jobs, big_co_jobs = [], []
+    for job in all_new:
+        company_lower = apply_company_fixes(job.get("company", "")).lower().strip()
+        if company_lower in BIG_COMPANIES:
+            big_co_jobs.append(job)
+        else:
+            regular_jobs.append(job)
 
-    print("\n".join(lines))
+    # Output 1: Regular jobs (smaller / more targeted companies)
+    if regular_jobs:
+        lines = [
+            f"🆕 <b>Web3 Jobs — {datetime.now().strftime('%d %b %Y %H:%M')}</b>",
+            f"<i>{len(regular_jobs)} new jobs</i>",
+            "",
+        ]
+        for job in regular_jobs:
+            lines.extend(format_job_block(job))
+        print("\n".join(lines))
+
+    # Output 2: Big company jobs as a clearly labelled separate block
+    if big_co_jobs:
+        big_lines = [
+            f"🏦 <b>Big Co Jobs — {datetime.now().strftime('%d %b %Y %H:%M')}</b>",
+            f"<i>{len(big_co_jobs)} roles from larger companies</i>",
+            "",
+        ]
+        for job in big_co_jobs:
+            big_lines.extend(format_job_block(job))
+        print("\n".join(big_lines))
+
     return all_new
 
 
