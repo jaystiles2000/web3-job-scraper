@@ -2,7 +2,7 @@ name: Web3 Job & Raises Scraper
 
 on:
   schedule:
-    - cron: '0 */2 * * *'
+    - cron: '0 9 * * *'
   workflow_dispatch:
 
 jobs:
@@ -28,11 +28,11 @@ jobs:
           key: seen-data-${{ github.run_id }}
           restore-keys: seen-data-
 
-      - name: Run scraper
+      - name: Run job scraper
         run: python web3_job_scraper.py > jobs_digest.txt 2>/dev/null
 
       - name: Run raises scraper
-        run: python raises_scraper.py > raises_digest.txt
+        run: python raises_scraper.py > raises_digest.txt 2>/dev/null
 
       - name: Send jobs to Telegram
         run: |
@@ -81,16 +81,7 @@ jobs:
               print("No new raises to send")
               exit(0)
 
-          # Strip HTML tags and deduplicate lines
           body = re.sub(r'<[^>]+>', '', body)
-          seen_lines = set()
-          deduped = []
-          for line in body.splitlines():
-              if line not in seen_lines:
-                  seen_lines.add(line)
-                  deduped.append(line)
-          body = "\n".join(deduped)
-
           chunks = [body[i:i+4000] for i in range(0, len(body), 4000)]
           for chunk in chunks:
               if not chunk.strip():
