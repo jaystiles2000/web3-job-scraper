@@ -1,8 +1,8 @@
-name: Web3 Job & Raises Scraper
+name: Web3 Job Scraper
 
 on:
   schedule:
-    - cron: '0 9 * * *'
+    - cron: '0 8 * * *'
   workflow_dispatch:
 
 jobs:
@@ -22,22 +22,17 @@ jobs:
       - name: Restore caches
         uses: actions/cache@v4
         with:
-          path: |
-            seen_jobs.json
-            seen_raises.json
+          path: seen_jobs.json
           key: seen-data-${{ github.run_id }}
           restore-keys: seen-data-
 
       - name: Run job scraper
-        run: python web3_job_scraper.py > jobs_digest.txt 2>/dev/null
-
-      - name: Run raises scraper
-        run: python raises_scraper.py > raises_digest.txt 2>/dev/null
+        run: python web3_job_scraper.py > jobs_digest.txt
 
       - name: Send jobs to Telegram
         run: |
           python - <<'EOF'
-          import urllib.request, json, os, re
+          import urllib.request, json, os
 
           token = os.environ['TELEGRAM_TOKEN']
           chat_id = os.environ['TELEGRAM_CHAT_ID']
@@ -47,14 +42,15 @@ jobs:
               print("No new jobs to send")
               exit(0)
 
-          body = re.sub(r'<[^>]+>', '', body)
           chunks = [body[i:i+4000] for i in range(0, len(body), 4000)]
           for chunk in chunks:
               if not chunk.strip():
                   continue
               data = json.dumps({
                   "chat_id": chat_id,
-                  "text": chunk
+                  "text": chunk,
+                  "parse_mode": "HTML",
+                  "disable_web_page_preview": True
               }).encode()
               req = urllib.request.Request(
                   f"https://api.telegram.org/bot{token}/sendMessage",
@@ -67,37 +63,3 @@ jobs:
         env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-
-      - name: Send raises to Telegram
-        run: |
-          python - <<'EOF'
-          import urllib.request, json, os, re
-
-          token = os.environ['TELEGRAM_RAISES_TOKEN']
-          chat_id = os.environ['TELEGRAM_RAISES_CHAT_ID']
-          body = open("raises_digest.txt").read().strip()
-
-          if not body or "No new raises" in body:
-              print("No new raises to send")
-              exit(0)
-
-          body = re.sub(r'<[^>]+>', '', body)
-          chunks = [body[i:i+4000] for i in range(0, len(body), 4000)]
-          for chunk in chunks:
-              if not chunk.strip():
-                  continue
-              data = json.dumps({
-                  "chat_id": chat_id,
-                  "text": chunk
-              }).encode()
-              req = urllib.request.Request(
-                  f"https://api.telegram.org/bot{token}/sendMessage",
-                  data=data,
-                  headers={"Content-Type": "application/json"}
-              )
-              urllib.request.urlopen(req)
-          print("Raises sent!")
-          EOF
-        env:
-          TELEGRAM_RAISES_TOKEN: ${{ secrets.TELEGRAM_RAISES_TOKEN }}
-          TELEGRAM_RAISES_CHAT_ID: ${{ secrets.TELEGRAM_RAISES_CHAT_ID }}
