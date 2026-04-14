@@ -42,13 +42,37 @@ jobs:
               print("No new jobs to send")
               exit(0)
 
-          chunks = [body[i:i+4000] for i in range(0, len(body), 4000)]
-          for chunk in chunks:
-              if not chunk.strip():
-                  continue
+          # Split on blank lines (job boundaries) so we never cut inside an HTML tag.
+          # Accumulate complete job blocks until we'd exceed 4000 chars, then send.
+          import time
+          blocks = body.split("\n\n")
+          chunk = ""
+          sent = 0
+          for block in blocks:
+              candidate = (chunk + "\n\n" + block).strip() if chunk else block
+              if len(candidate) > 4000:
+                  if chunk.strip():
+                      data = json.dumps({
+                          "chat_id": chat_id,
+                          "text": chunk.strip(),
+                          "parse_mode": "HTML",
+                          "disable_web_page_preview": True
+                      }).encode()
+                      req = urllib.request.Request(
+                          f"https://api.telegram.org/bot{token}/sendMessage",
+                          data=data,
+                          headers={"Content-Type": "application/json"}
+                      )
+                      urllib.request.urlopen(req)
+                      sent += 1
+                      time.sleep(0.5)
+                  chunk = block
+              else:
+                  chunk = candidate
+          if chunk.strip():
               data = json.dumps({
                   "chat_id": chat_id,
-                  "text": chunk,
+                  "text": chunk.strip(),
                   "parse_mode": "HTML",
                   "disable_web_page_preview": True
               }).encode()
@@ -58,7 +82,8 @@ jobs:
                   headers={"Content-Type": "application/json"}
               )
               urllib.request.urlopen(req)
-          print("Jobs sent!")
+              sent += 1
+          print(f"Jobs sent in {sent} message(s)!")
           EOF
         env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
