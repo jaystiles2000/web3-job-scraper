@@ -10,6 +10,7 @@ Requirements:
     pip install requests beautifulsoup4 feedparser lxml
 """
 
+import html
 import json
 import re
 import sys
@@ -1747,14 +1748,14 @@ def run(reset: bool = False) -> list[dict]:
     # ---------------------------------------------------------------------------
 
     if not all_new:
-        print(f"*Web3 Jobs — {datetime.now().strftime('%d %b %Y')}*\nNo new jobs since last run.")
+        print(f"<b>Web3 Jobs — {datetime.now().strftime('%d %b %Y')}</b>\nNo new jobs since last run.")
         return all_new
 
     def format_job_block(job: dict) -> list:
-        title   = job.get("title", "").strip()
-        company = apply_company_fixes(job.get("company", "").strip())
-        loc     = clean_location(job.get("location", ""))
-        sal     = job.get("salary", "").strip()
+        title   = html.escape(job.get("title", "").strip())
+        company = html.escape(apply_company_fixes(job.get("company", "").strip()))
+        loc     = html.escape(clean_location(job.get("location", "")))
+        sal     = html.escape(job.get("salary", "").strip())
         url     = job.get("url", "").strip()
         display_url = clean_display_url(url)
         if "linkedin.com" in display_url:
