@@ -246,6 +246,7 @@ BLOCKED_COMPANIES = {
     "delta exchange",  # Indian crypto exchange, not web3 native
     "employinc", "employ inc",
     "fullcircl", "ncino",  # Non-crypto from general VC portfolios
+    "zscaler",  # Enterprise security, not web3
 }
 
 
@@ -633,19 +634,27 @@ def scrape_base_hirechain()   -> list[dict]: return _getro("basehirechain",   "B
 
 
 def scrape_venturecapitalcareers() -> list[dict]:
-    """VentureCapitalCareers.com - VC portfolio jobs."""
+    """VentureCapitalCareers.com - VC portfolio jobs.
+    Real job URLs are /companies/{firm}/jobs/{slug}.
+    Skip taxonomy pages (/jobs/skills/*, /jobs/category) which have the same selector."""
     jobs, seen_urls = [], set()
     r = get("https://venturecapitalcareers.com/jobs")
     if not r: return jobs
-    for a in soup(r).select("a[href*='/jobs/'], a[href*='/job/']"):
-        title = clean(a.get_text())
+    for a in soup(r).select("a[href*='/companies/']"):
         href = a.get("href", "")
+        # Must match /companies/{firm}/jobs/{slug} pattern
+        if not re.search(r"/companies/[^/]+/jobs/[^/]+", href):
+            continue
         if not href.startswith("http"):
             href = "https://venturecapitalcareers.com" + href
-        if "venturecapitalcareers.com" not in href: continue
         norm = normalise_url(href)
         if norm in seen_urls: continue
         seen_urls.add(norm)
+        title = clean(a.get_text())
+        if not title or len(title) < 5:
+            # Title not on the link itself — derive from URL slug
+            slug = href.rstrip("/").split("/jobs/")[-1]
+            title = re.sub(r"[^a-z0-9]+", " ", slug).strip().title()
         if is_real_job(title, href) and not is_intern(title):
             jobs.append({"title": title, "company": "", "url": href, "source": "VCCareers"})
     return jobs
@@ -819,12 +828,17 @@ def scrape_web3career() -> list[dict]:
     if not r: return jobs
     s = soup(r)
     for row in s.select("tr[data-jobid], div[data-jobid]"):
+        # Title lives in the <h2> inside .job-title-mobile; the first <a> often
+        # has no visible text (it wraps a logo or icon), so grab title first.
+        h2 = row.find("h2")
+        title = clean(h2.get_text()) if h2 else ""
+        if not title or len(title) < 5:
+            continue
         a = row.find("a", href=True)
         if not a: continue
         href = a["href"]
         if not href.startswith("http"):
             href = "https://web3.career" + href
-        title = clean(a.get_text())
         norm = normalise_url(href)
         if norm in seen_urls: continue
         seen_urls.add(norm)
@@ -1517,7 +1531,9 @@ def scrape_company_ashby(company: str, slug: str) -> list[dict]:
                     continue
                 if is_intern(title):
                     continue
-                url = f"https://jobs.ashbyhq.com/{decoded_slug}/{job_id}"
+                # Keep slug URL-safe: replace %20 (encoded spaces) with hyphens
+                url_slug = slug.replace("%20", "-")
+                url = f"https://jobs.ashbyhq.com/{url_slug}/{job_id}"
                 location = job.get("locationName", "") or ""
                 jobs.append({
                     "title": title,
