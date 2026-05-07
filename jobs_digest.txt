@@ -1,152 +1,111 @@
-🆕 <b>Web3 Jobs — 06 May 2026 21:01</b>
-<i>27 new jobs</i>
+🆕 <b>Web3 Jobs — 07 May 2026 07:51</b>
+<i>36 new jobs</i>
+
+<b>Senior Security Engineer (GRC)</b>
+🔗 https://myweb3jobs.com/job/senior-security-engineer-grc
+
+<b>Senior Machine Learning Engineer</b>
+🔗 https://myweb3jobs.com/job/senior-machine-learning-engineer
+
+<b>Senior Counsel: Product, Payments &amp; Compliance</b>
+🔗 https://myweb3jobs.com/job/senior-counsel-product-payments-compliance
+
+<b>Payment Processing Specialist – Taiwan</b>
+🔗 https://myweb3jobs.com/job/payment-processing-specialist-taiwan
 
 <b>General Manager (Bitso Business)</b>
-🏢 Bitso
-🔗 https://jobs.safary.club/jobs/companies/bitso/jobs/77571038-general-manager-bitso-business
+🔗 https://mx.linkedin.com/jobs/view/general-manager-bitso-business-at-bitso-4410936974
 
-<b>Senior Product Marketing Manager</b>
-🏢 Bvnk
-🔗 https://jobs.safary.club/jobs/companies/bvnk/jobs/77550937-senior-product-marketing-manager
+<b>Staff Platform Engineer, EU</b>
+🔗 https://hu.linkedin.com/jobs/view/staff-platform-engineer-eu-at-ashby-4409934726
 
-<b>Partnership Marketing Manager, Sports</b>
-🏢 Polymarket
-🔗 https://jobs.safary.club/jobs/companies/polymarket/jobs/77501209-partnership-marketing-manager-sports
+<b>Staff Platform Engineer, UK</b>
+🔗 https://uk.linkedin.com/jobs/view/staff-platform-engineer-uk-at-ashby-4408497987
 
-<b>Head of Partnership Marketing</b>
-🏢 Polymarket
-🔗 https://jobs.safary.club/jobs/companies/polymarket/jobs/77501206-head-of-partnership-marketing
+<b>Staff Platform Engineer, UK</b>
+🔗 https://uk.linkedin.com/jobs/view/staff-platform-engineer-uk-at-ashby-4408498962
 
-<b>Partnership Marketing Manager, Creators &amp; Culture</b>
-🏢 Polymarket
-🔗 https://jobs.safary.club/jobs/companies/polymarket/jobs/77501207-partnership-marketing-manager-creators-culture
+<b>Staff Platform Engineer, UK</b>
+🔗 https://uk.linkedin.com/jobs/view/staff-platform-engineer-uk-at-ashby-4409934728
 
-<b>Senior Security Engineer (GRC)</b>
-🏢 Offchain Labs
-🔗 https://jobs.delphiventures.io/jobs/companies/offchain-labs/jobs/77490786-senior-security-engineer-grc
+<b>Staff Platform Engineer, UK</b>
+🔗 https://uk.linkedin.com/jobs/view/staff-platform-engineer-uk-at-ashby-4409937576
 
-<b>AI Secops Tech-lead</b>
-🔗 https://il.linkedin.com/jobs/view/ai-secops-tech-lead-at-fireblocks-4376802083
+<b>Sales Leader, Enterprise - Americas (West)</b>
+🔗 https://www.linkedin.com/jobs/view/sales-leader-enterprise-americas-west-at-ashby-4407989879
 
-<b>Frontend / Full-Stack Engineer</b>
-🏢 Inca Digital
-🔗 https://venturecareers.galaxy.com/jobs/companies/inca-digital-2/jobs/77530506-frontend-full-stack-engineer
+<b>Staff Platform Engineer, UK</b>
+🔗 https://uk.linkedin.com/jobs/view/staff-platform-engineer-uk-at-ashby-4408811068
 
-<b>Advanced Analytics Crypto Expert</b>
-🏢 Inca Digital
-🔗 https://venturecareers.galaxy.com/jobs/companies/inca-digital-2/jobs/77530507-advanced-analytics-crypto-expert
+<b>Staff Platform Engineer, UK</b>
+🔗 https://uk.linkedin.com/jobs/view/staff-platform-engineer-uk-at-ashby-4409931781
 
-<b>Golang software Engineer（RWA）</b>
-🏢 Matrixport
-🔗 https://jobs.polychain.capital/jobs/companies/matrixport/jobs/77575852-golang-software-engineer-rwa
+<b>Senior Product Engineer, Canada</b>
+🔗 https://ca.linkedin.com/jobs/view/senior-product-engineer-canada-at-ashby-4403327645
 
-<b>Sales and Business Development Manager</b>
-🏢 Matrixport
-🔗 https://jobs.polychain.capital/jobs/companies/matrixport/jobs/77575844-sales-and-business-development-manager
+<b>Staff Platform Engineer, EU</b>
+🔗 https://nl.linkedin.com/jobs/view/staff-platform-engineer-eu-at-ashby-4409929760
 
-<b>Graduate Hiring - Software Engineer (Golang)</b>
-🏢 Matrixport
-🔗 https://jobs.polychain.capital/jobs/companies/matrixport/jobs/77575846-graduate-hiring-software-engineer-golang
+<b>Staff Platform Engineer, EU</b>
+🔗 https://pt.linkedin.com/jobs/view/staff-platform-engineer-eu-at-ashby-4409949129
 
-<b>Graduate Hiring - Golang Engineer (RWA)</b>
-🏢 Matrixport
-🔗 https://jobs.polychain.capital/jobs/companies/matrixport/jobs/77575848-graduate-hiring-golang-engineer-rwa
+<b>Staff Platform Engineer, EU</b>
+🔗 https://de.linkedin.com/jobs/view/staff-platform-engineer-eu-at-ashby-4408806747
 
-<b>Azure Cloud Engineer</b>
-🏢 Mesh
-🔗 https://jobs.dragonfly.xyz/companies/mesh-3-4c0b4eec-edf3-4d43-a3fd-b9ad65e53b32/jobs/77599337-azure-cloud-engineer
+<b>Staff Platform Engineer, EU</b>
+🔗 https://no.linkedin.com/jobs/view/staff-platform-engineer-eu-at-ashby-4408802886
 
-<b>DevOps Engineer</b>
-🏢 Avail
-🔗 https://jobs.dragonfly.xyz/companies/avail-2-f795bc57-68fb-419f-a2d5-8e48c5d6b404/jobs/77551972-devops-engineer
+<b>Staff Platform Engineer, EU</b>
+🔗 https://at.linkedin.com/jobs/view/staff-platform-engineer-eu-at-ashby-4409939579
 
-<b>Senior Security Engineer (GRC)</b>
-🏢 Arbitrum
-🔗 https://jobs.theblockchainassociation.org/jobs/companies/arbitrum-2-257690d4-4404-495e-b8be-982cfb04bde0/jobs/77550371-senior-security-engineer-grc
+<b>Manager of Dedicated Implementations - EMEA</b>
+🔗 https://uk.linkedin.com/jobs/view/manager-of-dedicated-implementations-emea-at-ashby-4408949828
 
-<b>Decentralised Messaging Engineer - Rust</b>
-🔗 https://cryptocurrencyjobs.co/engineering/logos-decentralised-messaging-engineer-rust
+<b>Manager of Dedicated Implementations - EMEA</b>
+🔗 https://uk.linkedin.com/jobs/view/manager-of-dedicated-implementations-emea-at-ashby-4408960442
 
-<b>DeFi Analyst and Educator</b>
-🔗 https://cryptocurrencyjobs.co/other/decentralized-masters-defi-analyst-and-educator
+<b>Engineering Manager, EU</b>
+🔗 https://at.linkedin.com/jobs/view/engineering-manager-eu-at-ashby-4409933734
 
-<b>Senior Finance Tax Manager</b>
-🔗 https://web3.career/senior-finance-tax-manager-binance/149209
+<b>Engineering Manager, EU</b>
+🔗 https://fr.linkedin.com/jobs/view/engineering-manager-eu-at-ashby-4408805856
 
-<b>IT Operations Engineer</b>
-🏢 OP Labs
-📍 New York
-🔗 https://jobs.ashbyhq.com/oplabs/23222036-ddb7-4d5d-819c-9eaa8e7e0ffd
+<b>Business Development Manager China APAC</b>
+🔗 https://web3.career/business-development-manager-china-apac-adsgram/149219
 
-<b>Data Platform Engineer</b>
-🏢 Sardine
-📍 Brazil
-🔗 https://jobs.ashbyhq.com/sardine/b9bd5dbd-0c15-4357-9097-29693c0db675
+<b>Blockchain Web3 Engineer</b>
+🔗 https://web3.career/blockchain-web3-engineer-tataconsultancyservices/149217
 
-<b>Head of Investor Relations &amp; Ecosystem Growth</b>
-🏢 Tools for Humanity
-📍 San Francisco
-🔗 https://jobs.ashbyhq.com/tools-for-humanity/e1bd95ce-63ca-45d8-acac-665eb93537dc
+<b>Institutional BD – DeFi Lending 0786C0F</b>
+🔗 https://web3.career/institutional-bd-defi-lending-0786c0f-referment/149216
 
-<b>DevRel Engineer (London/Berlin/SF)</b>
-🔗 https://blockchain.works-hub.com/jobs/remote-devrel-engineer-europe-a30
+<b>Senior Product Manager TradingCrypto.com App</b>
+🔗 https://web3.career/senior-product-manager-trading-crypto-com-app-crypto-com/149215
 
-<b>Lead Analyst, Product Compliance</b>
-🔗 https://builtin.com/job/lead-analyst-product-compliance/9266378
+<b>Senior Corporate Secretary Officer Singapore</b>
+🔗 https://web3.career/senior-corporate-secretary-officer-singapore-crypto-com/149214
 
-<b>Compliance Associate</b>
-🔗 https://builtin.com/job/compliance-associate/7170942
+<b>Senior Corporate Secretary Officer</b>
+🔗 https://web3.career/senior-corporate-secretary-officer-crypto-com/149213
 
-<b>Senior Backend Developer (Norway)</b>
-🔗 https://www.cryptojobs.com/job/senior-backend-developer-norway-12361
+<b>Senior QA Engineer Margin Rust Java</b>
+🔗 https://web3.career/senior-qa-engineer-margin-rust-java-binance/149212
 
-<b>Financial Risk Data Analyst</b>
-🔗 https://www.cryptojobs.com/job/financial-risk-data-analyst-12360
+<b>Business Partnership Manager Fiat</b>
+🔗 https://web3.career/business-partnership-manager-fiat-binance/149211
 
-🏦 <b>Big Co Jobs — 06 May 2026 21:01</b>
-<i>10 roles from larger companies</i>
+<b>Senior Partnerships Representative</b>
+🔗 https://web3.career/senior-partnerships-representative-openzeppelin/149210
 
-<b>Business Development Manager, Affiliate (Vietnam)</b>
-🏢 Okx
-🔗 https://jobs.safary.club/jobs/companies/okx/jobs/77491250-business-development-manager-affiliate-vietnam
+<b>Forward Deployed Engineer</b>
+🔗 https://builtin.com/job/forward-deployed-engineer/8778097
 
-<b>Senior Software Engineer, Platform Security</b>
-🏢 Fireblocks
-🔗 https://venturecareers.galaxy.com/jobs/companies/fireblocks/jobs/77582183-senior-software-engineer-platform-security
+<b>Senior Associate, Partner Marketing</b>
+🔗 https://builtin.com/job/senior-associate-partner-marketing/8764045
 
-<b>Senior Java Developer (Trading Platform), Canada</b>
-🏢 Crypto Com
-🔗 https://jobs.theblockchainassociation.org/jobs/companies/crypto-com/jobs/77532887-senior-java-developer-trading-platform-canada
+<b>Partner Development Associate, Alliance Program</b>
+🔗 https://builtin.com/job/partner-development-associate-alliance-program/9021733
 
-<b>Principal Product Manager - Verification &amp; Activation(Exchange)</b>
-🏢 Crypto Com
-🔗 https://jobs.theblockchainassociation.org/jobs/companies/crypto-com/jobs/77532882-principal-product-manager-verification-activation-exchange
-
-<b>Principal Product Manager - Discovery &amp; Onboarding(Exchange)</b>
-🏢 Crypto Com
-🔗 https://jobs.theblockchainassociation.org/jobs/companies/crypto-com/jobs/77532875-principal-product-manager-discovery-onboarding-exchange
-
-<b>Application Support Engineer, Canada, OEX</b>
-🏢 Crypto Com
-🔗 https://jobs.theblockchainassociation.org/jobs/companies/crypto-com/jobs/77532871-application-support-engineer-canada-oex
-
-<b>Senior Full-Stack Software Engineer (Azure &amp;.NET)</b>
-🏢 Ripple
-📍 Chicago
-🔗 https://ripple.com/careers/all-jobs/job/7896217?gh_jid=7896217
-
-<b>Staff Full-Stack Software Engineer (.NET &amp; Azure)</b>
-🏢 Ripple
-📍 Chicago
-🔗 https://ripple.com/careers/all-jobs/job/7896103?gh_jid=7896103
-
-<b>Senior Associate, Treasury Operations</b>
-🏢 Gemini
-📍 Singapore
-🔗 https://boards.greenhouse.io/embed/job_app?for=gemini&token=7899536&gh_jid=7899536
-
-<b>Senior AI Software Engineer, AI Core</b>
-🏢 Chainalysis
-📍 New York
-🔗 https://jobs.ashbyhq.com/chainalysis-careers/5916350a-b06b-42c3-9bfe-7666fb3647f7
+<b>Head of Fund Accounting</b>
+🔗 https://venturecapitalcareers.com/companies/stepstone-group/jobs/head-of-fund-accounting
 
