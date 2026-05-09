@@ -1,6 +1,215 @@
-🆕 <b>Web3 Jobs — 08 May 2026 09:04</b>
-<i>1 new jobs</i>
+🆕 <b>Web3 Jobs — 09 May 2026 09:07</b>
+<i>50 new jobs</i>
 
-<b>Software Engineer, DevSec</b>
-🔗 https://builtin.com/job/software-engineer-devsec/8541767
+<b>(Senior) Benefits Manager</b>
+🔗 https://myweb3jobs.com/job/senior-benefits-manager
+
+<b>Senior Paralegal</b>
+🔗 https://myweb3jobs.com/job/senior-paralegal
+
+<b>Partnership Marketing Manager, Sports</b>
+🔗 https://myweb3jobs.com/job/partnership-marketing-manager-sports
+
+<b>Partnership Marketing Manager, Creators &amp; Culture</b>
+🔗 https://myweb3jobs.com/job/partnership-marketing-manager-creators-culture
+
+<b>Engagement Manager, AI Implementations</b>
+🔗 https://myweb3jobs.com/job/engagement-manager-ai-implementations
+
+<b>Business Development Specialist, Fintech</b>
+🏢 Sky Mavis
+🔗 https://jobs.safary.club/jobs/companies/sky-mavis/jobs/77910382-business-development-specialist-fintech
+
+<b>Senior Solutions Consultant</b>
+🏢 Front Finance
+🔗 https://venturecareers.galaxy.com/jobs/companies/front-finance/jobs/77940495-senior-solutions-consultant
+
+<b>Product Manager</b>
+🏢 Centrifuge
+🔗 https://venturecareers.galaxy.com/jobs/companies/centrifuge-2/jobs/77939293-product-manager
+
+<b>Head of Security</b>
+🏢 Turnkey
+🔗 https://venturecareers.galaxy.com/jobs/companies/turnkey-2-4f6ca511-a698-4f15-85d5-b69ad67e3efe/jobs/77936199-head-of-security
+
+<b>Head of Financial Crimes Risk Management</b>
+🏢 Rain
+🔗 https://venturecareers.galaxy.com/jobs/companies/rain-2-39e6e164-4dce-42b8-ad8a-e4bda2a0a071/jobs/77870000-head-of-financial-crimes-risk-management
+
+<b>Lending Quality Assurance Analyst</b>
+🏢 Figure
+🔗 https://jobs.jumpcrypto.com/jobs/companies/figure/jobs/77919860-lending-quality-assurance-analyst
+
+<b>Communications Specialist</b>
+🏢 Bitpanda
+🔗 https://jobs.jumpcrypto.com/jobs/companies/bitpanda/jobs/77915448-communications-specialist
+
+<b>Teamlead Accounting &amp; Finance (m/f/d)</b>
+🏢 Join 3
+🔗 https://jobs.coinfund.io/jobs/companies/join-3/jobs/77961323-teamlead-accounting-finance-m-f-d
+
+<b>Senior Paralegal</b>
+🏢 Blockdaemon
+🔗 https://jobs.coinfund.io/jobs/companies/blockdaemon/jobs/77918762-senior-paralegal
+
+<b>Business Development &amp; FX Sales Lead</b>
+🏢 Nestcoin
+🔗 https://jobs.electriccapital.com/jobs/companies/nestcoin/jobs/77892025-business-development-fx-sales-lead
+
+<b>Senior Solutions Consultant</b>
+🏢 Mesh
+🔗 https://jobs.dragonfly.xyz/companies/mesh-3-4c0b4eec-edf3-4d43-a3fd-b9ad65e53b32/jobs/77961012-senior-solutions-consultant
+
+<b>Clearing Associate</b>
+🏢 Jump Crypto
+🔗 https://jobs.theblockchainassociation.org/jobs/companies/jump-crypto/jobs/77938941-clearing-associate
+
+<b>Chief Compliance Officer, US Regulated Entities</b>
+🏢 Bullish
+🔗 https://jobs.theblockchainassociation.org/jobs/companies/bullish-2/jobs/77910928-chief-compliance-officer-us-regulated-entities
+
+<b>Senior Financial Accountant</b>
+🏢 Flowtraders
+🔗 https://jobs.theblockchainassociation.org/jobs/companies/flowtraders/jobs/77881820-senior-financial-accountant
+
+<b>Senior Frontend Engineer</b>
+🔗 https://cryptocurrencyjobs.co/engineering/uniswap-senior-front-end-engineer
+
+<b>Product Marketing Manager</b>
+🔗 https://cryptocurrencyjobs.co/marketing/bitgo-product-marketing-manager
+
+<b>Account Executive, Enterprise</b>
+🔗 https://cryptocurrencyjobs.co/sales/alchemy-account-executive-enterprise
+
+<b>Business Development Manager, Blockchain and DeFi Ecosystem</b>
+🔗 https://cryptocurrencyjobs.co/sales/fireblocks-business-development-manager-blockchain-and-defi-ecosystem
+
+<b>People and Recruiting Operations Manager</b>
+🔗 https://cryptocurrencyjobs.co/operations/world-people-and-recruiting-operations-manager
+
+<b>Head of Growth</b>
+🔗 https://web3.career/head-of-growth-ooblestudio/149287
+
+<b>Head of Financial Crimes Risk Management</b>
+🔗 https://web3.career/head-of-financial-crimes-risk-management-rain/149286
+
+<b>Technical Support Expert</b>
+🔗 https://web3.career/technical-support-expert-wallet/149285
+
+<b>Community Manager</b>
+🔗 https://web3.career/community-manager-oldharmony/149282
+
+<b>Business Development Manager Blockchain and DeFi Ecosystem</b>
+🔗 https://web3.career/business-development-manager-blockchain-and-defi-ecosystem-fireblocks/149281
+
+<b>Partnerships Lead Blockchain Infrastructure</b>
+🔗 https://web3.career/partnerships-lead-blockchain-infrastructure-oplabspbc/149280
+
+<b>Crypto Solutions Architect – Digital Assets Blockchain</b>
+🔗 https://web3.career/crypto-solutions-architect-digital-assets-blockchain-useready/149277
+
+<b>Senior Product Manager Tokenization</b>
+🔗 https://web3.career/senior-product-manager-tokenization-zerohash/149276
+
+<b>Senior Smart Contract Engineer</b>
+🔗 https://web3.career/senior-smart-contract-engineer-uniswap/149275
+
+<b>Senior Social Media Strategist: Web3 Emerging Tech</b>
+🔗 https://web3.career/senior-social-media-strategist-web3-emerging-tech-partnerverse/149274
+
+<b>Head of Digital Assets</b>
+🔗 https://web3.career/head-of-digital-assets-rqd-clearing/149273
+
+<b>Product Manager Digital Assets — Tokenization</b>
+🔗 https://web3.career/product-manager-digital-assets-tokenization-nasdaq/149270
+
+<b>Web3 Social Media Manager Blockchain project</b>
+🔗 https://web3.career/web3-social-media-manager-for-blockchain-project-autheo/149268
+
+<b>Growth Hacker [Web3.0 Only]</b>
+🔗 https://web3.career/growth-hacker-web3-0-only-partnerverse/149267
+
+<b>Blockchain Developer</b>
+🔗 https://web3.career/blockchain-developer-genesisngn/149266
+
+<b>Operations Manager</b>
+🏢 M^0 Labs
+📍 Remote
+🔗 https://job-boards.greenhouse.io/m0dbathenextthingltd/jobs/4244015009
+
+<b>Account Executive</b>
+🏢 Sardine
+📍 North America
+🔗 https://jobs.ashbyhq.com/sardine/26af9b11-9fc8-4098-8bd2-73e7aa7dbdbd
+
+<b>Global Payroll Manager</b>
+🏢 Tools for Humanity
+📍 San Francisco
+🔗 https://jobs.ashbyhq.com/tools-for-humanity/fec4e715-0e4d-482c-97f8-cb0c26d72f36
+
+<b>Senior Fraud Engineer</b>
+🏢 Tools for Humanity
+📍 San Francisco
+🔗 https://jobs.ashbyhq.com/tools-for-humanity/977184cf-3f52-4252-a91f-5a312914f759
+
+<b>Senior/Staff Backend Engineer</b>
+🏢 Blackbird
+📍 New York
+🔗 https://jobs.ashbyhq.com/blackbird-labs-inc/25a21dd6-d9d4-4b0a-b6b4-2c13efebd481
+
+<b>Senior/Staff Fullstack Engineer</b>
+🏢 Blackbird
+📍 New York
+🔗 https://jobs.ashbyhq.com/blackbird-labs-inc/7714b6bf-5633-43bc-8818-a9af6c5dfe10
+
+<b>Special Counsel, Payments</b>
+🔗 https://builtin.com/job/special-counsel-payments/8790314
+
+<b>Senior Data Protection Engineer</b>
+🔗 https://builtin.com/job/senior-data-protection-engineer/8794407
+
+<b>Venture Scout</b>
+🔗 https://venturecapitalcareers.com/companies/accelerate-ventures/jobs/venture-scout-2
+
+<b>Software Engineer II - SRE/ DevOps</b>
+🔗 https://www.cryptojobs.com/job/software-engineer-ii-sre-devops-12381
+
+<b>Associate, Strategic Finance</b>
+🔗 https://www.cryptojobs.com/job/associate-strategic-finance-12380
+
+🏦 <b>Big Co Jobs — 09 May 2026 09:07</b>
+<i>8 roles from larger companies</i>
+
+<b>Growth &amp; Development Analyst (Data Centers)</b>
+🏢 Galaxy
+🔗 https://jobs.safary.club/jobs/companies/galaxy-2/jobs/77953231-growth-development-analyst-data-centers
+
+<b>Binance Accelerator Program - Institutional Business Development</b>
+🏢 Binance
+🔗 https://jobs.safary.club/jobs/companies/binance-2/jobs/77936573-binance-accelerator-program-institutional-business-development
+
+<b>(Senior) Cloud Infrastructure Engineer / System &amp; Cloud Engineer</b>
+🏢 Crypto Com
+🔗 https://jobs.theblockchainassociation.org/jobs/companies/crypto-com/jobs/77953512-senior-cloud-infrastructure-engineer-system-cloud-engineer
+
+<b>Senior KYC Operations Analyst</b>
+🏢 Circle
+🔗 https://jobs.theblockchainassociation.org/jobs/companies/circle/jobs/77947916-senior-kyc-operations-analyst
+
+<b>Senior AML Analyst, Sanctions</b>
+🏢 Circle
+🔗 https://jobs.theblockchainassociation.org/jobs/companies/circle/jobs/77947914-senior-aml-analyst-sanctions
+
+<b>Senior Operations Manager, P2P</b>
+🏢 Okx
+🔗 https://jobs.theblockchainassociation.org/jobs/companies/okx/jobs/77906870-senior-operations-manager-p2p
+
+<b>(Senior) Benefits Manager</b>
+🏢 Chainlink Labs
+🔗 https://jobs.theblockchainassociation.org/jobs/companies/chainlink-labs/jobs/77890237-senior-benefits-manager
+
+<b>Head of Compliance, Gemini Galactic Markets, LLC</b>
+🏢 Gemini
+📍 New York
+🔗 https://boards.greenhouse.io/embed/job_app?for=gemini&token=7905022&gh_jid=7905022
 
