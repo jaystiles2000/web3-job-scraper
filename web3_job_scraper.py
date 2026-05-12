@@ -633,6 +633,217 @@ def scrape_octopus()          -> list[dict]: return _getro("octopusventures", "O
 def scrape_base_hirechain()   -> list[dict]: return _getro("basehirechain",   "Base Ecosystem",     "https://base.hirechain.io/")
 
 
+# ---------------------------------------------------------------------------
+# Solana ecosystem & VC additions
+#
+# These are best-effort scrapers for boards that don't fit the Getro / Ashby
+# / Greenhouse patterns. Each one wraps its own HTML scrape with conservative
+# selectors. Sources that don't expose a public listings URL today are kept
+# as stubs that return [] — the per-source try/except in run() means they
+# don't fail the overall scrape, and the stubs document the intent so we can
+# wire them up the moment they publish.
+# ---------------------------------------------------------------------------
+
+def scrape_superteam_earn() -> list[dict]:
+    """Superteam Earn — Solana ecosystem job + bounty board.
+    Listings live at earn.superteam.fun/all (and / for the home grid).
+    Each card is a <a> linking to /listings/{type}/{slug}."""
+    jobs, seen_urls = [], set()
+    for url in [
+        "https://earn.superteam.fun/all/",
+        "https://earn.superteam.fun/",
+    ]:
+        r = get(url)
+        if not r:
+            continue
+        s = soup(r)
+        for a in s.select("a[href*='/listings/']"):
+            href = a.get("href", "")
+            if not href:
+                continue
+            if not href.startswith("http"):
+                href = "https://earn.superteam.fun" + href
+            # Listing URLs look like /listings/project/slug or /listings/bounties/slug
+            if not re.search(r"/listings/[^/]+/[^/]+", href):
+                continue
+            norm = normalise_url(href)
+            if norm in seen_urls:
+                continue
+            seen_urls.add(norm)
+            title = clean(a.get_text())
+            if not title or len(title) < 4:
+                slug = href.rstrip("/").split("/")[-1]
+                title = re.sub(r"[^a-z0-9]+", " ", slug).strip().title()
+            # Company often shown as a sibling; try the parent's text
+            company = ""
+            parent = a.find_parent()
+            if parent:
+                ptext = clean(parent.get_text())
+                # Heuristic: company name usually appears after a "by" or before time-ago
+                m = re.search(r"\bby\s+([A-Z][^\n]{1,40})", ptext)
+                if m:
+                    company = clean_company(m.group(1))
+            if is_real_job(title, href) and not is_intern(title):
+                jobs.append({"title": title, "company": company, "url": href,
+                             "source": "Superteam Earn"})
+        if jobs:
+            break
+    return jobs
+
+
+def scrape_colosseum() -> list[dict]:
+    """Colosseum — Solana accelerator. Surfaces hiring at portfolio companies
+    via colosseum.org/companies and colosseum.org/jobs."""
+    jobs, seen_urls = [], set()
+    for url in [
+        "https://www.colosseum.org/jobs",
+        "https://colosseum.org/jobs",
+        "https://www.colosseum.com/jobs",
+    ]:
+        r = get(url)
+        if not r:
+            continue
+        s = soup(r)
+        for a in s.select("a[href]"):
+            href = a.get("href", "")
+            if not href:
+                continue
+            if not href.startswith("http"):
+                href = "https://www.colosseum.org" + href
+            # Only count outbound application links or per-job pages
+            if not any(x in href for x in ["/jobs/", "ashbyhq", "greenhouse", "lever.co", "/careers", "/apply"]):
+                continue
+            norm = normalise_url(href)
+            if norm in seen_urls:
+                continue
+            seen_urls.add(norm)
+            title = clean(a.get_text())
+            if not title or len(title) < 4:
+                continue
+            company = ""
+            m = re.search(r"ashbyhq\.com/([^/]+)/", href)
+            if m:
+                company = clean_company(m.group(1))
+            if is_real_job(title, href) and not is_intern(title):
+                jobs.append({"title": title, "company": company, "url": href,
+                             "source": "Colosseum"})
+        if jobs:
+            break
+    return jobs
+
+
+def scrape_hashed() -> list[dict]:
+    """Hashed — Korean fund, heavy Solana exposure.
+    Stub: no confirmed public listings page at time of writing. If they
+    publish one (e.g. hashed.com/jobs), add the URL + selector here."""
+    return []
+
+
+def scrape_foresight() -> list[dict]:
+    """Foresight Ventures — Solana ecosystem investor.
+    Stub: no confirmed public listings page. Watch foresightventures.com."""
+    return []
+
+
+def scrape_mechanism() -> list[dict]:
+    """Mechanism Capital — broader crypto with Solana exposure.
+    Stub: no confirmed public listings page. Watch mechanism.capital."""
+    return []
+
+
+def scrape_hackvc() -> list[dict]:
+    """Hack VC — careers page sometimes lists open roles. Best-effort scrape
+    of any outbound job links at hack.vc/talent or hack.vc/jobs."""
+    jobs, seen_urls = [], set()
+    for url in [
+        "https://hack.vc/jobs",
+        "https://hack.vc/talent",
+        "https://www.hack.vc/jobs",
+    ]:
+        r = get(url)
+        if not r:
+            continue
+        s = soup(r)
+        for a in s.select("a[href]"):
+            href = a.get("href", "")
+            if not href.startswith("http"):
+                continue
+            # Outbound to typical ATS hosts only
+            if not any(x in href for x in ["ashbyhq", "greenhouse.io", "lever.co", "boards.greenhouse", "workable.com"]):
+                continue
+            norm = normalise_url(href)
+            if norm in seen_urls:
+                continue
+            seen_urls.add(norm)
+            title = clean(a.get_text())
+            if not title or len(title) < 4:
+                continue
+            company = ""
+            m = re.search(r"ashbyhq\.com/([^/]+)/", href) or re.search(r"greenhouse\.io/(?:embed/job_app\?for=)?([^/?]+)", href) or re.search(r"lever\.co/([^/]+)/", href)
+            if m:
+                company = clean_company(m.group(1))
+            if is_real_job(title, href) and not is_intern(title):
+                jobs.append({"title": title, "company": company, "url": href,
+                             "source": "HackVC"})
+        if jobs:
+            break
+    return jobs
+
+
+def scrape_sino_global() -> list[dict]:
+    """Sino Global Capital — Asia-focused, Solana exposure.
+    Stub: no confirmed public listings page. Watch sinoglobal.capital."""
+    return []
+
+
+def scrape_1confirmation() -> list[dict]:
+    """1confirmation — Nick Tomaino's fund.
+    Stub: no confirmed public listings page. Watch 1confirmation.com."""
+    return []
+
+
+def scrape_robot_ventures() -> list[dict]:
+    """Robot Ventures — Robbie Ferguson's fund.
+    Stub: no confirmed public listings page. Watch robot.ventures."""
+    return []
+
+
+def scrape_workatastartup_v2() -> list[dict]:
+    """YC's Work at a Startup — many crypto companies. Their /companies/web3
+    page is the public-readable surface. Most data is JS-rendered, but
+    static fallback selectors sometimes catch <a href="/companies/{slug}">.
+    The earlier version returned 0; we keep this updated stub so a future
+    static rebuild starts working immediately."""
+    jobs, seen_urls = [], set()
+    for url in [
+        "https://www.workatastartup.com/companies?industry=Crypto+%2F+Web3",
+        "https://www.workatastartup.com/companies?industry=Crypto",
+    ]:
+        r = get(url)
+        if not r:
+            continue
+        s = soup(r)
+        for a in s.select("a[href*='/companies/']"):
+            href = a.get("href", "")
+            if not href.startswith("http"):
+                href = "https://www.workatastartup.com" + href
+            if "/companies/" not in href or href.endswith("/companies/"):
+                continue
+            norm = normalise_url(href)
+            if norm in seen_urls:
+                continue
+            seen_urls.add(norm)
+            title = clean(a.get_text())
+            if not title or len(title) < 4:
+                continue
+            if is_real_job(title, href) and not is_intern(title):
+                jobs.append({"title": title, "company": "", "url": href,
+                             "source": "Work at a Startup"})
+        if jobs:
+            break
+    return jobs
+
+
 def scrape_venturecapitalcareers() -> list[dict]:
     """VentureCapitalCareers.com - VC portfolio jobs.
     Real job URLs are /companies/{firm}/jobs/{slug}.
@@ -1687,6 +1898,17 @@ SCRAPERS = [
     scrape_venturecapitalcareers,
     scrape_defi_jobs_xyz,
     scrape_cryptojobs_com,
+    # Solana ecosystem + VC additions (best-effort; stubs return [])
+    scrape_superteam_earn,
+    scrape_colosseum,
+    scrape_hackvc,
+    scrape_workatastartup_v2,
+    scrape_hashed,
+    scrape_foresight,
+    scrape_mechanism,
+    scrape_sino_global,
+    scrape_1confirmation,
+    scrape_robot_ventures,
     # Removed (broken/blocked):
     # scrape_bitcoinerjobs   — API now requires key
     # scrape_bitcoinjobs     — silent 0, site restructured
@@ -1788,6 +2010,39 @@ def run(reset: bool = False) -> list[dict]:
         block.append(f"🔗 {display_url}")
         block.append("")
         return block
+
+    # Relevance score: rank Rust / Solana / senior IC roles to the top of the
+    # digest so the most important roles aren't buried at the bottom of a
+    # 4000-char chunk.
+    def relevance_score(job: dict) -> int:
+        haystack = " ".join([
+            (job.get("title") or "").lower(),
+            (job.get("company") or "").lower(),
+            (job.get("source") or "").lower(),
+        ])
+        score = 0
+        for word, weight in [
+            ("rust", 6), ("solana", 5), ("anza", 5), ("firedancer", 5),
+            ("protocol", 3), ("validator", 4), ("low-latency", 4), ("low latency", 4),
+            ("backend", 3), ("infra", 3), ("sre", 3), ("trading", 3),
+            ("smart contract", 3), ("solidity", 2),
+            ("senior", 2), ("staff", 3), ("principal", 3), ("lead", 2),
+            ("backpack", 4), ("triton", 4), ("helium", 3), ("mango", 3),
+        ]:
+            if word in haystack:
+                score += weight
+        for word, weight in [
+            ("ops", -3), ("hr", -8), ("recruiter", -8), ("recruitment", -8), ("talent acquisition", -8),
+            ("admin", -5), ("office manager", -8), ("executive assistant", -8),
+            ("junior", -6), ("intern", -10), ("graduate", -6),
+            ("marketing", -3), ("sales", -3), ("compliance", -2),
+            ("designer", -2), ("legal", -2), ("counsel", -2),
+        ]:
+            if word in haystack:
+                score += weight
+        return score
+
+    all_new.sort(key=relevance_score, reverse=True)
 
     # Split into regular jobs and big company jobs
     regular_jobs, big_co_jobs = [], []
