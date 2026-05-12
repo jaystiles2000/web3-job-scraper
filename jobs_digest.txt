@@ -1,92 +1,225 @@
-🆕 <b>Web3 Jobs — 11 May 2026 10:53</b>
-<i>27 new jobs</i>
+🆕 <b>Web3 Jobs — 12 May 2026 09:15</b>
+<i>54 new jobs</i>
 
-<b>Business Development Manager, Blockchain and DeFi Ecosystem</b>
-🔗 https://myweb3jobs.com/job/business-development-manager-blockchain-and-defi-ecosystem
+<b>Production Engineer</b>
+🔗 https://myweb3jobs.com/job/production-engineer
+
+<b>Institutional BD – DeFi Lending (220815B)</b>
+🔗 https://myweb3jobs.com/job/institutional-bd-defi-lending-220815b
+
+<b>Receptionist</b>
+🏢 Polymarket
+🔗 https://jobs.polychain.capital/jobs/companies/polymarket/jobs/78240928-receptionist
+
+<b>Head of Asia</b>
+🏢 Legend Trade
+🔗 https://jobs.electriccapital.com/jobs/companies/legend-trade-2/jobs/78294379-head-of-asia
+
+<b>Founding Product Designer</b>
+🏢 Legend Trade
+🔗 https://jobs.electriccapital.com/jobs/companies/legend-trade-2/jobs/78294378-founding-product-designer
+
+<b>Equity Dispersion Trader</b>
+🏢 Cumberland
+🔗 https://jobs.theblockchainassociation.org/jobs/companies/cumberland/jobs/78249055-equity-dispersion-trader
+
+<b>Rust Engineer (Solana)</b>
+🏢 Exo Tech
+🔗 https://jobs.solana.com/jobs/companies/exo-tech/jobs/78288560-rust-engineer-solana
+
+<b>Customer Operations Specialist (SpherePay)</b>
+🏢 Sphere
+🔗 https://jobs.solana.com/jobs/companies/sphere-2-616d53dc-510a-46c7-a2a6-e569d8c70b50/jobs/78254161-customer-operations-specialist-spherepay
+
+<b>Institutional Marketing Lead</b>
+🔗 https://cryptocurrencyjobs.co/marketing/monad-foundation-institutional-marketing-lead
+
+<b>Senior Product Data Scientist</b>
+🔗 https://cryptocurrencyjobs.co/marketing/binance-senior-pr-manager-asia
+
+<b>Enterprise Partnerships, Payments</b>
+🔗 https://cryptocurrencyjobs.co/sales/tempo-enterprise-partnerships-payments
 
 <b>Partnerships Lead, Blockchain Infrastructure</b>
-🔗 https://myweb3jobs.com/job/partnerships-lead-blockchain-infrastructure
+🔗 https://cryptocurrencyjobs.co/sales/op-labs-partnerships-lead-blockchain-infrastructure
 
-<b>Crypto Solutions Architect – Digital Assets &amp; Blockchain</b>
-🔗 https://myweb3jobs.com/job/crypto-solutions-architect-digital-assets-blockchain
+<b>Senior Financial Institution SME - Institutional Banking &amp; Digital Assets</b>
+🔗 https://cryptocurrencyjobs.co/sales/chainalysis-senior-financial-institution-sme-institutional-banking-digital-assets
 
-<b>Head of Financial Crimes Risk Management</b>
-🔗 https://myweb3jobs.com/job/head-of-financial-crimes-risk-management
+<b>Finance Operations Specialist (m/f/d)</b>
+🔗 https://cryptocurrencyjobs.co/operations/finoa-finance-operations-specialist
 
-<b>Technical Project Manager - Spark</b>
-🔗 https://www.linkedin.com/jobs/view/technical-project-manager-spark-at-crusoe-4411775537
+<b>Onboarding Product Manager</b>
+🔗 https://cryptocurrencyjobs.co/other/securitize-onboarding-product-manager
 
-<b>Member of Technical Staff - Sandbox Platform</b>
-🏢 Prime Intellect
-🔗 https://jobs.coinfund.io/jobs/companies/prime-intellect/jobs/78176620-member-of-technical-staff-sandbox-platform
+<b>Staff Product Manager, Payments Orchestration &amp; Intelligence</b>
+🔗 https://cryptocurrencyjobs.co/other/lightspark-staff-product-manager-payments-orchestration-intelligence
 
-<b>Senior QA Engineer</b>
-🔗 https://cryptocurrencyjobs.co/engineering/polymarket-senior-qa-engineer
+<b>Rust Engineer Solana</b>
+🔗 https://web3.career/rust-engineer-solana-exotech/149343
 
-<b>Institutional Sales Representative - Prime</b>
-🔗 https://cryptocurrencyjobs.co/sales/anchorage-digital-institutional-sales-representative-prime
+<b>Senior Backend Engineer Core Services Game</b>
+🔗 https://web3.career/senior-backend-engineer-core-services-game-limitbreak/149342
 
-<b>Creative Director</b>
-🔗 https://cryptocurrencyjobs.co/design/m0-labs-creative-director
+<b>CoFounder Fashion Luxury</b>
+🔗 https://web3.career/co-founder-fashion-luxury-riseandfame/149340
 
-<b>Design Director - MetaMask (Transactions)</b>
-🔗 https://cryptocurrencyjobs.co/design/metamask-design-director-metamask-transactions
+<b>Fireblocks Custody infrastructure Developer</b>
+🔗 https://web3.career/fireblocks-custody-infrastructure-developer-purview/149339
 
-<b>HR Tech Product Manager</b>
-🔗 https://cryptocurrencyjobs.co/other/chainlink-labs-hr-tech-product-manager
+<b>Smart Contract Lead</b>
+🔗 https://web3.career/smart-contract-lead-ether-fi/149338
 
-<b>Product Manager - Trezor Suite</b>
-🔗 https://cryptocurrencyjobs.co/other/trezor-product-manager-trezor-suite
+<b>Operations Manager</b>
+🔗 https://web3.career/operations-manager-hivemindcapital/149337
 
-<b>Regulatory Compliance Manager Malta</b>
-🔗 https://web3.career/regulatory-compliance-manager-malta-crypto-com/149325
+<b>Associate Account Executive</b>
+🔗 https://web3.career/associate-account-executive-hifi/149336
 
-<b>DeFi Digital Asset Security Specialist</b>
-🔗 https://web3.career/defi-digital-asset-security-specialist-u-s-bank/149322
+<b>People and Culture Associate</b>
+🔗 https://web3.career/people-and-culture-associate-fun/149335
 
-<b>Exchange Operations Specialist</b>
-🔗 https://web3.career/exchange-operations-specialist-coindesk/149321
+<b>Compliance Analyst FCM Futures Commission Merchant copy</b>
+🔗 https://web3.career/compliance-analyst-fcm-futures-commission-merchant-copy-crypto-com/149334
 
-<b>Senior Product Manager Custody</b>
-🔗 https://web3.career/senior-product-manager-custody-zerohash/149320
+<b>Analytics Engineer Crypto and Payments</b>
+🔗 https://web3.career/analytics-engineer-crypto-and-payments-moonpay/149333
 
-<b>Business Engineer Trading</b>
-🔗 https://web3.career/business-engineer-trading-okx/149319
+<b>Operations Manager</b>
+🔗 https://web3.career/operations-manager-hivemind-capital/149332
 
-<b>Sr Product Manager Crypto Consumer Trading</b>
-🔗 https://web3.career/sr-product-manager-crypto-consumer-trading-okx/149318
+<b>Communications Manager</b>
+🔗 https://web3.career/communications-manager-moonpay/149331
 
-<b>Crypto Relationship Manager</b>
-🔗 https://web3.career/crypto-relationship-manager-drw/149317
+<b>High Potential Program IT Support</b>
+🔗 https://web3.career/high-potential-program-it-support-impossiblecloud/149330
 
-<b>Cryptocurrency Trader</b>
-🔗 https://web3.career/cryptocurrency-trader-quantasearch/149316
+<b>Fraud Prevention and Regulatory Risk Manager</b>
+🔗 https://web3.career/fraud-prevention-and-regulatory-risk-manager-binance/149329
 
-<b>Bitcoin Security Director</b>
-🔗 https://web3.career/bitcoin-security-director-strategy/149315
+<b>Operations Senior Analyst</b>
+🔗 https://web3.career/operations-senior-analyst-binance/149328
 
-<b>Custody Financial Operations Specialist</b>
-🔗 https://web3.career/custody-financial-operations-specialist-coindesk/149314
+<b>Software Backend Engineer</b>
+🏢 Sardine
+📍 India
+🔗 https://jobs.ashbyhq.com/sardine/122f0715-0d0a-42b3-94f5-0a59d4169d69
 
-<b>DeFi Risk Engineer</b>
-🔗 https://web3.career/defi-risk-engineer-ether-fi/149313
+<b>Staff Software Engineer</b>
+🔗 https://builtin.com/job/staff-software-engineer/8570216
 
-<b>Stablecoin Systems Operator</b>
-🔗 https://web3.career/stablecoin-systems-operator-hazzanetwork/149312
+<b>Senior Analyst, AML Know Your Customer</b>
+🔗 https://builtin.com/job/senior-analyst-aml-know-your-customer/8570174
 
-<b>Crypto Trader Portfolio Manager</b>
-🔗 https://web3.career/crypto-trader-portfolio-manager-cyberhornetetfs/149311
+<b>AI Operations Lead</b>
+🔗 https://builtin.com/job/ai-operations-lead/8689981
 
-<b>Cryptocurrency Trader</b>
-🔗 https://web3.career/cryptocurrency-trader-alexanderchapman/149310
+<b>Principal</b>
+🔗 https://venturecapitalcareers.com/companies/path-ventures/jobs/principal-3
 
-<b>Cryptography and Systems Researcher</b>
-🔗 https://web3.career/cryptography-and-systems-researcher-charnetworklabs/149309
+<b>Visiting Analyst</b>
+🔗 https://venturecapitalcareers.com/companies/blume-equity/jobs/visiting-analyst
 
-🏦 <b>Big Co Jobs — 11 May 2026 10:53</b>
-<i>1 roles from larger companies</i>
+<b>Analyst</b>
+🔗 https://venturecapitalcareers.com/companies/haatch/jobs/analyst-2
 
-<b>Solutions Architect - Italy</b>
+<b>Senior Associate / Vice President</b>
+🔗 https://venturecapitalcareers.com/companies/apl-ventures/jobs/senior-associate-vice-president
+
+<b>Principal</b>
+🔗 https://venturecapitalcareers.com/companies/north-ventures/jobs/principal-2
+
+<b>Senior Investment Associate</b>
+🔗 https://venturecapitalcareers.com/companies/remarkable-ventures/jobs/senior-investment-associate-2
+
+<b>Principal, Investment Team</b>
+🔗 https://venturecapitalcareers.com/companies/antler/jobs/principal-investment-team
+
+<b>Investment Analyst</b>
+🔗 https://venturecapitalcareers.com/companies/attom-capital/jobs/investment-analyst-4
+
+<b>Director, Ventures</b>
+🔗 https://venturecapitalcareers.com/companies/northwell-holdings/jobs/director-ventures
+
+<b>Visiting Analyst - Consumer Investments (gn)</b>
+🔗 https://venturecapitalcareers.com/companies/foodlabs/jobs/visiting-analyst---consumer-investments-gn
+
+<b>Senior Investment Associate</b>
+🔗 https://venturecapitalcareers.com/companies/applied-ventures/jobs/senior-investment-associate-3
+
+<b>Platform Associate</b>
+🔗 https://venturecapitalcareers.com/companies/jffventures/jobs/platform-associate-2
+
+<b>Investment Analyst &amp; Operations</b>
+🔗 https://venturecapitalcareers.com/companies/apeiron-venture-capital/jobs/investment-analyst-operations
+
+<b>Investor</b>
+🔗 https://venturecapitalcareers.com/companies/january-capital/jobs/investor-2
+
+<b>Capital Analyst</b>
+🔗 https://venturecapitalcareers.com/companies/launchtn/jobs/capital-analyst
+
+<b>Venture Engagement Manager</b>
+🔗 https://venturecapitalcareers.com/companies/thrive-agrifood/jobs/venture-engagement-manager
+
+<b>Praktikum Equity Investments Team (m/w/d)</b>
+🔗 https://venturecapitalcareers.com/companies/sevenventures/jobs/praktikum-equity-investments-team-mwd
+
+<b>Quant - Risk | Propr.xyz</b>
+🔗 https://www.cryptojobs.com/job/quant-risk-propr-xyz-12409
+
+<b>Infrastructure Engineer</b>
+🔗 https://www.cryptojobs.com/job/infrastructure-engineer-12408
+
+🏦 <b>Big Co Jobs — 12 May 2026 09:15</b>
+<i>11 roles from larger companies</i>
+
+<b>Senior Strategy &amp; Operations Manager, OKX SG</b>
+🏢 Okx
+🔗 https://jobs.theblockchainassociation.org/jobs/companies/okx/jobs/78267943-senior-strategy-operations-manager-okx-sg
+
+<b>Software Engineer II Authentication &amp; Authorization</b>
+🏢 Ripple
+🔗 https://jobs.theblockchainassociation.org/jobs/companies/ripple/jobs/78266280-software-engineer-ii-authentication-authorization
+
+<b>Staff Software Engineer - Authentication &amp; Authorization</b>
+🏢 Ripple
+🔗 https://jobs.theblockchainassociation.org/jobs/companies/ripple/jobs/78266282-staff-software-engineer-authentication-authorization
+
+<b>Regulatory Compliance Manager, Malta</b>
+🏢 Crypto Com
+🔗 https://jobs.theblockchainassociation.org/jobs/companies/crypto-com/jobs/78263861-regulatory-compliance-manager-malta
+
+<b>Manager, Compliance Operations</b>
+🏢 Circle
+🔗 https://jobs.theblockchainassociation.org/jobs/companies/circle/jobs/78228982-manager-compliance-operations
+
+<b>Compliance Analyst</b>
+🏢 BitGo
+📍 Dubai
+🔗 https://job-boards.greenhouse.io/bitgo/jobs/8544570002
+
+<b>Director, Security Engineering</b>
+🏢 Ripple
+📍 San Francisco
+🔗 https://ripple.com/careers/all-jobs/job/7913369?gh_jid=7913369
+
+<b>Senior Fraud Strategist</b>
+🏢 Gemini
+📍 New York
+🔗 https://boards.greenhouse.io/embed/job_app?for=gemini&token=7905301&gh_jid=7905301
+
+<b>Senior Platform Security Engineer</b>
+🏢 Gemini
+📍 New York
+🔗 https://boards.greenhouse.io/embed/job_app?for=gemini&token=7905052&gh_jid=7905052
+
+<b>Staff Platform Security Engineer</b>
+🏢 Gemini
+📍 New York
+🔗 https://boards.greenhouse.io/embed/job_app?for=gemini&token=7905050&gh_jid=7905050
+
+<b>Solutions Architect - Italy (Rome)</b>
 🏢 Chainalysis
 📍 Italy
 🔗 https://jobs.ashbyhq.com/chainalysis-careers/de6bb742-f560-46ef-93ad-c1b983a24562
