@@ -1,8 +1,256 @@
-🆕 <b>Web3 Jobs — 14 May 2026 07:55</b>
-<i>53 new jobs</i>
+🆕 <b>Web3 Jobs — 14 May 2026 10:04</b>
+<i>868 new jobs</i>
+
+<b>Account Executive</b>
+🏢 Dune
+🔗 https://www.ethereumjobboard.com/jobs/account-executive-dune
+
+<b>Data Analytics Engineer</b>
+🏢 Alchemy
+🔗 https://www.ethereumjobboard.com/jobs/data-analytics-engineer-alchemy
+
+<b>Senior Product Manager, Growth</b>
+🏢 Alchemy
+🔗 https://www.ethereumjobboard.com/jobs/senior-product-manager-growth-alchemy
+
+<b>Senior Brand Designer</b>
+🏢 Alchemy
+🔗 https://www.ethereumjobboard.com/jobs/senior-brand-designer-alchemy
+
+<b>DefiLlama Careers</b>
+🏢 Defillama
+🔗 https://www.ethereumjobboard.com/jobs/defillama-careers-defillama
+
+<b>Associate Growth Marketer, Emails &amp; Partnerships (L1)</b>
+🏢 L1 Coingecko
+🔗 https://www.ethereumjobboard.com/jobs/associate-growth-marketer-emails-partnerships-l1-coingecko
+
+<b>Senior Site Reliability Engineer (L3)</b>
+🏢 L3 Coingecko
+🔗 https://www.ethereumjobboard.com/jobs/senior-site-reliability-engineer-l3-coingecko
+
+<b>Growth at Geode Labs</b>
+🏢 Geode Labs
+🔗 https://www.ethereumjobboard.com/jobs/growth-at-geode-labs-geode-labs
+
+<b>Junior Operations Assistant</b>
+🏢 Geode Labs
+🔗 https://www.ethereumjobboard.com/jobs/junior-operations-assistant-geode-labs
+
+<b>Staff Backend Engineer</b>
+🏢 Open Sea
+🔗 https://www.ethereumjobboard.com/jobs/staff-backend-engineer-open-sea
+
+<b>Front End Engineer</b>
+🏢 Etherfi
+🔗 https://www.ethereumjobboard.com/jobs/front-end-engineer-etherfi
+
+<b>Foundation Manager</b>
+🏢 Etherfi
+🔗 https://www.ethereumjobboard.com/jobs/foundation-manager-etherfi
+
+<b>Head of Foundation</b>
+🏢 Arbitrum Foundation
+🔗 https://www.ethereumjobboard.com/jobs/head-of-foundation-arbitrum-foundation
+
+<b>Head of Ecosystem Growth</b>
+🏢 Arbitrum Foundation
+🔗 https://www.ethereumjobboard.com/jobs/head-of-ecosystem-growth-arbitrum-foundation
+
+<b>ZK Proof Engineer</b>
+🏢 Axiom
+🔗 https://www.ethereumjobboard.com/jobs/zk-proof-engineer-axiom
+
+<b>Senior DevOps Engineer</b>
+🏢 Flashbots
+🔗 https://www.ethereumjobboard.com/jobs/senior-devops-engineer-flashbots
+
+<b>Senior Backend Engineer</b>
+🏢 Flashbots
+🔗 https://www.ethereumjobboard.com/jobs/senior-backend-engineer-flashbots
+
+<b>Technical Product Manager (Web3 Prediction Market)</b>
+🔗 https://talentweb3.careers-page.com/jobs/b26844a0-8870-4a10-b476-ad93bd373475
+
+<b>Security Officer (based in KL)</b>
+🔗 https://talentweb3.careers-page.com/jobs/f7301146-eed9-4006-89be-c2cf68dcb794
+
+<b>Sr/Mid Software Engineer (Growth)</b>
+🔗 https://talentweb3.careers-page.com/jobs/36fe3998-d2e8-4762-9616-4d1c32f1113f
+
+<b>CSO (FX Derivatives Platform)</b>
+🔗 https://talentweb3.careers-page.com/jobs/3297e6b0-914e-47e6-bbb3-086db1f60516
+
+<b>Fractional CEO (Prediction Markets)</b>
+🔗 https://talentweb3.careers-page.com/jobs/2ab62f97-50d7-4870-b897-01cb284b3df4
+
+<b>Backend Engineer (AI)</b>
+🔗 https://talentweb3.careers-page.com/jobs/e4923101-1c91-4ccf-8824-a67025673c1a
+
+<b>UI/UX Design (RWA Project)</b>
+🔗 https://talentweb3.careers-page.com/jobs/edb6be22-1373-4e06-8d41-4a268a3c6b00
 
 <b>BD Director, Japan</b>
 🔗 https://myweb3jobs.com/job/bd-director-japan
+
+<b>Analytics Engineer – Crypto and Payments</b>
+🔗 https://myweb3jobs.com/job/analytics-engineer-crypto-and-payments
+
+<b>Operations Manager</b>
+🔗 https://myweb3jobs.com/job/operations-manager
+
+<b>High Potential Program – IT Support</b>
+🔗 https://myweb3jobs.com/job/high-potential-program-it-support
+
+<b>Compliance Analyst – FCM (Futures Commission Merchant) (copy)</b>
+🔗 https://myweb3jobs.com/job/compliance-analyst-fcm-futures-commission-merchant-copy
+
+<b>Production Engineer</b>
+🔗 https://myweb3jobs.com/job/production-engineer
+
+<b>Institutional BD – DeFi Lending (220815B)</b>
+🔗 https://myweb3jobs.com/job/institutional-bd-defi-lending-220815b
+
+<b>Business Development Manager, Blockchain and DeFi Ecosystem</b>
+🔗 https://myweb3jobs.com/job/business-development-manager-blockchain-and-defi-ecosystem
+
+<b>Partnerships Lead, Blockchain Infrastructure</b>
+🔗 https://myweb3jobs.com/job/partnerships-lead-blockchain-infrastructure
+
+<b>Crypto Solutions Architect – Digital Assets &amp; Blockchain</b>
+🔗 https://myweb3jobs.com/job/crypto-solutions-architect-digital-assets-blockchain
+
+<b>Head of Financial Crimes Risk Management</b>
+🔗 https://myweb3jobs.com/job/head-of-financial-crimes-risk-management
+
+<b>Data Analyst, Risk</b>
+🔗 https://myweb3jobs.com/job/data-analyst-risk
+
+<b>(Senior) Cloud Infrastructure Engineer / System &amp; Cloud Engineer</b>
+🔗 https://myweb3jobs.com/job/senior-cloud-infrastructure-engineer-system-cloud-engineer
+
+<b>Regulatory Counsel – US</b>
+🔗 https://myweb3jobs.com/job/regulatory-counsel-us
+
+<b>Business Intelligence / Data Scientist</b>
+🔗 https://myweb3jobs.com/job/business-intelligence-data-scientist
+
+<b>(Senior) Benefits Manager</b>
+🔗 https://myweb3jobs.com/job/senior-benefits-manager
+
+<b>Senior Paralegal</b>
+🔗 https://myweb3jobs.com/job/senior-paralegal
+
+<b>Partnership Marketing Manager, Sports</b>
+🔗 https://myweb3jobs.com/job/partnership-marketing-manager-sports
+
+<b>Partnership Marketing Manager, Creators &amp; Culture</b>
+🔗 https://myweb3jobs.com/job/partnership-marketing-manager-creators-culture
+
+<b>Engagement Manager, AI Implementations</b>
+🔗 https://myweb3jobs.com/job/engagement-manager-ai-implementations
+
+<b>Back-end Node.js Developer</b>
+🔗 https://www.defi.jobs/jobs/back-end-node-js-developer
+
+<b>Senior Front-end React Developer</b>
+🔗 https://www.defi.jobs/jobs/senior-front-end-react-developer
+
+<b>Blockchain SecOps Engineer</b>
+🔗 https://www.defi.jobs/jobs/blockchain-secops-engineer
+
+<b>Developer Documentation Technical Writer</b>
+🔗 https://www.defi.jobs/jobs/developer-documentation-technical-writer
+
+<b>Director of Business Development</b>
+🔗 https://www.defi.jobs/jobs/director-of-business-development
+
+<b>Head of Engineering</b>
+🔗 https://www.defi.jobs/jobs/head-of-engineering
+
+<b>Senior Distributed Systems Engineer, Team Lead</b>
+🔗 https://www.defi.jobs/jobs/senior-distributed-systems-engineer-team-lead
+
+<b>Senior Research Backend Engineer</b>
+🔗 https://www.defi.jobs/jobs/senior-research-backend-engineer
+
+<b>Developer Relations Engineer (Blockchain)</b>
+🔗 https://www.defi.jobs/jobs/developer-relations-engineer-blockchain
+
+<b>Senior Business Development Manager</b>
+🔗 https://www.defi.jobs/jobs/senior-business-development-manager
+
+<b>Solution Architect</b>
+🔗 https://www.defi.jobs/jobs/solution-architect
+
+<b>Tech Lead Manager, Infrastructure</b>
+🔗 https://www.defi.jobs/jobs/tech-lead-manager-infrastructure
+
+<b>Content Manager, focus Video &amp; Screencast</b>
+🔗 https://www.defi.jobs/jobs/content-manager-focus-video-screencast
+
+<b>Chief Marketing Officer</b>
+🔗 https://www.defi.jobs/jobs/chief-marketing-officer
+
+<b>Ecosystem Development Manager</b>
+🔗 https://www.defi.jobs/jobs/ecosystem-development-manager
+
+<b>Developer Relations Manager</b>
+🔗 https://www.defi.jobs/jobs/developer-relations-manager
+
+<b>Senior Software Engineer, Core Platform</b>
+🔗 https://www.defi.jobs/jobs/senior-software-engineer-core-platform
+
+<b>Business Development Manager</b>
+🔗 https://www.defi.jobs/jobs/business-development-manager
+
+<b>Senior Full Stack Developer</b>
+🔗 https://www.defi.jobs/jobs/senior-full-stack-developer
+
+<b>Frontend focused Full-Stack Developer</b>
+🔗 https://www.defi.jobs/jobs/frontend-focused-full-stack-developer
+
+<b>Senior DevOps Engineer</b>
+🔗 https://www.defi.jobs/jobs/senior-devops-engineer-3
+
+<b>Senior Back-End Engineer</b>
+🔗 https://www.defi.jobs/jobs/senior-back-end-engineer-2
+
+<b>Senior R&amp;D Engineer</b>
+🔗 https://www.defi.jobs/jobs/senior-r-d-engineer
+
+<b>Business Development Manager</b>
+🔗 https://www.defi.jobs/jobs/business-development-manager-2
+
+<b>Head of Marketing</b>
+🔗 https://www.defi.jobs/jobs/head-of-marketing-6
+
+<b>Blockchain Architect</b>
+🔗 https://www.defi.jobs/jobs/blockchain-architect
+
+<b>Backend Node.js Developer</b>
+🔗 https://www.defi.jobs/jobs/backend-node-js-developer
+
+<b>Blockchain Protocol Engineer</b>
+🔗 https://www.defi.jobs/jobs/blockchain-protocol-engineer
+
+<b>Sales / Business Development Executive</b>
+🔗 https://www.defi.jobs/jobs/sales-business-development-executive
+
+<b>Head of Decentralized Finance (DeFi)</b>
+🔗 https://www.defi.jobs/jobs/head-of-decentralized-finance-defi
+
+<b>Senior Smart Contract Engineer</b>
+🔗 https://www.defi.jobs/jobs/senior-smart-contract-engineer-9
+
+<b>General Counsel</b>
+🔗 https://www.defi.jobs/jobs/general-counsel
+
+<b>Senior Backend Engineer</b>
+🔗 https://www.defi.jobs/jobs/senior-backend-engineer-2
+
+<b>Networking Engineer</b>
+🔗 https://www.defi.jobs/jobs/networking-engineer
 
 <b>Business Development Manager</b>
 🏢 Trust Wallet
@@ -16,9 +264,37 @@
 🏢 Squads
 🔗 https://jobs.safary.club/jobs/companies/squads-2/jobs/78594809-events-marketing-manager
 
+<b>Product Growth Hacker (Exchange)</b>
+🔗 https://tw.linkedin.com/jobs/view/product-growth-hacker-exchange-at-crypto-com-4410156142
+
+<b>Product Growth Hacker (Exchange)</b>
+🔗 https://hk.linkedin.com/jobs/view/product-growth-hacker-exchange-at-crypto-com-4410158082
+
+<b>Senior Infrastructure Engineer</b>
+🏢 Volley
+🔗 https://careers.bitkraft.vc/jobs/companies/volley-2-883fa04c-349c-4efc-a28e-2c8b7872d911/jobs/78108931-senior-infrastructure-engineer
+
 <b>Recruiter - Maternity Leave Replacement</b>
 🏢 Addressable
-🔗 https://careers.bitkraft.vc/jobs/companies/addressable/jobs/77812793-recruiter-maternity-leave-replacement
+🔗 https://careers.bitkraft.vc/jobs/companies/addressable/jobs/77812792-recruiter-maternity-leave-replacement
+
+<b>Senior Producer</b>
+🔗 https://is.linkedin.com/jobs/view/senior-producer-at-ccp-games-4411204200
+
+<b>Senior Art Producer</b>
+🔗 https://is.linkedin.com/jobs/view/senior-art-producer-at-ccp-games-4410984942
+
+<b>Senior Producer</b>
+🏢 Ccp Games
+🔗 https://careers.bitkraft.vc/jobs/companies/ccp-games/jobs/77678233-senior-producer
+
+<b>Senior Art Producer</b>
+🏢 Ccp Games
+🔗 https://careers.bitkraft.vc/jobs/companies/ccp-games/jobs/77678231-senior-art-producer
+
+<b>Finance &amp; Business Operations Lead</b>
+🏢 Ggwp
+🔗 https://careers.bitkraft.vc/jobs/companies/ggwp/jobs/77269072-finance-business-operations-lead
 
 <b>Senior Financial Controller Paris (F/M/D)</b>
 🏢 Flowdesk
@@ -28,9 +304,79 @@
 🏢 Jito Labs
 🔗 https://jobs.delphiventures.io/jobs/companies/jito-labs/jobs/78614251-release-engineer
 
+<b>Strategic Finance and Operations</b>
+🏢 Sentient Foundation
+🔗 https://jobs.delphiventures.io/jobs/companies/sentient-foundation-2/jobs/78597653-strategic-finance-and-operations
+
+<b>Security Engineer</b>
+🔗 https://www.linkedin.com/jobs/view/security-engineer-at-offchain-labs-4413486582
+
+<b>Head of Marketing</b>
+🔗 https://sg.linkedin.com/jobs/view/head-of-marketing-at-grvt-4412661568
+
+<b>Head of Marketing</b>
+🔗 https://hk.linkedin.com/jobs/view/head-of-marketing-at-grvt-4412677145
+
+<b>Head of Marketing</b>
+🔗 https://cn.linkedin.com/jobs/view/head-of-marketing-at-grvt-4412671272
+
+<b>Head of Marketing</b>
+🔗 https://tw.linkedin.com/jobs/view/head-of-marketing-at-grvt-4412671271
+
+<b>Head of Marketing</b>
+🔗 https://my.linkedin.com/jobs/view/head-of-marketing-at-grvt-4412666351
+
 <b>Security Engineer</b>
 🏢 Offchain Labs
 🔗 https://jobs.delphiventures.io/jobs/companies/offchain-labs/jobs/77490786-security-engineer
+
+<b>Senior Security Engineer (Offensive)</b>
+🏢 Offchain Labs
+🔗 https://jobs.delphiventures.io/jobs/companies/offchain-labs/jobs/77463608-senior-security-engineer-offensive
+
+<b>Executive Assistant</b>
+🏢 Offchain Labs
+🔗 https://jobs.delphiventures.io/jobs/companies/offchain-labs/jobs/77089283-executive-assistant
+
+<b>Senior Accounting Manager</b>
+🏢 Ccp Games
+🔗 https://jobs.delphiventures.io/jobs/companies/ccp-games/jobs/76988144-senior-accounting-manager
+
+<b>Senior Azure Cloud Engineer (ET Required)</b>
+🏢 Front Finance
+🔗 https://venturecareers.galaxy.com/jobs/companies/front-finance/jobs/78559934-senior-azure-cloud-engineer-et-required
+
+<b>Financial Institution Partnerships Manager</b>
+🔗 https://hk.linkedin.com/jobs/view/financial-institution-partnerships-manager-at-redotpay-4412716521
+
+<b>P2P Operations</b>
+🔗 https://hk.linkedin.com/jobs/view/p2p-operations-at-redotpay-4412706250
+
+<b>Senior Business Development Manager, APAC</b>
+🏢 Front Finance
+🔗 https://venturecareers.galaxy.com/jobs/companies/front-finance/jobs/78382116-senior-business-development-manager-apac
+
+<b>Operations Manager</b>
+🏢 M0
+🔗 https://venturecareers.galaxy.com/jobs/companies/m0/jobs/78042737-operations-manager
+
+<b>Senior Solutions Consultant</b>
+🏢 Front Finance
+🔗 https://venturecareers.galaxy.com/jobs/companies/front-finance/jobs/77940495-senior-solutions-consultant
+
+<b>Payment Operations Specialist</b>
+🔗 https://hk.linkedin.com/jobs/view/payment-operations-specialist-at-redotpay-4411455627
+
+<b>Frontend / Full-Stack Engineer</b>
+🏢 Inca Digital
+🔗 https://venturecareers.galaxy.com/jobs/companies/inca-digital-2/jobs/77530506-frontend-full-stack-engineer
+
+<b>Advanced Analytics Crypto Expert</b>
+🏢 Inca Digital
+🔗 https://venturecareers.galaxy.com/jobs/companies/inca-digital-2/jobs/77530507-advanced-analytics-crypto-expert
+
+<b>Product Manager(Payment Channel)</b>
+🔗 https://hk.linkedin.com/jobs/view/product-manager-payment-channel-at-redotpay-4402226709
 
 <b>Underwriting Specialist</b>
 🏢 Figure
@@ -44,6 +390,46 @@
 🏢 Figure Markets
 🔗 https://jobs.jumpcrypto.com/jobs/companies/figure-markets-2/jobs/78603927-underwriting-specialist
 
+<b>Senior Specialist, Treasury - Liquidity</b>
+🏢 Bitpanda
+🔗 https://jobs.jumpcrypto.com/jobs/companies/bitpanda/jobs/78400186-senior-specialist-treasury-liquidity
+
+<b>Lending Quality Assurance Analyst</b>
+🏢 Figure
+🔗 https://jobs.jumpcrypto.com/jobs/companies/figure/jobs/77919860-lending-quality-assurance-analyst
+
+<b>Communications Specialist</b>
+🏢 Bitpanda
+🔗 https://jobs.jumpcrypto.com/jobs/companies/bitpanda/jobs/77915448-communications-specialist
+
+<b>Lending Quality Assurance Analyst</b>
+🏢 Figure Markets
+🔗 https://jobs.jumpcrypto.com/jobs/companies/figure-markets-2/jobs/77779424-lending-quality-assurance-analyst
+
+<b>General Manager (Bitso Business)</b>
+🏢 Bitso
+🔗 https://jobs.jumpcrypto.com/jobs/companies/bitso/jobs/77571038-general-manager-bitso-business
+
+<b>Cloud Database Administrator</b>
+🏢 Bitpanda
+🔗 https://jobs.jumpcrypto.com/jobs/companies/bitpanda/jobs/77389163-cloud-database-administrator
+
+<b>Cloud Kafka Engineer</b>
+🏢 Bitpanda
+🔗 https://jobs.jumpcrypto.com/jobs/companies/bitpanda/jobs/77389164-cloud-kafka-engineer
+
+<b>Product Counsel, Crypto</b>
+🏢 Figure Markets
+🔗 https://jobs.jumpcrypto.com/jobs/companies/figure-markets-2/jobs/77367877-product-counsel-crypto
+
+<b>Head of Product</b>
+🏢 Orca
+🔗 https://jobs.jumpcrypto.com/jobs/companies/orca/jobs/77326417-head-of-product
+
+<b>Product Counsel, Crypto</b>
+🏢 Figure
+🔗 https://jobs.jumpcrypto.com/jobs/companies/figure/jobs/77296304-product-counsel-crypto
+
 <b>Senior IT Specialist</b>
 🏢 Polymarket
 🔗 https://jobs.polychain.capital/jobs/companies/polymarket/jobs/78562087-senior-it-specialist
@@ -51,6 +437,37 @@
 <b>DeFi Engineer</b>
 🏢 Altonomy
 🔗 https://jobs.polychain.capital/jobs/companies/altonomy/jobs/78552697-defi-engineer
+
+<b>Head of Trading Technology</b>
+🏢 Altonomy
+🔗 https://jobs.polychain.capital/jobs/companies/altonomy/jobs/78423536-head-of-trading-technology
+
+<b>SEO / AI Search Growth Manager</b>
+🔗 https://sg.linkedin.com/jobs/view/seo-ai-search-growth-manager-at-bit-official-4412682576
+
+<b>Performance Growth Manager</b>
+🔗 https://sg.linkedin.com/jobs/view/performance-growth-manager-at-bit-official-4412677722
+
+<b>Finance Business Partner</b>
+🔗 https://sg.linkedin.com/jobs/view/finance-business-partner-at-bit-official-4413523787
+
+<b>Accountant</b>
+🔗 https://sg.linkedin.com/jobs/view/accountant-at-bit-official-4413526743
+
+<b>Designer (Full Stack)</b>
+🏢 Very AI
+🔗 https://jobs.polychain.capital/jobs/companies/very-ai/jobs/78409314-designer-full-stack
+
+<b>Advanced Support Specialist</b>
+🏢 Polymarket
+🔗 https://jobs.polychain.capital/jobs/companies/polymarket/jobs/78363389-advanced-support-specialist
+
+<b>Receptionist</b>
+🏢 Polymarket
+🔗 https://jobs.polychain.capital/jobs/companies/polymarket/jobs/78240928-receptionist
+
+<b>SEO/Performance Marketing</b>
+🔗 https://th.linkedin.com/jobs/view/seo-performance-marketing-at-bit-official-4411343676
 
 <b>Expert Audio Transcriber (Tagalog/Filipino)</b>
 🏢 Perle
@@ -60,6 +477,62 @@
 🏢 Dclimate
 🔗 https://jobs.coinfund.io/jobs/companies/dclimate/jobs/78573239-full-stack-geospatial-data-engineer
 
+<b>Senior Revenue Operations Manager (m/f/d)</b>
+🏢 Join 3
+🔗 https://jobs.coinfund.io/jobs/companies/join-3/jobs/78277549-senior-revenue-operations-manager-m-f-d
+
+<b>Head of Legal</b>
+🏢 Prime Intellect
+🔗 https://jobs.coinfund.io/jobs/companies/prime-intellect/jobs/78223863-head-of-legal
+
+<b>Member of Technical Staff - Training Platform</b>
+🏢 Prime Intellect
+🔗 https://jobs.coinfund.io/jobs/companies/prime-intellect/jobs/78223853-member-of-technical-staff-training-platform
+
+<b>Member of Technical Staff - Sandbox Platform</b>
+🏢 Prime Intellect
+🔗 https://jobs.coinfund.io/jobs/companies/prime-intellect/jobs/78176620-member-of-technical-staff-sandbox-platform
+
+<b>VP Sales (m/f/d)</b>
+🏢 Join 3
+🔗 https://jobs.coinfund.io/jobs/companies/join-3/jobs/77961326-vp-sales-m-f-d
+
+<b>Teamlead Accounting &amp; Finance (m/f/d)</b>
+🏢 Join 3
+🔗 https://jobs.coinfund.io/jobs/companies/join-3/jobs/77961323-teamlead-accounting-finance-m-f-d
+
+<b>Senior Paralegal</b>
+🏢 Blockdaemon
+🔗 https://jobs.coinfund.io/jobs/companies/blockdaemon/jobs/77918762-senior-paralegal
+
+<b>Site Lead - Pyote, TX</b>
+🏢 Compass Mining
+🔗 https://jobs.coinfund.io/jobs/companies/compass-mining-2/jobs/77365670-site-lead-pyote-tx
+
+<b>Senior Frontend Engineer - ReactJS</b>
+🏢 Join 3
+🔗 https://jobs.coinfund.io/jobs/companies/join-3/jobs/77333625-senior-frontend-engineer-reactjs
+
+<b>Senior Backend Engineer</b>
+🏢 Join 3
+🔗 https://jobs.coinfund.io/jobs/companies/join-3/jobs/77333624-senior-backend-engineer
+
+<b>Engineering Manager (m/f/d)</b>
+🏢 Join 3
+🔗 https://jobs.coinfund.io/jobs/companies/join-3/jobs/77333623-engineering-manager-m-f-d
+
+<b>Compute Markets Lead</b>
+🏢 Prime Intellect
+🔗 https://jobs.coinfund.io/jobs/companies/prime-intellect/jobs/77176878-compute-markets-lead
+
+<b>Senior Accountant</b>
+🏢 Li Fi
+🔗 https://jobs.coinfund.io/jobs/companies/li-fi-2/jobs/76962399-senior-accountant
+
+<b>Web2 &amp; Mobile Security Researcher</b>
+🏢 Certora
+🔗 https://jobs.coinfund.io/jobs/companies/certora/jobs/76895395-web2-mobile-security-researcher
+
 <b>Senior Software Engineer, Storage</b>
 🏢 Mysten Labs
 🔗 https://jobs.electriccapital.com/jobs/companies/mysten-labs/jobs/78684133-senior-software-engineer-storage
@@ -67,6 +540,46 @@
 <b>Human Resources Manager</b>
 🏢 San Francisco Compute Company
 🔗 https://jobs.electriccapital.com/jobs/companies/san-francisco-compute-company-2/jobs/78627945-human-resources-manager
+
+<b>Head of Asia</b>
+🏢 Legend Trade
+🔗 https://jobs.electriccapital.com/jobs/companies/legend-trade-2/jobs/78294379-head-of-asia
+
+<b>Founding Product Designer</b>
+🏢 Legend Trade
+🔗 https://jobs.electriccapital.com/jobs/companies/legend-trade-2/jobs/78294378-founding-product-designer
+
+<b>Investor Relations Associate</b>
+🏢 Bitwise Asset Management
+🔗 https://jobs.electriccapital.com/jobs/companies/bitwise-asset-management-2/jobs/78058191-investor-relations-associate
+
+<b>Business Development &amp; FX Sales Lead</b>
+🏢 Nestcoin
+🔗 https://jobs.electriccapital.com/jobs/companies/nestcoin/jobs/77892025-business-development-fx-sales-lead
+
+<b>DeFi Engineer</b>
+🏢 Mysten Labs
+🔗 https://jobs.electriccapital.com/jobs/companies/mysten-labs/jobs/77681880-defi-engineer
+
+<b>Strategic Partnerships Manager, Hashi (Bitcoin Lending)</b>
+🏢 Mysten Labs
+🔗 https://jobs.electriccapital.com/jobs/companies/mysten-labs/jobs/77681879-strategic-partnerships-manager-hashi-bitcoin-lending
+
+<b>Senior Software Engineer, TypeScript SDK</b>
+🏢 Mysten Labs
+🔗 https://jobs.electriccapital.com/jobs/companies/mysten-labs/jobs/77681881-senior-software-engineer-typescript-sdk
+
+<b>Senior Product Designer</b>
+🏢 Mysten Labs
+🔗 https://jobs.electriccapital.com/jobs/companies/mysten-labs/jobs/77681878-senior-product-designer
+
+<b>Senior Core Engineer, Walrus</b>
+🏢 Mysten Labs
+🔗 https://jobs.electriccapital.com/jobs/companies/mysten-labs/jobs/77681882-senior-core-engineer-walrus
+
+<b>Senior Frontend Engineer (Slush Wallet)</b>
+🏢 Mysten Labs
+🔗 https://jobs.electriccapital.com/jobs/companies/mysten-labs/jobs/77681874-senior-frontend-engineer-slush-wallet
 
 <b>Senior Azure Cloud Engineer (ET Required)</b>
 🏢 Mesh
@@ -87,6 +600,26 @@
 <b>Growth Engineer</b>
 🏢 Goldsky
 🔗 https://jobs.dragonfly.xyz/companies/goldsky/jobs/78562517-growth-engineer
+
+<b>Junior Technical Account Manager (USA)</b>
+🏢 Elwood Technologies
+🔗 https://jobs.dragonfly.xyz/companies/elwood-technologies/jobs/78434480-junior-technical-account-manager-usa
+
+<b>Business Development Representative (New York)</b>
+🏢 Elwood Technologies
+🔗 https://jobs.dragonfly.xyz/companies/elwood-technologies/jobs/78434478-business-development-representative-new-york
+
+<b>founding engineer</b>
+🏢 Notional Xyz
+🔗 https://jobs.dragonfly.xyz/companies/notional-xyz/jobs/78388131-founding-engineer
+
+<b>Senior Business Development Manager, APAC</b>
+🏢 Mesh
+🔗 https://jobs.dragonfly.xyz/companies/mesh-3-4c0b4eec-edf3-4d43-a3fd-b9ad65e53b32/jobs/78388073-senior-business-development-manager-apac
+
+<b>Social Media &amp; Community Executive</b>
+🏢 Woo Network
+🔗 https://jobs.dragonfly.xyz/companies/woo-network-2/jobs/78383997-social-media-community-executive
 
 <b>Staff Software Engineer, GenAI Platform</b>
 🔗 https://www.linkedin.com/jobs/view/staff-software-engineer-genai-platform-at-ripple-4413833417
@@ -121,12 +654,926 @@
 🏢 Solflare
 🔗 https://jobs.solana.com/jobs/companies/solflare/jobs/78651023-legal-counsel
 
+<b>Sales Development Representative</b>
+🏢 Coinflow Labs
+🔗 https://jobs.solana.com/jobs/companies/coinflow-labs/jobs/78388181-sales-development-representative
+
+<b>Senior Security Engineer (NYC / MIA)</b>
+🏢 Crossmint
+🔗 https://jobs.solana.com/jobs/companies/crossmint-2/jobs/78368119-senior-security-engineer-nyc-mia
+
+<b>Security Engineer - Operations / Incident Response</b>
+🏢 Ondo Finance
+🔗 https://jobs.solana.com/jobs/companies/ondo-finance/jobs/78342484-security-engineer-operations-incident-response
+
+<b>Rust Engineer (Solana)</b>
+🏢 Exo Tech
+🔗 https://jobs.solana.com/jobs/companies/exo-tech/jobs/78288560-rust-engineer-solana
+
+<b>Customer Operations Specialist (SpherePay)</b>
+🏢 Sphere
+🔗 https://jobs.solana.com/jobs/companies/sphere-2-616d53dc-510a-46c7-a2a6-e569d8c70b50/jobs/78254161-customer-operations-specialist-spherepay
+
+<b>Lead Rust Engineer, Async VM</b>
+🏢 Fermah
+🔗 https://jobs.solana.com/jobs/companies/fermah-2/jobs/77905605-lead-rust-engineer-async-vm
+
+<b>Senior Rust Engineer</b>
+🏢 Fermah
+🔗 https://jobs.solana.com/jobs/companies/fermah-2/jobs/77905606-senior-rust-engineer
+
+<b>Head of Growth</b>
+🏢 Ooble Studio
+🔗 https://jobs.solana.com/jobs/companies/ooble-studio-2/jobs/77863769-head-of-growth
+
+<b>Marketing Lead</b>
+🏢 Perena
+🔗 https://jobs.solana.com/jobs/companies/perena/jobs/77387795-marketing-lead
+
+<b>Head of Risk</b>
+🏢 Ondo Finance
+🔗 https://jobs.solana.com/jobs/companies/ondo-finance/jobs/77335886-head-of-risk
+
 <b>Workplace Coordinator</b>
 🏢 Rain
 🔗 https://jobs.solana.com/jobs/companies/rain/jobs/77173775-workplace-coordinator
 
+<b>EMEA BD Lead</b>
+🏢 Douro Labs
+🔗 https://jobs.solana.com/jobs/companies/douro-labs-2/jobs/76991886-emea-bd-lead
+
+<b>Market Analyst (Macro)</b>
+🔗 https://cryptocurrencyjobs.co/engineering/nascent-markets-market-analyst-macro
+
+<b>Analytics Engineer</b>
+🔗 https://cryptocurrencyjobs.co/engineering/risk-labs-analytics-engineer
+
+<b>Trading Technology Engineering Manager</b>
+🔗 https://cryptocurrencyjobs.co/engineering/ethena-labs-trading-technology-engineering-manager
+
+<b>Senior Data Engineer</b>
+🔗 https://cryptocurrencyjobs.co/engineering/ethena-labs-senior-data-engineer
+
+<b>Head of Platform Engineering</b>
+🔗 https://cryptocurrencyjobs.co/engineering/ethena-labs-head-of-platform-engineering
+
+<b>Decentralised Messaging Engineer - Rust</b>
+🔗 https://cryptocurrencyjobs.co/engineering/logos-decentralised-messaging-engineer-rust
+
+<b>C++ Quant Developer</b>
+🔗 https://cryptocurrencyjobs.co/engineering/wintermute-c-quant-developer
+
+<b>C++ Quant Developer - Options</b>
+🔗 https://cryptocurrencyjobs.co/engineering/wintermute-c-quant-developer-options
+
+<b>C++ Trading Platform Developer</b>
+🔗 https://cryptocurrencyjobs.co/engineering/wintermute-c-trading-platform-developer
+
+<b>Core Developer (Python)</b>
+🔗 https://cryptocurrencyjobs.co/engineering/wintermute-core-developer-python
+
+<b>DevOps Engineer - OTC Trading Platform</b>
+🔗 https://cryptocurrencyjobs.co/engineering/wintermute-devops-engineer-otc-trading-platform
+
+<b>Infrastructure Support Engineer</b>
+🔗 https://cryptocurrencyjobs.co/engineering/wintermute-infrastructure-support-engineer
+
+<b>Machine Learning Researcher</b>
+🔗 https://cryptocurrencyjobs.co/engineering/wintermute-machine-learning-researcher
+
+<b>Product Engineering - Tech Lead</b>
+🔗 https://cryptocurrencyjobs.co/engineering/wintermute-product-engineering-tech-lead
+
+<b>Senior Solutions Engineer</b>
+🔗 https://cryptocurrencyjobs.co/engineering/risk-labs-senior-solutions-engineer
+
+<b>Senior DevOps Engineer</b>
+🔗 https://cryptocurrencyjobs.co/engineering/risk-labs-senior-devops-engineer
+
+<b>Principal Engineer, Frontend</b>
+🔗 https://cryptocurrencyjobs.co/engineering/trojan-trading-principal-engineer-frontend
+
+<b>Staff Backend Engineer</b>
+🔗 https://cryptocurrencyjobs.co/engineering/trojan-trading-staff-backend-engineer
+
+<b>Senior Engineer, DevOps</b>
+🔗 https://cryptocurrencyjobs.co/engineering/hex-trust-senior-engineer-devops
+
+<b>Senior Software Engineer, Predictions (Mobile)</b>
+🔗 https://cryptocurrencyjobs.co/engineering/gemini-senior-software-engineer-predictions-mobile
+
+<b>Software Engineer, Institutional</b>
+🔗 https://cryptocurrencyjobs.co/engineering/blockchain-software-engineer-institutional
+
+<b>Software Engineer, Blockchain &amp; Distributed Systems</b>
+🔗 https://cryptocurrencyjobs.co/engineering/blockstream-software-engineer-blockchain-distributed-systems
+
+<b>Senior QA Engineer</b>
+🔗 https://cryptocurrencyjobs.co/engineering/polymarket-senior-qa-engineer
+
+<b>Senior Full Stack Engineer - Web3</b>
+🔗 https://cryptocurrencyjobs.co/engineering/mesh-senior-full-stack-engineer-web3
+
+<b>Technical Support Engineer</b>
+🔗 https://cryptocurrencyjobs.co/engineering/paxos-technical-support-engineer
+
+<b>Product Engineer (AI)</b>
+🔗 https://cryptocurrencyjobs.co/engineering/parity-technologies-product-engineer-ai
+
+<b>Senior Software Engineer, Frontend</b>
+🔗 https://cryptocurrencyjobs.co/engineering/phantom-senior-software-engineer-frontend
+
+<b>Senior Frontend Engineer</b>
+🔗 https://cryptocurrencyjobs.co/engineering/uniswap-senior-front-end-engineer
+
+<b>Security Engineer</b>
+🔗 https://cryptocurrencyjobs.co/engineering/asymmetric-research-security-engineer
+
+<b>Security Engineer</b>
+🔗 https://cryptocurrencyjobs.co/engineering/tempo-security-engineer
+
+<b>Front-End Engineer, Institutional</b>
+🔗 https://cryptocurrencyjobs.co/engineering/blockchain-front-end-engineer-institutional
+
+<b>Protocol Tester - Consensus layer</b>
+🔗 https://cryptocurrencyjobs.co/engineering/ethereum-foundation-protocol-tester-consensus-layer
+
+<b>Security Engineer</b>
+🔗 https://cryptocurrencyjobs.co/engineering/bridge-security-engineer
+
+<b>Junior IT Administrator</b>
+🔗 https://cryptocurrencyjobs.co/engineering/ondo-finance-junior-it-administrator
+
+<b>Lead Software Engineer, Frontend (Web)</b>
+🔗 https://cryptocurrencyjobs.co/engineering/binance-lead-software-engineer-frontend-web
+
+<b>Crypto Production Engineer</b>
+🔗 https://cryptocurrencyjobs.co/engineering/jump-crypto-crypto-production-engineer
+
+<b>Senior Software Engineer, Wallets</b>
+🔗 https://cryptocurrencyjobs.co/engineering/stellar-senior-software-engineer-wallets
+
+<b>Engineering Manager</b>
+🔗 https://cryptocurrencyjobs.co/engineering/immutable-engineering-manager
+
+<b>Mid/Senior Web3 QA Engineer</b>
+🔗 https://cryptocurrencyjobs.co/engineering/lifi-mid-senior-web3-qa-engineer
+
+<b>Staff Software Engineer, Web3</b>
+🔗 https://cryptocurrencyjobs.co/engineering/robinhood-staff-software-engineer-web3
+
+<b>Head of Developer Experience</b>
+🔗 https://cryptocurrencyjobs.co/engineering/galaxy-head-of-developer-experience
+
+<b>Security Engineer</b>
+🔗 https://cryptocurrencyjobs.co/engineering/jito-labs-security-engineer
+
+<b>Software Engineer (Krakow)</b>
+🔗 https://cryptocurrencyjobs.co/engineering/caladan-software-engineer-krakow
+
+<b>Mid/Senior Smart Contract Engineer</b>
+🔗 https://cryptocurrencyjobs.co/engineering/li-fi-mid-senior-smart-contract-engineer
+
+<b>Data Analytics Engineer</b>
+🔗 https://cryptocurrencyjobs.co/engineering/alchemy-data-analytics-engineer
+
+<b>Staff Backend Engineer, Institutional Custody</b>
+🔗 https://cryptocurrencyjobs.co/engineering/ava-labs-staff-backend-engineer-institutional-custody
+
+<b>Software Engineer - 2027 New Grads</b>
+🔗 https://cryptocurrencyjobs.co/engineering/ellipsis-labs-software-engineer-2027-new-grads
+
+<b>Social Media Manager</b>
+🔗 https://cryptocurrencyjobs.co/marketing/stratosphere-social-media-manager
+
+<b>Video Editor</b>
+🔗 https://cryptocurrencyjobs.co/marketing/stratosphere-video-editor
+
+<b>Content and Socials Manager (AI Native)</b>
+🔗 https://cryptocurrencyjobs.co/marketing/veridise-content-and-socials-manager-ai-native
+
+<b>Senior Growth Manager, Paid Search</b>
+🔗 https://cryptocurrencyjobs.co/marketing/crypto-com-senior-growth-manager-paid-search
+
+<b>Institutional Marketing Lead</b>
+🔗 https://cryptocurrencyjobs.co/marketing/monad-foundation-institutional-marketing-lead
+
+<b>Principal Product Marketing Manager</b>
+🔗 https://cryptocurrencyjobs.co/marketing/elliptic-principal-product-marketing-manager
+
+<b>Senior Marketing Manager, Performance/Growth Marketing</b>
+🔗 https://cryptocurrencyjobs.co/marketing/uphold-senior-marketing-manager-performance-growth-marketing
+
+<b>Product Marketing Manager</b>
+🔗 https://cryptocurrencyjobs.co/marketing/bitgo-product-marketing-manager
+
+<b>Member of Product Marketing, Content</b>
+🔗 https://cryptocurrencyjobs.co/marketing/anchorage-digital-member-of-product-marketing-content
+
+<b>Product Marketing Manager</b>
+🔗 https://cryptocurrencyjobs.co/marketing/taxbit-product-marketing-manager
+
+<b>Social Media Creative (Instagram &amp; TikTok)</b>
+🔗 https://cryptocurrencyjobs.co/marketing/gnosis-social-media-creative-instagram-tiktok
+
+<b>Event Manager</b>
+🔗 https://cryptocurrencyjobs.co/marketing/nexo-event-manager
+
+<b>Head of Communications</b>
+🔗 https://cryptocurrencyjobs.co/marketing/base-head-of-communications
+
+<b>Community Manager (Korea)</b>
+🔗 https://cryptocurrencyjobs.co/marketing/aptos-community-manager-korea
+
+<b>Communications Manager, Policy &amp; Public Affairs</b>
+🔗 https://cryptocurrencyjobs.co/marketing/coinbase-communications-manager-policy-public-affairs
+
+<b>Partner Events Marketing Manager (Contract)</b>
+🔗 https://cryptocurrencyjobs.co/marketing/sui-foundation-partner-events-marketing-manager-contract
+
+<b>Social Media Manager AI/Tech</b>
+🔗 https://cryptocurrencyjobs.co/marketing/tether-social-media-manager-ai-tech
+
+<b>Growth Marketer</b>
+🔗 https://cryptocurrencyjobs.co/marketing/alphapoint-growth-marketer
+
+<b>Head of Talent Brand Content and Growth Marketing</b>
+🔗 https://cryptocurrencyjobs.co/marketing/trm-head-of-talent-brand-content-and-growth-marketing
+
+<b>Senior PR &amp; Communications Manager</b>
+🔗 https://cryptocurrencyjobs.co/marketing/offchain-labs-senior-pr-communications-manager
+
+<b>Associate Email Marketing Manager</b>
+🔗 https://cryptocurrencyjobs.co/marketing/ripple-associate-email-marketing-manager
+
+<b>Senior Marketing Analyst (Web3)</b>
+🔗 https://cryptocurrencyjobs.co/marketing/improbable-senior-marketing-analyst-web3
+
+<b>Event Marketing Manager (New York)</b>
+🔗 https://cryptocurrencyjobs.co/marketing/merkle-science-event-marketing-manager-new-york
+
+<b>Senior Event Manager (Contract)</b>
+🔗 https://cryptocurrencyjobs.co/marketing/ondo-finance-senior-event-manager-contract
+
+<b>Developer Relations &amp; Ecosystem Growth Lead</b>
+🔗 https://cryptocurrencyjobs.co/marketing/sentient-developer-relations-ecosystem-growth-lead
+
+<b>Events Marketing Lead</b>
+🔗 https://cryptocurrencyjobs.co/marketing/paxos-events-marketing-lead
+
+<b>Marketing Associate</b>
+🔗 https://cryptocurrencyjobs.co/marketing/ellipsis-labs-marketing-associate
+
+<b>Client Communications Copywriter</b>
+🔗 https://cryptocurrencyjobs.co/marketing/nexo-client-communications-copywriter
+
+<b>Senior Field Marketing Manager</b>
+🔗 https://cryptocurrencyjobs.co/marketing/chainalysis-senior-field-marketing-manager
+
+<b>Senior Marketing Associate</b>
+🔗 https://cryptocurrencyjobs.co/marketing/falconx-senior-marketing-associate
+
+<b>Head of Social</b>
+🔗 https://cryptocurrencyjobs.co/marketing/offchain-labs-head-of-social
+
+<b>SEO Specialist</b>
+🔗 https://cryptocurrencyjobs.co/marketing/amina-bank-seo-specialist
+
+<b>Content &amp; Communications Associate</b>
+🔗 https://cryptocurrencyjobs.co/marketing/parity-technologies-content-communications-associate
+
+<b>DACH Growth Campaign Manager</b>
+🔗 https://cryptocurrencyjobs.co/marketing/binance-dach-growth-campaign-manager
+
+<b>Staff Product Marketing Manager</b>
+🔗 https://cryptocurrencyjobs.co/marketing/chainalysis-staff-product-marketing-manager
+
+<b>Podcast Ops Associate (3-Month Contract)</b>
+🔗 https://cryptocurrencyjobs.co/marketing/eigen-labs-podcast-ops-associate-3-month-contract
+
+<b>CMO Associate</b>
+🔗 https://cryptocurrencyjobs.co/marketing/improbable-cmo-associate
+
+<b>Marketing Lead</b>
+🔗 https://cryptocurrencyjobs.co/marketing/immunefi-marketing-lead
+
+<b>Growth Specialist</b>
+🔗 https://cryptocurrencyjobs.co/marketing/bitmex-growth-specialist
+
+<b>Junior Event Specialist</b>
+🔗 https://cryptocurrencyjobs.co/marketing/gate-junior-event-specialist
+
+<b>Organic Social Media Manager</b>
+🔗 https://cryptocurrencyjobs.co/marketing/grayscale-organic-social-media-manager
+
+<b>Principal Partnership Marketing Manager</b>
+🔗 https://cryptocurrencyjobs.co/marketing/elliptic-principal-partnership-marketing-manager
+
+<b>Business Marketing Lead</b>
+🔗 https://cryptocurrencyjobs.co/marketing/monad-foundation-business-marketing-lead
+
+<b>Marketing Analyst</b>
+🔗 https://cryptocurrencyjobs.co/marketing/blockchain-marketing-analyst
+
+<b>Event Manager</b>
+🔗 https://cryptocurrencyjobs.co/marketing/certora-event-manager
+
+<b>Business Development &amp; Partnerships Associate</b>
+🔗 https://cryptocurrencyjobs.co/sales/wintermute-business-development-partnerships-associate
+
+<b>Business Development &amp; Partnerships Director - London</b>
+🔗 https://cryptocurrencyjobs.co/sales/wintermute-business-development-partnerships-director-london
+
+<b>Business Development &amp; Partnerships Director - New York</b>
+🔗 https://cryptocurrencyjobs.co/sales/wintermute-business-development-partnerships-director-new-york
+
+<b>Business Development &amp; Partnerships Manager</b>
+🔗 https://cryptocurrencyjobs.co/sales/wintermute-business-development-partnerships-manager
+
+<b>Business Development &amp; Partnerships Manager - London</b>
+🔗 https://cryptocurrencyjobs.co/sales/wintermute-business-development-partnerships-manager-london
+
+<b>Business Development Associate</b>
+🔗 https://cryptocurrencyjobs.co/sales/wintermute-business-development-associate
+
+<b>Business Development</b>
+🔗 https://cryptocurrencyjobs.co/sales/noncitizen-business-development
+
+<b>Institutional Sales Lead</b>
+🔗 https://cryptocurrencyjobs.co/sales/0x-institutional-sales-lead
+
+<b>Account Manager</b>
+🔗 https://cryptocurrencyjobs.co/sales/stratosphere-account-manager
+
+<b>Head of Institutional Sales - DeFi &amp; Digital Assets</b>
+🔗 https://cryptocurrencyjobs.co/sales/iopa-solutions-head-of-institutional-sales-defi-digital-assets
+
+<b>Business Development Specialist - Closer</b>
+🔗 https://cryptocurrencyjobs.co/sales/movimentum-business-development-specialist-closer
+
+<b>Account Manager</b>
+🔗 https://cryptocurrencyjobs.co/sales/nexo-account-manager
+
+<b>Head of Partnerships</b>
+🔗 https://cryptocurrencyjobs.co/sales/cryptio-head-of-partnerships
+
+<b>Senior Growth Manager, OKX DEX</b>
+🔗 https://cryptocurrencyjobs.co/sales/okx-senior-growth-manager-okx-dex
+
+<b>Strategic Partnerships Manager, Hashi (Bitcoin Lending)</b>
+🔗 https://cryptocurrencyjobs.co/sales/mysten-labs-strategic-partnerships-manager-hashi-bitcoin-lending
+
+<b>Enterprise Partnerships, Payments</b>
+🔗 https://cryptocurrencyjobs.co/sales/tempo-enterprise-partnerships-payments
+
+<b>Partnerships Lead, Blockchain Infrastructure</b>
+🔗 https://cryptocurrencyjobs.co/sales/op-labs-partnerships-lead-blockchain-infrastructure
+
+<b>Senior Financial Institution SME - Institutional Banking &amp; Digital Assets</b>
+🔗 https://cryptocurrencyjobs.co/sales/chainalysis-senior-financial-institution-sme-institutional-banking-digital-assets
+
+<b>Institutional Sales Representative - Prime</b>
+🔗 https://cryptocurrencyjobs.co/sales/anchorage-digital-institutional-sales-representative-prime
+
+<b>Ecosystem Operation Manager (Superlink)</b>
+🔗 https://cryptocurrencyjobs.co/sales/gate-ecosystem-operation-manager-superlink
+
+<b>Account Executive, Enterprise</b>
+🔗 https://cryptocurrencyjobs.co/sales/alchemy-account-executive-enterprise
+
+<b>Business Development Manager, Blockchain and DeFi Ecosystem</b>
+🔗 https://cryptocurrencyjobs.co/sales/fireblocks-business-development-manager-blockchain-and-defi-ecosystem
+
+<b>Senior Partnerships Manager, Crypto</b>
+🔗 https://cryptocurrencyjobs.co/sales/robinhood-senior-partnerships-manager-crypto
+
+<b>Technical Account Manager - LATAM</b>
+🔗 https://cryptocurrencyjobs.co/sales/li-fi-technical-account-manager-latam
+
+<b>Account Manager, Americas</b>
+🔗 https://cryptocurrencyjobs.co/sales/talos-account-manager-americas
+
+<b>Senior Specialist, Partnerships - Europe</b>
+🔗 https://cryptocurrencyjobs.co/sales/bitpanda-senior-specialist-partnerships-europe
+
+<b>Crypto Tokenisation Business Development Manager</b>
+🔗 https://cryptocurrencyjobs.co/sales/drw-crypto-tokenisation-business-development-manager
+
+<b>Sales &amp; Relationship Manager UAE</b>
+🔗 https://cryptocurrencyjobs.co/sales/bitcoin-suisse-sales-relationship-manager-uae
+
+<b>APAC Sales Executive</b>
+🔗 https://cryptocurrencyjobs.co/sales/dune-apac-sales-executive
+
+<b>Product Operations Account Manager</b>
+🔗 https://cryptocurrencyjobs.co/sales/figure-product-operations-account-manager
+
+<b>Sales Associate, EMEA</b>
+🔗 https://cryptocurrencyjobs.co/sales/talos-sales-associate-emea
+
+<b>Senior Account Executive</b>
+🔗 https://cryptocurrencyjobs.co/sales/cryptio-senior-account-executive
+
+<b>Director, Institutional Growth</b>
+🔗 https://cryptocurrencyjobs.co/sales/solana-foundation-director-institutional-growth
+
+<b>Enterprise Account Executive, Crypto Native</b>
+🔗 https://cryptocurrencyjobs.co/sales/chainalysis-enterprise-account-executive-crypto-native
+
+<b>Assistant Relationship Manager - APAC</b>
+🔗 https://cryptocurrencyjobs.co/sales/xapo-bank-assistant-relationship-manager-apac
+
+<b>Partner Development Associate, Alliance Program</b>
+🔗 https://cryptocurrencyjobs.co/sales/circle-partner-development-associate-alliance-program
+
+<b>Institutional Sales Executive</b>
+🔗 https://cryptocurrencyjobs.co/sales/falconx-institutional-sales-executive
+
+<b>Partnership Executive</b>
+🔗 https://cryptocurrencyjobs.co/sales/bcb-group-partnership-executive
+
+<b>Business Development and Operations Associate</b>
+🔗 https://cryptocurrencyjobs.co/sales/bastion-business-development-and-operations-associate
+
+<b>Senior Director, Business Development - Banks (APAC)</b>
+🔗 https://cryptocurrencyjobs.co/sales/circle-senior-director-business-development-banks-apac
+
+<b>Business Development Analyst, Stablecoins</b>
+🔗 https://cryptocurrencyjobs.co/sales/anchorage-digital-business-development-analyst-stablecoins
+
+<b>Technical Account Manager</b>
+🔗 https://cryptocurrencyjobs.co/sales/rain-xyz-technical-account-manager
+
+<b>Paid Ads BD Manager</b>
+🔗 https://cryptocurrencyjobs.co/sales/okx-paid-ads-bd-manager
+
+<b>Senior Business Development Manager</b>
+🔗 https://cryptocurrencyjobs.co/sales/babylon-senior-business-development-manager
+
+<b>Director Business Development, Europe</b>
+🔗 https://cryptocurrencyjobs.co/sales/circle-director-business-development-europe
+
+<b>Head of Partnership</b>
+🔗 https://cryptocurrencyjobs.co/sales/ur-head-of-partnership
+
+<b>Senior HR Coordinator</b>
+🔗 https://cryptocurrencyjobs.co/operations/ethena-labs-senior-hr-coordinator
+
+<b>Technical Project Manager, Trading Operations</b>
+🔗 https://cryptocurrencyjobs.co/operations/nascent-technical-project-manager-trading-operations
+
+<b>Senior Loan Originator</b>
+🔗 https://cryptocurrencyjobs.co/operations/ethena-labs-senior-loan-originator
+
+<b>Associate Financial Controller</b>
+🔗 https://cryptocurrencyjobs.co/operations/wintermute-associate-financial-controller
+
+<b>HR Operations Associate</b>
+🔗 https://cryptocurrencyjobs.co/operations/wintermute-hr-operations-associate
+
+<b>Middle Office Specialist</b>
+🔗 https://cryptocurrencyjobs.co/operations/wintermute-middle-office-specialist
+
+<b>Financial Associate</b>
+🔗 https://cryptocurrencyjobs.co/operations/ethena-labs-financial-associate
+
+<b>Senior Legal and Compliance Operations Specialist</b>
+🔗 https://cryptocurrencyjobs.co/operations/bitpay-senior-legal-and-compliance-operations-specialist
+
+<b>Senior Recruiting Coordinator</b>
+🔗 https://cryptocurrencyjobs.co/operations/ripple-senior-recruiting-coordinator
+
+<b>Talent Acquisition Coordinator</b>
+🔗 https://cryptocurrencyjobs.co/operations/galaxy-talent-acquisition-coordinator
+
+<b>Finance Operations Specialist (m/f/d)</b>
+🔗 https://cryptocurrencyjobs.co/operations/finoa-finance-operations-specialist
+
+<b>Business Operations</b>
+🔗 https://cryptocurrencyjobs.co/operations/turnkey-business-operations
+
+<b>Executive Assistant</b>
+🔗 https://cryptocurrencyjobs.co/operations/offchain-labs-executive-assistant
+
+<b>Junior Risk Monitoring Analyst</b>
+🔗 https://cryptocurrencyjobs.co/operations/bitfinex-junior-risk-monitoring-analyst
+
+<b>People and Recruiting Operations Manager</b>
+🔗 https://cryptocurrencyjobs.co/operations/world-people-and-recruiting-operations-manager
+
+<b>HR Coordinator</b>
+🔗 https://cryptocurrencyjobs.co/operations/gsr-hr-coordinator
+
+<b>People Operations Coordinator</b>
+🔗 https://cryptocurrencyjobs.co/operations/bvnk-people-operations-coordinator
+
+<b>Project Manager</b>
+🔗 https://cryptocurrencyjobs.co/operations/ripple-project-manager
+
+<b>Executive Assistant</b>
+🔗 https://cryptocurrencyjobs.co/operations/chainlink-labs-executive-assistant
+
+<b>Project Manager</b>
+🔗 https://cryptocurrencyjobs.co/operations/mesh-project-manager
+
+<b>Executive Assistant</b>
+🔗 https://cryptocurrencyjobs.co/operations/ava-labs-executive-assistant
+
+<b>Head of Human Resources</b>
+🔗 https://cryptocurrencyjobs.co/operations/crypto-finance-head-of-human-resources
+
+<b>Lead Recruiter</b>
+🔗 https://cryptocurrencyjobs.co/operations/wynd-labs-lead-recruiter
+
+<b>Legal Operations Manager</b>
+🔗 https://cryptocurrencyjobs.co/operations/moonpay-legal-operations-manager
+
+<b>Associate General Counsel, Crypto Services</b>
+🔗 https://cryptocurrencyjobs.co/operations/fireblocks-associate-general-counsel-crypto-services
+
+<b>Business Operations Lead</b>
+🔗 https://cryptocurrencyjobs.co/operations/rain-xyz-business-operations-lead
+
+<b>Senior Accountant</b>
+🔗 https://cryptocurrencyjobs.co/operations/polygon-senior-accountant
+
+<b>Corporate Counsel</b>
+🔗 https://cryptocurrencyjobs.co/operations/coinflow-corporate-counsel
+
+<b>Head of People Operations</b>
+🔗 https://cryptocurrencyjobs.co/operations/luno-head-of-people-operations
+
+<b>Operations Specialist (Binance Pay &amp; Card)</b>
+🔗 https://cryptocurrencyjobs.co/operations/binance-operations-specialist-binance-pay-card
+
+<b>Senior Human Resources Generalist</b>
+🔗 https://cryptocurrencyjobs.co/operations/bitwise-senior-human-resources-generalist
+
+<b>Treasury Operations Manager</b>
+🔗 https://cryptocurrencyjobs.co/operations/bcb-group-treasury-operations-manager
+
+<b>Accounting Manager, Crypto Assets</b>
+🔗 https://cryptocurrencyjobs.co/operations/coinbase-accounting-manager-crypto-assets
+
+<b>Business Analyst</b>
+🔗 https://cryptocurrencyjobs.co/operations/copper-business-analyst
+
+<b>Junior Analyst</b>
+🔗 https://cryptocurrencyjobs.co/operations/blackbird-labs-junior-analyst
+
+<b>Junior Finance Specialist</b>
+🔗 https://cryptocurrencyjobs.co/operations/amina-bank-junior-finance-specialist
+
+<b>Regulatory Policy, Senior Associate</b>
+🔗 https://cryptocurrencyjobs.co/operations/coinbase-regulatory-policy-senior-associate
+
+<b>HR Business Partner Director</b>
+🔗 https://cryptocurrencyjobs.co/operations/okx-hr-business-partner-director
+
+<b>Associate General Counsel (AGC)</b>
+🔗 https://cryptocurrencyjobs.co/operations/uphold-associate-general-counsel-agc
+
+<b>FIU Associate</b>
+🔗 https://cryptocurrencyjobs.co/operations/blockchain-fiu-associate
+
+<b>People Operations Manager</b>
+🔗 https://cryptocurrencyjobs.co/operations/notabene-people-operations-manager
+
+<b>Senior Talent Acquisition Partner, GTM</b>
+🔗 https://cryptocurrencyjobs.co/operations/fireblocks-senior-talent-acquisition-partner-gtm
+
+<b>Associate, US Policy</b>
+🔗 https://cryptocurrencyjobs.co/operations/galaxy-associate-us-policy
+
+<b>Financial Risk Operations Manager</b>
+🔗 https://cryptocurrencyjobs.co/operations/ur-financial-risk-operations-manager
+
+<b>Head of People</b>
+🔗 https://cryptocurrencyjobs.co/operations/polymarket-head-of-people
+
+<b>Junior AI Project Manager / Associate Tech PM (Fresh Graduates Welcome)</b>
+🔗 https://cryptocurrencyjobs.co/operations/animoca-brands-junior-ai-project-manager-associate-tech-pm-fresh-graduates-welcome
+
+<b>Director of Operations/Strategy</b>
+🔗 https://cryptocurrencyjobs.co/operations/sentient-director-of-operations-strategy
+
+<b>Product Designer</b>
+🔗 https://cryptocurrencyjobs.co/design/oku-product-designer
+
+<b>Brand Designer</b>
+🔗 https://cryptocurrencyjobs.co/design/privy-brand-designer
+
+<b>Staff Product Designer</b>
+🔗 https://cryptocurrencyjobs.co/design/polymarket-staff-product-designer
+
+<b>Creative Director</b>
+🔗 https://cryptocurrencyjobs.co/design/m0-labs-creative-director
+
+<b>Design Director - MetaMask (Transactions)</b>
+🔗 https://cryptocurrencyjobs.co/design/metamask-design-director-metamask-transactions
+
+<b>Lead Brand Designer</b>
+🔗 https://cryptocurrencyjobs.co/design/falconx-lead-brand-designer
+
+<b>Staff Product Designer (Trading)</b>
+🔗 https://cryptocurrencyjobs.co/design/phantom-staff-product-designer-trading
+
+<b>Brand Designer</b>
+🔗 https://cryptocurrencyjobs.co/design/ctrl-alt-brand-designer
+
+<b>Product Design Lead</b>
+🔗 https://cryptocurrencyjobs.co/design/phantom-product-design-lead
+
+<b>Senior Product Designer</b>
+🔗 https://cryptocurrencyjobs.co/design/ether-fi-senior-product-designer
+
+<b>Staff Product Designer</b>
+🔗 https://cryptocurrencyjobs.co/design/shakepay-staff-product-designer
+
+<b>Member of Web Brand Design (UI/UX)</b>
+🔗 https://cryptocurrencyjobs.co/design/anchorage-digital-member-of-web-brand-design-ui-ux
+
+<b>Senior Product Designer</b>
+🔗 https://cryptocurrencyjobs.co/design/gemini-senior-product-designer
+
+<b>Marketing Graphic Designer</b>
+🔗 https://cryptocurrencyjobs.co/design/sorare-marketing-graphic-designer
+
+<b>Staff Product Designer - Financial Tools and Infrastructure</b>
+🔗 https://cryptocurrencyjobs.co/design/coinbase-staff-product-designer-financial-tools-and-infrastructure
+
+<b>Senior Brand Designer</b>
+🔗 https://cryptocurrencyjobs.co/design/tempo-senior-brand-designer
+
+<b>Brand Designer</b>
+🔗 https://cryptocurrencyjobs.co/design/kalshi-brand-designer
+
+<b>Lead Product Designer, Spark</b>
+🔗 https://cryptocurrencyjobs.co/design/lightspark-lead-product-designer-spark
+
+<b>Senior Product Designer</b>
+🔗 https://cryptocurrencyjobs.co/design/lisk-senior-product-designer
+
+<b>Principal Brand Designer</b>
+🔗 https://cryptocurrencyjobs.co/design/stellar-principal-brand-designer
+
+<b>Senior Product Designer</b>
+🔗 https://cryptocurrencyjobs.co/design/sky-mavis-senior-product-designer
+
+<b>Product Design Lead (Wallet Platform)</b>
+🔗 https://cryptocurrencyjobs.co/design/phantom-product-design-lead-wallet-platform
+
+<b>Senior Design Manager</b>
+🔗 https://cryptocurrencyjobs.co/design/stellar-senior-design-manager
+
+<b>Product Design Lead</b>
+🔗 https://cryptocurrencyjobs.co/design/socket-product-design-lead
+
+<b>Lead Designer, Web &amp; Interactive</b>
+🔗 https://cryptocurrencyjobs.co/design/bullish-lead-designer-web-interactive
+
+<b>Senior Brand Designer</b>
+🔗 https://cryptocurrencyjobs.co/design/ripple-senior-brand-designer
+
+<b>Social Native Hybrid Designer</b>
+🔗 https://cryptocurrencyjobs.co/design/mantle-network-social-native-hybrid-designer
+
+<b>Senior Product Designer</b>
+🔗 https://cryptocurrencyjobs.co/design/mysten-labs-senior-product-designer
+
+<b>Staff Product Designer, Crypto</b>
+🔗 https://cryptocurrencyjobs.co/design/robinhood-staff-product-designer-crypto
+
+<b>Marketing Designer</b>
+🔗 https://cryptocurrencyjobs.co/design/lifi-marketing-designer
+
+<b>Senior Brand Designer, Special Projects</b>
+🔗 https://cryptocurrencyjobs.co/design/crypto-com-senior-brand-designer-special-projects
+
+<b>UX Designer (Part-Time, Web3/DeFi)</b>
+🔗 https://cryptocurrencyjobs.co/design/agoric-ux-designer-part-time-web3-defi
+
+<b>Principal Product Designer</b>
+🔗 https://cryptocurrencyjobs.co/design/taxbit-principal-product-designer
+
+<b>Senior Product Designer</b>
+🔗 https://cryptocurrencyjobs.co/design/li-fi-senior-product-designer
+
+<b>UX Designer, Device</b>
+🔗 https://cryptocurrencyjobs.co/design/world-ux-designer-device
+
+<b>Head of Product Design</b>
+🔗 https://cryptocurrencyjobs.co/design/worldcoin-head-of-product-design
+
+<b>Senior Product Designer</b>
+🔗 https://cryptocurrencyjobs.co/design/nexus-senior-product-designer
+
+<b>Senior Product Designer (Exchange)</b>
+🔗 https://cryptocurrencyjobs.co/design/crypto-com-senior-product-designer-exchange
+
+<b>Brand Designer</b>
+🔗 https://cryptocurrencyjobs.co/design/worldcoin-brand-designer
+
+<b>Design Director (Transactions)</b>
+🔗 https://cryptocurrencyjobs.co/design/metamask-design-director-transactions
+
+<b>Product Designer, Finance &amp; Fiat</b>
+🔗 https://cryptocurrencyjobs.co/design/okx-product-designer-finance-fiat
+
+<b>Senior Product Designer (AI Advisor)</b>
+🔗 https://cryptocurrencyjobs.co/design/coinbase-senior-product-designer-ai-advisor
+
+<b>Motion Graphic Designer (LATAM)</b>
+🔗 https://cryptocurrencyjobs.co/design/airtm-motion-graphic-designer-latam
+
+<b>Product Designer</b>
+🔗 https://cryptocurrencyjobs.co/design/binance-product-designer
+
+<b>Senior Web Designer</b>
+🔗 https://cryptocurrencyjobs.co/design/bitwise-senior-web-designer
+
+<b>Senior Creative Producer</b>
+🔗 https://cryptocurrencyjobs.co/design/phantom-senior-creative-producer
+
+<b>Product Designer</b>
+🔗 https://cryptocurrencyjobs.co/design/coinspaid-product-designer
+
+<b>Lead Product Designer, Arc Platform</b>
+🔗 https://cryptocurrencyjobs.co/design/circle-lead-product-designer-arc-platform
+
+<b>Product Designer</b>
+🔗 https://cryptocurrencyjobs.co/design/n1-product-designer
+
+<b>Defi Associate - Re7 Labs</b>
+🔗 https://cryptocurrencyjobs.co/other/re7-capital-defi-associate-re7-labs
+
+<b>DeFi Analyst and Educator</b>
+🔗 https://cryptocurrencyjobs.co/other/decentralized-masters-defi-analyst-and-educator
+
+<b>Algorithmic Trader</b>
+🔗 https://cryptocurrencyjobs.co/other/wintermute-algorithmic-trader
+
+<b>DeFi Algorithmic Trader</b>
+🔗 https://cryptocurrencyjobs.co/other/wintermute-defi-algorithmic-trader
+
+<b>Graduate Algorithmic Trader</b>
+🔗 https://cryptocurrencyjobs.co/other/wintermute-graduate-algorithmic-trader
+
+<b>Graduate DeFi Algorithmic Trader</b>
+🔗 https://cryptocurrencyjobs.co/other/wintermute-graduate-defi-algorithmic-trader
+
+<b>Investment Associate (with focus on Liquid Strategies)</b>
+🔗 https://cryptocurrencyjobs.co/other/wintermute-investment-associate-with-focus-on-liquid-strategies
+
+<b>OTC Sales Trader</b>
+🔗 https://cryptocurrencyjobs.co/other/wintermute-otc-sales-trader
+
+<b>Product Manager</b>
+🔗 https://cryptocurrencyjobs.co/other/wintermute-product-manager
+
+<b>Quant Researcher (MFT Focus)</b>
+🔗 https://cryptocurrencyjobs.co/other/wintermute-quantitative-researcher-mft-focus-london
+
+<b>Trading Analyst</b>
+🔗 https://cryptocurrencyjobs.co/other/wintermute-trading-analyst
+
+<b>Principal Product Manager, Affiliate Program &amp; KOL</b>
+🔗 https://cryptocurrencyjobs.co/other/okx-principal-product-manager-affiliate-program-kol
+
+<b>Head of Product</b>
+🔗 https://cryptocurrencyjobs.co/other/jito-labs-head-of-product
+
+<b>Onboarding Product Manager</b>
+🔗 https://cryptocurrencyjobs.co/other/securitize-onboarding-product-manager
+
+<b>Staff Product Manager, Payments Orchestration &amp; Intelligence</b>
+🔗 https://cryptocurrencyjobs.co/other/lightspark-staff-product-manager-payments-orchestration-intelligence
+
+<b>HR Tech Product Manager</b>
+🔗 https://cryptocurrencyjobs.co/other/chainlink-labs-hr-tech-product-manager
+
+<b>Product Manager - Trezor Suite</b>
+🔗 https://cryptocurrencyjobs.co/other/trezor-product-manager-trezor-suite
+
+<b>Staff Product Manager - Core Forms &amp; Filings</b>
+🔗 https://cryptocurrencyjobs.co/other/taxbit-staff-product-manager-core-forms-filings
+
+<b>Junior Product Manager, Daily Finances</b>
+🔗 https://cryptocurrencyjobs.co/other/uphold-junior-product-manager-daily-finances
+
+<b>Principal Product Manager, TradFi</b>
+🔗 https://cryptocurrencyjobs.co/other/circle-principal-product-manager-tradfi
+
+<b>Product Manager, GTM</b>
+🔗 https://cryptocurrencyjobs.co/other/world-product-manager-gtm
+
+<b>Crypto / Digital Assets Custody Operator</b>
+🔗 https://cryptocurrencyjobs.co/other/etoro-crypto-digital-assets-custody-operator
+
+<b>(Senior) DeFi Trader (Prediction Markets / Sports)</b>
+🔗 https://cryptocurrencyjobs.co/other/okx-senior-defi-trader-prediction-markets-sports
+
+<b>Product Manager – Subledger and Institutional</b>
+🔗 https://cryptocurrencyjobs.co/other/bitwave-product-manager-subledger-and-institutional
+
+<b>Sr. Product Manager, Fintechs &amp; Exchanges</b>
+🔗 https://cryptocurrencyjobs.co/other/op-labs-sr-product-manager-fintechs-exchanges
+
+<b>Data Science, Blockchain</b>
+🔗 https://cryptocurrencyjobs.co/other/tempo-data-science-blockchain
+
+<b>Senior Product Manager – Wallet</b>
+🔗 https://cryptocurrencyjobs.co/other/fireblocks-senior-product-manager-wallet
+
+<b>Research Associate, Liquid Tokens</b>
+🔗 https://cryptocurrencyjobs.co/other/digital-currency-group-research-associate-liquid-tokens
+
+<b>Senior Quantitative Options Trader (US)</b>
+🔗 https://cryptocurrencyjobs.co/other/grt-senior-quantitative-options-trader-us
+
+<b>Lead Product Manager, Web3 Prediction Markets</b>
+🔗 https://cryptocurrencyjobs.co/other/improbable-lead-product-manager-web3-prediction-markets
+
+<b>Senior Product Manager, Growth</b>
+🔗 https://cryptocurrencyjobs.co/other/alchemy-senior-product-manager-growth
+
+<b>Senior Technical Product Manager</b>
+🔗 https://cryptocurrencyjobs.co/other/nomic-foundation-senior-technical-product-manager
+
+<b>Senior Product Manager, Fintechs &amp; Exchanges</b>
+🔗 https://cryptocurrencyjobs.co/other/op-labs-senior-product-manager-fintechs-exchanges
+
+<b>Crypto Trader</b>
+🔗 https://cryptocurrencyjobs.co/other/bitcoin-suisse-ag-crypto-trader
+
+<b>Senior Product Manager, Privacy</b>
+🔗 https://cryptocurrencyjobs.co/other/base-senior-product-manager-privacy
+
+<b>Trader</b>
+🔗 https://cryptocurrencyjobs.co/other/pantera-capital-trader
+
+<b>Product Lead (DevX)</b>
+🔗 https://cryptocurrencyjobs.co/other/morpho-labs-product-lead-devx
+
+<b>General Partner</b>
+🔗 https://cryptocurrencyjobs.co/other/alliance-general-partner
+
+<b>Lead Product Manager</b>
+🔗 https://cryptocurrencyjobs.co/other/gemini-lead-product-manager
+
+<b>Product Manager - Crypto Structured Products &amp; Earn</b>
+🔗 https://cryptocurrencyjobs.co/other/binance-product-manager-crypto-structured-products-earn
+
+<b>Product Manager, Stablecoins</b>
+🔗 https://cryptocurrencyjobs.co/other/bitgo-product-manager-stablecoins
+
+<b>Product Manager, Portfolio Margin and Risk</b>
+🔗 https://cryptocurrencyjobs.co/other/galaxy-product-manager-portfolio-margin-and-risk
+
+<b>Product Controller</b>
+🔗 https://cryptocurrencyjobs.co/other/gsr-product-controller
+
 <b>BD &amp; Sales Lead</b>
 🔗 https://web3.career/bd-sales-lead-sideshift-ai/149411
+
+<b>Production Engineer</b>
+🔗 https://web3.career/production-engineer-hibachi/146934
+
+<b>Technical Lead - Wallets (100% remote)</b>
+🔗 https://web3.career/technical-lead-wallets-100-remote-tether/105878
+
+<b>Senior Blockchain Engineer</b>
+🔗 https://web3.career/senior-blockchain-engineer-bitfit-labs-pte-ltd/149140
+
+<b>Senior DevOps Engineer</b>
+🔗 https://web3.career/senior-devops-engineer-bitfit-labs-pte-ltd/149139
+
+<b>Product Engineer</b>
+🔗 https://web3.career/product-engineer-sherlock/149056
+
+<b>Front End Engineer</b>
+🔗 https://web3.career/front-end-engineer-blackwing/103745
+
+<b>Backend Engineer</b>
+🔗 https://web3.career/backend-engineer-blackwing/103747
+
+<b>OTC Trading Director For Pooling</b>
+🔗 https://web3.career/otc-trading-director-for-pooling-coins/149424
+
+<b>Junior Quantitative Researcher Fresh STEM PhD graduates are welcome</b>
+🔗 https://web3.career/junior-quantitative-researcher-fresh-stem-phd-graduates-are-welcome-binance/149423
+
+<b>Events Marketing Manager</b>
+🔗 https://web3.career/events-marketing-manager-squads/149421
+
+<b>Legal Counsel</b>
+🔗 https://web3.career/legal-counsel-solflare/149419
+
+<b>Product Designer Mid–Senior</b>
+🔗 https://web3.career/product-designer-mid-senior-jupiter/149418
+
+<b>Freelance Visual Designer</b>
+🔗 https://web3.career/freelance-visual-designer-jupiter/149417
 
 <b>Crypto Associate Relationship Manager</b>
 🔗 https://web3.career/crypto-associate-relationship-manager-drw/149416
@@ -152,43 +1599,1708 @@
 <b>Senior Product Operation Manager Binance Square</b>
 🔗 https://web3.career/senior-product-operation-manager-binance-square-binance/149408
 
-<b>Binance Accelerator Program UI UX Design</b>
-🔗 https://web3.career/binance-accelerator-program-ui-ux-design-binance/149407
+<b>Head of Marketing</b>
+🏢 Gensyn
+📍 Remote
+🔗 https://job-boards.eu.greenhouse.io/gensyn/jobs/4794894101
 
-<b>Technical Project Manager Tether Wallet 100% Remote Worldwide</b>
-🔗 https://web3.career/technical-project-manager-tether-wallet-100-remote-worldwide-tetheroperationslimited/149406
+<b>Open Application</b>
+🏢 Gensyn
+📍 Remote
+🔗 https://job-boards.eu.greenhouse.io/gensyn/jobs/4337291101
 
-<b>Technical Project Manager Tether Wallet 100% remote</b>
-🔗 https://web3.career/technical-project-manager-tether-wallet-100-remote-tetheroperationslimited/149405
+<b>Technical Product Manager</b>
+🏢 Gensyn
+📍 Remote
+🔗 https://job-boards.eu.greenhouse.io/gensyn/jobs/4660248101
 
-<b>Hardware Assembly Technician Dalton GA</b>
-🔗 https://web3.career/hardware-assembly-technician-dalton-ga-cleanspark/149404
+<b>Assistant Controller</b>
+🏢 LayerZero Labs
+📍 Vancouver
+🔗 https://job-boards.greenhouse.io/layerzerolabs/jobs/5970048004
 
-<b>Director of Cybersecurity Incident Response Brazil</b>
-🔗 https://web3.career/director-of-cybersecurity-incident-response-brazil-coins/149403
+<b>Backend Engineer</b>
+🏢 LayerZero Labs
+📍 Vancouver
+🔗 https://job-boards.greenhouse.io/layerzerolabs/jobs/5554606004
+
+<b>Business Development Lead - Hong Kong</b>
+🏢 LayerZero Labs
+📍 Apac
+🔗 https://job-boards.greenhouse.io/layerzerolabs/jobs/5649952004
+
+<b>Business Development Lead - Japan</b>
+🏢 LayerZero Labs
+📍 Apac
+🔗 https://job-boards.greenhouse.io/layerzerolabs/jobs/5649953004
+
+<b>Business Operations Lead</b>
+🏢 LayerZero Labs
+📍 New York
+🔗 https://job-boards.greenhouse.io/layerzerolabs/jobs/5835087004
+
+<b>Controller</b>
+🏢 LayerZero Labs
+📍 Vancouver
+🔗 https://job-boards.greenhouse.io/layerzerolabs/jobs/5969934004
+
+<b>Cryptographer</b>
+🏢 LayerZero Labs
+📍 Vancouver
+🔗 https://job-boards.greenhouse.io/layerzerolabs/jobs/5837487004
+
+<b>Customer Success Manager</b>
+🏢 LayerZero Labs
+📍 Vancouver
+🔗 https://job-boards.greenhouse.io/layerzerolabs/jobs/5554637004
+
+<b>Data Analyst</b>
+🏢 LayerZero Labs
+📍 Vancouver
+🔗 https://job-boards.greenhouse.io/layerzerolabs/jobs/5787956004
+
+<b>Frontend Engineer</b>
+🏢 LayerZero Labs
+📍 Vancouver
+🔗 https://job-boards.greenhouse.io/layerzerolabs/jobs/5135897004
+
+<b>Product Manager</b>
+🏢 LayerZero Labs
+📍 Vancouver
+🔗 https://job-boards.greenhouse.io/layerzerolabs/jobs/5755720004
+
+<b>Protocol Engineer</b>
+🏢 LayerZero Labs
+📍 Vancouver
+🔗 https://job-boards.greenhouse.io/layerzerolabs/jobs/5554608004
+
+<b>Solutions Architect Lead - Hong Kong</b>
+🏢 LayerZero Labs
+📍 Apac
+🔗 https://job-boards.greenhouse.io/layerzerolabs/jobs/5622047004
+
+<b>Staff Solutions Architect</b>
+🏢 LayerZero Labs
+📍 New York
+🔗 https://job-boards.greenhouse.io/layerzerolabs/jobs/5765882004
+
+<b>Systems Engineer</b>
+🏢 LayerZero Labs
+📍 Vancouver
+🔗 https://job-boards.greenhouse.io/layerzerolabs/jobs/5826155004
+
+<b>Technical Recruiter</b>
+🏢 LayerZero Labs
+📍 Vancouver
+🔗 https://job-boards.greenhouse.io/layerzerolabs/jobs/5561073004
+
+<b>Vertical Marketing Manager - Institutions</b>
+🏢 LayerZero Labs
+📍 New York
+🔗 https://job-boards.greenhouse.io/layerzerolabs/jobs/5622041004
+
+<b>Creative Director</b>
+🏢 M^0 Labs
+📍 Remote
+🔗 https://job-boards.greenhouse.io/m0dbathenextthingltd/jobs/4233813009
+
+<b>Join Our Talent Network</b>
+🏢 M^0 Labs
+📍 Remote
+🔗 https://job-boards.greenhouse.io/m0dbathenextthingltd/jobs/4048731009
+
+<b>Operations Manager</b>
+🏢 M^0 Labs
+📍 Remote
+🔗 https://job-boards.greenhouse.io/m0dbathenextthingltd/jobs/4244015009
+
+<b>Senior Counsel</b>
+🏢 M^0 Labs
+📍 New York
+🔗 https://job-boards.greenhouse.io/m0dbathenextthingltd/jobs/4016314009
+
+<b>Senior Product Manager</b>
+🏢 M^0 Labs
+📍 Remote
+🔗 https://job-boards.greenhouse.io/m0dbathenextthingltd/jobs/4227487009
+
+<b>Finance Operations</b>
+🏢 Kalshi
+📍 New York
+🔗 https://job-boards.greenhouse.io/kalshi/jobs/6598283003
+
+<b>Growth Marketing Manager</b>
+🏢 Kalshi
+📍 New York
+🔗 https://job-boards.greenhouse.io/kalshi/jobs/7495544003
+
+<b>Infrastructure Engineer</b>
+🏢 Kalshi
+📍 New York
+🔗 https://job-boards.greenhouse.io/kalshi/jobs/5194694003
+
+<b>IT Administrator</b>
+🏢 Kalshi
+📍 New York
+🔗 https://job-boards.greenhouse.io/kalshi/jobs/6617464003
+
+<b>Legal (Market Contracts)</b>
+🏢 Kalshi
+📍 New York
+🔗 https://job-boards.greenhouse.io/kalshi/jobs/7244560003
+
+<b>Linear/Streaming Lead</b>
+🏢 Kalshi
+📍 New York
+🔗 https://job-boards.greenhouse.io/kalshi/jobs/7532362003
+
+<b>Marketing Activations &amp; Operations</b>
+🏢 Kalshi
+📍 New York
+🔗 https://job-boards.greenhouse.io/kalshi/jobs/7626709003
+
+<b>Operations Risk Analyst</b>
+🏢 Kalshi
+📍 New York
+🔗 https://job-boards.greenhouse.io/kalshi/jobs/7530697003
+
+<b>Operations Risk Lead</b>
+🏢 Kalshi
+📍 New York
+🔗 https://job-boards.greenhouse.io/kalshi/jobs/7530675003
+
+<b>Paralegal</b>
+🏢 Kalshi
+📍 New York
+🔗 https://job-boards.greenhouse.io/kalshi/jobs/7522400003
+
+<b>Partnerships - Social Media</b>
+🏢 Kalshi
+📍 New York
+🔗 https://job-boards.greenhouse.io/kalshi/jobs/7297530003
+
+<b>Payments Lead</b>
+🏢 Kalshi
+📍 New York
+🔗 https://job-boards.greenhouse.io/kalshi/jobs/7518124003
+
+<b>Performance Marketing</b>
+🏢 Kalshi
+📍 New York
+🔗 https://job-boards.greenhouse.io/kalshi/jobs/5601079003
+
+<b>Product Designer</b>
+🏢 Kalshi
+📍 New York
+🔗 https://job-boards.greenhouse.io/kalshi/jobs/6334301003
+
+<b>Product Manager</b>
+🏢 Kalshi
+📍 New York
+🔗 https://job-boards.greenhouse.io/kalshi/jobs/6312923003
+
+<b>Quantitative Developer (Affiliated Trading)</b>
+🏢 Kalshi
+📍 New York
+🔗 https://job-boards.greenhouse.io/kalshi/jobs/4327954003
+
+<b>Recruiting Sourcer</b>
+🏢 Kalshi
+📍 New York
+🔗 https://job-boards.greenhouse.io/kalshi/jobs/5597760003
+
+<b>Site Reliability Engineer</b>
+🏢 Kalshi
+📍 New York
+🔗 https://job-boards.greenhouse.io/kalshi/jobs/6567367003
+
+<b>Software Engineer, Data</b>
+🏢 Kalshi
+📍 New York
+🔗 https://job-boards.greenhouse.io/kalshi/jobs/6089733003
+
+<b>Software Engineer, Growth</b>
+🏢 Kalshi
+📍 New York
+🔗 https://job-boards.greenhouse.io/kalshi/jobs/6335667003
+
+<b>Software Engineer, Product</b>
+🏢 Kalshi
+📍 New York
+🔗 https://job-boards.greenhouse.io/kalshi/jobs/4327952003
+
+<b>Software Engineer, Trading Platform</b>
+🏢 Kalshi
+📍 New York
+🔗 https://job-boards.greenhouse.io/kalshi/jobs/6650541003
+
+<b>Sports Operations Engineer</b>
+🏢 Kalshi
+📍 New York
+🔗 https://job-boards.greenhouse.io/kalshi/jobs/7109466003
+
+<b>Strategic Finance Analyst</b>
+🏢 Kalshi
+📍 New York
+🔗 https://job-boards.greenhouse.io/kalshi/jobs/7492367003
+
+<b>Technical Accountant</b>
+🏢 Kalshi
+📍 New York
+🔗 https://job-boards.greenhouse.io/kalshi/jobs/7515266003
+
+<b>Video Editor</b>
+🏢 Kalshi
+📍 New York
+🔗 https://job-boards.greenhouse.io/kalshi/jobs/6112209003
+
+<b>Growth Manager- Enterprise Partnerships</b>
+🏢 Uniswap
+📍 New York
+🔗 https://jobs.ashbyhq.com/uniswap/3d25a6ac-30b7-424c-a93c-54ccf2e538b6
+
+<b>PhD Research Fellow</b>
+🏢 Uniswap
+📍 New York
+🔗 https://jobs.ashbyhq.com/uniswap/3ff9b84d-4d26-4a24-b2e1-d1244e0f9d02
+
+<b>Senior Backend Engineer</b>
+🏢 Uniswap
+📍 New York
+🔗 https://jobs.ashbyhq.com/uniswap/cfd492ff-dd07-432a-84b8-8aef0e8984ec
+
+<b>Senior Backend Engineer, Platform</b>
+🏢 Uniswap
+📍 New York
+🔗 https://jobs.ashbyhq.com/uniswap/f475ea4a-b8be-442a-b8e2-9a6003d1a51a
 
 <b>Senior Brand Designer</b>
 🏢 Uniswap
 📍 New York
 🔗 https://jobs.ashbyhq.com/uniswap/a676396a-9cfe-4c88-8bf3-7a9a09e9e4a5
 
+<b>Senior Frontend Engineer</b>
+🏢 Uniswap
+📍 New York
+🔗 https://jobs.ashbyhq.com/uniswap/5a3eea2d-92c6-453d-9ff4-3e1393978232
+
+<b>Senior Frontend Infrastructure Engineer</b>
+🏢 Uniswap
+📍 New York
+🔗 https://jobs.ashbyhq.com/uniswap/c9fe612e-7c29-47a4-b2a3-2a9d1185f5ef
+
+<b>Senior Product Designer</b>
+🏢 Uniswap
+📍 New York
+🔗 https://jobs.ashbyhq.com/uniswap/23d99cc0-8451-4466-bd25-3779570d396b
+
+<b>Senior Smart Contract Engineer</b>
+🏢 Uniswap
+📍 New York
+🔗 https://jobs.ashbyhq.com/uniswap/9a047e27-54dd-44df-9c0c-4ca6bc2d57bf
+
+<b>Staff Backend Engineer</b>
+🏢 Uniswap
+📍 New York
+🔗 https://jobs.ashbyhq.com/uniswap/f1dab839-ecb6-4061-b475-b5d8cf264adb
+
+<b>Accounting Lead, Corporate and Reporting</b>
+🏢 Lightspark
+📍 Los Angeles
+🔗 https://jobs.ashbyhq.com/lightspark/f0ed6523-119f-41dc-b6ba-ae982705b408
+
+<b>Finance Manager, Payments</b>
+🏢 Lightspark
+📍 Los Angeles
+🔗 https://jobs.ashbyhq.com/lightspark/71eaae17-5123-496a-8177-9f475bf8b0df
+
+<b>Global Head of Financial Crimes</b>
+🏢 Lightspark
+📍 Remote
+🔗 https://jobs.ashbyhq.com/lightspark/10d8c2ec-8b57-4799-a117-7638d8fc8749
+
+<b>Growth Marketing Specialist</b>
+🏢 Lightspark
+📍 Los Angeles
+🔗 https://jobs.ashbyhq.com/lightspark/fa88b169-ad3a-4dcf-97f4-b90e653400cd
+
+<b>Lead Product Designer, Spark</b>
+🏢 Lightspark
+📍 Los Angeles
+🔗 https://jobs.ashbyhq.com/lightspark/55206de4-a13e-4db9-8379-4519e456b22f
+
+<b>Product Marketing Lead</b>
+🏢 Lightspark
+📍 Los Angeles
+🔗 https://jobs.ashbyhq.com/lightspark/8ce2cdb3-a3e1-46a5-97fd-437716017860
+
+<b>Senior Crypto Security Engineer</b>
+🏢 Lightspark
+📍 Los Angeles
+🔗 https://jobs.ashbyhq.com/lightspark/fb02d6c1-aa2a-4aa7-bee5-2ef0d49ead9f
+
+<b>Staff Product Manager, Payments Orchestration &amp; Intelligence</b>
+🏢 Lightspark
+📍 Los Angeles
+🔗 https://jobs.ashbyhq.com/lightspark/800e2fcc-4f86-4068-aaa2-2990fea561d8
+
+<b>Business Development Specialist</b>
+🏢 Sky Mavis
+📍 Vietnam
+🔗 https://jobs.ashbyhq.com/skymavis/8cb8af35-fbbd-4f78-85c0-7764c3b7f965
+
+<b>Business Development Specialist, Fintech</b>
+🏢 Sky Mavis
+📍 Vietnam
+🔗 https://jobs.ashbyhq.com/skymavis/34468990-9f49-4648-aab8-6383d5051a1d
+
+<b>Cloud Security Engineer</b>
+🏢 Sky Mavis
+📍 Vietnam
+🔗 https://jobs.ashbyhq.com/skymavis/8d8328c3-b02d-44df-a29b-ddce85c1ca0d
+
+<b>Office Administrator (8-Month Contract)</b>
+🏢 Sky Mavis
+📍 Vietnam
+🔗 https://jobs.ashbyhq.com/skymavis/b8905760-47d0-4200-b07a-13ecc1f3b4a4
+
+<b>Senior Product Designer</b>
+🏢 Sky Mavis
+📍 Vietnam
+🔗 https://jobs.ashbyhq.com/skymavis/537e3bd8-3f42-47c7-b885-e74b07440628
+
+<b>Web3 Security Engineer</b>
+🏢 Sky Mavis
+📍 Vietnam
+🔗 https://jobs.ashbyhq.com/skymavis/4b58a7cf-538a-44c7-908b-da8918348efb
+
+<b>AI Lead Engineer</b>
+🏢 OP Labs
+📍 New York
+🔗 https://jobs.ashbyhq.com/oplabs/e2d403d5-e4d2-496a-9746-29520464c929
+
+<b>Enterprise Sales Lead</b>
+🏢 OP Labs
+📍 New York
+🔗 https://jobs.ashbyhq.com/oplabs/e4e358f3-e712-4d41-a90e-2b1e8e6b89bf
+
+<b>Executive Assistant &amp; Office Manager</b>
+🏢 OP Labs
+📍 New York
+🔗 https://jobs.ashbyhq.com/oplabs/2c0b7f3e-ed8a-4872-8500-2f897562154c
+
+<b>Partnerships Lead, Blockchain Infrastructure</b>
+🏢 OP Labs
+🔗 https://jobs.ashbyhq.com/oplabs/b362c292-5a3c-42a2-bd36-4e1a86bd2d36
+
+<b>Partnerships Lead, Defi</b>
+🏢 OP Labs
+🔗 https://jobs.ashbyhq.com/oplabs/815d0c1d-9e72-4f37-8740-a7f401509a7f
+
+<b>Senior Sales Engineer</b>
+🏢 OP Labs
+📍 Us Only
+🔗 https://jobs.ashbyhq.com/oplabs/885091c2-2f56-4d46-aa01-efe49a065dee
+
+<b>Solutions Engineer, Japan</b>
+🏢 OP Labs
+📍 Japan
+🔗 https://jobs.ashbyhq.com/oplabs/86f3dd6e-f750-43a2-b2c2-a02950e4be91
+
+<b>Sr. Product Manager, Fintechs &amp; Exchanges</b>
+🏢 OP Labs
+🔗 https://jobs.ashbyhq.com/oplabs/2efc00b0-0b5c-4d94-b842-c15acb62fbf2
+
+<b>VP Marketing</b>
+🏢 OP Labs
+🔗 https://jobs.ashbyhq.com/oplabs/02207060-bdcb-46f6-8195-8a6f2af959ec
+
+<b>Engineering Manager - DevEx</b>
+🏢 Phantom
+📍 Remote
+🔗 https://jobs.ashbyhq.com/phantom/17b97e8b-e25b-4352-be35-f770524a96b4
+
+<b>SDET</b>
+🏢 Phantom
+📍 Remote
+🔗 https://jobs.ashbyhq.com/phantom/49997233-6425-42a6-a61e-62c8ddd15551
+
+<b>SDET (Money Movement)</b>
+🏢 Phantom
+📍 Remote
+🔗 https://jobs.ashbyhq.com/phantom/50fa106b-7e02-4cff-8cf8-9f45cf1d60d4
+
+<b>Senior Application Engineer, IT Engineering</b>
+🏢 Phantom
+📍 Remote
+🔗 https://jobs.ashbyhq.com/phantom/484c4522-40a5-450d-a31e-60f3e940cfa3
+
+<b>Senior Data Scientist</b>
+🏢 Phantom
+📍 Remote
+🔗 https://jobs.ashbyhq.com/phantom/560634d5-2234-4dbc-9143-d8416c4efbdc
+
+<b>Senior Product Manager (Agentic Trading)</b>
+🏢 Phantom
+📍 Remote
+🔗 https://jobs.ashbyhq.com/phantom/7db89c36-7f9c-4ed1-943d-b97dd5f85576
+
+<b>Senior Product Marketer</b>
+🏢 Phantom
+📍 Remote
+🔗 https://jobs.ashbyhq.com/phantom/089f07cc-5503-4136-8974-f17a46452dd4
+
+<b>Senior Software Engineer, Backend (Money Movement)</b>
+🏢 Phantom
+📍 Remote
+🔗 https://jobs.ashbyhq.com/phantom/01acfd54-49c2-4913-a968-fc70fcf61e12
+
+<b>Senior Software Engineer, Frontend</b>
+🏢 Phantom
+📍 Remote
+🔗 https://jobs.ashbyhq.com/phantom/e7b83c02-55c2-4037-9209-93deb3b7492c
+
+<b>Senior Software Engineer, Frontend (Money Movement)</b>
+🏢 Phantom
+📍 Remote
+🔗 https://jobs.ashbyhq.com/phantom/02c68924-988c-4195-a367-3bfce929df3a
+
+<b>Software Engineer, Backend (Trading)</b>
+🏢 Phantom
+📍 Remote
+🔗 https://jobs.ashbyhq.com/phantom/d8ee7f59-0f80-437f-908e-bfe603cb078a
+
+<b>Software Engineer, Frontend / Full Stack (Identity Platform)</b>
+🏢 Phantom
+📍 Remote
+🔗 https://jobs.ashbyhq.com/phantom/be5a838e-a6f4-4d99-be08-e6419a857289
+
+<b>Software Engineer, Frontend / Full Stack (Trading)</b>
+🏢 Phantom
+📍 Remote
+🔗 https://jobs.ashbyhq.com/phantom/e213be58-ba98-486d-93bc-a7716f33003e
+
+<b>Staff Engineer, Full Stack (Agentic Trading)</b>
+🏢 Phantom
+📍 Remote
+🔗 https://jobs.ashbyhq.com/phantom/0af91b03-eb71-400c-b496-356f1fb147d3
+
+<b>Staff Product Designer (Trading)</b>
+🏢 Phantom
+📍 Remote
+🔗 https://jobs.ashbyhq.com/phantom/0844373f-aecc-4290-bd1e-159d15b29ae2
+
+<b>Staff Software Engineer (SRE)</b>
+🏢 Phantom
+📍 Remote
+🔗 https://jobs.ashbyhq.com/phantom/d480082b-a446-40fb-be24-f364c07ef8a9
+
+<b>VP of Marketing</b>
+🏢 Phantom
+📍 Remote
+🔗 https://jobs.ashbyhq.com/phantom/228a38aa-b462-498e-b5de-7c948e95eb7c
+
+<b>Curation Team Lead - Lido Earn</b>
+🏢 Lido
+📍 Worldwide
+🔗 https://jobs.ashbyhq.com/lido.fi/00380ba2-09f5-4659-b9ec-e19da564c170
+
+<b>DAO Ops Manager</b>
+🏢 Lido
+📍 Worldwide
+🔗 https://jobs.ashbyhq.com/lido.fi/73126dec-256a-4622-9a3c-f2041da1bc83
+
+<b>Staff Android Engineer</b>
+🏢 OpenSea
+📍 Remote
+🔗 https://jobs.ashbyhq.com/opensea/67c67893-f7f7-44e9-8a94-976c4a5f2a86
+
+<b>Staff iOS Engineer</b>
+🏢 OpenSea
+📍 Remote
+🔗 https://jobs.ashbyhq.com/opensea/66daad8a-656f-4349-bd7e-c50e80bd7fe0
+
+<b>Staff Product Designer</b>
+🏢 OpenSea
+📍 Remote
+🔗 https://jobs.ashbyhq.com/opensea/5421c373-92e8-41ee-bc82-e467c02b010a
+
+<b>Agentic AI Engineer</b>
+🏢 EigenLayer
+📍 Remote
+🔗 https://jobs.ashbyhq.com/eigen-labs/c02fa001-23c9-4d68-8c0a-e27a742d76a4
+
+<b>Future Builders – General Interest</b>
+🏢 EigenLayer
+📍 Remote
+🔗 https://jobs.ashbyhq.com/eigen-labs/2f08d719-09b3-493e-ae9e-f3eba2ade188
+
+<b>Senior Data Scientist</b>
+🏢 Mysten Labs
+📍 Usa (Remote)
+🔗 https://jobs.ashbyhq.com/mystenlabs/a4f2d0e6-9e87-44b1-90d9-388a88a7e78f
+
+<b>Sr. Growth Marketing Manager, Slush Wallet</b>
+🏢 Mysten Labs
+📍 Usa (Remote)
+🔗 https://jobs.ashbyhq.com/mystenlabs/90c41194-3f07-43c2-b424-971dabc8a91c
+
+<b>Technical Program Manager</b>
+🏢 Mysten Labs
+📍 Greece
+🔗 https://jobs.ashbyhq.com/mystenlabs/56c3834c-8c2e-4a10-87e5-2a24a25c40b8
+
+<b>Brand and Communications</b>
+🏢 Bastion
+📍 New York
+🔗 https://jobs.ashbyhq.com/bastion/560e31bb-e0d8-4508-b825-ff34af2bb5ba
+
+<b>Business Development and Operations Associate</b>
+🏢 Bastion
+📍 New York
+🔗 https://jobs.ashbyhq.com/bastion/6ab91273-5c33-42fc-a054-1dfc4096a85a
+
+<b>Customer Operations</b>
+🏢 Bastion
+📍 New York
+🔗 https://jobs.ashbyhq.com/bastion/938be0d9-725e-4c7d-9f28-2a0998f03e8b
+
+<b>Infrastructure Engineer</b>
+🏢 Bastion
+🔗 https://jobs.ashbyhq.com/bastion/f7f99c0d-5db9-4ff6-9673-c44c10bb731c
+
+<b>Senior Software Engineer</b>
+🏢 Bastion
+🔗 https://jobs.ashbyhq.com/bastion/226dd6ee-1852-4a82-bb9c-9e21fcd08637
+
+<b>Talent Network</b>
+🏢 Bastion
+🔗 https://jobs.ashbyhq.com/bastion/c8370c4d-34cb-422a-a4a3-566620270f25
+
+<b>Account Executive</b>
+🏢 Sardine
+📍 North America
+🔗 https://jobs.ashbyhq.com/sardine/26af9b11-9fc8-4098-8bd2-73e7aa7dbdbd
+
+<b>Compliance Solutions Specialist</b>
+🏢 Sardine
+📍 North America
+🔗 https://jobs.ashbyhq.com/sardine/7c1781df-818e-49b8-b44f-257cb071a836
+
+<b>Controller</b>
+🏢 Sardine
+📍 United States
+🔗 https://jobs.ashbyhq.com/sardine/b1496f06-ff1a-46e8-9160-b6ee1135a76e
+
+<b>Data Platform Engineer</b>
+🏢 Sardine
+📍 Brazil
+🔗 https://jobs.ashbyhq.com/sardine/b9bd5dbd-0c15-4357-9097-29693c0db675
+
+<b>Data Scientist</b>
+🏢 Sardine
+📍 United Kingdom
+🔗 https://jobs.ashbyhq.com/sardine/1a00a64d-2dbb-4e2f-9efe-1ed32226397e
+
+<b>DevOps Engineer</b>
+🏢 Sardine
+📍 United States
+🔗 https://jobs.ashbyhq.com/sardine/42ae8d19-4362-49df-b132-df5b32052576
+
+<b>Engineering Manager - Banking</b>
+🏢 Sardine
+📍 North America
+🔗 https://jobs.ashbyhq.com/sardine/6d1ef311-4164-42ce-9fbe-0a32f6c5c485
+
+<b>Enterprise Sales Engineer</b>
+🏢 Sardine
+📍 North America
+🔗 https://jobs.ashbyhq.com/sardine/850f5ea2-0d73-4b9c-be41-8e23f8ba24bb
+
+<b>FP&amp;A Analyst</b>
+🏢 Sardine
+📍 North America
+🔗 https://jobs.ashbyhq.com/sardine/680f968d-c879-4a38-ba9f-671dfc7f8d63
+
+<b>GTM Engineer</b>
+🏢 Sardine
+📍 North America
+🔗 https://jobs.ashbyhq.com/sardine/819a5d0c-4b91-4c41-91f5-2d0a351a7b35
+
+<b>Head of Account Management</b>
+🏢 Sardine
+📍 Berkeley, California
+🔗 https://jobs.ashbyhq.com/sardine/1ed41d7d-a0d8-4002-9785-2b2d1f85ccb8
+
+<b>Integration Manager</b>
+🏢 Sardine
+📍 North America
+🔗 https://jobs.ashbyhq.com/sardine/aabf9a4b-18ef-4932-ac20-4ed07eacd6ca
+
+<b>IT Helpdesk Technician</b>
+🏢 Sardine
+📍 Germany
+🔗 https://jobs.ashbyhq.com/sardine/4039da58-d6c3-4ee0-bd9e-fde7d6ea2afb
+
+<b>Key Account Manager</b>
+🏢 Sardine
+📍 Berkeley, California
+🔗 https://jobs.ashbyhq.com/sardine/92da1cab-a832-4a34-b8fc-18a5b0a675d9
+
+<b>Machine Learning Engineer</b>
+🏢 Sardine
+📍 North America
+🔗 https://jobs.ashbyhq.com/sardine/2c8f0342-b8af-4cc2-85cd-67bc48275568
+
 <b>Senior Account Executive</b>
 🏢 Sardine
 📍 Australia
 🔗 https://jobs.ashbyhq.com/sardine/6040a00f-70d7-4140-9534-d3e670b4fe2b
+
+<b>Software Backend Engineer</b>
+🏢 Sardine
+📍 India
+🔗 https://jobs.ashbyhq.com/sardine/122f0715-0d0a-42b3-94f5-0a59d4169d69
+
+<b>Software Engineer</b>
+🏢 Sardine
+📍 Brazil
+🔗 https://jobs.ashbyhq.com/sardine/301662be-e7ab-4827-936a-13fe02add4aa
+
+<b>Staff Engineer - Fraud Prevention</b>
+🏢 Sardine
+📍 North America
+🔗 https://jobs.ashbyhq.com/sardine/63f9b76c-0df0-49c1-b6a6-7147a52ccfc4
+
+<b>Staff Software Engineer - Compliance</b>
+🏢 Sardine
+📍 North America
+🔗 https://jobs.ashbyhq.com/sardine/ec2e86cc-2497-4c23-8e77-ddf962a7fc4c
+
+<b>Strategic Account Manager</b>
+🏢 Sardine
+📍 North America
+🔗 https://jobs.ashbyhq.com/sardine/9d6e2797-71e3-4244-9cf0-7ccbf0f707da
+
+<b>Technical Product Manager - Bot Detection</b>
+🏢 Sardine
+📍 North America
+🔗 https://jobs.ashbyhq.com/sardine/4934e3e3-406c-40bb-b0a4-b5e79ffbb512
+
+<b>Technical Professional Services Lead</b>
+🏢 Sardine
+📍 North America
+🔗 https://jobs.ashbyhq.com/sardine/5b932cd4-7310-4c82-a07f-379e87383733
+
+<b>Customer Success Manager, Enterprise</b>
+🏢 Method
+📍 San Francisco
+🔗 https://jobs.ashbyhq.com/method/05da9cc8-7f51-41a6-ad3b-af8a20778288
+
+<b>Director of Sales</b>
+🏢 Method
+📍 New York
+🔗 https://jobs.ashbyhq.com/method/37959315-2b10-40bd-895d-aab8cc2f0980
+
+<b>Enterprise Account Executive</b>
+🏢 Method
+📍 New York
+🔗 https://jobs.ashbyhq.com/method/4bc9fe8c-4234-43ba-b3a2-eb3ad0d47830
+
+<b>Enterprise Account Executive, Commerce</b>
+🏢 Method
+📍 San Francisco
+🔗 https://jobs.ashbyhq.com/method/f18ee0af-176d-41c3-a2e0-b69256c0ffc7
+
+<b>Former Founder</b>
+🏢 Method
+📍 Austin
+🔗 https://jobs.ashbyhq.com/method/fcaa3cbe-269e-4be2-87e9-f91662c727b6
+
+<b>Growth Marketing Lead</b>
+🏢 Method
+📍 New York
+🔗 https://jobs.ashbyhq.com/method/2cc3821b-88ae-41bb-a696-ade7af99597f
+
+<b>Head of Customer Success</b>
+🏢 Method
+📍 New York
+🔗 https://jobs.ashbyhq.com/method/4c6fd344-943b-4ccf-bbf3-07c45572066b
+
+<b>Head of Data Strategy &amp; Access</b>
+🏢 Method
+📍 New York
+🔗 https://jobs.ashbyhq.com/method/086b5c53-4927-47da-b38f-5d6c73f72568
+
+<b>Marketing Lead</b>
+🏢 Method
+📍 New York
+🔗 https://jobs.ashbyhq.com/method/691ff4b3-092f-43f4-85cd-6d4ce43e2680
+
+<b>Product Lead, Commerce</b>
+🏢 Method
+📍 New York
+🔗 https://jobs.ashbyhq.com/method/daff8c05-446c-4268-900a-2c1ed0b5162e
+
+<b>Senior Software Engineer</b>
+🏢 Method
+📍 New York
+🔗 https://jobs.ashbyhq.com/method/9d4c2988-ba3e-4222-8595-02e83fe5ccde
+
+<b>Software Engineer</b>
+🏢 Method
+📍 New York
+🔗 https://jobs.ashbyhq.com/method/33e8b312-a0a6-479d-81cf-24fd048f8303
+
+<b>Solutions Consultant</b>
+🏢 Method
+📍 San Francisco
+🔗 https://jobs.ashbyhq.com/method/cbc3a38b-35f7-47ef-b432-4768d8a98e1f
+
+<b>Solutions Engineer</b>
+🏢 Method
+📍 San Francisco
+🔗 https://jobs.ashbyhq.com/method/ae69beed-33d7-462b-ab83-5680c647741e
+
+<b>Partner Marketing Lead</b>
+🏢 Walrus Foundation
+🔗 https://jobs.ashbyhq.com/walrus/ab061257-8cf3-4f75-8c44-02cd3d7688a7
+
+<b>Senior Engineering Manager, Dev Tools</b>
+🏢 Nomic Foundation
+📍 Emea
+🔗 https://jobs.ashbyhq.com/nomic.foundation/3eb38f38-9fdc-40fc-964d-be4c7312ca04
+
+<b>Senior Technical Product Manager</b>
+🏢 Nomic Foundation
+📍 Emea
+🔗 https://jobs.ashbyhq.com/nomic.foundation/091981e1-a6d9-456f-8e9d-5af1d3a4236d
+
+<b>Accounting Manager</b>
+🏢 Crux
+📍 Remote
+🔗 https://jobs.ashbyhq.com/cruxclimate/f7aaf8e6-9bb3-43e1-97ed-39bb17c868d3
+
+<b>AI Product Engineer</b>
+🏢 Crux
+📍 Remote
+🔗 https://jobs.ashbyhq.com/cruxclimate/de7fb381-026b-420a-8366-f04dffd64f61
+
+<b>Associate, Industry Coverage</b>
+🏢 Crux
+📍 Remote
+🔗 https://jobs.ashbyhq.com/cruxclimate/71d1051e-546e-4be6-8664-d353326473fe
+
+<b>Associate, Tax Investor Coverage</b>
+🏢 Crux
+📍 Remote
+🔗 https://jobs.ashbyhq.com/cruxclimate/24e838f3-5c92-40a0-9d3b-fdbd8b9479ac
+
+<b>Build Your Role</b>
+🏢 Crux
+📍 Remote
+🔗 https://jobs.ashbyhq.com/cruxclimate/db4050c0-0078-42d1-8669-c66025386901
+
+<b>Email Marketing Manager</b>
+🏢 Crux
+📍 Remote
+🔗 https://jobs.ashbyhq.com/cruxclimate/71ecab1d-01b0-44ca-b45e-72fd5f1a2103
+
+<b>Executive Assistant to Chief Capital Officer</b>
+🏢 Crux
+📍 Remote
+🔗 https://jobs.ashbyhq.com/cruxclimate/a48fd378-0c9a-427f-9ace-37fd9034abd4
+
+<b>GTM Engineer</b>
+🏢 Crux
+📍 Remote
+🔗 https://jobs.ashbyhq.com/cruxclimate/8a018314-c766-4034-8b74-7c10edf0aa6b
+
+<b>Lead People Partner, Commercial</b>
+🏢 Crux
+📍 Remote
+🔗 https://jobs.ashbyhq.com/cruxclimate/fef4da06-cea1-44ef-bf0d-dfcb4a5d95e9
+
+<b>Managing Director, Industry Coverage &amp; Debt Advisory</b>
+🏢 Crux
+📍 Remote
+🔗 https://jobs.ashbyhq.com/cruxclimate/0d77264e-dccb-4c00-a051-68e815ccc3f5
+
+<b>Managing Director, Tax Credit Advisory</b>
+🏢 Crux
+📍 Remote
+🔗 https://jobs.ashbyhq.com/cruxclimate/ec6bbf3a-d28a-4d18-b324-fa08a8424bbf
+
+<b>Marketing Ops Associate</b>
+🏢 Crux
+📍 Remote
+🔗 https://jobs.ashbyhq.com/cruxclimate/81d55df4-9a72-468a-b1a5-aee602ce2c39
+
+<b>Principal, Tax Credit Advisory</b>
+🏢 Crux
+📍 Remote
+🔗 https://jobs.ashbyhq.com/cruxclimate/38669119-4833-4213-be3b-a430a206e713
+
+<b>Principal, Tax Investor Coverage</b>
+🏢 Crux
+📍 Remote
+🔗 https://jobs.ashbyhq.com/cruxclimate/b43e5aed-8f6a-4ef5-a2ea-05db844067df
+
+<b>Senior Manager, Investment Management</b>
+🏢 Crux
+📍 Remote
+🔗 https://jobs.ashbyhq.com/cruxclimate/0491b8b9-f729-461a-ab1c-6fd4f091e36b
+
+<b>Senior Manager, Portfolio Management</b>
+🏢 Crux
+📍 Remote
+🔗 https://jobs.ashbyhq.com/cruxclimate/12fd8d1e-a282-4022-a723-650beb19c237
+
+<b>Senior Manager, Tax Investor Coverage</b>
+🏢 Crux
+📍 Remote
+🔗 https://jobs.ashbyhq.com/cruxclimate/e61ae962-6e7a-4bfb-9926-2ec38c365db5
+
+<b>Senior Product Marketing Manager</b>
+🏢 Crux
+📍 Remote
+🔗 https://jobs.ashbyhq.com/cruxclimate/65abc164-8b93-47ce-a8d3-2b395abd99bd
+
+<b>Sr. Manager, Government Affairs &amp; Political Strategy</b>
+🏢 Crux
+📍 Remote
+🔗 https://jobs.ashbyhq.com/cruxclimate/a6788dc5-3b66-4522-8793-f356213dfbf4
+
+<b>Strategic Transactions Manager, Software GTM</b>
+🏢 Crux
+📍 Remote
+🔗 https://jobs.ashbyhq.com/cruxclimate/e3e90874-000f-4c0d-9be6-d2d52d866e22
+
+<b>VP, Strategic Finance</b>
+🏢 Crux
+📍 Remote
+🔗 https://jobs.ashbyhq.com/cruxclimate/e731c3a0-abc4-45a9-aa54-215715bc7e3a
+
+<b>Business Development Lead, Payment Network</b>
+🏢 Monad Foundation
+📍 New York
+🔗 https://jobs.ashbyhq.com/monad.foundation/dccd3d0f-e491-45fa-b311-980021976d62
+
+<b>DeFi Success Lead</b>
+🏢 Monad Foundation
+📍 Remote
+🔗 https://jobs.ashbyhq.com/monad.foundation/c62f41a9-6164-4bf1-be68-646172c1733f
+
+<b>Head of DeFi</b>
+🏢 Monad Foundation
+📍 Remote
+🔗 https://jobs.ashbyhq.com/monad.foundation/1dd61a59-3592-47f7-af0a-2d3197e659ef
+
+<b>Head of Korea</b>
+🏢 Monad Foundation
+📍 South Korea
+🔗 https://jobs.ashbyhq.com/monad.foundation/d5c22aae-9697-4077-bc4c-fa082863104f
+
+<b>Institutional Marketing Lead</b>
+🏢 Monad Foundation
+📍 Remote
+🔗 https://jobs.ashbyhq.com/monad.foundation/ab1c0cc2-399d-44a1-a5c7-c60e50e4efd9
+
+<b>Motion Designer [Contract-to-Perm]</b>
+🏢 Monad Foundation
+📍 Remote
+🔗 https://jobs.ashbyhq.com/monad.foundation/73534b84-588b-4239-9d0d-ba218aaac365
+
+<b>Quantitative Researcher</b>
+🏢 Monad Foundation
+📍 Remote
+🔗 https://jobs.ashbyhq.com/monad.foundation/9b6bdf21-f522-4ac6-a1e9-6b1c34a2ef0d
+
+<b>Senior DevOps Engineer</b>
+🏢 Monad Foundation
+📍 Remote
+🔗 https://jobs.ashbyhq.com/monad.foundation/21992f55-28a5-406c-a3dc-0769c14aa2de
+
+<b>Workplace Operations Associate</b>
+🏢 Monad Foundation
+📍 New York
+🔗 https://jobs.ashbyhq.com/monad.foundation/f047dfbe-9ef4-4132-9939-e0f3e9faa154
+
+<b>AP Operations Accountant</b>
+🏢 Tools for Humanity
+📍 New Dehli
+🔗 https://jobs.ashbyhq.com/tools-for-humanity/7f95ec38-9b64-4903-a9f3-cd8b62829675
+
+<b>Brand Designer</b>
+🏢 Tools for Humanity
+📍 San Francisco
+🔗 https://jobs.ashbyhq.com/tools-for-humanity/6588e344-8314-4a9c-a6d4-c84e026057ae
+
+<b>Business Development Lead, Japan</b>
+🏢 Tools for Humanity
+📍 Tokyo
+🔗 https://jobs.ashbyhq.com/tools-for-humanity/2505ce27-2f4a-4685-a971-418b62608a62
 
 <b>Business Development Manager, US</b>
 🏢 Tools for Humanity
 📍 San Francisco
 🔗 https://jobs.ashbyhq.com/tools-for-humanity/39b49ee9-dd45-48c2-9989-057f1a86fb7f
 
+<b>Business Development Manager, Western Europe</b>
+🏢 Tools for Humanity
+📍 London
+🔗 https://jobs.ashbyhq.com/tools-for-humanity/9ab1a3ac-290a-4e80-93dd-0ccfa827cc6d
+
+<b>Central Operations Specialist</b>
+🏢 Tools for Humanity
+📍 Munich
+🔗 https://jobs.ashbyhq.com/tools-for-humanity/1c17ffd9-2038-4868-a66e-0375776a81b5
+
+<b>Communications Lead, UK</b>
+🏢 Tools for Humanity
+📍 London
+🔗 https://jobs.ashbyhq.com/tools-for-humanity/86d6944c-f553-4034-8569-2c49fa92e647
+
+<b>Compensation and Token Programs Manager</b>
+🏢 Tools for Humanity
+📍 San Francisco
+🔗 https://jobs.ashbyhq.com/tools-for-humanity/83941060-aa6d-4555-89c7-3a5e7b001d87
+
+<b>Data Scientist, Market Ops</b>
+🏢 Tools for Humanity
+📍 Munich
+🔗 https://jobs.ashbyhq.com/tools-for-humanity/d829071a-0c9b-425d-b2a7-ad1c5cc2118d
+
+<b>Deputy General Counsel, Commercial</b>
+🏢 Tools for Humanity
+📍 San Francisco
+🔗 https://jobs.ashbyhq.com/tools-for-humanity/b0a204b0-f2ad-4b56-b22d-22fcb06c23ad
+
+<b>Director of AI &amp; Biometrics</b>
+🏢 Tools for Humanity
+📍 Munich
+🔗 https://jobs.ashbyhq.com/tools-for-humanity/d9699a18-5272-4389-bc02-65f5cb1f3de9
+
+<b>Director of Central Operations</b>
+🏢 Tools for Humanity
+📍 Munich
+🔗 https://jobs.ashbyhq.com/tools-for-humanity/e5b0781d-8a66-46ea-ba39-ebf0feb6053a
+
+<b>Flagship Manager, Italy</b>
+🏢 Tools for Humanity
+📍 Milan
+🔗 https://jobs.ashbyhq.com/tools-for-humanity/b91ce60e-a51f-46d5-8eb2-c506e8ba89ce
+
+<b>Full Stack Software Engineer, World ID</b>
+🏢 Tools for Humanity
+📍 San Francisco
+🔗 https://jobs.ashbyhq.com/tools-for-humanity/f00b5ae3-1a4e-4959-9bcf-a9bc96f48feb
+
+<b>General Manager, Germany</b>
+🏢 Tools for Humanity
+📍 Munich
+🔗 https://jobs.ashbyhq.com/tools-for-humanity/f8be9cf4-1433-4be3-902d-abcb0746bc85
+
+<b>General Manager, US</b>
+🏢 Tools for Humanity
+📍 San Francisco
+🔗 https://jobs.ashbyhq.com/tools-for-humanity/b017b108-e32e-434b-b0b0-d4b6ad8987a8
+
+<b>Global Payroll Manager</b>
+🏢 Tools for Humanity
+📍 San Francisco
+🔗 https://jobs.ashbyhq.com/tools-for-humanity/fec4e715-0e4d-482c-97f8-cb0c26d72f36
+
+<b>Graphic Designer</b>
+🏢 Tools for Humanity
+📍 San Francisco
+🔗 https://jobs.ashbyhq.com/tools-for-humanity/6db2b659-c96e-4748-a4c3-02367d1aa019
+
+<b>Head of Investor Relations &amp; Ecosystem Growth</b>
+🏢 Tools for Humanity
+📍 San Francisco
+🔗 https://jobs.ashbyhq.com/tools-for-humanity/e1bd95ce-63ca-45d8-acac-665eb93537dc
+
+<b>Head of Product Design</b>
+🏢 Tools for Humanity
+📍 San Francisco
+🔗 https://jobs.ashbyhq.com/tools-for-humanity/5e1c4da2-e096-4f37-842a-b01a522e3314
+
+<b>Head of Worldchain</b>
+🏢 Tools for Humanity
+📍 San Francisco
+🔗 https://jobs.ashbyhq.com/tools-for-humanity/d91841c6-72dd-42cb-bd5c-0b7299a6d74b
+
+<b>Infrastructure Lead, World Chain</b>
+🏢 Tools for Humanity
+📍 San Francisco
+🔗 https://jobs.ashbyhq.com/tools-for-humanity/dfdb9a86-7377-4755-9c11-2dbd001ada0d
+
+<b>Localization Quality and Operations Lead</b>
+🏢 Tools for Humanity
+📍 San Francisco
+🔗 https://jobs.ashbyhq.com/tools-for-humanity/14363cd6-39de-43da-9764-df250a9d7392
+
+<b>Manager/Senior Manager, Device Automation &amp; QA</b>
+🏢 Tools for Humanity
+📍 San Francisco
+🔗 https://jobs.ashbyhq.com/tools-for-humanity/73771c91-eddd-4602-9195-91e11bbbbf71
+
+<b>Marketing Manager, US</b>
+🏢 Tools for Humanity
+📍 San Francisco
+🔗 https://jobs.ashbyhq.com/tools-for-humanity/ec8917e4-0dc5-42be-9cfb-b51a6a2874fc
+
+<b>NPI Engineering Project Specialist</b>
+🏢 Tools for Humanity
+📍 Munich
+🔗 https://jobs.ashbyhq.com/tools-for-humanity/cc329b72-030d-4401-841a-7faba029f514
+
+<b>Operations Lead, Liverpool/Manchester</b>
+🏢 Tools for Humanity
+📍 Manchester
+🔗 https://jobs.ashbyhq.com/tools-for-humanity/e5090f31-dcd7-44bd-8aa3-d95d84ac2519
+
+<b>Operations Lead, US</b>
+🏢 Tools for Humanity
+📍 Dallas
+🔗 https://jobs.ashbyhq.com/tools-for-humanity/1a618eed-ff58-4a77-b426-355870949387
+
+<b>People and Recruiting Operations Manager</b>
+🏢 Tools for Humanity
+📍 San Francisco
+🔗 https://jobs.ashbyhq.com/tools-for-humanity/92c229a8-2b45-49fc-be38-1f33165818bb
+
+<b>Privacy Program Specialist</b>
+🏢 Tools for Humanity
+📍 San Francisco
+🔗 https://jobs.ashbyhq.com/tools-for-humanity/cdc528ff-7679-42cd-9887-c35b13ef5ef4
+
+<b>PR Manager, Ecosystem and Product Communications</b>
+🏢 Tools for Humanity
+📍 San Francisco
+🔗 https://jobs.ashbyhq.com/tools-for-humanity/347bbd88-9cc6-44da-bc66-74f1fadcedfb
+
+<b>Product Manager, GTM</b>
+🏢 Tools for Humanity
+📍 San Francisco
+🔗 https://jobs.ashbyhq.com/tools-for-humanity/ac51c73e-1c92-4dfc-971c-44bd2db06b73
+
+<b>Product Marketing Lead - World ID</b>
+🏢 Tools for Humanity
+📍 San Francisco
+🔗 https://jobs.ashbyhq.com/tools-for-humanity/abf12ac4-291a-47ca-a9b0-0945f7215e10
+
+<b>Senior Accounting Operations Manager</b>
+🏢 Tools for Humanity
+📍 San Francisco
+🔗 https://jobs.ashbyhq.com/tools-for-humanity/285cbc02-bf6c-4f9e-903c-85fb5a9e9c10
+
+<b>Senior Android Application Software Engineer, OrbMini</b>
+🏢 Tools for Humanity
+📍 San Francisco
+🔗 https://jobs.ashbyhq.com/tools-for-humanity/6a443ccf-4133-4ba0-aa1a-521f0701e338
+
+<b>Senior Android Framework Engineer</b>
+🏢 Tools for Humanity
+📍 San Francisco
+🔗 https://jobs.ashbyhq.com/tools-for-humanity/392e10be-5451-4fb1-bb0f-4a0bdab22110
+
+<b>Senior Corporate Paralegal</b>
+🏢 Tools for Humanity
+📍 San Francisco
+🔗 https://jobs.ashbyhq.com/tools-for-humanity/d69ca488-8a1b-4f90-93b2-737737682471
+
+<b>Senior Counsel, Regulatory &amp; Litigation</b>
+🏢 Tools for Humanity
+📍 San Francisco
+🔗 https://jobs.ashbyhq.com/tools-for-humanity/f993f5b4-54f0-4f44-806d-3463232ac648
+
+<b>Senior Executive Assistant</b>
+🏢 Tools for Humanity
+📍 San Francisco
+🔗 https://jobs.ashbyhq.com/tools-for-humanity/ae88b101-29d1-4792-8c38-d32ea2a66a53
+
+<b>Senior Flagship Manager, Germany</b>
+🏢 Tools for Humanity
+📍 Munich
+🔗 https://jobs.ashbyhq.com/tools-for-humanity/d000bd45-599e-4312-9eaa-39167e07ac02
+
+<b>Senior Flagship Manager, US</b>
+🏢 Tools for Humanity
+📍 San Francisco
+🔗 https://jobs.ashbyhq.com/tools-for-humanity/85f8c4f7-6125-4d44-8c44-2367a46cc5e2
+
+<b>Senior Fraud Engineer</b>
+🏢 Tools for Humanity
+📍 San Francisco
+🔗 https://jobs.ashbyhq.com/tools-for-humanity/977184cf-3f52-4252-a91f-5a312914f759
+
+<b>Senior Privacy Counsel</b>
+🏢 Tools for Humanity
+📍 Singapore
+🔗 https://jobs.ashbyhq.com/tools-for-humanity/9a8b4ef8-02f3-4734-be29-9d6e590fe6d3
+
+<b>Senior Product Counsel</b>
+🏢 Tools for Humanity
+📍 San Francisco
+🔗 https://jobs.ashbyhq.com/tools-for-humanity/6b3106d2-00a8-42be-9d09-cad4cb0cdbc4
+
+<b>Senior Product Manager, Growth Modalities</b>
+🏢 Tools for Humanity
+📍 San Francisco
+🔗 https://jobs.ashbyhq.com/tools-for-humanity/d3cede81-cd25-446e-9387-1658715c7464
+
+<b>Senior Product Manager, Hardware Devices</b>
+🏢 Tools for Humanity
+📍 San Francisco
+🔗 https://jobs.ashbyhq.com/tools-for-humanity/c84a5b71-448d-4df2-8ac1-20ce51844e17
+
+<b>Senior Product Security Engineer</b>
+🏢 Tools for Humanity
+📍 San Francisco
+🔗 https://jobs.ashbyhq.com/tools-for-humanity/075918dc-57c0-4a73-ba3c-a6caafee9412
+
+<b>Senior Security Engineer, Blockchain Detection</b>
+🏢 Tools for Humanity
+📍 San Francisco
+🔗 https://jobs.ashbyhq.com/tools-for-humanity/61194531-e4fb-44c3-913c-10dfe5e7de54
+
+<b>Senior Software Engineer, Android</b>
+🏢 Tools for Humanity
+📍 San Francisco
+🔗 https://jobs.ashbyhq.com/tools-for-humanity/9a2229dc-3027-4334-a7e4-cda30da08cc3
+
+<b>Senior Software Engineer, Android Financial Products</b>
+🏢 Tools for Humanity
+📍 San Francisco
+🔗 https://jobs.ashbyhq.com/tools-for-humanity/d35baebd-9c2c-43d2-8918-4221df271732
+
+<b>Senior Software Engineer, Android Growth Squad</b>
+🏢 Tools for Humanity
+📍 Munich
+🔗 https://jobs.ashbyhq.com/tools-for-humanity/7bc01054-879e-448c-b1ea-e03cd2c6def2
+
+<b>Senior Software Engineer, iOS</b>
+🏢 Tools for Humanity
+📍 San Francisco
+🔗 https://jobs.ashbyhq.com/tools-for-humanity/7542c9f2-f6a7-4bc2-be32-8cc2d73f2424
+
+<b>Senior Software Engineer, iOS Growth Squad</b>
+🏢 Tools for Humanity
+📍 Munich
+🔗 https://jobs.ashbyhq.com/tools-for-humanity/eb4cb26b-ef10-4179-8456-301cbbb5c1c9
+
+<b>Senior/Staff Mobile Security Engineer</b>
+🏢 Tools for Humanity
+📍 San Francisco
+🔗 https://jobs.ashbyhq.com/tools-for-humanity/11e5ab54-e01c-4196-8194-646155c7235f
+
 <b>Senior/Staff Software Engineer, Android (Identity Credentials)</b>
 🏢 Tools for Humanity
 📍 San Francisco
 🔗 https://jobs.ashbyhq.com/tools-for-humanity/17a13fe4-d02e-47df-9e8e-311175883916
 
+<b>Senior/Staff Software Engineer, iOS (Identity Credentials)</b>
+🏢 Tools for Humanity
+📍 San Francisco
+🔗 https://jobs.ashbyhq.com/tools-for-humanity/6078ccf1-ef68-480e-9681-27fa71eba767
+
+<b>Senior Strategy &amp; Operations Manager, Market Operations</b>
+🏢 Tools for Humanity
+📍 Munich
+🔗 https://jobs.ashbyhq.com/tools-for-humanity/e1592b21-71c6-4d18-a6ea-04aa3b5fb7eb
+
+<b>Senior UX Designer, Industrial Design Team</b>
+🏢 Tools for Humanity
+📍 San Francisco
+🔗 https://jobs.ashbyhq.com/tools-for-humanity/5595752d-8a96-4ed7-8b3d-f565aeb8aec8
+
+<b>Software Engineer, Data Platform</b>
+🏢 Tools for Humanity
+📍 Munich
+🔗 https://jobs.ashbyhq.com/tools-for-humanity/fab8090d-6f45-4f1f-8068-7ed509f3a63c
+
+<b>Software Engineer, Full Stack</b>
+🏢 Tools for Humanity
+📍 Munich
+🔗 https://jobs.ashbyhq.com/tools-for-humanity/ba13f0bb-154a-4019-ab13-6bc7183dd9b3
+
+<b>Staff Backend Engineer</b>
+🏢 Tools for Humanity
+📍 San Francisco
+🔗 https://jobs.ashbyhq.com/tools-for-humanity/daf2307b-b6e8-4fed-a682-f6cc35df05cc
+
+<b>Staff Blockchain Data Scientist</b>
+🏢 Tools for Humanity
+📍 Munich
+🔗 https://jobs.ashbyhq.com/tools-for-humanity/170ea008-296a-472f-92d8-d0cae3f52d2e
+
+<b>Staff Infrastructure Engineer</b>
+🏢 Tools for Humanity
+📍 Munich
+🔗 https://jobs.ashbyhq.com/tools-for-humanity/9dac5fcb-be2b-4cdb-bb63-a656d11dda07
+
+<b>Staff Product Design Engineer</b>
+🏢 Tools for Humanity
+📍 San Francisco
+🔗 https://jobs.ashbyhq.com/tools-for-humanity/18bd79de-2958-412e-b19c-94d13ecc78e7
+
+<b>Staff Product Security Engineer</b>
+🏢 Tools for Humanity
+📍 Munich
+🔗 https://jobs.ashbyhq.com/tools-for-humanity/53be510d-300d-4bae-b347-e6e8ce0dd450
+
+<b>Staff System Architect</b>
+🏢 Tools for Humanity
+📍 San Francisco
+🔗 https://jobs.ashbyhq.com/tools-for-humanity/36eda53b-0b5e-4a52-ae51-7fc8ec2aecd3
+
+<b>TPM, Software</b>
+🏢 Tools for Humanity
+📍 San Francisco
+🔗 https://jobs.ashbyhq.com/tools-for-humanity/7f86009f-e99f-47af-afec-26eb575711fe
+
+<b>Trust &amp; Safety Program Engineer</b>
+🏢 Tools for Humanity
+📍 San Francisco
+🔗 https://jobs.ashbyhq.com/tools-for-humanity/36a5f657-bfef-4186-997e-b15705e404a7
+
+<b>Design - Paradigm Portfolio</b>
+🏢 Paradigm
+📍 Remote
+🔗 https://jobs.ashbyhq.com/paradigm/e1446f34-a963-4df9-bab8-e49e7fcdb16f
+
+<b>Engineering - Paradigm Portfolio</b>
+🏢 Paradigm
+📍 Remote
+🔗 https://jobs.ashbyhq.com/paradigm/2c506a66-05c2-4df0-a1ae-751f44b08ce0
+
+<b>Growth - Paradigm Portfolio</b>
+🏢 Paradigm
+📍 Remote
+🔗 https://jobs.ashbyhq.com/paradigm/80eee80a-aecb-4888-b219-fba7b99dcb1b
+
+<b>Product - Paradigm Portfolio</b>
+🏢 Paradigm
+📍 Remote
+🔗 https://jobs.ashbyhq.com/paradigm/35d27694-9d25-4676-a797-e798c56d6787
+
+<b>Accounting Associate</b>
+🏢 Talos
+📍 New York
+🔗 https://jobs.ashbyhq.com/talos-trading/297b4508-77c5-409b-b0cf-57b72cd169de
+
+<b>Account Manager, Americas</b>
+🏢 Talos
+📍 New York
+🔗 https://jobs.ashbyhq.com/talos-trading/2bdf3b1e-0820-4f44-9f9f-1477c4e7a4dc
+
+<b>Associate Product Manager</b>
+🏢 Talos
+📍 New York
+🔗 https://jobs.ashbyhq.com/talos-trading/6bfa5c2e-dbd1-4b6a-93b5-3592c264ff40
+
+<b>Client Services Engineer, New York</b>
+🏢 Talos
+📍 New York
+🔗 https://jobs.ashbyhq.com/talos-trading/d9fa423a-78d5-4c7d-944e-9f20d29c59cc
+
+<b>Demand Generation Lead</b>
+🏢 Talos
+📍 New York
+🔗 https://jobs.ashbyhq.com/talos-trading/e94b3488-6d85-42d5-b6c1-2c041ef66f10
+
+<b>Director, Financial Operations</b>
+🏢 Talos
+📍 New York
+🔗 https://jobs.ashbyhq.com/talos-trading/b0ec6d0e-7b13-4ba1-98bb-dc48aea760f6
+
+<b>GTM Engineer</b>
+🏢 Talos
+📍 New York
+🔗 https://jobs.ashbyhq.com/talos-trading/7ee2be37-f261-47fa-add0-580c77d5bdbb
+
+<b>Open Application</b>
+🏢 Talos
+📍 Open
+🔗 https://jobs.ashbyhq.com/talos-trading/b28f4d86-74c0-478a-9888-2c6e2f97ac73
+
+<b>Product &amp; Business Development, Tokenized Treasuries</b>
+🏢 Talos
+📍 New York
+🔗 https://jobs.ashbyhq.com/talos-trading/05a41adc-f919-4280-af71-b5df029c5fb2
+
+<b>Sales Associate, EMEA</b>
+🏢 Talos
+📍 London
+🔗 https://jobs.ashbyhq.com/talos-trading/af917191-13e3-472f-bb74-fcec5d5a3697
+
+<b>Sales Associate, New York</b>
+🏢 Talos
+📍 New York
+🔗 https://jobs.ashbyhq.com/talos-trading/add01889-5796-4331-8b00-aa3e7ee7b713
+
+<b>Sales Associate, Singapore</b>
+🏢 Talos
+📍 Singapore
+🔗 https://jobs.ashbyhq.com/talos-trading/97cf0232-77d2-4285-be2a-e9bb56d5a41f
+
+<b>Senior Manager, People Team</b>
+🏢 Talos
+📍 London
+🔗 https://jobs.ashbyhq.com/talos-trading/0ca3a031-507f-49bc-a46c-3f2dcf572b4b
+
+<b>Software Engineer, London</b>
+🏢 Talos
+📍 London
+🔗 https://jobs.ashbyhq.com/talos-trading/2bc47f10-b315-49bb-800d-b67724c8db03
+
+<b>Software Engineer, New York</b>
+🏢 Talos
+📍 New York
+🔗 https://jobs.ashbyhq.com/talos-trading/885d627f-9bf2-4310-81ae-fda27121fd7b
+
+<b>Software Engineer, Portfolio Engineering</b>
+🏢 Talos
+📍 New York
+🔗 https://jobs.ashbyhq.com/talos-trading/ba99413f-ab1b-4b2d-ae30-58155c2ac36e
+
+<b>Software Engineer, Tokenization</b>
+🏢 Talos
+📍 New York
+🔗 https://jobs.ashbyhq.com/talos-trading/3ec93f41-3231-4170-bb25-aa33a0f406b0
+
+<b>Software Engineer, Trading Connectivity, Cyprus</b>
+🏢 Talos
+📍 Cyprus
+🔗 https://jobs.ashbyhq.com/talos-trading/020ee9f6-fd78-4a48-9651-e389a8cc0ed8
+
+<b>Software Engineer, Trading Connectivity, London</b>
+🏢 Talos
+📍 London
+🔗 https://jobs.ashbyhq.com/talos-trading/c743ff13-4a80-4907-adf4-922a3bfbd30b
+
+<b>Software Engineer, Trading Connectivity, Singapore</b>
+🏢 Talos
+📍 Singapore
+🔗 https://jobs.ashbyhq.com/talos-trading/5f5f62d1-8ed6-468d-9d77-85a5077622ce
+
+<b>Technical Solutions Engineer</b>
+🏢 Talos
+📍 London
+🔗 https://jobs.ashbyhq.com/talos-trading/db425810-03cd-4b88-bbb6-3d7208656146
+
+<b>TechOps Engineer (System Administrator)</b>
+🏢 Talos
+📍 London
+🔗 https://jobs.ashbyhq.com/talos-trading/40ca9638-acf0-452c-b114-eb560c8bee17
+
+<b>Account Executive - Denver, CO</b>
+🏢 Blackbird
+📍 Denver
+🔗 https://jobs.ashbyhq.com/blackbird-labs-inc/1a86c4b8-43a1-4fb5-a331-7ed0107d965b
+
+<b>Account Executive (Los Angeles)</b>
+🏢 Blackbird
+📍 Los Angeles
+🔗 https://jobs.ashbyhq.com/blackbird-labs-inc/fd7fccfc-95bc-42c8-ad47-37c658319489
+
+<b>Account Executive - New York, NY</b>
+🏢 Blackbird
+📍 New York
+🔗 https://jobs.ashbyhq.com/blackbird-labs-inc/9591a212-03c2-4528-a349-62910a8cb1fd
+
+<b>Brand Marketing Lead - New York, NY</b>
+🏢 Blackbird
+📍 New York
+🔗 https://jobs.ashbyhq.com/blackbird-labs-inc/06ec0f6a-0da2-4344-87d2-e195da033b19
+
+<b>Business Development Representative</b>
+🏢 Blackbird
+📍 New York
+🔗 https://jobs.ashbyhq.com/blackbird-labs-inc/b8f2d1da-38e7-4154-8af4-b8d4a61cab51
+
+<b>Content Editor</b>
+🏢 Blackbird
+📍 New York
+🔗 https://jobs.ashbyhq.com/blackbird-labs-inc/4eb6656b-aea7-47dd-9497-ed3a430eaa87
+
+<b>Data Analytics &amp; Business Intelligence Manager</b>
+🏢 Blackbird
+📍 New York
+🔗 https://jobs.ashbyhq.com/blackbird-labs-inc/afb84675-656a-4513-90db-030cb8da1fd8
+
+<b>Director of Finance - New York, NY</b>
+🏢 Blackbird
+📍 New York
+🔗 https://jobs.ashbyhq.com/blackbird-labs-inc/1d9e6650-603b-4bd8-b36d-fb0b03305f5a
+
+<b>Field Operations Contractor</b>
+🏢 Blackbird
+📍 New York
+🔗 https://jobs.ashbyhq.com/blackbird-labs-inc/15c54844-528b-40a3-9c3d-62b95ce3a90e
+
+<b>Field Operations Contractor – Hamptons</b>
+🏢 Blackbird
+📍 The Hamptons
+🔗 https://jobs.ashbyhq.com/blackbird-labs-inc/347c9fc6-664c-44e2-ae00-f2ae39951559
+
+<b>Junior Analyst</b>
+🏢 Blackbird
+📍 New York
+🔗 https://jobs.ashbyhq.com/blackbird-labs-inc/f1db6b8c-ac11-47b2-bd65-60e76238146c
+
+<b>Partnerships Strategy &amp; Ops Associate - New York, NY</b>
+🏢 Blackbird
+📍 New York
+🔗 https://jobs.ashbyhq.com/blackbird-labs-inc/cccc3557-564b-4da0-91c7-3c90a0eda3cb
+
+<b>Revenue &amp; Restaurant Ops Contractor</b>
+🏢 Blackbird
+📍 New York
+🔗 https://jobs.ashbyhq.com/blackbird-labs-inc/4e96cb48-d6d5-4a61-ab62-904763da0c16
+
+<b>Senior Backend Engineer, Blockchain - New York, NY</b>
+🏢 Blackbird
+📍 New York
+🔗 https://jobs.ashbyhq.com/blackbird-labs-inc/18bdb67d-2f7b-41c3-8945-743e45e6db45
+
+<b>Senior Platform Engineer, Infrastructure &amp; AI</b>
+🏢 Blackbird
+📍 New York
+🔗 https://jobs.ashbyhq.com/blackbird-labs-inc/9a2e66b8-96d0-45bc-b54c-3472f76d19b7
+
+<b>Senior/Staff Backend Engineer</b>
+🏢 Blackbird
+📍 New York
+🔗 https://jobs.ashbyhq.com/blackbird-labs-inc/25a21dd6-d9d4-4b0a-b6b4-2c13efebd481
+
+<b>Senior/Staff Fullstack Engineer</b>
+🏢 Blackbird
+📍 New York
+🔗 https://jobs.ashbyhq.com/blackbird-labs-inc/7714b6bf-5633-43bc-8818-a9af6c5dfe10
+
+<b>Connect with a16z crypto talent team</b>
+🏢 a16z Crypto
+📍 A16Z
+🔗 https://jobs.ashbyhq.com/a16z-crypto/2dc6805f-6966-4d40-95a5-7feb29e3be4e
+
+<b>Analyst</b>
+🔗 https://blockchain.works-hub.com/jobs/remote-analyst-1dc
+
+<b>DevRel Engineer (London/Berlin/SF)</b>
+🔗 https://blockchain.works-hub.com/jobs/remote-devrel-engineer-europe-a30
+
+<b>Lead Mobile Engineer / React Native</b>
+🔗 https://blockchain.works-hub.com/jobs/remote-mobile-engineer-13a
+
+<b>Senior Backend Developer</b>
+🔗 https://blockchain.works-hub.com/jobs/remote-junior-backend-developer-35c
+
+<b>Rust, iOS, Android, DevOps (4 Roles)</b>
+🔗 https://blockchain.works-hub.com/jobs/remote-rust-ios-android-devops-4-roles-612
+
+<b>Backend Engineer</b>
+🔗 https://blockchain.works-hub.com/jobs/remote-backend-tech-lead-434
+
+<b>Senior Rust Engineer - EVM</b>
+🔗 https://blockchain.works-hub.com/jobs/remote-smart-contract-engineer-preconfirmation-registry-783
+
+<b>Web3 + Supabase Developer</b>
+🔗 https://blockchain.works-hub.com/jobs/remote-web3-supabase-developer-e79
+
+<b>Founding Engineer</b>
+🔗 https://blockchain.works-hub.com/jobs/founding-engineer-fa7
+
+<b>Engineering Manager</b>
+🔗 https://blockchain.works-hub.com/jobs/engineering-manager-baa
+
+<b>Senior Web3 Developer Opportunity</b>
+🔗 https://blockchain.works-hub.com/jobs/remote-senior-web3-developer-opportunity-437
+
+<b>🧠 Senior Web3 Developer (Contract) — Staking Platform (EVM)</b>
+🔗 https://blockchain.works-hub.com/jobs/remote-i-senior-web3-developer-contract-staking-platform-evm-84b
+
+<b>Circle Ventures Director</b>
+🔗 https://builtin.com/job/circle-ventures-director/8613754
+
 <b>Marketing Manager LATAM</b>
 🔗 https://builtin.com/job/marketing-manager-latam/9337853
+
+<b>Account Executive</b>
+🔗 https://builtin.com/job/account-executive/9323821
+
+<b>Staff Product Engineer / Product Lead - AI-Native Product Role</b>
+🔗 https://builtin.com/job/staff-product-engineer-product-lead-ai-native-product-role/7924166
+
+<b>Weekend Operations Specialist</b>
+🔗 https://builtin.com/job/weekend-operations-specialist/8815247
+
+<b>Global Controller</b>
+🔗 https://builtin.com/job/global-controller/9043269
+
+<b>Senior Product Designer</b>
+🔗 https://builtin.com/job/senior-product-designer/7914444
+
+<b>Senior Software Developer (Front-End Focused)</b>
+🔗 https://builtin.com/job/senior-software-developer-front-end-focused/8203565
+
+<b>Accounting Manager</b>
+🔗 https://builtin.com/job/accounting-manager/7292115
+
+<b>Account Executive</b>
+🔗 https://builtin.com/job/account-executive/9116367
+
+<b>Portfolio Investment Associate</b>
+🔗 https://venturecapitalcareers.com/companies/entrepreneurs-first/jobs/portfolio-investment-associate
+
+<b>BlackWood Fellow — ETH Zürich</b>
+🔗 https://venturecapitalcareers.com/companies/blackwood/jobs/blackwood-fellow-eth-zrich
+
+<b>Ventures Associate</b>
+🔗 https://venturecapitalcareers.com/companies/redesign-health/jobs/ventures-associate-2
+
+<b>Entrepreneur in Residence</b>
+🔗 https://venturecapitalcareers.com/companies/nzvc/jobs/entrepreneur-in-residence-2
+
+<b>Capital Raiser / Business Developer</b>
+🔗 https://venturecapitalcareers.com/companies/fairpoint-capital/jobs/capital-raiser-business-developer
+
+<b>Head of Capital Markets</b>
+🔗 https://venturecapitalcareers.com/companies/fortuna-future-ventures/jobs/head-of-capital-markets
+
+<b>Venture Capital Investor</b>
+🔗 https://venturecapitalcareers.com/companies/merantix/jobs/venture-capital-investor-2
+
+<b>Principal Investor</b>
+🔗 https://venturecapitalcareers.com/companies/dogwood-ventures/jobs/principal-investor
+
+<b>Principal</b>
+🔗 https://venturecapitalcareers.com/companies/path-ventures/jobs/principal-3
+
+<b>Senior Associate / Vice President</b>
+🔗 https://venturecapitalcareers.com/companies/apl-ventures/jobs/senior-associate-vice-president
+
+<b>Analyst</b>
+🔗 https://venturecapitalcareers.com/companies/haatch/jobs/analyst-2
+
+<b>Visiting Analyst</b>
+🔗 https://venturecapitalcareers.com/companies/blume-equity/jobs/visiting-analyst
+
+<b>Senior Investment Associate</b>
+🔗 https://venturecapitalcareers.com/companies/remarkable-ventures/jobs/senior-investment-associate-2
+
+<b>Principal</b>
+🔗 https://venturecapitalcareers.com/companies/north-ventures/jobs/principal-2
+
+<b>Investment Analyst &amp; Operations</b>
+🔗 https://venturecapitalcareers.com/companies/apeiron-venture-capital/jobs/investment-analyst-operations
+
+<b>Platform Associate</b>
+🔗 https://venturecapitalcareers.com/companies/jffventures/jobs/platform-associate-2
+
+<b>Capital Analyst</b>
+🔗 https://venturecapitalcareers.com/companies/launchtn/jobs/capital-analyst
+
+<b>Principal, Investment Team</b>
+🔗 https://venturecapitalcareers.com/companies/antler/jobs/principal-investment-team
+
+<b>smart contract engineer jobs</b>
+🔗 https://defi-jobs.xyz/jobs/smart-contracts
+
+<b>backend developer roles</b>
+🔗 https://defi-jobs.xyz/jobs/backend
+
+<b>frontend developer positions</b>
+🔗 https://defi-jobs.xyz/jobs/frontend
+
+<b>full-stack developer opportunities</b>
+🔗 https://defi-jobs.xyz/jobs/full-stack
+
+<b>smart contract security auditors</b>
+🔗 https://defi-jobs.xyz/jobs/security
+
+<b>DevOps and infrastructure engineers</b>
+🔗 https://defi-jobs.xyz/jobs/devops
+
+<b>on-chain data analysts</b>
+🔗 https://defi-jobs.xyz/jobs/data
+
+<b>AI and machine learning engineers</b>
+🔗 https://defi-jobs.xyz/jobs/ai
+
+<b>Solidity developer jobs</b>
+🔗 https://defi-jobs.xyz/jobs/solidity
+
+<b>Rust developer positions</b>
+🔗 https://defi-jobs.xyz/jobs/rust
+
+<b>TypeScript developer</b>
+🔗 https://defi-jobs.xyz/jobs/typescript
+
+<b>Go developer</b>
+🔗 https://defi-jobs.xyz/jobs/golang
+
+<b>Python developer</b>
+🔗 https://defi-jobs.xyz/jobs/python
+
+<b>zero-knowledge proof engineer</b>
+🔗 https://defi-jobs.xyz/jobs/zk
+
+<b>New York crypto jobs</b>
+🔗 https://defi-jobs.xyz/jobs/new-york
+
+<b>San Francisco blockchain jobs</b>
+🔗 https://defi-jobs.xyz/jobs/san-francisco
+
+<b>London DeFi jobs</b>
+🔗 https://defi-jobs.xyz/jobs/london
+
+<b>Singapore</b>
+🔗 https://defi-jobs.xyz/jobs/singapore
+
+<b>Dubai</b>
+🔗 https://defi-jobs.xyz/jobs/dubai
+
+<b>remote crypto and DeFi jobs</b>
+🔗 https://defi-jobs.xyz/jobs/remote
+
+<b>Research &amp; Analyst</b>
+🔗 https://defi-jobs.xyz/jobs/research
+
+<b>Community</b>
+🔗 https://defi-jobs.xyz/jobs/community
+
+<b>Hong Kong</b>
+🔗 https://defi-jobs.xyz/jobs/hong-kong
+
+<b>Europe</b>
+🔗 https://defi-jobs.xyz/jobs/europe
+
+<b>Salesforce Marketing Cloud Admin</b>
+🔗 https://www.cryptojobs.com/job/salesforce-marketing-cloud-admin-12287
+
+<b>Software Engineer | Portugal</b>
+🔗 https://www.cryptojobs.com/job/software-engineer-portugal-12315
+
+<b>Senior Technical Support Engineer</b>
+🔗 https://www.cryptojobs.com/job/senior-technical-support-engineer-12319
+
+<b>Senior Product Manager</b>
+🔗 https://www.cryptojobs.com/job/senior-product-manager-12333
+
+<b>Derivatives Trader</b>
+🔗 https://www.cryptojobs.com/job/derivatives-trader-12272
+
+<b>Senior Security Engineer - Automation</b>
+🔗 https://www.cryptojobs.com/job/senior-security-engineer-automation-12284
+
+<b>Senior Site Reliability Engineer</b>
+🔗 https://www.cryptojobs.com/job/senior-site-reliability-engineer-12301
+
+<b>Product Designer</b>
+🔗 https://www.cryptojobs.com/job/product-designer-12302
 
 <b>Enterprise Account Executive, Americas</b>
 🔗 https://www.cryptojobs.com/job/enterprise-account-executive-americas-12430
@@ -196,8 +3308,12 @@
 <b>Data Scientist</b>
 🔗 https://www.cryptojobs.com/job/data-scientist-12429
 
-🏦 <b>Big Co Jobs — 14 May 2026 07:55</b>
-<i>10 roles from larger companies</i>
+🏦 <b>Big Co Jobs — 14 May 2026 10:04</b>
+<i>276 roles from larger companies</i>
+
+<b>Sales Operations Specialist</b>
+🏢 Ripple
+🔗 https://jobs.safary.club/jobs/companies/ripple/jobs/78675344-sales-operations-specialist
 
 <b>Product Marketing Manager</b>
 🏢 Polygon Labs
@@ -219,6 +3335,14 @@
 🏢 Elliptic
 🔗 https://jobs.safary.club/jobs/companies/elliptic/jobs/78569010-mid-market-sales-executive-san-francisco
 
+<b>Product Growth Hacker (Exchange)</b>
+🏢 Crypto Com
+🔗 https://jobs.safary.club/jobs/companies/crypto-com/jobs/78561197-product-growth-hacker-exchange
+
+<b>Business Development Associate (Fresh Graduates Welcome)</b>
+🏢 Animoca Brands
+🔗 https://jobs.safary.club/jobs/companies/animoca-brands/jobs/78392180-business-development-associate-fresh-graduates-welcome
+
 <b>VP of Ecosystem Growth, Sub-Saharan Africa</b>
 🏢 Circle
 🔗 https://jobs.safary.club/jobs/companies/circle/jobs/78373685-vp-of-ecosystem-growth-sub-saharan-africa
@@ -227,16 +3351,1282 @@
 🏢 Circle
 🔗 https://jobs.safary.club/jobs/companies/circle/jobs/78373686-vp-of-ecosystem-growth-pakistan
 
+<b>Director of Social Media</b>
+🏢 Ava Labs
+🔗 https://jobs.safary.club/jobs/companies/ava-labs/jobs/78373675-director-of-social-media
+
+<b>Chief Revenue Officer</b>
+🏢 Polygon Labs
+🔗 https://venturecareers.galaxy.com/jobs/companies/polygon-labs/jobs/78377356-chief-revenue-officer
+
+<b>Senior Application Security Engineer</b>
+🏢 Polygon Labs
+🔗 https://venturecareers.galaxy.com/jobs/companies/polygon-labs/jobs/78377359-senior-application-security-engineer
+
+<b>Senior Software Engineer, Platform Security</b>
+🏢 Fireblocks
+🔗 https://venturecareers.galaxy.com/jobs/companies/fireblocks/jobs/77549892-senior-software-engineer-platform-security
+
+<b>Compliance Analyst</b>
+🏢 Bitgo
+🔗 https://jobs.jumpcrypto.com/jobs/companies/bitgo/jobs/78650754-compliance-analyst
+
+<b>Senior Data Engineer</b>
+🏢 Solana Foundation
+🔗 https://jobs.jumpcrypto.com/jobs/companies/solana-foundation-2/jobs/78568289-senior-data-engineer
+
+<b>SOC Analyst</b>
+🏢 Bitgo
+🔗 https://jobs.jumpcrypto.com/jobs/companies/bitgo/jobs/78361883-soc-analyst
+
+<b>Senior Accountant (Contract to Hire)</b>
+🏢 Bitgo
+🔗 https://jobs.jumpcrypto.com/jobs/companies/bitgo/jobs/77929591-senior-accountant-contract-to-hire
+
+<b>Office Manager and IT Operations</b>
+🏢 Bitgo
+🔗 https://jobs.jumpcrypto.com/jobs/companies/bitgo/jobs/77265198-office-manager-and-it-operations
+
+<b>SOX Auditor - IT Controls Manager</b>
+🏢 Kraken
+🔗 https://jobs.electriccapital.com/jobs/companies/kraken/jobs/78045404-sox-auditor-it-controls-manager
+
+<b>Senior SOX Auditor - Business Process Controls</b>
+🏢 Kraken
+🔗 https://jobs.electriccapital.com/jobs/companies/kraken/jobs/78045403-senior-sox-auditor-business-process-controls
+
+<b>Senior AI Compute Infrastructure Engineer</b>
+🏢 Kraken
+🔗 https://jobs.electriccapital.com/jobs/companies/kraken/jobs/77719934-senior-ai-compute-infrastructure-engineer
+
 <b>Network Engineer</b>
 🏢 Kraken
 🔗 https://jobs.electriccapital.com/jobs/companies/kraken/jobs/77719935-network-engineer
+
+<b>Senior Product Designer, Pay</b>
+🏢 Okx
+🔗 https://jobs.theblockchainassociation.org/jobs/companies/okx/jobs/78717668-senior-product-designer-pay
+
+<b>Product &amp; Strategy Operations Manager</b>
+🏢 Okx
+🔗 https://jobs.theblockchainassociation.org/jobs/companies/okx/jobs/78717667-product-strategy-operations-manager
+
+<b>Staff Software Engineer - Authentication &amp; Authorization</b>
+🏢 Ripple
+🔗 https://jobs.theblockchainassociation.org/jobs/companies/ripple/jobs/78675354-staff-software-engineer-authentication-authorization
+
+<b>Director, Security Engineering</b>
+🏢 Ripple
+🔗 https://jobs.theblockchainassociation.org/jobs/companies/ripple/jobs/78675351-director-security-engineering
+
+<b>Financial Controller</b>
+🏢 Ripple
+🔗 https://jobs.theblockchainassociation.org/jobs/companies/ripple/jobs/78675350-financial-controller
+
+<b>Senior Learning &amp; Development Manager, Enterprise Capabilities</b>
+🏢 Ripple
+🔗 https://jobs.theblockchainassociation.org/jobs/companies/ripple/jobs/78675343-senior-learning-development-manager-enterprise-capabilities
+
+<b>Senior Software Engineer, Backend</b>
+🏢 Ripple
+🔗 https://jobs.theblockchainassociation.org/jobs/companies/ripple/jobs/78675349-senior-software-engineer-backend
 
 <b>Senior Manager - Talent Operations</b>
 🏢 Chainlink Labs
 🔗 https://jobs.theblockchainassociation.org/jobs/companies/chainlink-labs/jobs/78608513-senior-manager-talent-operations
 
+<b>Staff Software Engineer, GenAI Platform</b>
+🏢 Ripple
+🔗 https://jobs.theblockchainassociation.org/jobs/companies/ripple/jobs/78591928-staff-software-engineer-genai-platform
+
+<b>AI Secops Tech-lead</b>
+🏢 Fireblocks
+🔗 https://www.fireblocks.com/careers/position/4655907006?gh_jid=4655907006
+
+<b>Application Security Engineer</b>
+🏢 Fireblocks
+🔗 https://www.fireblocks.com/careers/position/4659362006?gh_jid=4659362006
+
+<b>Associate General Counsel, Crypto Services</b>
+🏢 Fireblocks
+📍 New York
+🔗 https://www.fireblocks.com/careers/position/4658959006?gh_jid=4658959006
+
+<b>Business Development Manager, Blockchain and DeFi Ecosystem</b>
+🏢 Fireblocks
+📍 New York
+🔗 https://www.fireblocks.com/careers/position/4657524006?gh_jid=4657524006
+
+<b>Compliance Lead, Payments</b>
+🏢 Fireblocks
+📍 New York
+🔗 https://www.fireblocks.com/careers/position/4646867006?gh_jid=4646867006
+
+<b>Director of Engineering, Dynamic Platform</b>
+🏢 Fireblocks
+📍 Miami
+🔗 https://www.fireblocks.com/careers/position/4662147006?gh_jid=4662147006
+
+<b>Full Stack Blockchain Engineer</b>
+🏢 Fireblocks
+📍 New York
+🔗 https://www.fireblocks.com/careers/position/4601513006?gh_jid=4601513006
+
+<b>Full Stack Engineer, Blockchain</b>
+🏢 Fireblocks
+📍 London
+🔗 https://www.fireblocks.com/careers/position/4671646006?gh_jid=4671646006
+
+<b>Incident Response Engineer (Pacific time)</b>
+🏢 Fireblocks
+📍 Los Angeles
+🔗 https://www.fireblocks.com/careers/position/4664533006?gh_jid=4664533006
+
+<b>Mobile Engineer</b>
+🏢 Fireblocks
+📍 United States
+🔗 https://www.fireblocks.com/careers/position/4626033006?gh_jid=4626033006
+
+<b>Mobile Engineer (Remote)</b>
+🏢 Fireblocks
+🔗 https://www.fireblocks.com/careers/position/4652122006?gh_jid=4652122006
+
+<b>Operations Director, Payments</b>
+🏢 Fireblocks
+📍 New York
+🔗 https://www.fireblocks.com/careers/position/4453463006?gh_jid=4453463006
+
+<b>Sales Director, Dynamic</b>
+🏢 Fireblocks
+📍 London
+🔗 https://www.fireblocks.com/careers/position/4652955006?gh_jid=4652955006
+
+<b>Sales Director, London</b>
+🏢 Fireblocks
+📍 London
+🔗 https://www.fireblocks.com/careers/position/4599553006?gh_jid=4599553006
+
+<b>Sales Director, Payments</b>
+🏢 Fireblocks
+📍 London
+🔗 https://www.fireblocks.com/careers/position/4673014006?gh_jid=4673014006
+
+<b>Sales Engineer</b>
+🏢 Fireblocks
+📍 Hong Kong
+🔗 https://www.fireblocks.com/careers/position/4606870006?gh_jid=4606870006
+
+<b>Sales Engineer, Banking</b>
+🏢 Fireblocks
+📍 New York
+🔗 https://www.fireblocks.com/careers/position/4658119006?gh_jid=4658119006
+
+<b>Sales Engineer, TRES (EMEA)</b>
+🏢 Fireblocks
+📍 Berlin
+🔗 https://www.fireblocks.com/careers/position/4647564006?gh_jid=4647564006
+
+<b>SecOps Expert</b>
+🏢 Fireblocks
+📍 New York
+🔗 https://www.fireblocks.com/careers/position/4676515006?gh_jid=4676515006
+
+<b>Security Assurance Engineer</b>
+🏢 Fireblocks
+🔗 https://www.fireblocks.com/careers/position/4678544006?gh_jid=4678544006
+
+<b>Security IR Director</b>
+🏢 Fireblocks
+🔗 https://www.fireblocks.com/careers/position/4664488006?gh_jid=4664488006
+
+<b>Senior Backend Engineer</b>
+🏢 Fireblocks
+🔗 https://www.fireblocks.com/careers/position/4674505006?gh_jid=4674505006
+
+<b>Senior Backend Engineer, Blockchain</b>
+🏢 Fireblocks
+🔗 https://www.fireblocks.com/careers/position/4672394006?gh_jid=4672394006
+
+<b>Senior Backend Engineer, Key Management</b>
+🏢 Fireblocks
+🔗 https://www.fireblocks.com/careers/position/4666674006?gh_jid=4666674006
+
+<b>Senior C++ Engineer, Key Management</b>
+🏢 Fireblocks
+🔗 https://www.fireblocks.com/careers/position/4666670006?gh_jid=4666670006
+
+<b>Senior Director, AI</b>
+🏢 Fireblocks
+📍 New York
+🔗 https://www.fireblocks.com/careers/position/4582767006?gh_jid=4582767006
+
+<b>Senior Director, Licensed Payments Services</b>
+🏢 Fireblocks
+📍 London
+🔗 https://www.fireblocks.com/careers/position/4674062006?gh_jid=4674062006
+
+<b>Senior Information Security Engineer</b>
+🏢 Fireblocks
+🔗 https://www.fireblocks.com/careers/position/4616044006?gh_jid=4616044006
+
+<b>Senior Motion Designer</b>
+🏢 Fireblocks
+📍 New York
+🔗 https://www.fireblocks.com/careers/position/4628830006?gh_jid=4628830006
+
+<b>Senior Product Analyst</b>
+🏢 Fireblocks
+🔗 https://www.fireblocks.com/careers/position/4605102006?gh_jid=4605102006
+
+<b>Senior Product Manager, Fireblocks Trust Company</b>
+🏢 Fireblocks
+📍 New York
+🔗 https://www.fireblocks.com/careers/position/4615233006?gh_jid=4615233006
+
+<b>Senior Program Manager, Strategic Initiatives</b>
+🏢 Fireblocks
+📍 New York
+🔗 https://www.fireblocks.com/careers/position/4655528006?gh_jid=4655528006
+
+<b>Senior Software Engineer, Transaction Security</b>
+🏢 Fireblocks
+🔗 https://www.fireblocks.com/careers/position/4653827006?gh_jid=4653827006
+
+<b>Senior Talent Acquisition Partner, GTM</b>
+🏢 Fireblocks
+📍 New York
+🔗 https://www.fireblocks.com/careers/position/4650201006?gh_jid=4650201006
+
+<b>Site Reliability Engineer</b>
+🏢 Fireblocks
+📍 United States
+🔗 https://www.fireblocks.com/careers/position/4656035006?gh_jid=4656035006
+
+<b>Site Reliability Engineer (SRE) (Pacific time)</b>
+🏢 Fireblocks
+📍 Los Angeles
+🔗 https://www.fireblocks.com/careers/position/4619316006?gh_jid=4619316006
+
+<b>Technical Integration Engineer</b>
+🏢 Fireblocks
+🔗 https://www.fireblocks.com/careers/position/4656817006?gh_jid=4656817006
+
+<b>VP, Strategic Finance</b>
+🏢 Fireblocks
+📍 New York
+🔗 https://www.fireblocks.com/careers/position/4655974006?gh_jid=4655974006
+
+<b>Workplace &amp; Employee Experience Manager</b>
+🏢 Fireblocks
+📍 New York
+🔗 https://www.fireblocks.com/careers/position/4674379006?gh_jid=4674379006
+
+<b>Application Security Engineer</b>
+🏢 BitGo
+📍 India
+🔗 https://job-boards.greenhouse.io/bitgo/jobs/7821447002
+
+<b>Associate - Listings &amp; Ecosystem Development</b>
+🏢 BitGo
+📍 New York
+🔗 https://job-boards.greenhouse.io/bitgo/jobs/7907250002
+
+<b>Backend Engineer E2 - Financing</b>
+🏢 BitGo
+📍 India
+🔗 https://job-boards.greenhouse.io/bitgo/jobs/8121419002
+
+<b>Backend Engineer E2 - Trade</b>
+🏢 BitGo
+📍 India
+🔗 https://job-boards.greenhouse.io/bitgo/jobs/6824865002
+
+<b>Business Development Representative - Ecosystem</b>
+🏢 BitGo
+📍 New York
+🔗 https://job-boards.greenhouse.io/bitgo/jobs/8461025002
+
+<b>Business Development Representative - FinTech (New York)</b>
+🏢 BitGo
+📍 New York
+🔗 https://job-boards.greenhouse.io/bitgo/jobs/8020124002
+
+<b>Business Development Representative - MENA (Cyprus or Israel)</b>
+🏢 BitGo
+📍 Remote
+🔗 https://job-boards.greenhouse.io/bitgo/jobs/8534706002
+
+<b>Business Development Representative - MENA (Saudi Arabia)</b>
+🏢 BitGo
+📍 Remote
+🔗 https://job-boards.greenhouse.io/bitgo/jobs/8534682002
+
+<b>Business Development Representative - MENA(South Africa or Kenya)</b>
+🏢 BitGo
+📍 Remote
+🔗 https://job-boards.greenhouse.io/bitgo/jobs/8534695002
+
+<b>Customer Service Specialist</b>
+🏢 BitGo
+📍 India
+🔗 https://job-boards.greenhouse.io/bitgo/jobs/7293456002
+
+<b>Data Engineer - E2</b>
+🏢 BitGo
+📍 India
+🔗 https://job-boards.greenhouse.io/bitgo/jobs/8362058002
+
+<b>Data Engineer - E3</b>
+🏢 BitGo
+📍 India
+🔗 https://job-boards.greenhouse.io/bitgo/jobs/8362046002
+
+<b>DevOps Engineer - Blockchain Ops</b>
+🏢 BitGo
+📍 India
+🔗 https://job-boards.greenhouse.io/bitgo/jobs/6388857002
+
+<b>DevOps Engineer E2 - InfraOps</b>
+🏢 BitGo
+📍 India
+🔗 https://job-boards.greenhouse.io/bitgo/jobs/8416103002
+
+<b>Digital Technology Admin</b>
+🏢 BitGo
+📍 New York
+🔗 https://job-boards.greenhouse.io/bitgo/jobs/8482302002
+
+<b>Director - Listings &amp; Ecosystem Development</b>
+🏢 BitGo
+📍 New York
+🔗 https://job-boards.greenhouse.io/bitgo/jobs/8158666002
+
+<b>Financial Operations Manager</b>
+🏢 BitGo
+🔗 https://job-boards.greenhouse.io/bitgo/jobs/8436572002
+
+<b>Frontend Engineer E3 - Web Experience</b>
+🏢 BitGo
+📍 India
+🔗 https://job-boards.greenhouse.io/bitgo/jobs/6209007002
+
+<b>IT Engineer</b>
+🏢 BitGo
+🔗 https://job-boards.greenhouse.io/bitgo/jobs/8459666002
+
+<b>Managing Director, Head of EU Sales</b>
+🏢 BitGo
+📍 London
+🔗 https://job-boards.greenhouse.io/bitgo/jobs/8464699002
+
+<b>Mobile Software Engineer E3 - (React Native)</b>
+🏢 BitGo
+📍 India
+🔗 https://job-boards.greenhouse.io/bitgo/jobs/8113483002
+
+<b>Onboarding Associate</b>
+🏢 BitGo
+📍 Singapore
+🔗 https://job-boards.greenhouse.io/bitgo/jobs/8040218002
+
+<b>Operations Associate</b>
+🏢 BitGo
+📍 Dubai
+🔗 https://job-boards.greenhouse.io/bitgo/jobs/8483277002
+
+<b>Privacy Manager</b>
+🏢 BitGo
+📍 New York
+🔗 https://job-boards.greenhouse.io/bitgo/jobs/8421286002
+
+<b>Product Marketing Manager</b>
+🏢 BitGo
+🔗 https://job-boards.greenhouse.io/bitgo/jobs/8523894002
+
+<b>Product Marketing Manager, Prime / OTC</b>
+🏢 BitGo
+📍 New York
+🔗 https://job-boards.greenhouse.io/bitgo/jobs/8523881002
+
+<b>Sales Associate - Fintech</b>
+🏢 BitGo
+📍 New York
+🔗 https://job-boards.greenhouse.io/bitgo/jobs/8341050002
+
+<b>Sales Director</b>
+🏢 BitGo
+📍 London
+🔗 https://job-boards.greenhouse.io/bitgo/jobs/7615928002
+
+<b>Sales Director- Pensions, Endowments, Foundations, and Family Offices</b>
+🏢 BitGo
+📍 San Francisco
+🔗 https://job-boards.greenhouse.io/bitgo/jobs/8340907002
+
+<b>Senior Director Risk Management</b>
+🏢 BitGo
+🔗 https://job-boards.greenhouse.io/bitgo/jobs/8466340002
+
+<b>Senior Offensive Security Engineer</b>
+🏢 BitGo
+📍 India
+🔗 https://job-boards.greenhouse.io/bitgo/jobs/8526160002
+
+<b>Senior Software Engineer - Post Trade</b>
+🏢 BitGo
+📍 Toronto
+🔗 https://job-boards.greenhouse.io/bitgo/jobs/8500748002
+
+<b>Senior Solutions Engineer</b>
+🏢 BitGo
+📍 Toronto
+🔗 https://job-boards.greenhouse.io/bitgo/jobs/8391275002
+
+<b>Software Engineer - Frontend and Mobile</b>
+🏢 BitGo
+🔗 https://job-boards.greenhouse.io/bitgo/jobs/8515398002
+
+<b>Software Engineer – Frontend &amp; Mobile</b>
+🏢 BitGo
+📍 San Francisco
+🔗 https://job-boards.greenhouse.io/bitgo/jobs/8515395002
+
+<b>Trust Officer</b>
+🏢 BitGo
+🔗 https://job-boards.greenhouse.io/bitgo/jobs/8428375002
+
+<b>Trust Operations Specialist, Weekend Shift</b>
+🏢 BitGo
+🔗 https://job-boards.greenhouse.io/bitgo/jobs/8523819002
+
+<b>Community Manager (Korea)</b>
+🏢 Aptos Labs
+📍 Korea
+🔗 https://job-boards.greenhouse.io/aptoslabs/jobs/4686651005
+
+<b>Head of Enterprise GTM – Shelby Platform</b>
+🏢 Aptos Labs
+📍 Us/Global (Remote)
+🔗 https://job-boards.greenhouse.io/aptoslabs/jobs/4645494005
+
+<b>Information Security Engineer, Product</b>
+🏢 Aptos Labs
+📍 Remote
+🔗 https://job-boards.greenhouse.io/aptoslabs/jobs/4650606005
+
+<b>Staff Software Engineer, Product</b>
+🏢 Aptos Labs
+🔗 https://job-boards.greenhouse.io/aptoslabs/jobs/4525877005
+
+<b>Analyst, Global Investigations</b>
+🏢 Ripple
+📍 Singapore
+🔗 https://ripple.com/careers/all-jobs/job/7750452?gh_jid=7750452
+
+<b>Associate Email Marketing Manager</b>
+🏢 Ripple
+📍 New York
+🔗 https://ripple.com/careers/all-jobs/job/7664454?gh_jid=7664454
+
+<b>Business Development Senior Director - Capital Markets</b>
+🏢 Ripple
+📍 New York
+🔗 https://ripple.com/careers/all-jobs/job/7572250?gh_jid=7572250
+
+<b>Business Recruiter (12-Month Contract)</b>
+🏢 Ripple
+📍 San Francisco
+🔗 https://ripple.com/careers/all-jobs/job/7792084?gh_jid=7792084
+
+<b>Chief of Staff to the CEO</b>
+🏢 Ripple
+📍 Miami
+🔗 https://ripple.com/careers/all-jobs/job/7536081?gh_jid=7536081
+
+<b>Client Support Analyst</b>
+🏢 Ripple
+📍 Chicago
+🔗 https://ripple.com/careers/all-jobs/job/7837997?gh_jid=7837997
+
+<b>Compliance Manager (AML_CFT Compliance Officer) Brazil</b>
+🏢 Ripple
+🔗 https://ripple.com/careers/all-jobs/job/7750354?gh_jid=7750354
+
+<b>Content Marketing Manager</b>
+🏢 Ripple
+📍 Chicago
+🔗 https://ripple.com/careers/all-jobs/job/7660019?gh_jid=7660019
+
+<b>Creative Program Manager</b>
+🏢 Ripple
+📍 New York
+🔗 https://ripple.com/careers/all-jobs/job/7781516?gh_jid=7781516
+
+<b>Customer Success Senior Manager</b>
+🏢 Ripple
+📍 San Francisco
+🔗 https://ripple.com/careers/all-jobs/job/7622818?gh_jid=7622818
+
+<b>Director, Developer Relations</b>
+🏢 Ripple
+📍 San Francisco
+🔗 https://ripple.com/careers/all-jobs/job/7072348?gh_jid=7072348
+
+<b>Director, Ecosystem Growth</b>
+🏢 Ripple
+📍 New York
+🔗 https://ripple.com/careers/all-jobs/job/7585978?gh_jid=7585978
+
+<b>Director of Developer Relations</b>
+🏢 Ripple
+📍 New York
+🔗 https://ripple.com/careers/all-jobs/job/7072360?gh_jid=7072360
+
+<b>Director, Product Operations</b>
+🏢 Ripple
+📍 San Francisco
+🔗 https://ripple.com/careers/all-jobs/job/7872404?gh_jid=7872404
+
+<b>Director, Sales</b>
+🏢 Ripple
+📍 Dubai
+🔗 https://ripple.com/careers/all-jobs/job/7783928?gh_jid=7783928
+
+<b>Director, Social and Community</b>
+🏢 Ripple
+📍 New York
+🔗 https://ripple.com/careers/all-jobs/job/7681061?gh_jid=7681061
+
+<b>Engagement Manager, EMEA</b>
+🏢 Ripple
+📍 London
+🔗 https://ripple.com/careers/all-jobs/job/7660603?gh_jid=7660603
+
+<b>Executive IT Support Specialist</b>
+🏢 Ripple
+📍 Miami
+🔗 https://ripple.com/careers/all-jobs/job/7851989?gh_jid=7851989
+
+<b>Global Procurement Operations Manager</b>
+🏢 Ripple
+📍 San Francisco
+🔗 https://ripple.com/careers/all-jobs/job/7493379?gh_jid=7493379
+
+<b>GTM Strategy &amp; Operations Senior Manager</b>
+🏢 Ripple
+📍 San Francisco
+🔗 https://ripple.com/careers/all-jobs/job/7646410?gh_jid=7646410
+
+<b>GTM Systems Architect, Ripple Treasury (AI &amp; Automation)</b>
+🏢 Ripple
+📍 Chicago
+🔗 https://ripple.com/careers/all-jobs/job/7824574?gh_jid=7824574
+
+<b>Head of Customer Success &amp; Support</b>
+🏢 Ripple
+📍 Chicago
+🔗 https://ripple.com/careers/all-jobs/job/7870749?gh_jid=7870749
+
+<b>Lead Product Manager, Settlement &amp; Billing</b>
+🏢 Ripple
+📍 San Francisco
+🔗 https://ripple.com/careers/all-jobs/job/7851613?gh_jid=7851613
+
+<b>Lead Technical Recruiter (Quant Engineering)</b>
+🏢 Ripple
+📍 London
+🔗 https://ripple.com/careers/all-jobs/job/7647372?gh_jid=7647372
+
+<b>Lifecycle Marketing Manager</b>
+🏢 Ripple
+📍 New York
+🔗 https://ripple.com/careers/all-jobs/job/7862457?gh_jid=7862457
+
+<b>Manager, Client Support</b>
+🏢 Ripple
+📍 Chicago
+🔗 https://ripple.com/careers/all-jobs/job/7818910?gh_jid=7818910
+
+<b>Manager, Software Engineering</b>
+🏢 Ripple
+📍 Geneva
+🔗 https://ripple.com/careers/all-jobs/job/7661221?gh_jid=7661221
+
+<b>Manager, Software Engineering (Cloud Infrastructure)</b>
+🏢 Ripple
+📍 Chicago
+🔗 https://ripple.com/careers/all-jobs/job/7842893?gh_jid=7842893
+
+<b>Manager, Software Engineering (Platform Connectivity)</b>
+🏢 Ripple
+📍 Chicago
+🔗 https://ripple.com/careers/all-jobs/job/7836523?gh_jid=7836523
+
+<b>Network &amp; Strategic Partner Onboarding Analyst</b>
+🏢 Ripple
+📍 Toronto
+🔗 https://ripple.com/careers/all-jobs/job/7797729?gh_jid=7797729
+
+<b>Payroll Manager – Europe (FTC)</b>
+🏢 Ripple
+📍 Dublin, Ireland
+🔗 https://ripple.com/careers/all-jobs/job/7845963?gh_jid=7845963
+
+<b>Physical Security Systems Specialist</b>
+🏢 Ripple
+📍 Chicago
+🔗 https://ripple.com/careers/all-jobs/job/7818401?gh_jid=7818401
+
+<b>Principal Technical Program Manager</b>
+🏢 Ripple
+📍 New York
+🔗 https://ripple.com/careers/all-jobs/job/7904773?gh_jid=7904773
+
+<b>Product Marketing Lead</b>
+🏢 Ripple
+📍 London
+🔗 https://ripple.com/careers/all-jobs/job/7271357?gh_jid=7271357
+
+<b>Professional Services Consultant</b>
+🏢 Ripple
+📍 San Francisco
+🔗 https://ripple.com/careers/all-jobs/job/7831956?gh_jid=7831956
+
+<b>Professional Services Consultant (Technical)</b>
+🏢 Ripple
+📍 Chicago
+🔗 https://ripple.com/careers/all-jobs/job/7651677?gh_jid=7651677
+
+<b>Project Manager</b>
+🏢 Ripple
+📍 Chicago
+🔗 https://ripple.com/careers/all-jobs/job/7838065?gh_jid=7838065
+
+<b>Regulatory Compliance Manager</b>
+🏢 Ripple
+📍 London
+🔗 https://ripple.com/careers/all-jobs/job/7789499?gh_jid=7789499
+
+<b>Ripple Trading and Markets Manager</b>
+🏢 Ripple
+📍 London
+🔗 https://ripple.com/careers/all-jobs/job/7660568?gh_jid=7660568
+
+<b>Senior Brand Designer</b>
+🏢 Ripple
+📍 San Francisco
+🔗 https://ripple.com/careers/all-jobs/job/7462060?gh_jid=7462060
+
+<b>Senior Corporate Counsel</b>
+🏢 Ripple
+📍 New York
+🔗 https://ripple.com/careers/all-jobs/job/7859047?gh_jid=7859047
+
 <b>Senior Director of Governance, Risk and Compliance</b>
 🏢 Ripple
 📍 San Francisco
 🔗 https://ripple.com/careers/all-jobs/job/7921527?gh_jid=7921527
+
+<b>Senior Ecosystem Growth Manager</b>
+🏢 Ripple
+🔗 https://ripple.com/careers/all-jobs/job/7646353?gh_jid=7646353
+
+<b>Senior Full-Stack Software Engineer (Azure &amp;.NET)</b>
+🏢 Ripple
+📍 Chicago
+🔗 https://ripple.com/careers/all-jobs/job/7896217?gh_jid=7896217
+
+<b>Senior Legal Operations Manager</b>
+🏢 Ripple
+📍 San Francisco
+🔗 https://ripple.com/careers/all-jobs/job/7729832?gh_jid=7729832
+
+<b>Senior Manager, Competitive Intelligence</b>
+🏢 Ripple
+📍 San Francisco
+🔗 https://ripple.com/careers/all-jobs/job/7622851?gh_jid=7622851
+
+<b>Senior Manager, Financial Risk</b>
+🏢 Ripple
+📍 New York
+🔗 https://ripple.com/careers/all-jobs/job/7385960?gh_jid=7385960
+
+<b>Senior Manager, FP&amp;A</b>
+🏢 Ripple
+📍 New York
+🔗 https://ripple.com/careers/all-jobs/job/7641300?gh_jid=7641300
+
+<b>Senior Manager, Global KYC &amp; Due Diligence</b>
+🏢 Ripple
+📍 New York
+🔗 https://ripple.com/careers/all-jobs/job/7858690?gh_jid=7858690
+
+<b>Senior Manager, Software Engineering</b>
+🏢 Ripple
+📍 San Francisco
+🔗 https://ripple.com/careers/all-jobs/job/7786549?gh_jid=7786549
+
+<b>Senior Program and Operations Specialist</b>
+🏢 Ripple
+📍 San Francisco
+🔗 https://ripple.com/careers/all-jobs/job/7675380?gh_jid=7675380
+
+<b>Senior Recruiting Coordinator</b>
+🏢 Ripple
+📍 London
+🔗 https://ripple.com/careers/all-jobs/job/7837970?gh_jid=7837970
+
+<b>Senior Sales Manager</b>
+🏢 Ripple
+🔗 https://ripple.com/careers/all-jobs/job/7811716?gh_jid=7811716
+
+<b>Senior Software Engineer, Banking Connectivity</b>
+🏢 Ripple
+📍 London
+🔗 https://ripple.com/careers/all-jobs/job/7729908?gh_jid=7729908
+
+<b>Senior Software Engineer, C++ / Rust</b>
+🏢 Ripple
+📍 New York
+🔗 https://ripple.com/careers/all-jobs/job/7664258?gh_jid=7664258
+
+<b>Senior Software Engineer, Data Engineering</b>
+🏢 Ripple
+📍 San Francisco
+🔗 https://ripple.com/careers/all-jobs/job/7872439?gh_jid=7872439
+
+<b>Senior Software Engineer (Full Stack)</b>
+🏢 Ripple
+📍 San Francisco
+🔗 https://ripple.com/careers/all-jobs/job/7724653?gh_jid=7724653
+
+<b>Senior Software Engineer, Identity &amp; Trust</b>
+🏢 Ripple
+📍 San Francisco
+🔗 https://ripple.com/careers/all-jobs/job/7664173?gh_jid=7664173
+
+<b>Senior Staff Engineer — Data Engineering &amp; Architecture</b>
+🏢 Ripple
+📍 San Francisco
+🔗 https://ripple.com/careers/all-jobs/job/7724582?gh_jid=7724582
+
+<b>Senior Staff Partner Engineer</b>
+🏢 Ripple
+📍 New York
+🔗 https://ripple.com/careers/all-jobs/job/7561581?gh_jid=7561581
+
+<b>Senior Treasury Analyst, Global Treasury Operations</b>
+🏢 Ripple
+📍 London
+🔗 https://ripple.com/careers/all-jobs/job/7788653?gh_jid=7788653
+
+<b>Software Engineer II Authentication &amp; Authorization</b>
+🏢 Ripple
+📍 London
+🔗 https://ripple.com/careers/all-jobs/job/7905312?gh_jid=7905312
+
+<b>Software Engineer II, Data &amp; AI</b>
+🏢 Ripple
+📍 San Francisco
+🔗 https://ripple.com/careers/all-jobs/job/7654753?gh_jid=7654753
+
+<b>Staff Data Scientist</b>
+🏢 Ripple
+📍 Chicago
+🔗 https://ripple.com/careers/all-jobs/job/7791472?gh_jid=7791472
+
+<b>Staff Full-Stack Software Engineer (.NET &amp; Azure)</b>
+🏢 Ripple
+📍 Chicago
+🔗 https://ripple.com/careers/all-jobs/job/7896103?gh_jid=7896103
+
+<b>Staff IT Network Engineer</b>
+🏢 Ripple
+📍 London
+🔗 https://ripple.com/careers/all-jobs/job/7675957?gh_jid=7675957
+
+<b>Staff Network Engineer</b>
+🏢 Ripple
+📍 New York
+🔗 https://ripple.com/careers/all-jobs/job/7713826?gh_jid=7713826
+
+<b>Staff Security Engineer, Secure Digital Asset Operations</b>
+🏢 Ripple
+📍 New York
+🔗 https://ripple.com/careers/all-jobs/job/7861823?gh_jid=7861823
+
+<b>Staff Software Engineer</b>
+🏢 Ripple
+📍 Geneva
+🔗 https://ripple.com/careers/all-jobs/job/7595694?gh_jid=7595694
+
+<b>Staff Software Engineer, Backend</b>
+🏢 Ripple
+📍 Dublin, Ireland
+🔗 https://ripple.com/careers/all-jobs/job/7595638?gh_jid=7595638
+
+<b>Staff Software Engineer, Frontend</b>
+🏢 Ripple
+📍 London
+🔗 https://ripple.com/careers/all-jobs/job/7575543?gh_jid=7575543
+
+<b>Staff Software Engineer, Golang</b>
+🏢 Ripple
+📍 London
+🔗 https://ripple.com/careers/all-jobs/job/7874446?gh_jid=7874446
+
+<b>Staff Software Engineer, Identity &amp; Trust</b>
+🏢 Ripple
+📍 San Francisco
+🔗 https://ripple.com/careers/all-jobs/job/7664406?gh_jid=7664406
+
+<b>Staff Software Engineer - Infrastructure</b>
+🏢 Ripple
+📍 Sydney
+🔗 https://ripple.com/careers/all-jobs/job/7685312?gh_jid=7685312
+
+<b>Staff Software Engineering</b>
+🏢 Ripple
+📍 Chicago
+🔗 https://ripple.com/careers/all-jobs/job/7596202?gh_jid=7596202
+
+<b>Staff Software Engineer, Mobile</b>
+🏢 Ripple
+📍 London
+🔗 https://ripple.com/careers/all-jobs/job/7575508?gh_jid=7575508
+
+<b>Staff Software Engineer, Platform</b>
+🏢 Ripple
+📍 Toronto
+🔗 https://ripple.com/careers/all-jobs/job/7724710?gh_jid=7724710
+
+<b>Talent Sourcer - Hybrid (12-Month Contract)</b>
+🏢 Ripple
+📍 San Francisco
+🔗 https://ripple.com/careers/all-jobs/job/7792368?gh_jid=7792368
+
+<b>Treasury Manager, Global Treasury Operations</b>
+🏢 Ripple
+📍 New York
+🔗 https://ripple.com/careers/all-jobs/job/7767531?gh_jid=7767531
+
+<b>Vice President, Product Marketing</b>
+🏢 Ripple
+📍 San Francisco
+🔗 https://ripple.com/careers/all-jobs/job/7648536?gh_jid=7648536
+
+<b>VP, Corporate Development</b>
+🏢 Ripple
+📍 San Francisco
+🔗 https://ripple.com/careers/all-jobs/job/7622896?gh_jid=7622896
+
+<b>VP of Engineering, Payments</b>
+🏢 Ripple
+📍 San Francisco
+🔗 https://ripple.com/careers/all-jobs/job/7624480?gh_jid=7624480
+
+<b>Workplace Design Manager</b>
+🏢 Ripple
+📍 San Francisco
+🔗 https://ripple.com/careers/all-jobs/job/7808880?gh_jid=7808880
+
+<b>Associate, Customer Support</b>
+🏢 Gemini
+📍 Tempe, Arizona
+🔗 https://boards.greenhouse.io/embed/job_app?for=gemini&token=7712118&gh_jid=7712118
+
+<b>Associate, Treasury Operations</b>
+🏢 Gemini
+📍 Remote
+🔗 https://boards.greenhouse.io/embed/job_app?for=gemini&token=7889231&gh_jid=7889231
+
+<b>Director, Treasury</b>
+🏢 Gemini
+📍 Remote
+🔗 https://boards.greenhouse.io/embed/job_app?for=gemini&token=7811956&gh_jid=7811956
+
+<b>Head of Compliance, Gemini Galactic Markets, LLC</b>
+🏢 Gemini
+📍 New York
+🔗 https://boards.greenhouse.io/embed/job_app?for=gemini&token=7905022&gh_jid=7905022
+
+<b>Lead Product Manager</b>
+🏢 Gemini
+📍 New York
+🔗 https://boards.greenhouse.io/embed/job_app?for=gemini&token=7768460&gh_jid=7768460
+
+<b>Manager, Enterprise Risk</b>
+🏢 Gemini
+📍 New York
+🔗 https://boards.greenhouse.io/embed/job_app?for=gemini&token=7749232&gh_jid=7749232
+
+<b>Principal Data Engineer</b>
+🏢 Gemini
+📍 New York
+🔗 https://boards.greenhouse.io/embed/job_app?for=gemini&token=7350506&gh_jid=7350506
+
+<b>Senior Application Security Engineer</b>
+🏢 Gemini
+📍 New York
+🔗 https://boards.greenhouse.io/embed/job_app?for=gemini&token=7833599&gh_jid=7833599
+
+<b>Senior Fraud Strategist</b>
+🏢 Gemini
+📍 New York
+🔗 https://boards.greenhouse.io/embed/job_app?for=gemini&token=7905301&gh_jid=7905301
+
+<b>Senior Ledger Operations Engineer</b>
+🏢 Gemini
+📍 New York
+🔗 https://boards.greenhouse.io/embed/job_app?for=gemini&token=7743191&gh_jid=7743191
+
+<b>Senior Platform Security Engineer</b>
+🏢 Gemini
+📍 New York
+🔗 https://boards.greenhouse.io/embed/job_app?for=gemini&token=7905052&gh_jid=7905052
+
+<b>Senior Product Designer</b>
+🏢 Gemini
+📍 New York
+🔗 https://boards.greenhouse.io/embed/job_app?for=gemini&token=7811967&gh_jid=7811967
+
+<b>Senior Product Manager</b>
+🏢 Gemini
+📍 Singapore
+🔗 https://boards.greenhouse.io/embed/job_app?for=gemini&token=7818279&gh_jid=7818279
+
+<b>Senior Software Engineering Manager, Credit Card</b>
+🏢 Gemini
+📍 New York
+🔗 https://boards.greenhouse.io/embed/job_app?for=gemini&token=7762866&gh_jid=7762866
+
+<b>Senior Software Engineer, Predictions (Mobile)</b>
+🏢 Gemini
+📍 New York
+🔗 https://boards.greenhouse.io/embed/job_app?for=gemini&token=7846814&gh_jid=7846814
+
+<b>Senior Software Engineer, Risk Engineering</b>
+🏢 Gemini
+📍 New York
+🔗 https://boards.greenhouse.io/embed/job_app?for=gemini&token=7768456&gh_jid=7768456
+
+<b>Senior Software Engineer, Trading Systems (Full Stack)</b>
+🏢 Gemini
+📍 Singapore
+🔗 https://boards.greenhouse.io/embed/job_app?for=gemini&token=7746467&gh_jid=7746467
+
+<b>Software Engineering Manager, Risk Engineering</b>
+🏢 Gemini
+📍 New York
+🔗 https://boards.greenhouse.io/embed/job_app?for=gemini&token=7768446&gh_jid=7768446
+
+<b>Staff Data Engineer</b>
+🏢 Gemini
+📍 New York
+🔗 https://boards.greenhouse.io/embed/job_app?for=gemini&token=7651740&gh_jid=7651740
+
+<b>Staff Enterprise Infrastructure Engineer</b>
+🏢 Gemini
+📍 Tempe, Arizona
+🔗 https://boards.greenhouse.io/embed/job_app?for=gemini&token=7743177&gh_jid=7743177
+
+<b>Staff Platform Security Engineer</b>
+🏢 Gemini
+📍 New York
+🔗 https://boards.greenhouse.io/embed/job_app?for=gemini&token=7905050&gh_jid=7905050
+
+<b>Staff Security Engineer, Threat Detection &amp; Response</b>
+🏢 Gemini
+📍 New York
+🔗 https://boards.greenhouse.io/embed/job_app?for=gemini&token=7746479&gh_jid=7746479
+
+<b>Staff Software Engineer, Trading Systems (Frontend)</b>
+🏢 Gemini
+📍 New York
+🔗 https://boards.greenhouse.io/embed/job_app?for=gemini&token=7647319&gh_jid=7647319
+
+<b>Account Executive - Staking</b>
+🏢 Nansen
+📍 Remote Global
+🔗 https://job-boards.greenhouse.io/nansen/jobs/5983629004
+
+<b>Customer Support Agent</b>
+🏢 Nansen
+📍 Bhutan
+🔗 https://job-boards.greenhouse.io/nansen/jobs/5831153004
+
+<b>Director of Growth - Trading</b>
+🏢 Nansen
+📍 Remote
+🔗 https://job-boards.greenhouse.io/nansen/jobs/5834096004
+
+<b>General Counsel</b>
+🏢 Nansen
+📍 Bhutan
+🔗 https://job-boards.greenhouse.io/nansen/jobs/5885484004
+
+<b>Senior Security Engineer</b>
+🏢 Nansen
+📍 Remote
+🔗 https://job-boards.greenhouse.io/nansen/jobs/5811520004
+
+<b>Vibe Marketer</b>
+🏢 Nansen
+📍 Europe
+🔗 https://job-boards.greenhouse.io/nansen/jobs/5825521004
+
+<b>APAC - Lead Solutions Architect</b>
+🏢 Solana Foundation
+📍 Asia
+🔗 https://jobs.ashbyhq.com/solana-foundation/fa5d76c5-78df-44d5-92b4-b14bba9994f7
+
+<b>Business Development Lead – Payments &amp; Fintech</b>
+🏢 Solana Foundation
+📍 Remote
+🔗 https://jobs.ashbyhq.com/solana-foundation/2cfd5005-2526-4fed-8a6b-2f0318f9e624
+
+<b>Director, Institutional Growth</b>
+🏢 Solana Foundation
+📍 New York
+🔗 https://jobs.ashbyhq.com/solana-foundation/cb692853-04c1-4683-bb9a-8bb0783e2c1a
+
+<b>Head of Data</b>
+🏢 Solana Foundation
+📍 Remote
+🔗 https://jobs.ashbyhq.com/solana-foundation/e452e6e3-7ef9-4be4-a049-94acd67e5bc4
+
+<b>Head of Stablecoins</b>
+🏢 Solana Foundation
+📍 Remote
+🔗 https://jobs.ashbyhq.com/solana-foundation/ac770f7a-9fdd-4148-8904-d6ce38b9dda4
+
+<b>Institutional Growth Lead- Greater China</b>
+🏢 Solana Foundation
+📍 Hong Kong
+🔗 https://jobs.ashbyhq.com/solana-foundation/bf30f9d1-0ca5-4ebd-82ba-a9be712e9a89
+
+<b>Institutional Growth Lead- Japan</b>
+🏢 Solana Foundation
+📍 Japan
+🔗 https://jobs.ashbyhq.com/solana-foundation/46720f41-a467-4787-bba4-1838884e8af8
+
+<b>Institutional - Lead Solutions Architect</b>
+🏢 Solana Foundation
+📍 New York
+🔗 https://jobs.ashbyhq.com/solana-foundation/751db21f-5605-4f69-a9a5-be93450a6781
+
+<b>Solana Program Engineer</b>
+🏢 Solana Foundation
+📍 Remote
+🔗 https://jobs.ashbyhq.com/solana-foundation/6be29283-a2e0-48f4-b388-d06f48e240b3
+
+<b>Senior Experiential Events Marketing Manager (Contract)</b>
+🏢 Sui Foundation
+📍 Remote
+🔗 https://jobs.ashbyhq.com/sui-foundation/f3c81086-2c6d-4a2c-a5f3-fcbe11b3db78
+
+<b>ABM Manager</b>
+🏢 Chainalysis
+📍 Remote
+🔗 https://jobs.ashbyhq.com/chainalysis-careers/b12ade38-0b0e-4747-83f5-bb9d7b8e743b
+
+<b>Account Executive (Private Sector) - Middle East, Central Asia, Africa</b>
+🏢 Chainalysis
+📍 Dubai
+🔗 https://jobs.ashbyhq.com/chainalysis-careers/098db031-8284-44ad-a82b-97cb4c721379
+
+<b>Account Executive - Public Sector - (m/f/d)</b>
+🏢 Chainalysis
+📍 Germany
+🔗 https://jobs.ashbyhq.com/chainalysis-careers/244cf091-70cb-430c-b27c-21689f9c3b17
+
+<b>Account Executive - Public Sector UKI</b>
+🏢 Chainalysis
+📍 London
+🔗 https://jobs.ashbyhq.com/chainalysis-careers/f48f1f61-7de1-4342-834e-104df3511f17
+
+<b>Applied AI Engineer</b>
+🏢 Chainalysis
+📍 Aarhus Office
+🔗 https://jobs.ashbyhq.com/chainalysis-careers/b8d85c5d-cf31-4998-ac59-e36bc1a31e1c
+
+<b>Client Account Director - NatSec/Intelligence</b>
+🏢 Chainalysis
+📍 New Delhi
+🔗 https://jobs.ashbyhq.com/chainalysis-careers/4a0910ba-fcda-4cec-9c9a-1a439100a0e1
+
+<b>Data Engineer, Data Cloud</b>
+🏢 Chainalysis
+📍 London
+🔗 https://jobs.ashbyhq.com/chainalysis-careers/f4fefe17-4af1-4bb8-a5e2-e920ae2f8f50
+
+<b>Deployment Strategist. Crypto Investigations</b>
+🏢 Chainalysis
+📍 South Korea
+🔗 https://jobs.ashbyhq.com/chainalysis-careers/b62ea34a-4c15-4317-95dd-3d8e7e06d33f
+
+<b>Director, Total Rewards</b>
+🏢 Chainalysis
+📍 New York
+🔗 https://jobs.ashbyhq.com/chainalysis-careers/a2e870fc-7b7c-4593-816b-9f8ae921959d
+
+<b>Engineering Manager, Clustering Platform</b>
+🏢 Chainalysis
+📍 New York
+🔗 https://jobs.ashbyhq.com/chainalysis-careers/0431e9f0-6acd-4d74-a06b-fdbc1abfb855
+
+<b>Engineering Manager, Data Cloud</b>
+🏢 Chainalysis
+📍 Ontario
+🔗 https://jobs.ashbyhq.com/chainalysis-careers/19854461-49db-49c5-9dce-5467c1fb4eba
+
+<b>Engineering Manager, Platform</b>
+🏢 Chainalysis
+📍 United Kingdom
+🔗 https://jobs.ashbyhq.com/chainalysis-careers/88b6647e-9dc6-41ae-888d-197f0c949682
+
+<b>Enterprise Account Executive, Crypto Native</b>
+🏢 Chainalysis
+📍 New York
+🔗 https://jobs.ashbyhq.com/chainalysis-careers/7908b570-8cac-4d85-ba6e-88e82a10e6e9
+
+<b>Enterprise Account Executive, Financial Institutions</b>
+🏢 Chainalysis
+📍 New York
+🔗 https://jobs.ashbyhq.com/chainalysis-careers/42718763-dd3d-46c6-a71c-8dffa3cf8a9b
+
+<b>Enterprise Account Executive, Fintech</b>
+🏢 Chainalysis
+📍 Remote
+🔗 https://jobs.ashbyhq.com/chainalysis-careers/32d28e17-9c09-4f7c-a6f3-f62aa56ef5d5
+
+<b>Frontend Software Engineer II, Graphs</b>
+🏢 Chainalysis
+📍 Aarhus Office
+🔗 https://jobs.ashbyhq.com/chainalysis-careers/af7f1057-2ac6-4fb9-aac7-73864e516013
+
+<b>Sales Manager, Commercial</b>
+🏢 Chainalysis
+📍 New York
+🔗 https://jobs.ashbyhq.com/chainalysis-careers/3a517414-4190-4130-a2a9-d2be44e7a29d
+
+<b>Security Engineer, Product Infrastructure</b>
+🏢 Chainalysis
+📍 New York
+🔗 https://jobs.ashbyhq.com/chainalysis-careers/989dfa70-91e7-44d3-b7da-f866b159d94f
+
+<b>Senior Account Executive - Private Sector (m/f/d)</b>
+🏢 Chainalysis
+📍 Germany
+🔗 https://jobs.ashbyhq.com/chainalysis-careers/2ef18a76-4ed9-4284-832d-a508449fcdfe
+
+<b>Senior AI Software Engineer, AI Core</b>
+🏢 Chainalysis
+📍 New York
+🔗 https://jobs.ashbyhq.com/chainalysis-careers/5916350a-b06b-42c3-9bfe-7666fb3647f7
+
+<b>Senior Data Engineer, Exposure</b>
+🏢 Chainalysis
+📍 Aarhus Office
+🔗 https://jobs.ashbyhq.com/chainalysis-careers/7b49d5c8-adc6-492c-96e7-b1fde4f829a1
+
+<b>Senior Data Platform Engineer, Data Cloud</b>
+🏢 Chainalysis
+📍 Massachusetts
+🔗 https://jobs.ashbyhq.com/chainalysis-careers/19072991-b74f-4894-a6cb-24c85396f550
+
+<b>Senior Deployment Strategist, Global Services</b>
+🏢 Chainalysis
+📍 New York
+🔗 https://jobs.ashbyhq.com/chainalysis-careers/c77ffa59-0ce5-4d25-b831-56e5de2d6c90
+
+<b>Senior Field Marketing Manager</b>
+🏢 Chainalysis
+📍 New York
+🔗 https://jobs.ashbyhq.com/chainalysis-careers/f2dd6850-3bb9-4839-81ae-9c15dd052554
+
+<b>Senior Financial Institution SME - Institutional Banking &amp; Digital Assets</b>
+🏢 Chainalysis
+📍 New York
+🔗 https://jobs.ashbyhq.com/chainalysis-careers/8e2d07c5-d4e7-41cf-a292-42b7d8c69a97
+
+<b>Senior HR Business Partner - R&amp;D</b>
+🏢 Chainalysis
+📍 New York
+🔗 https://jobs.ashbyhq.com/chainalysis-careers/2749005c-04e3-4b8e-9e12-4a62f534e01d
+
+<b>Senior Infrastructure Engineer</b>
+🏢 Chainalysis
+🔗 https://jobs.ashbyhq.com/chainalysis-careers/ef876fe4-0268-4ba9-8aa5-b676848598cb
+
+<b>Senior Manager, Revenue Accounting</b>
+🏢 Chainalysis
+📍 New York
+🔗 https://jobs.ashbyhq.com/chainalysis-careers/e7890236-7c77-41c8-9531-d1bbdb03cc3a
+
+<b>Senior People Systems &amp; Integrations Analyst</b>
+🏢 Chainalysis
+📍 London
+🔗 https://jobs.ashbyhq.com/chainalysis-careers/f28e555e-ba54-4ea5-a41b-4c534438d019
+
+<b>Senior Product Specialist</b>
+🏢 Chainalysis
+🔗 https://jobs.ashbyhq.com/chainalysis-careers/02d13572-305d-4442-ab35-79d21a2e587b
+
+<b>Senior Software Engineer, Exposure</b>
+🏢 Chainalysis
+📍 Aarhus Office
+🔗 https://jobs.ashbyhq.com/chainalysis-careers/70cb5822-d7ff-427c-ab5a-2c246ad59d18
+
+<b>Senior Software Engineer, Hexagate</b>
+🏢 Chainalysis
+🔗 https://jobs.ashbyhq.com/chainalysis-careers/2608444a-a4f1-4a8f-875b-cc63ea52ad0d
+
+<b>Senior Technical Solutions Engineer</b>
+🏢 Chainalysis
+🔗 https://jobs.ashbyhq.com/chainalysis-careers/72b378e5-8044-449c-bbd6-2dae054c092e
+
+<b>Software Engineer I, New Grad - Aarhus Office</b>
+🏢 Chainalysis
+📍 Aarhus Office
+🔗 https://jobs.ashbyhq.com/chainalysis-careers/e4c0863f-fdd9-4391-8296-de4f7bfe3a77
+
+<b>Solutions Architect - Italy (Rome)</b>
+🏢 Chainalysis
+📍 Italy
+🔗 https://jobs.ashbyhq.com/chainalysis-careers/de6bb742-f560-46ef-93ad-c1b983a24562
+
+<b>Solutions Architect - MECCA</b>
+🏢 Chainalysis
+📍 Dubai
+🔗 https://jobs.ashbyhq.com/chainalysis-careers/3ecbe3ba-4e10-4e07-9046-c2fa7f6e9b12
+
+<b>Staff Product Marketing Manager</b>
+🏢 Chainalysis
+📍 New York
+🔗 https://jobs.ashbyhq.com/chainalysis-careers/f3d0c961-4671-4cf9-a48d-3c78b917429f
+
+<b>Staff Threat Detection Engineer</b>
+🏢 Chainalysis
+📍 Remote
+🔗 https://jobs.ashbyhq.com/chainalysis-careers/d472b2b0-cfa1-41a2-b764-c6579685057e
+
+<b>Tech Lead, Hexagate</b>
+🏢 Chainalysis
+🔗 https://jobs.ashbyhq.com/chainalysis-careers/8ae715a5-151b-4ef3-b9d3-71a3d03f9114
+
+<b>Technical Account Manager - Israel</b>
+🏢 Chainalysis
+📍 Israel
+🔗 https://jobs.ashbyhq.com/chainalysis-careers/fc2d92ab-c038-4681-9595-a054a92ca5ea
+
+<b>Vice President, Global Controller</b>
+🏢 Chainalysis
+📍 New York
+🔗 https://jobs.ashbyhq.com/chainalysis-careers/1686bf10-47f2-4fd8-a089-0dcb849c1657
+
+<b>Vice President, People</b>
+🏢 Chainalysis
+📍 New York
+🔗 https://jobs.ashbyhq.com/chainalysis-careers/59d49e7a-33f5-4cb4-9e9a-3b8b4edf4aaa
 
