@@ -22,87 +22,101 @@ jobs:
       - name: Install dependencies
         run: pip install requests beautifulsoup4 feedparser lxml
 
-      # seen_jobs.json now lives in the repo itself (committed by the
-      # final step below), so the dedup store is durable across runs.
-      # The checkout above already brought it down.
-
+      # Each profile maintains its own seen_jobs_<name>.json and
+      # jobs_digest_<name>.txt — Jay keeps the legacy unsuffixed names
+      # so the Patch app's raw.githubusercontent fetch keeps working.
       - name: Run job scraper
-        run: python web3_job_scraper.py > jobs_digest.txt
+        run: python web3_job_scraper.py
 
-      - name: Send jobs to Telegram
+      - name: Send per-profile digests to Telegram
         run: |
           python - <<'EOF'
-          import urllib.request, json, os
+          import json, os, time, urllib.request
+          from pathlib import Path
 
-          token = os.environ['TELEGRAM_TOKEN']
-          chat_id = os.environ['TELEGRAM_CHAT_ID']
-          body = open("jobs_digest.txt").read().strip()
+          token = os.environ["TELEGRAM_TOKEN"]
 
-          if not body or "No new jobs" in body:
-              print("No new jobs to send")
-              exit(0)
+          # Each tuple: (display label, digest file, env var holding chat id)
+          PROFILES = [
+              ("Jay (Solana/Rust)", "jobs_digest.txt",         "TELEGRAM_CHAT_ID"),
+              ("Naveed (Solidity)", "jobs_digest_naveed.txt",  "TELEGRAM_CHAT_ID_NAVEED"),
+              ("Casey (Marketing)", "jobs_digest_casey.txt",   "TELEGRAM_CHAT_ID_CASEY"),
+              ("Helena (Product)",  "jobs_digest_helena.txt",  "TELEGRAM_CHAT_ID_HELENA"),
+          ]
 
-          # Split on blank lines (job boundaries) so we never cut inside an HTML tag.
-          # Accumulate complete job blocks until we'd exceed 4000 chars, then send.
-          import time
-          blocks = body.split("\n\n")
-          chunk = ""
-          sent = 0
-          for block in blocks:
-              candidate = (chunk + "\n\n" + block).strip() if chunk else block
-              if len(candidate) > 4000:
-                  if chunk.strip():
-                      data = json.dumps({
-                          "chat_id": chat_id,
-                          "text": chunk.strip(),
-                          "parse_mode": "HTML",
-                          "disable_web_page_preview": True
-                      }).encode()
-                      req = urllib.request.Request(
-                          f"https://api.telegram.org/bot{token}/sendMessage",
-                          data=data,
-                          headers={"Content-Type": "application/json"}
-                      )
-                      urllib.request.urlopen(req)
-                      sent += 1
-                      time.sleep(0.5)
-                  chunk = block
-              else:
-                  chunk = candidate
-          if chunk.strip():
-              data = json.dumps({
-                  "chat_id": chat_id,
-                  "text": chunk.strip(),
-                  "parse_mode": "HTML",
-                  "disable_web_page_preview": True
-              }).encode()
-              req = urllib.request.Request(
-                  f"https://api.telegram.org/bot{token}/sendMessage",
-                  data=data,
-                  headers={"Content-Type": "application/json"}
-              )
-              urllib.request.urlopen(req)
-              sent += 1
-          print(f"Jobs sent in {sent} message(s)!")
+          def send_chunked(chat_id: str, body: str, label: str) -> int:
+              """Split on blank lines (job boundaries) and send chunks under
+              the 4096-char Telegram limit. Returns # of messages sent."""
+              if not body or "No new jobs" in body or "Safety cap tripped" in body:
+                  print(f"  {label}: nothing to send")
+                  return 0
+              blocks = body.split("\n\n")
+              chunk = ""
+              sent = 0
+              def flush(c):
+                  nonlocal sent
+                  if not c.strip():
+                      return
+                  data = json.dumps({
+                      "chat_id": chat_id,
+                      "text": c.strip(),
+                      "parse_mode": "HTML",
+                      "disable_web_page_preview": True,
+                  }).encode()
+                  req = urllib.request.Request(
+                      f"https://api.telegram.org/bot{token}/sendMessage",
+                      data=data,
+                      headers={"Content-Type": "application/json"},
+                  )
+                  urllib.request.urlopen(req)
+                  sent += 1
+                  time.sleep(0.5)
+              for block in blocks:
+                  candidate = (chunk + "\n\n" + block).strip() if chunk else block
+                  if len(candidate) > 4000:
+                      flush(chunk)
+                      chunk = block
+                  else:
+                      chunk = candidate
+              flush(chunk)
+              print(f"  {label}: sent in {sent} message(s)")
+              return sent
+
+          for label, digest_file, chat_env in PROFILES:
+              path = Path(digest_file)
+              chat_id = os.environ.get(chat_env, "").strip()
+              if not chat_id:
+                  print(f"  {label}: {chat_env} secret not set, skipping")
+                  continue
+              if not path.exists():
+                  print(f"  {label}: digest file missing ({digest_file}), skipping")
+                  continue
+              body = path.read_text(encoding="utf-8").strip()
+              try:
+                  send_chunked(chat_id, body, label)
+              except Exception as e:
+                  print(f"  {label}: SEND FAILED — {e}")
           EOF
         env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TELEGRAM_CHAT_ID:         ${{ secrets.TELEGRAM_CHAT_ID }}
+          TELEGRAM_CHAT_ID_NAVEED:  ${{ secrets.TELEGRAM_CHAT_ID_NAVEED }}
+          TELEGRAM_CHAT_ID_CASEY:   ${{ secrets.TELEGRAM_CHAT_ID_CASEY }}
+          TELEGRAM_CHAT_ID_HELENA:  ${{ secrets.TELEGRAM_CHAT_ID_HELENA }}
 
-      - name: Commit digest + seen-jobs back to repo
-        # Persist jobs_digest.txt so the Patch app can pull the latest run
-        # from raw.githubusercontent.com. Also commit seen_jobs.json so the
-        # dedup store survives between runs (replaces the brittle GitHub
-        # Actions cache that used to evict and resurface old jobs as new).
-        # No-op if neither file changed.
+      - name: Commit digests + seen-jobs back to repo
+        # Persist every per-profile digest + seen-jobs file so:
+        #  - the Patch app can pull the latest Jay digest from raw.github
+        #  - dedup state for every profile survives between runs
+        # No-op if nothing changed.
         if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add jobs_digest.txt seen_jobs.json
+          git add jobs_digest*.txt seen_jobs*.json
           if git diff --staged --quiet; then
             echo "Nothing to commit"
             exit 0
           fi
-          git commit -m "Update jobs digest + seen-jobs [skip ci]"
+          git commit -m "Update jobs digests + seen-jobs [skip ci]"
           git push

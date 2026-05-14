@@ -1782,35 +1782,196 @@ SCRAPERS = [
 ]
 
 # ---------------------------------------------------------------------------
+# Profiles — multi-recipient fan-out
+# ---------------------------------------------------------------------------
+# Each profile gets:
+#   - its own seen-jobs file (independent dedup)
+#   - its own jobs digest text file (sent to its own Telegram chat)
+#   - a filter that decides which scraped jobs land in its digest
+#
+# Workflow reads the digest files and uses the chat_id_env value to look up
+# the secret holding that person's Telegram chat ID.
+
+# Solana ecosystem allowlist — any job from these companies passes Jay's
+# filter even if title doesn't mention solana/rust/anchor/etc. Lowercased
+# for case-insensitive match.
+SOLANA_ECOSYSTEM_COMPANIES: set[str] = {
+    "solana foundation", "solana labs", "solana mobile", "anza", "jito",
+    "jito labs", "jito network", "helius", "helius labs", "squads",
+    "squads protocol", "backpack", "backpack exchange", "phantom",
+    "phantom technologies", "magic eden", "drift", "drift protocol",
+    "marinade", "marinade finance", "kamino", "kamino finance", "pyth",
+    "pyth network", "tensor", "tensor foundation", "triton", "triton one",
+    "wormhole", "wormhole foundation", "jupiter", "jupiter exchange",
+    "raydium", "orca", "marginfi", "mrgn", "step finance", "monkedao",
+    "star atlas", "bonfida", "drip haus", "drip", "metaplex",
+    "metaplex foundation", "metaplex studios", "firedancer", "jump crypto",
+    "douro labs", "blowfish", "realms", "mango markets", "mango",
+    "helium", "nova labs", "hxro", "hxro network", "fragmetric",
+    "lulo", "sanctum", "switchboard", "switchboard labs", "openbook",
+    "saros", "saros finance", "saber", "tulip", "francium", "psyfi",
+    "zeta", "zeta markets", "cypher", "cypher protocol", "pump.fun",
+    "tensor.trade", "bitsadmin", "bitsadminteam",
+}
+
+# Compiled keyword sets — match against title + company string.
+JAY_REQUIRE_ANY = (
+    # Solana
+    "solana", "anchor", "pinocchio", "sealevel", "svm", "spl token",
+    # Rust (the language anywhere in web3)
+    "rust developer", "rust engineer", "rust ", " rust", "rust/",
+    "rustacean", "in rust",
+)
+
+NAVEED_REQUIRE_ANY = (
+    "solidity", "smart contract", "smart-contract",
+)
+
+CASEY_REQUIRE_ANY = (
+    "marketing", "social media", " cmo", "chief marketing",
+    "growth manager", "growth lead", "head of growth", "growth marketer",
+    "community manager", "head of community", "community lead",
+    "brand manager", "head of brand", "content marketing",
+    "content lead", "head of content", "head of comms",
+    "communications manager", "pr manager", "head of pr",
+)
+
+HELENA_REQUIRE_ANY = (
+    "product manager", "product owner", " cpo", "chief product",
+    "program manager", "project manager", "head of product",
+    "vp product", "vp of product", "tpm ", " tpm", "product lead",
+    "lead product", "principal product", "staff product",
+    "director of product",
+)
+
+
+def _haystack(job: dict) -> str:
+    """Lowercased title + company string for keyword matching."""
+    return f"{job.get('title', '')} {job.get('company', '')}".lower()
+
+
+def _matches_jay(job: dict) -> bool:
+    hay = _haystack(job)
+    if any(kw in hay for kw in JAY_REQUIRE_ANY):
+        return True
+    # Company allowlist (case-insensitive, post-company-fix)
+    company = apply_company_fixes(job.get("company", "")).lower().strip()
+    if company in SOLANA_ECOSYSTEM_COMPANIES:
+        return True
+    return False
+
+
+def _matches_naveed(job: dict) -> bool:
+    return any(kw in _haystack(job) for kw in NAVEED_REQUIRE_ANY)
+
+
+def _matches_casey(job: dict) -> bool:
+    return any(kw in _haystack(job) for kw in CASEY_REQUIRE_ANY)
+
+
+def _matches_helena(job: dict) -> bool:
+    return any(kw in _haystack(job) for kw in HELENA_REQUIRE_ANY)
+
+
+# Profile registry. Each profile gets its own dedup file + digest file.
+# chat_id_env names the GitHub Actions secret that holds the Telegram chat ID.
+# Jay keeps the original file names so the Patch app's raw.githubusercontent
+# fetch of jobs_digest.txt keeps working unchanged.
+PROFILES = [
+    {
+        "name": "jay",
+        "label": "Solana / Rust",
+        "chat_id_env": "TELEGRAM_CHAT_ID",
+        "seen_file": "seen_jobs.json",
+        "digest_file": "jobs_digest.txt",
+        "matches": _matches_jay,
+    },
+    {
+        "name": "naveed",
+        "label": "Solidity",
+        "chat_id_env": "TELEGRAM_CHAT_ID_NAVEED",
+        "seen_file": "seen_jobs_naveed.json",
+        "digest_file": "jobs_digest_naveed.txt",
+        "matches": _matches_naveed,
+    },
+    {
+        "name": "casey",
+        "label": "Marketing",
+        "chat_id_env": "TELEGRAM_CHAT_ID_CASEY",
+        "seen_file": "seen_jobs_casey.json",
+        "digest_file": "jobs_digest_casey.txt",
+        "matches": _matches_casey,
+    },
+    {
+        "name": "helena",
+        "label": "Product",
+        "chat_id_env": "TELEGRAM_CHAT_ID_HELENA",
+        "seen_file": "seen_jobs_helena.json",
+        "digest_file": "jobs_digest_helena.txt",
+        "matches": _matches_helena,
+    },
+]
+
+
+def _load_seen_for(path: Path) -> dict:
+    """Per-profile equivalent of load_seen() that takes an explicit path."""
+    if not path.exists():
+        return {}
+    try:
+        with open(path) as f:
+            data = json.load(f)
+    except (json.JSONDecodeError, OSError):
+        return {}
+    if isinstance(data, list):
+        return {str(jid): "1970-01-01" for jid in data}
+    if isinstance(data, dict):
+        return {str(k): str(v) for k, v in data.items()}
+    return {}
+
+
+def _save_seen_for(path: Path, seen: dict) -> None:
+    with open(path, "w") as f:
+        json.dump(dict(sorted(seen.items())), f, indent=2)
+        f.write("\n")
+
+
+# ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
 
 def run(reset: bool = False) -> list[dict]:
-    # seen is a dict: job-id -> ISO date string of when it was first scraped.
-    # Falling back from cache mid-week (the previous failure mode that made
-    # 6-month-old jobs reappear as "new") is now impossible because the
-    # store is committed to the repo by the workflow, not held in a cache.
-    seen: dict = {} if reset else load_seen()
+    """
+    Scrape every configured board once, then fan out per-profile filtered
+    digests to disk. Each profile maintains its own seen-jobs file so dedup
+    is independent across recipients.
+    """
     today_iso = datetime.now().strftime("%Y-%m-%d")
+    base = Path(__file__).parent
 
-    # First-deploy bootstrap: if there's no seen-jobs file yet but a
-    # previous jobs_digest.txt is on disk, seed from it so the next run
-    # doesn't flood with everything as "new".
-    bootstrap_added = bootstrap_seen_from_digest(seen)
-    if bootstrap_added > 0:
-        print(
-            f"  Bootstrap: seeded {bootstrap_added} ids from existing jobs_digest.txt",
-            file=sys.stderr,
-        )
+    # Per-profile seen stores, loaded fresh each run.
+    profile_seen: dict[str, dict] = {}
+    for p in PROFILES:
+        path = base / p["seen_file"]
+        profile_seen[p["name"]] = {} if reset else _load_seen_for(path)
+        # Legacy bootstrap for Jay only — the original seen_jobs.json may
+        # have been seeded from jobs_digest.txt before profiles existed.
+        if p["name"] == "jay" and not profile_seen["jay"]:
+            bootstrap_added = bootstrap_seen_from_digest(profile_seen["jay"])
+            if bootstrap_added > 0:
+                print(
+                    f"  Bootstrap: seeded {bootstrap_added} ids into jay seen from existing jobs_digest.txt",
+                    file=sys.stderr,
+                )
 
-    # Global URL dedup across all boards in this run
+    # Global URL dedup across all boards in this run (prevents the same job
+    # showing up 5x from 5 boards in one run).
     this_run_urls: set[str] = set()
-
-    all_new: list[dict] = []
+    all_jobs: list[dict] = []
 
     print(f"\n{'='*55}", file=sys.stderr)
     print(f"  Web3 Scraper — {datetime.now().strftime('%Y-%m-%d %H:%M')}", file=sys.stderr)
-    print(f"  Seen jobs on record: {len(seen)}", file=sys.stderr)
+    for p in PROFILES:
+        print(f"  {p['name']:8s} seen on record: {len(profile_seen[p['name']])}", file=sys.stderr)
     print(f"{'='*55}\n", file=sys.stderr)
 
     for fn in SCRAPERS:
@@ -1822,10 +1983,9 @@ def run(reset: bool = False) -> list[dict]:
             print(f"  [ERROR] {e}", file=sys.stderr)
             jobs = []
 
-        new = []
+        accepted = 0
         for job in jobs:
             norm = normalise_url(job.get("url", ""))
-            jid  = make_seen_id(job["title"], job.get("company", ""), norm)
 
             # Filter out obvious non-web3 jobs
             if not is_web3_relevant(job):
@@ -1835,27 +1995,24 @@ def run(reset: bool = False) -> list[dict]:
             if is_intern(job.get("title", "")):
                 continue
 
-            # Skip if seen in a previous run OR already seen in this run
-            if jid in seen or norm in this_run_urls:
+            # In-run URL dedup
+            if norm in this_run_urls:
                 continue
-
-            seen[jid] = today_iso
             this_run_urls.add(norm)
-            new.append(job)
 
-        print(f"  {len(jobs)} found, {len(new)} new (after global dedup)", file=sys.stderr)
-        all_new.extend(new)
+            # Attach a stable id so profile loops below can dedup cheaply
+            job["_jid"] = make_seen_id(job["title"], job.get("company", ""), norm)
+            all_jobs.append(job)
+            accepted += 1
+
+        print(f"  {len(jobs)} found, {accepted} after web3/intern/url filters", file=sys.stderr)
         time.sleep(REQUEST_DELAY)
 
-    save_seen(seen)
+    print(f"\n  Total scraped pool: {len(all_jobs)} jobs", file=sys.stderr)
 
-    # ---------------------------------------------------------------------------
-    # Slack output
-    # ---------------------------------------------------------------------------
-
-    if not all_new:
-        print(f"<b>Web3 Jobs — {datetime.now().strftime('%d %b %Y')}</b>\nNo new jobs since last run.")
-        return all_new
+    # ---------------------------------------------------------------------
+    # Per-profile fan-out
+    # ---------------------------------------------------------------------
 
     def format_job_block(job: dict) -> list:
         title   = html.escape(job.get("title", "").strip())
@@ -1879,38 +2036,103 @@ def run(reset: bool = False) -> list[dict]:
         block.append("")
         return block
 
-    # Split into regular jobs and big company jobs
-    regular_jobs, big_co_jobs = [], []
-    for job in all_new:
-        company_lower = apply_company_fixes(job.get("company", "")).lower().strip()
-        if company_lower in BIG_COMPANIES:
-            big_co_jobs.append(job)
-        else:
-            regular_jobs.append(job)
+    timestamp = datetime.now().strftime("%d %b %Y %H:%M")
 
-    # Output 1: Regular jobs (smaller / more targeted companies)
-    if regular_jobs:
-        lines = [
-            f"🆕 <b>Web3 Jobs — {datetime.now().strftime('%d %b %Y %H:%M')}</b>",
-            f"<i>{len(regular_jobs)} new jobs</i>",
-            "",
-        ]
-        for job in regular_jobs:
-            lines.extend(format_job_block(job))
-        print("\n".join(lines))
+    # Safety cap: if a profile would suddenly emit > MAX_JOBS_PER_PROFILE
+    # new jobs in a single run, treat it as a dedup-state corruption (like
+    # the 868-job blast that happened when the GH Actions cache evicted)
+    # and write a "needs review" file instead of spamming Telegram.
+    MAX_JOBS_PER_PROFILE = 200
 
-    # Output 2: Big company jobs as a clearly labelled separate block
-    if big_co_jobs:
-        big_lines = [
-            f"🏦 <b>Big Co Jobs — {datetime.now().strftime('%d %b %Y %H:%M')}</b>",
-            f"<i>{len(big_co_jobs)} roles from larger companies</i>",
-            "",
-        ]
-        for job in big_co_jobs:
-            big_lines.extend(format_job_block(job))
-        print("\n".join(big_lines))
+    for p in PROFILES:
+        seen = profile_seen[p["name"]]
+        matches = p["matches"]
+        digest_path = base / p["digest_file"]
+        seen_path = base / p["seen_file"]
 
-    return all_new
+        new_for_profile: list[dict] = []
+        for job in all_jobs:
+            if not matches(job):
+                continue
+            jid = job["_jid"]
+            if jid in seen:
+                continue
+            seen[jid] = today_iso
+            new_for_profile.append(job)
+
+        print(
+            f"\n  → {p['name']:8s} ({p['label']}): {len(new_for_profile)} new",
+            file=sys.stderr,
+        )
+
+        # Safety cap — bail without sending if suspicious volume
+        if len(new_for_profile) > MAX_JOBS_PER_PROFILE:
+            print(
+                f"  [SAFETY] {p['name']} would emit {len(new_for_profile)} jobs "
+                f"(> {MAX_JOBS_PER_PROFILE}). Marking all as seen but writing "
+                f"empty digest so Telegram isn't spammed.",
+                file=sys.stderr,
+            )
+            # Still persist the seen set so the *next* run starts clean.
+            _save_seen_for(seen_path, seen)
+            digest_path.write_text(
+                f"<b>{p['label']} — {timestamp}</b>\n"
+                f"Safety cap tripped: {len(new_for_profile)} would-be-new jobs suppressed. "
+                f"Dedup state has been refreshed; tomorrow's run will be normal.\n",
+                encoding="utf-8",
+            )
+            continue
+
+        if not new_for_profile:
+            digest_path.write_text(
+                f"<b>{p['label']} — {datetime.now().strftime('%d %b %Y')}</b>\n"
+                f"No new jobs since last run.\n",
+                encoding="utf-8",
+            )
+            _save_seen_for(seen_path, seen)
+            continue
+
+        # Split into regular vs. big-company jobs (only meaningful for Jay
+        # really, but harmless for the others).
+        regular_jobs, big_co_jobs = [], []
+        for job in new_for_profile:
+            company_lower = apply_company_fixes(job.get("company", "")).lower().strip()
+            if company_lower in BIG_COMPANIES:
+                big_co_jobs.append(job)
+            else:
+                regular_jobs.append(job)
+
+        digest_lines: list[str] = []
+        if regular_jobs:
+            digest_lines.append(
+                f"🆕 <b>{p['label']} Jobs — {timestamp}</b>"
+            )
+            digest_lines.append(f"<i>{len(regular_jobs)} new jobs</i>")
+            digest_lines.append("")
+            for job in regular_jobs:
+                digest_lines.extend(format_job_block(job))
+
+        if big_co_jobs:
+            if digest_lines:
+                digest_lines.append("")  # blank line between sections
+            digest_lines.append(
+                f"🏦 <b>Big Co Jobs — {timestamp}</b>"
+            )
+            digest_lines.append(f"<i>{len(big_co_jobs)} roles from larger companies</i>")
+            digest_lines.append("")
+            for job in big_co_jobs:
+                digest_lines.extend(format_job_block(job))
+
+        digest_path.write_text("\n".join(digest_lines), encoding="utf-8")
+        _save_seen_for(seen_path, seen)
+
+    # For backward compat with anyone running the script locally and piping
+    # stdout to a file, also echo Jay's digest to stdout.
+    jay_path = base / "jobs_digest.txt"
+    if jay_path.exists():
+        print(jay_path.read_text(encoding="utf-8"))
+
+    return all_jobs
 
 
 if __name__ == "__main__":
