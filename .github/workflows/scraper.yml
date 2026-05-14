@@ -22,12 +22,9 @@ jobs:
       - name: Install dependencies
         run: pip install requests beautifulsoup4 feedparser lxml
 
-      - name: Restore caches
-        uses: actions/cache@v4
-        with:
-          path: seen_jobs.json
-          key: seen-data-${{ github.run_id }}
-          restore-keys: seen-data-
+      # seen_jobs.json now lives in the repo itself (committed by the
+      # final step below), so the dedup store is durable across runs.
+      # The checkout above already brought it down.
 
       - name: Run job scraper
         run: python web3_job_scraper.py > jobs_digest.txt
@@ -92,16 +89,20 @@ jobs:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
 
-      - name: Commit digest back to repo
+      - name: Commit digest + seen-jobs back to repo
         # Persist jobs_digest.txt so the Patch app can pull the latest run
-        # from raw.githubusercontent.com. No-op if the file is unchanged.
+        # from raw.githubusercontent.com. Also commit seen_jobs.json so the
+        # dedup store survives between runs (replaces the brittle GitHub
+        # Actions cache that used to evict and resurface old jobs as new).
+        # No-op if neither file changed.
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add jobs_digest.txt
+          git add jobs_digest.txt seen_jobs.json
           if git diff --staged --quiet; then
-            echo "No digest change to commit"
+            echo "Nothing to commit"
             exit 0
           fi
-          git commit -m "Update jobs digest [skip ci]"
+          git commit -m "Update jobs digest + seen-jobs [skip ci]"
           git push

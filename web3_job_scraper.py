@@ -47,15 +47,90 @@ HEADERS = {
 # Store
 # ---------------------------------------------------------------------------
 
-def load_seen() -> set:
-    if SEEN_JOBS_FILE.exists():
-        with open(SEEN_JOBS_FILE) as f:
-            return set(json.load(f))
-    return set()
+def load_seen() -> dict:
+    """
+    Load the seen-jobs store. Returns a dict mapping job-id → first-seen
+    ISO date string.
 
-def save_seen(seen: set):
+    Tolerates the legacy list-of-strings format produced by older runs:
+    if we encounter one, we migrate it in-memory to the dict shape with
+    every existing entry stamped as "first seen long ago" so they keep
+    deduping correctly.
+    """
+    if not SEEN_JOBS_FILE.exists():
+        return {}
+    try:
+        with open(SEEN_JOBS_FILE) as f:
+            data = json.load(f)
+    except (json.JSONDecodeError, OSError):
+        return {}
+    if isinstance(data, list):
+        # Legacy format — migrate. Stamp everything as far-in-the-past
+        # so any future recency filtering treats them as old.
+        return {str(jid): "1970-01-01" for jid in data}
+    if isinstance(data, dict):
+        return {str(k): str(v) for k, v in data.items()}
+    return {}
+
+
+def save_seen(seen: dict):
+    """
+    Persist the seen-jobs dict. Sorted keys for stable git diffs so the
+    Actions workflow commit is reviewable.
+    """
     with open(SEEN_JOBS_FILE, "w") as f:
-        json.dump(list(seen), f, indent=2)
+        json.dump(dict(sorted(seen.items())), f, indent=2)
+        f.write("\n")
+
+
+def bootstrap_seen_from_digest(seen: dict) -> int:
+    """
+    One-time seeder: if seen is empty (e.g. fresh deploy with no
+    committed seen_jobs.json yet) AND a previous jobs_digest.txt is on
+    disk, parse the jobs out of it and pre-populate seen so the next run
+    doesn't treat every still-listed job as new.
+
+    Returns the number of entries added.
+    """
+    digest_path = Path(__file__).parent / "jobs_digest.txt"
+    if seen or not digest_path.exists():
+        return 0
+    try:
+        text = digest_path.read_text(encoding="utf-8", errors="ignore")
+    except OSError:
+        return 0
+    added = 0
+    today_iso = datetime.now().strftime("%Y-%m-%d")
+    # The digest blocks are separated by blank lines. Each job block
+    # contains a <b>title</b> first line, then optional 🏢/💰/📍/🔗 lines.
+    for block in re.split(r"\r?\n\s*\r?\n", text):
+        lines = [l.strip() for l in block.splitlines() if l.strip()]
+        if not lines:
+            continue
+        # Pull title (strip HTML tags and any leading emoji)
+        title_raw = lines[0]
+        title = re.sub(r"<[^>]+>", "", title_raw).strip()
+        # Skip header rows like "🆕 Web3 Jobs — 11 May 2026 10:53"
+        if re.search(r"web3 jobs|big co jobs|new jobs", title, re.I):
+            continue
+        company = ""
+        url = ""
+        for ln in lines[1:]:
+            ln_clean = re.sub(r"<[^>]+>", "", ln)
+            if ln_clean.startswith("🏢"):
+                company = ln_clean.replace("🏢", "").strip()
+            elif ln_clean.startswith("🔗"):
+                m = re.search(r"https?://\S+", ln_clean)
+                if m:
+                    url = m.group(0)
+        if not title and not company:
+            continue
+        norm = normalise_url(url) if url else ""
+        jid = make_seen_id(title, company, norm)
+        if jid not in seen:
+            seen[jid] = today_iso
+            added += 1
+    return added
 
 # ---------------------------------------------------------------------------
 # Helpers
@@ -1711,7 +1786,22 @@ SCRAPERS = [
 # ---------------------------------------------------------------------------
 
 def run(reset: bool = False) -> list[dict]:
-    seen = set() if reset else load_seen()
+    # seen is a dict: job-id -> ISO date string of when it was first scraped.
+    # Falling back from cache mid-week (the previous failure mode that made
+    # 6-month-old jobs reappear as "new") is now impossible because the
+    # store is committed to the repo by the workflow, not held in a cache.
+    seen: dict = {} if reset else load_seen()
+    today_iso = datetime.now().strftime("%Y-%m-%d")
+
+    # First-deploy bootstrap: if there's no seen-jobs file yet but a
+    # previous jobs_digest.txt is on disk, seed from it so the next run
+    # doesn't flood with everything as "new".
+    bootstrap_added = bootstrap_seen_from_digest(seen)
+    if bootstrap_added > 0:
+        print(
+            f"  Bootstrap: seeded {bootstrap_added} ids from existing jobs_digest.txt",
+            file=sys.stderr,
+        )
 
     # Global URL dedup across all boards in this run
     this_run_urls: set[str] = set()
@@ -1749,7 +1839,7 @@ def run(reset: bool = False) -> list[dict]:
             if jid in seen or norm in this_run_urls:
                 continue
 
-            seen.add(jid)
+            seen[jid] = today_iso
             this_run_urls.add(norm)
             new.append(job)
 
