@@ -1,22 +1,2 @@
-🆕 <b>Solidity Jobs — 15 May 2026 08:07</b>
-<i>6 new jobs</i>
-
-<b>Senior Smart Contract Engineer</b>
-🔗 https://www.defi.jobs/jobs/senior-smart-contract-engineer-9
-
-<b>Mid/Senior Smart Contract Engineer</b>
-🔗 https://cryptocurrencyjobs.co/engineering/li-fi-mid-senior-smart-contract-engineer
-
-<b>Senior Smart Contract Engineer</b>
-🏢 Uniswap
-📍 New York
-🔗 https://jobs.ashbyhq.com/uniswap/9a047e27-54dd-44df-9c0c-4ca6bc2d57bf
-
-<b>smart contract engineer jobs</b>
-🔗 https://defi-jobs.xyz/jobs/smart-contracts
-
-<b>smart contract security auditors</b>
-🔗 https://defi-jobs.xyz/jobs/security
-
-<b>Solidity developer jobs</b>
-🔗 https://defi-jobs.xyz/jobs/solidity
+<b>Solidity — 15 May 2026</b>
+No new jobs since last run.

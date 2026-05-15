@@ -1,6 +1,2 @@
-🆕 <b>Solana / Rust Jobs — 15 May 2026 08:07</b>
-<i>1 new jobs</i>
-
-<b>Infrastructure Lead - Rust</b>
-🏢 Comm Technologies
-🔗 https://jobs.coinfund.io/jobs/companies/comm-technologies/jobs/76857330-infrastructure-lead-rust
+<b>Solana / Rust — 15 May 2026</b>
+No new jobs since last run.
