@@ -1,20 +1,5 @@
-🆕 <b>Solana / Rust Jobs — 16 May 2026 09:20</b>
-<i>2 new jobs</i>
+🆕 <b>Solana / Rust Jobs — 17 May 2026 09:27</b>
+<i>1 new jobs</i>
 
-<b>Infrastructure Engineer</b>
-🏢 Jito Labs
-🔗 https://jobs.delphiventures.io/jobs/companies/jito-labs/jobs/78892384-infrastructure-engineer
-
-<b>Staff Product Designer</b>
-🏢 Phantom
-📍 Remote
-🔗 https://jobs.ashbyhq.com/phantom/0844373f-aecc-4290-bd1e-159d15b29ae2
-
-
-🏦 <b>Big Co Jobs — 16 May 2026 09:20</b>
-<i>1 roles from larger companies</i>
-
-<b>Senior Data Analyst</b>
-🏢 Solana Foundation
-📍 Remote
-🔗 https://jobs.ashbyhq.com/solana-foundation/7d7753a4-1620-4a43-8342-58e06dbb546d
+<b>Rust Engineer</b>
+🔗 https://web3.career/rust-engineer-hibachi/147340
