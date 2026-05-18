@@ -1793,34 +1793,81 @@ SCRAPERS = [
 # the secret holding that person's Telegram chat ID.
 
 # Solana ecosystem allowlist — any job from these companies passes Jay's
-# filter even if title doesn't mention solana/rust/anchor/etc. Lowercased
-# for case-insensitive match.
+# filter even if the title doesn't mention solana/rust/anchor/etc. So a
+# Phantom product designer or a Jupiter BD role still surfaces. Lowercased
+# for case-insensitive match. Expand this set rather than the keyword list
+# whenever a new Solana-native company shows up.
 SOLANA_ECOSYSTEM_COMPANIES: set[str] = {
-    "solana foundation", "solana labs", "solana mobile", "anza", "jito",
-    "jito labs", "jito network", "helius", "helius labs", "squads",
-    "squads protocol", "backpack", "backpack exchange", "phantom",
-    "phantom technologies", "magic eden", "drift", "drift protocol",
-    "marinade", "marinade finance", "kamino", "kamino finance", "pyth",
-    "pyth network", "tensor", "tensor foundation", "triton", "triton one",
-    "wormhole", "wormhole foundation", "jupiter", "jupiter exchange",
-    "raydium", "orca", "marginfi", "mrgn", "step finance", "monkedao",
-    "star atlas", "bonfida", "drip haus", "drip", "metaplex",
-    "metaplex foundation", "metaplex studios", "firedancer", "jump crypto",
-    "douro labs", "blowfish", "realms", "mango markets", "mango",
-    "helium", "nova labs", "hxro", "hxro network", "fragmetric",
-    "lulo", "sanctum", "switchboard", "switchboard labs", "openbook",
-    "saros", "saros finance", "saber", "tulip", "francium", "psyfi",
-    "zeta", "zeta markets", "cypher", "cypher protocol", "pump.fun",
-    "tensor.trade", "bitsadmin", "bitsadminteam",
+    # Foundation / core protocol
+    "solana foundation", "solana labs", "solana mobile", "anza",
+    "firedancer", "jump crypto", "douro labs", "syndica",
+    # Validator / infra / RPC
+    "jito", "jito labs", "jito network", "jito foundation",
+    "helius", "helius labs", "triton", "triton one", "triton.one",
+    "blockdaemon", "shyft", "genesysgo", "quicknode",
+    # Wallets
+    "phantom", "phantom technologies", "backpack", "backpack exchange",
+    "solflare", "glow", "ottr", "tiplink", "decaf wallet",
+    # DEX / AMM / order books
+    "jupiter", "jupiter exchange", "raydium", "orca", "saber",
+    "openbook", "phoenix", "ellipsis labs", "drift", "drift protocol",
+    "drift trade", "zeta", "zeta markets", "mango", "mango markets",
+    "cypher", "cypher protocol", "01 protocol", "01 exchange",
+    "tensor", "tensor foundation", "tensor.trade", "magic eden",
+    "hadeswap", "hyperspace", "solanart", "holaplex",
+    # Lending / liquid staking / yield
+    "kamino", "kamino finance", "marginfi", "mrgn", "mrgn labs",
+    "solend", "larix", "apricot finance", "marinade", "marinade finance",
+    "sanctum", "blazestake", "jpool", "spool", "lido on solana",
+    "tulip", "francium", "hubble protocol", "uxd protocol",
+    # Oracles / data
+    "pyth", "pyth network", "switchboard", "switchboard labs",
+    "chainlink solana",
+    # NFTs / creator
+    "metaplex", "metaplex foundation", "metaplex studios", "drip haus",
+    "drip", "monkedao", "famous fox federation", "claynosaurz",
+    "okay bears", "magic eden", "tensor",
+    # Gaming / consumer
+    "star atlas", "aurory", "stepn", "audius", "matrica labs",
+    "bitsong", "fimo", "pump.fun", "moonshot.money", "moonshot",
+    # DePIN
+    "helium", "nova labs", "render", "render network", "hivemapper",
+    "grass", "grass.io", "dawn", "dawn internet", "wifimap",
+    "natix", "powerledger",
+    # Trading / market making (Solana-heavy)
+    "wintermute", "jane street solana", "flowtraders",
+    # Memecoin / treasury
+    "bonk", "bonk inu", "bonk foundation", "dogwifhat",
+    # Stablecoin / payments
+    "perena", "elixir", "ondo finance",  # multichain but heavy on Solana
+    "sphere labs",
+    # Cross-chain bridges
+    "wormhole", "wormhole foundation", "debridge", "allbridge",
+    # Tooling / dev infra
+    "squads", "squads protocol", "squads labs", "crossmint",
+    "privy", "turnkey", "blowfish", "bonfida", "step finance",
+    "fragmetric", "hxro", "hxro network", "lulo", "realms",
+    "saros", "saros finance", "psyfi", "psyoptions", "friktion",
+    "cega", "streamflow", "cardinal", "lighthouse solana",
+    "modular cloud", "shyft technologies",
+    # Older identifiers kept for legacy match
+    "bitsadmin", "bitsadminteam",
 }
 
-# Compiled keyword sets — match against title + company string.
-JAY_REQUIRE_ANY = (
-    # Solana
-    "solana", "anchor", "pinocchio", "sealevel", "svm", "spl token",
-    # Rust (the language anywhere in web3)
-    "rust developer", "rust engineer", "rust ", " rust", "rust/",
-    "rustacean", "in rust",
+# Substring keywords — terms with no realistic false-positive in a job
+# title. We check these before the regex pass because they're cheap.
+JAY_KEYWORDS_SUBSTR: tuple[str, ...] = (
+    "solana", "anchor framework", "pinocchio", "sealevel", "spl token",
+    "geyser", "solana program", "agave validator", "firedancer",
+    "anza protocol",
+)
+
+# Regex word-boundary patterns for terms that need it to avoid false
+# positives ("rust" in "trust", "svm" in "TSVM" etc) but still catch
+# variations like "(Rust)", "Rust-based", "Rust/Go", "Anchor".
+JAY_KEYWORDS_REGEX = re.compile(
+    r"\b(rust|svm|anchor)\b",
+    re.IGNORECASE,
 )
 
 NAVEED_REQUIRE_ANY = (
@@ -1852,9 +1899,13 @@ def _haystack(job: dict) -> str:
 
 def _matches_jay(job: dict) -> bool:
     hay = _haystack(job)
-    if any(kw in hay for kw in JAY_REQUIRE_ANY):
+    # Cheap substring pass first
+    if any(kw in hay for kw in JAY_KEYWORDS_SUBSTR):
         return True
-    # Company allowlist (case-insensitive, post-company-fix)
+    # Word-boundary regex pass (catches "(Rust)", "Rust-based", "Rust/Go")
+    if JAY_KEYWORDS_REGEX.search(hay):
+        return True
+    # Company allowlist — any role at a Solana-native company gets through.
     company = apply_company_fixes(job.get("company", "")).lower().strip()
     if company in SOLANA_ECOSYSTEM_COMPANIES:
         return True
