@@ -1496,6 +1496,24 @@ CRYPTO_COMPANIES_GREENHOUSE = [
     ("Nansen",          "nansen"),
     ("M^0 Labs",        "m0dbathenextthingltd"),
     ("Kalshi",          "kalshi"),
+    # --- Discovered from patch list via tools/discover_patch_company_boards.py
+    ("Jump Crypto",         "jumpcrypto"),
+    ("OpenZeppelin",        "openzeppelin"),
+    ("Sonic SVM",           "sonic"),
+    ("Honeycomb Protocol",  "honeycomb"),
+    ("Eclipse",             "eclipse"),
+    ("Foundry Digital",     "foundry"),
+    ("Dfinity",             "dfinity"),
+    ("Figment",             "figment"),
+    ("Flipside Crypto",     "flipside"),
+    ("Oasis",               "oasis"),
+    ("Messari",             "messari"),
+    ("Helium",              "helium"),
+    ("Glow Wallet",         "glow"),
+    ("Casa",                "casa"),
+    ("Blueshift",           "blueshift"),
+    ("Orca",                "orca"),
+    ("Lighthouse Solana",   "lighthouse"),
 ]
 
 CRYPTO_COMPANIES_ASHBY = [
@@ -1536,6 +1554,44 @@ CRYPTO_COMPANIES_ASHBY = [
     ("Lemniscap",           "lemniscap"),
     ("Fabric VC",           "fabric"),
     ("a16z Crypto",         "a16z-crypto"),
+    # --- Discovered from patch list via tools/discover_patch_company_boards.py
+    ("Backpack",            "backpack"),
+    ("Helius",              "helius"),
+    ("Magic Eden",          "magiceden"),
+    ("Pyth Network",        "pythnetwork"),
+    ("Render Network",      "render"),
+    ("Squads",              "squads"),
+    ("Switchboard",         "switchboard"),
+    ("Syndica",             "syndica"),
+    ("Light Protocol",      "light"),
+    ("Stacks Foundation",   "stacks"),
+    ("Aleph Zero",          "aleph"),
+    ("Blockstream",         "blockstream"),
+    ("Espresso Systems",    "espresso"),
+    ("Fleek",               "fleek"),
+    ("Goldsky",             "goldsky"),
+    ("MetaDAO",             "metadao"),
+    ("Phoenix / Ellipsis",  "phoenix"),
+    ("Rain.fi",             "rain"),
+    ("Subspace Network",    "subspace"),
+    ("Succinct Labs",       "succinct"),
+    ("Foundation Devices",  "foundation"),
+    ("Dust Protocol",       "dust"),
+    ("Dusk Network",        "dusk"),
+    ("Parity",              "parity"),
+    ("Allium",              "allium"),
+]
+
+# Lever-hosted careers boards. JSON API is public + simple.
+CRYPTO_COMPANIES_LEVER = [
+    ("Ethena Labs",     "ethena"),
+    ("Jito",            "jito"),
+    ("MoonPay",         "moonpay"),
+    ("Renegade",        "renegade"),
+    ("Zeta Markets",    "zeta"),
+    ("InfStones",       "infstones"),
+    ("Maple Finance",   "maple-finance"),
+    ("Basis Markets",   "basis"),
 ]
 
 
@@ -1558,6 +1614,47 @@ def scrape_company_greenhouse(company: str, slug: str) -> list[dict]:
             continue
         if is_intern(title):
             continue
+        jobs.append({
+            "title": title,
+            "company": company,
+            "url": url,
+            "location": location,
+            "source": "Direct",
+        })
+    return jobs
+
+
+def scrape_company_lever(company: str, slug: str) -> list[dict]:
+    """Scrape a company's Lever job board via its public JSON API.
+    Endpoint returns a flat array of postings, each with hostedUrl + text
+    fields. Lever doesn't expose location as a structured field, so we
+    pull it from categories.location when present.
+    """
+    jobs: list[dict] = []
+    r = get(f"https://api.lever.co/v0/postings/{slug}?mode=json")
+    if not r:
+        return jobs
+    try:
+        data = r.json()
+    except Exception:
+        return jobs
+    if not isinstance(data, list):
+        return jobs
+    for posting in data:
+        if not isinstance(posting, dict):
+            continue
+        title = clean(str(posting.get("text", "")))
+        url = posting.get("hostedUrl") or posting.get("applyUrl") or ""
+        if not title or not url:
+            continue
+        if not is_real_job(title, url):
+            continue
+        if is_intern(title):
+            continue
+        location = ""
+        cats = posting.get("categories")
+        if isinstance(cats, dict):
+            location = str(cats.get("location") or "")
         jobs.append({
             "title": title,
             "company": company,
@@ -1693,7 +1790,8 @@ def scrape_workatastartup() -> list[dict]:
 def scrape_direct_companies() -> list[dict]:
     """Scrape all known crypto company job boards directly."""
     all_jobs = []
-    print(f"→ Direct company boards ({len(CRYPTO_COMPANIES_GREENHOUSE + CRYPTO_COMPANIES_ASHBY)} companies)...", file=sys.stderr)
+    total = len(CRYPTO_COMPANIES_GREENHOUSE) + len(CRYPTO_COMPANIES_ASHBY) + len(CRYPTO_COMPANIES_LEVER)
+    print(f"→ Direct company boards ({total} companies)...", file=sys.stderr)
 
     for company, slug in CRYPTO_COMPANIES_GREENHOUSE:
         try:
@@ -1706,6 +1804,14 @@ def scrape_direct_companies() -> list[dict]:
     for company, slug in CRYPTO_COMPANIES_ASHBY:
         try:
             jobs = scrape_company_ashby(company, slug)
+            all_jobs.extend(jobs)
+        except Exception as e:
+            print(f"  [WARN] {company}: {e}", file=sys.stderr)
+        time.sleep(0.3)
+
+    for company, slug in CRYPTO_COMPANIES_LEVER:
+        try:
+            jobs = scrape_company_lever(company, slug)
             all_jobs.extend(jobs)
         except Exception as e:
             print(f"  [WARN] {company}: {e}", file=sys.stderr)

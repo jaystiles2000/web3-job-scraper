@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+
+# Discovery script artefacts — generated locally, not for the repo
+discovery_output.txt
+discovery_log.txt
