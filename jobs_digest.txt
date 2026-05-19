@@ -1,13 +1,627 @@
-🆕 <b>Solana / Rust Jobs — 19 May 2026 08:26</b>
-<i>1 new jobs</i>
-
-<b>Senior Backend Engineer (Rust)</b>
-🔗 https://cryptocurrencyjobs.co/engineering/cow-dao-senior-backend-engineer-rust
-
-
-🏦 <b>Big Co Jobs — 19 May 2026 08:26</b>
-<i>1 roles from larger companies</i>
+🆕 <b>Solana / Rust Jobs — 19 May 2026 10:54</b>
+<i>130 new jobs</i>
 
 <b>Solana Blockchain Engineer</b>
-🏢 Fireblocks
-🔗 https://venturecareers.galaxy.com/jobs/companies/fireblocks/jobs/79147098-solana-blockchain-engineer
+🔗 https://web3.career/solana-blockchain-engineer-fireblocks/149527
+
+<b>Campus Full-Time Crypto Researcher 2026 CHI</b>
+🏢 Jump Crypto
+📍 Chicago
+🔗 https://job-boards.greenhouse.io/jumpcrypto/jobs/7374017
+
+<b>Campus Full-Time Crypto Researcher 2026 LDN</b>
+🏢 Jump Crypto
+📍 London
+🔗 https://job-boards.greenhouse.io/jumpcrypto/jobs/7374012
+
+<b>Crypto Production Engineer</b>
+🏢 Jump Crypto
+📍 Sydney
+🔗 https://job-boards.greenhouse.io/jumpcrypto/jobs/6472539
+
+<b>C++ Software Engineer | Crypto</b>
+🏢 Jump Crypto
+📍 London
+🔗 https://job-boards.greenhouse.io/jumpcrypto/jobs/5524078
+
+<b>Trader | Crypto</b>
+🏢 Jump Crypto
+📍 Singapore
+🔗 https://job-boards.greenhouse.io/jumpcrypto/jobs/4862961
+
+<b>Construction Laborer</b>
+🏢 Sonic SVM
+📍 Santa Rosa
+🔗 https://boards.greenhouse.io/sonic/jobs/997885?gh_jid=997885
+
+<b>Field Sales Market Manager</b>
+🏢 Sonic SVM
+🔗 https://boards.greenhouse.io/sonic/jobs/7932066?gh_jid=7932066
+
+<b>Field Sales Representative</b>
+🏢 Sonic SVM
+📍 San Jose
+🔗 https://boards.greenhouse.io/sonic/jobs/7551247?gh_jid=7551247
+
+<b>Fleet Manager</b>
+🏢 Sonic SVM
+📍 Santa Rosa
+🔗 https://boards.greenhouse.io/sonic/jobs/949879?gh_jid=949879
+
+<b>Information Technology Technician</b>
+🏢 Sonic SVM
+📍 Santa Rosa
+🔗 https://boards.greenhouse.io/sonic/jobs/2242911?gh_jid=2242911
+
+<b>MDU Growth Specialist</b>
+🏢 Sonic SVM
+📍 Berkeley, Ca
+🔗 https://boards.greenhouse.io/sonic/jobs/6384826?gh_jid=6384826
+
+<b>OSP Construction Manager</b>
+🏢 Sonic SVM
+📍 Santa Rosa
+🔗 https://boards.greenhouse.io/sonic/jobs/1104773?gh_jid=1104773
+
+<b>Outside Sales Representative</b>
+🏢 Sonic SVM
+📍 Bellflower, Ca
+🔗 https://boards.greenhouse.io/sonic/jobs/7551193?gh_jid=7551193
+
+<b>Pole Engineer</b>
+🏢 Sonic SVM
+📍 Sf/Bay Area
+🔗 https://boards.greenhouse.io/sonic/jobs/725129?gh_jid=725129
+
+<b>SAP Functional Lead</b>
+🏢 Sonic SVM
+🔗 https://boards.greenhouse.io/sonic/jobs/7584400?gh_jid=7584400
+
+<b>Site Manager</b>
+🏢 Sonic SVM
+📍 Bellflower, Ca
+🔗 https://boards.greenhouse.io/sonic/jobs/7158802?gh_jid=7158802
+
+<b>Account Executive</b>
+🏢 Lighthouse Solana
+📍 Denver
+🔗 https://job-boards.eu.greenhouse.io/lighthouse/jobs/4164128101
+
+<b>Account Executive - BI Team</b>
+🏢 Lighthouse Solana
+📍 Denver
+🔗 https://job-boards.eu.greenhouse.io/lighthouse/jobs/4559839101
+
+<b>Account Executive – Business Intelligence</b>
+🏢 Lighthouse Solana
+🔗 https://job-boards.eu.greenhouse.io/lighthouse/jobs/4816536101
+
+<b>Account Executive, Commercial Services</b>
+🏢 Lighthouse Solana
+📍 Denver
+🔗 https://job-boards.eu.greenhouse.io/lighthouse/jobs/4814030101
+
+<b>Account Executive DACH</b>
+🏢 Lighthouse Solana
+🔗 https://job-boards.eu.greenhouse.io/lighthouse/jobs/4862430101
+
+<b>Account Executive - Dutch</b>
+🏢 Lighthouse Solana
+🔗 https://job-boards.eu.greenhouse.io/lighthouse/jobs/4863181101
+
+<b>Account Executive LATAM</b>
+🏢 Lighthouse Solana
+📍 Mexico
+🔗 https://job-boards.eu.greenhouse.io/lighthouse/jobs/4840763101
+
+<b>Account Executive - UK</b>
+🏢 Lighthouse Solana
+🔗 https://job-boards.eu.greenhouse.io/lighthouse/jobs/4862541101
+
+<b>Business Development Manager - Australia</b>
+🏢 Lighthouse Solana
+🔗 https://job-boards.eu.greenhouse.io/lighthouse/jobs/4778723101
+
+<b>Business Development Manager Australia - Independent Hotels Sales</b>
+🏢 Lighthouse Solana
+🔗 https://job-boards.eu.greenhouse.io/lighthouse/jobs/4846708101
+
+<b>Business Development Manager BI - Thailand</b>
+🏢 Lighthouse Solana
+🔗 https://job-boards.eu.greenhouse.io/lighthouse/jobs/4837795101
+
+<b>Business Development Manager - Japan</b>
+🏢 Lighthouse Solana
+🔗 https://job-boards.eu.greenhouse.io/lighthouse/jobs/4500582101
+
+<b>Business Development Manager - Malaysia</b>
+🏢 Lighthouse Solana
+🔗 https://job-boards.eu.greenhouse.io/lighthouse/jobs/4698898101
+
+<b>Business Development Manager - Taiwan</b>
+🏢 Lighthouse Solana
+📍 Taipei, Taiwan
+🔗 https://job-boards.eu.greenhouse.io/lighthouse/jobs/4816984101
+
+<b>Business Development Manager - Vietnam</b>
+🏢 Lighthouse Solana
+🔗 https://job-boards.eu.greenhouse.io/lighthouse/jobs/4857209101
+
+<b>Client Operations Associate (Test Booking)</b>
+🏢 Lighthouse Solana
+📍 Ghent, Belgium
+🔗 https://job-boards.eu.greenhouse.io/lighthouse/jobs/4849717101
+
+<b>Client Success Specialist - APAC</b>
+🏢 Lighthouse Solana
+🔗 https://job-boards.eu.greenhouse.io/lighthouse/jobs/4857619101
+
+<b>Data Engineer</b>
+🏢 Lighthouse Solana
+📍 Barcelona, Spain
+🔗 https://job-boards.eu.greenhouse.io/lighthouse/jobs/4766877101
+
+<b>DevOps Engineer</b>
+🏢 Lighthouse Solana
+📍 Ghent, Belgium
+🔗 https://job-boards.eu.greenhouse.io/lighthouse/jobs/4811491101
+
+<b>Field Marketing Manager APAC</b>
+🏢 Lighthouse Solana
+🔗 https://job-boards.eu.greenhouse.io/lighthouse/jobs/4866864101
+
+<b>Finance Operations Process &amp; Automation Lead</b>
+🏢 Lighthouse Solana
+📍 Ghent, Belgium
+🔗 https://job-boards.eu.greenhouse.io/lighthouse/jobs/4833707101
+
+<b>Full Stack Engineer (Backend Focused)</b>
+🏢 Lighthouse Solana
+📍 Ghent, Belgium
+🔗 https://job-boards.eu.greenhouse.io/lighthouse/jobs/4843598101
+
+<b>Implementation Specialist - French Speaker</b>
+🏢 Lighthouse Solana
+📍 Barcelona, Spain
+🔗 https://job-boards.eu.greenhouse.io/lighthouse/jobs/4818544101
+
+<b>Join our talent community!</b>
+🏢 Lighthouse Solana
+📍 Open
+🔗 https://job-boards.eu.greenhouse.io/lighthouse/jobs/4189647101
+
+<b>Marketing Operations Manager</b>
+🏢 Lighthouse Solana
+📍 Denver
+🔗 https://job-boards.eu.greenhouse.io/lighthouse/jobs/4842674101
+
+<b>Market Manager - Indonesia</b>
+🏢 Lighthouse Solana
+🔗 https://job-boards.eu.greenhouse.io/lighthouse/jobs/4826902101
+
+<b>Product Support Specialist - Implementation</b>
+🏢 Lighthouse Solana
+📍 Denver
+🔗 https://job-boards.eu.greenhouse.io/lighthouse/jobs/4867044101
+
+<b>Product Support Specialist - Japanese Speaker</b>
+🏢 Lighthouse Solana
+📍 Selangor, Malaysia
+🔗 https://job-boards.eu.greenhouse.io/lighthouse/jobs/4854211101
+
+<b>Revenue Manager, Independent Hotels</b>
+🏢 Lighthouse Solana
+🔗 https://job-boards.eu.greenhouse.io/lighthouse/jobs/4823973101
+
+<b>Senior Business Development Manager</b>
+🏢 Lighthouse Solana
+📍 Denver
+🔗 https://job-boards.eu.greenhouse.io/lighthouse/jobs/4769162101
+
+<b>Senior Data Engineer</b>
+🏢 Lighthouse Solana
+📍 Ghent, Belgium
+🔗 https://job-boards.eu.greenhouse.io/lighthouse/jobs/4680113101
+
+<b>Senior Director, Platform Engineering</b>
+🏢 Lighthouse Solana
+📍 Ghent, Belgium
+🔗 https://job-boards.eu.greenhouse.io/lighthouse/jobs/4816309101
+
+<b>Senior Manager, Sales Operations</b>
+🏢 Lighthouse Solana
+📍 Ghent, Belgium
+🔗 https://job-boards.eu.greenhouse.io/lighthouse/jobs/4764085101
+
+<b>Senior Revenue Enablement Manager</b>
+🏢 Lighthouse Solana
+📍 Barcelona, Spain
+🔗 https://job-boards.eu.greenhouse.io/lighthouse/jobs/4686156101
+
+<b>Strategic Account Manager - Japan</b>
+🏢 Lighthouse Solana
+📍 Remote
+🔗 https://job-boards.eu.greenhouse.io/lighthouse/jobs/4844802101
+
+<b>Team Lead, Data Engineering</b>
+🏢 Lighthouse Solana
+📍 Barcelona, Spain
+🔗 https://job-boards.eu.greenhouse.io/lighthouse/jobs/4798985101
+
+<b>Technical Support Specialist</b>
+🏢 Lighthouse Solana
+📍 Mexico
+🔗 https://job-boards.eu.greenhouse.io/lighthouse/jobs/4866270101
+
+<b>Winback Account Executive</b>
+🏢 Lighthouse Solana
+📍 Denver
+🔗 https://job-boards.eu.greenhouse.io/lighthouse/jobs/4843863101
+
+<b>Create Your Role</b>
+🏢 Backpack
+📍 Remote
+🔗 https://jobs.ashbyhq.com/backpack/c8010b0a-4994-4b8f-aa95-3d48a7c76975
+
+<b>Front-End Engineer (React Web)</b>
+🏢 Backpack
+📍 Remote
+🔗 https://jobs.ashbyhq.com/backpack/a78fff16-d1ea-4628-a4c4-69de56c6f324
+
+<b>Infrastructure (Rust, Devops)</b>
+🏢 Backpack
+📍 Remote
+🔗 https://jobs.ashbyhq.com/backpack/9a92dd28-3e3f-47c0-ab53-c0eeb79ecdae
+
+<b>Mobile Engineer (React Native)</b>
+🏢 Backpack
+📍 Remote
+🔗 https://jobs.ashbyhq.com/backpack/1f99261f-0d1d-47e4-8db7-8afd10d722f6
+
+<b>Payment / Fiat Engineer (Rust)</b>
+🏢 Backpack
+📍 Remote
+🔗 https://jobs.ashbyhq.com/backpack/ffd88eed-413b-4b04-8c1b-38eb3b2e6ec9
+
+<b>Security Engineer</b>
+🏢 Backpack
+📍 Remote
+🔗 https://jobs.ashbyhq.com/backpack/66cd81a6-a7f7-42e7-8f88-5bb7faf8ff8b
+
+<b>Systems Engineer (Rust)</b>
+🏢 Backpack
+📍 Remote
+🔗 https://jobs.ashbyhq.com/backpack/831f9e52-6821-4d30-89d5-c1e666757d06
+
+<b>Wallet Engineer (React Web)</b>
+🏢 Backpack
+📍 Remote
+🔗 https://jobs.ashbyhq.com/backpack/ee16eebb-7289-44f1-8add-b7552277d77c
+
+<b>Business Development Lead</b>
+🏢 Helius
+📍 North America
+🔗 https://jobs.ashbyhq.com/helius/da1951d7-3b18-4065-b95c-b6210ad0eeb8
+
+<b>Solutions Engineering Manager</b>
+🏢 Helius
+📍 North America
+🔗 https://jobs.ashbyhq.com/helius/8537dd63-59c1-4657-8e3f-2d00824ab21c
+
+<b>Sr. Backend Engineer, Historical APIs</b>
+🏢 Helius
+📍 North America
+🔗 https://jobs.ashbyhq.com/helius/b681c38e-4aa4-4e6f-8a33-91d6157e7213
+
+<b>Sr. Performance Engineer, Trading Infrastructure</b>
+🏢 Helius
+📍 North America
+🔗 https://jobs.ashbyhq.com/helius/bfd3bded-37c8-40f9-b1cc-2859fa444e38
+
+<b>Staff Backend Engineer, Data Streaming</b>
+🏢 Helius
+📍 North America
+🔗 https://jobs.ashbyhq.com/helius/265de4aa-9601-47e5-bf2b-b4993c99066e
+
+<b>Staff Backend Engineer, Gatekeeper</b>
+🏢 Helius
+📍 North America
+🔗 https://jobs.ashbyhq.com/helius/dd8eaaac-22cd-4aad-96a1-85309a134679
+
+<b>Staff Backend Engineer, Historical APIs</b>
+🏢 Helius
+📍 North America
+🔗 https://jobs.ashbyhq.com/helius/9ee91b40-87e9-498b-8b57-d4a84d79854d
+
+<b>Staff Platform Engineer, Observability</b>
+🏢 Helius
+📍 North America
+🔗 https://jobs.ashbyhq.com/helius/dcdd70fd-9297-4675-9f18-d8b7a2063172
+
+<b>Lead Product Designer, Sportsbook</b>
+🏢 Magic Eden
+📍 Melbourne, Australia
+🔗 https://jobs.ashbyhq.com/magiceden/fc1d42f8-3b5c-49c5-a36f-c5ef555a42d4
+
+<b>Senior Counsel, iGaming &amp; Sportsbook</b>
+🏢 Magic Eden
+📍 Remote
+🔗 https://jobs.ashbyhq.com/magiceden/94dc960c-fb7b-40dc-a573-941cb61f80aa
+
+<b>VIP Manager - iGaming</b>
+🏢 Magic Eden
+📍 Remote
+🔗 https://jobs.ashbyhq.com/magiceden/eb713def-54d2-4eeb-bd1e-13f6800a86b1
+
+<b>Legal Counsel</b>
+🏢 Pyth Network
+📍 Europe
+🔗 https://jobs.ashbyhq.com/pythnetwork/0182a6ce-5180-4031-8bb1-288e0bacb0ce
+
+<b>Account Executive</b>
+🏢 Render Network
+📍 Remote
+🔗 https://jobs.ashbyhq.com/render/c6b1ea04-755d-46e8-b197-68c235aff85c
+
+<b>Developer Experience Engineer</b>
+🏢 Render Network
+📍 Remote
+🔗 https://jobs.ashbyhq.com/render/6f5fb20f-106e-466b-8bb7-5cc98168adde
+
+<b>Engineering Manager, Expansion</b>
+🏢 Render Network
+📍 Remote
+🔗 https://jobs.ashbyhq.com/render/9d421b1a-ef3e-4404-bc9f-9b41b53fcffb
+
+<b>Engineering Manager, Product</b>
+🏢 Render Network
+📍 Remote
+🔗 https://jobs.ashbyhq.com/render/a88f8400-b3c5-40b2-86a8-37c93044c287
+
+<b>Head of Revenue Operations</b>
+🏢 Render Network
+📍 Remote
+🔗 https://jobs.ashbyhq.com/render/b587dbcc-e758-4476-a101-c5afe5100bab
+
+<b>Head of Talent</b>
+🏢 Render Network
+📍 Remote
+🔗 https://jobs.ashbyhq.com/render/3f087be8-60bb-4658-8a57-922b84cbdd57
+
+<b>Marketing Operations and Strategy Lead</b>
+🏢 Render Network
+📍 Remote
+🔗 https://jobs.ashbyhq.com/render/17576493-bb92-4181-95e7-e4585f7b6be7
+
+<b>Open Application</b>
+🏢 Render Network
+📍 Remote
+🔗 https://jobs.ashbyhq.com/render/558f18ed-c98c-4928-aa2b-2f9e297eea42
+
+<b>Product Manager, Security, Trust &amp; Governance</b>
+🏢 Render Network
+📍 Remote
+🔗 https://jobs.ashbyhq.com/render/a537929c-d3b2-4289-a6aa-33dca9003c6a
+
+<b>Product Marketing Manager, Runtime &amp; Growth</b>
+🏢 Render Network
+📍 Remote
+🔗 https://jobs.ashbyhq.com/render/17f48d09-1bd1-4356-9b14-f642458c21b9
+
+<b>Senior Manager, GTM Finance</b>
+🏢 Render Network
+📍 Remote
+🔗 https://jobs.ashbyhq.com/render/fb55af68-e836-4b32-8a64-4b119c8f49c8
+
+<b>Senior Technical Recruiter, Engineering</b>
+🏢 Render Network
+📍 Remote
+🔗 https://jobs.ashbyhq.com/render/59234af4-4139-443d-9924-f39a7e39210d
+
+<b>Software Engineer, Billing</b>
+🏢 Render Network
+📍 Remote
+🔗 https://jobs.ashbyhq.com/render/57a61c00-fa74-402d-89cd-1a1b936e14d5
+
+<b>Software Engineer, Growth</b>
+🏢 Render Network
+📍 Remote
+🔗 https://jobs.ashbyhq.com/render/62ea10c7-ad69-444f-9632-dd4b50b8c805
+
+<b>Software Engineer, Infrastructure</b>
+🏢 Render Network
+📍 Remote
+🔗 https://jobs.ashbyhq.com/render/d52dc923-1641-4386-b8ba-5c15e1d7028d
+
+<b>Software Engineer, Product</b>
+🏢 Render Network
+📍 Remote
+🔗 https://jobs.ashbyhq.com/render/c7d896f2-20a9-4b44-9f7d-13929a0fe453
+
+<b>Software Engineer, Security</b>
+🏢 Render Network
+📍 Remote
+🔗 https://jobs.ashbyhq.com/render/226a1b3b-5937-4880-817b-4beb1f72ecc6
+
+<b>Staff Design Engineer</b>
+🏢 Render Network
+📍 Remote
+🔗 https://jobs.ashbyhq.com/render/421729c2-5f02-481e-a373-d5b28efdf458
+
+<b>Staff Product Manager, Platform &amp; Infrastructure</b>
+🏢 Render Network
+📍 Remote
+🔗 https://jobs.ashbyhq.com/render/d5f62097-29f5-4078-ad24-3b604380c1c0
+
+<b>Strategic Account Manager</b>
+🏢 Render Network
+📍 Remote
+🔗 https://jobs.ashbyhq.com/render/ae9d8f47-ecaf-40a3-9487-94049a61cb91
+
+<b>Account Executive</b>
+🏢 Squads
+📍 United States
+🔗 https://jobs.ashbyhq.com/squads/b3a58540-1280-4261-85b3-229a80997831
+
+<b>AML Officer</b>
+🏢 Squads
+📍 Anywhere
+🔗 https://jobs.ashbyhq.com/squads/60c658cf-a8cd-4847-bc38-0ff6252c5205
+
+<b>Business Development Representative</b>
+🏢 Squads
+📍 Remote
+🔗 https://jobs.ashbyhq.com/squads/6a8dd1d6-f326-429e-a818-ff3ff570bf21
+
+<b>Senior Frontend Engineer</b>
+🏢 Squads
+📍 Anywhere
+🔗 https://jobs.ashbyhq.com/squads/0d1e98d2-ac92-455d-a6a2-ed537133de00
+
+<b>Chief of Staff</b>
+🏢 Switchboard
+📍 Denver
+🔗 https://jobs.ashbyhq.com/switchboard/89de9a79-1f70-49be-94a1-8696f45e2c73
+
+<b>Commercial Lending Officer</b>
+🏢 Switchboard
+📍 Denver
+🔗 https://jobs.ashbyhq.com/switchboard/00599e72-b6b8-4e8f-bede-41836fa5ebcd
+
+<b>Executive Admin</b>
+🏢 Switchboard
+📍 Denver
+🔗 https://jobs.ashbyhq.com/switchboard/8733ec64-15aa-4108-9a54-ad9e7f2377ff
+
+<b>Implementation Manager</b>
+🏢 Switchboard
+📍 Dallas, Tx
+🔗 https://jobs.ashbyhq.com/switchboard/8b9113e5-d818-476d-a67f-5e34594804f9
+
+<b>Sales Engineer</b>
+🏢 Switchboard
+📍 Denver
+🔗 https://jobs.ashbyhq.com/switchboard/fe3f53a9-3f19-483e-9d85-c42bea44c84e
+
+<b>Technical Support Manager</b>
+🏢 Switchboard
+📍 Linthicum, Md
+🔗 https://jobs.ashbyhq.com/switchboard/a4887e93-58fd-4607-b412-920f0c0ce99c
+
+<b>Don&#x27;t See A Perfect Fit?</b>
+🏢 Syndica
+📍 Syndica
+🔗 https://jobs.ashbyhq.com/syndica/3bb5b2f3-bf8b-4774-8add-491e7106798f
+
+<b>Research Manager</b>
+🏢 Syndica
+📍 Remote
+🔗 https://jobs.ashbyhq.com/syndica/1e21d4e9-a888-45ef-95a6-1aeb76b5c5a9
+
+<b>Revenue Growth Manager (B2B Sales)</b>
+🏢 Syndica
+📍 Remote
+🔗 https://jobs.ashbyhq.com/syndica/27ff63f6-a750-4028-b3ac-fd11388ba6ab
+
+<b>Senior Software Engineer (Zig/Rust)</b>
+🏢 Syndica
+📍 Remote
+🔗 https://jobs.ashbyhq.com/syndica/15ab4e32-0f32-41a0-b8b0-16b6518158e9
+
+<b>Rust-Simplicity Maintainer</b>
+🏢 Blockstream
+📍 Remote
+🔗 https://jobs.ashbyhq.com/blockstream/6d5c33ed-e473-4e1f-a19e-cde337d66eaa
+
+<b>Software Engineer - Solana</b>
+🏢 Rain.fi
+📍 New York
+🔗 https://jobs.ashbyhq.com/rain/71212e62-8e54-43db-b2ba-a02b9a91b607
+
+<b>Data Scientist</b>
+🏢 Jito
+📍 Remote
+🔗 https://jobs.lever.co/jito/3229e106-cdd1-4d8b-9159-9bd282b084c0
+
+<b>Propose Your Dream Job</b>
+🏢 Jito
+📍 Worldwide
+🔗 https://jobs.lever.co/jito/569d8044-ec9c-464c-875c-c64bb4b93cf2
+
+<b>Associate Director - Product</b>
+🏢 Zeta Markets
+🔗 https://jobs.lever.co/zeta/9794ea23-3af6-4c29-b930-0bbbc5e1ff4d
+
+<b>Associate Manager - Reliability Operations</b>
+🏢 Zeta Markets
+📍 Hyderabad
+🔗 https://jobs.lever.co/zeta/f4549751-a3aa-495a-bcd8-f15269872a9e
+
+<b>Data Reliability Engineer II</b>
+🏢 Zeta Markets
+🔗 https://jobs.lever.co/zeta/f2cd9c9e-d050-446e-8b3d-d86de60cb093
+
+<b>Financial Analyst</b>
+🏢 Zeta Markets
+🔗 https://jobs.lever.co/zeta/8fd0dbd6-ea97-4872-a691-90c0fd5490bd
+
+<b>Infosec GRC Associate II</b>
+🏢 Zeta Markets
+📍 Bangalore
+🔗 https://jobs.lever.co/zeta/9a8fb0fb-72dc-4fb6-984d-fe686dd7b2c1
+
+<b>Lead Site Reliability Engineer</b>
+🏢 Zeta Markets
+📍 Hyderabad
+🔗 https://jobs.lever.co/zeta/a21f18a4-c899-4743-9264-e506990bcdcb
+
+<b>Lead Software Development Engineer (Backend)</b>
+🏢 Zeta Markets
+🔗 https://jobs.lever.co/zeta/8fd94089-5fb6-438f-9e29-ca99c598217f
+
+<b>Manager Data Reliability Engineering</b>
+🏢 Zeta Markets
+📍 Hyderabad
+🔗 https://jobs.lever.co/zeta/32ea9654-98a8-445b-98ef-e6ada520d35a
+
+<b>Manager- Accounts</b>
+🏢 Zeta Markets
+📍 Mumbai
+🔗 https://jobs.lever.co/zeta/2d533970-99a7-444b-b410-39921d0c96f7
+
+<b>Product Manager I</b>
+🏢 Zeta Markets
+📍 Hyderabad
+🔗 https://jobs.lever.co/zeta/ffc67958-ce58-442d-a76d-1e8417d31279
+
+<b>Product Manager II</b>
+🏢 Zeta Markets
+🔗 https://jobs.lever.co/zeta/0634dbe9-0cbc-4cee-a8a7-c6185dbae42e
+
+<b>Project Manager I</b>
+🏢 Zeta Markets
+📍 Mumbai/Bangalore/Hyderabad
+🔗 https://jobs.lever.co/zeta/b2da8d9c-34a3-4abe-9cec-2ae4c57f85fa
+
+<b>Project Manager II</b>
+🏢 Zeta Markets
+📍 Bangalore
+🔗 https://jobs.lever.co/zeta/d80d21c8-6510-410e-bc1a-372f0c6bcbbd
+
+<b>Senior Associate - Customer Success</b>
+🏢 Zeta Markets
+📍 Hyderabad
+🔗 https://jobs.lever.co/zeta/1d96e412-f761-4e4d-a640-2da559ccbc77
+
+<b>Senior Data Reliability Engineer</b>
+🏢 Zeta Markets
+🔗 https://jobs.lever.co/zeta/8bd120c7-51aa-4fc9-a50e-37d6e19f0935
+
+<b>Senior Site Reliability Engineer</b>
+🏢 Zeta Markets
+📍 Hyderabad
+🔗 https://jobs.lever.co/zeta/6c5a8ebc-94b9-41f7-9a49-1659956343eb
+
+<b>Technical Support Engineer II</b>
+🏢 Zeta Markets
+🔗 https://jobs.lever.co/zeta/147471fd-69a6-4881-aa50-d3e4b4971e82

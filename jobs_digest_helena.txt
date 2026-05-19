@@ -1,9 +1,98 @@
-🆕 <b>Product Jobs — 19 May 2026 08:26</b>
-<i>2 new jobs</i>
+🆕 <b>Product Jobs — 19 May 2026 10:54</b>
+<i>20 new jobs</i>
 
-<b>Product Lead - Audience Intelligence</b>
-🏢 Addressable
-🔗 https://careers.bitkraft.vc/jobs/companies/addressable/jobs/79098715-product-lead-audience-intelligence
+<b>Technical Program Manager (TPM)</b>
+🏢 Spruce Systems
+🔗 https://careers.bitkraft.vc/jobs/companies/spruce-systems-2/jobs/79237190-technical-program-manager-tpm
 
-<b>Staff Product Designer, Brokerage</b>
-🔗 https://www.cryptojobs.com/job/staff-product-designer-brokerage-12433
+<b>AI Product Manager</b>
+🔗 https://web3.career/ai-product-manager-coins/149530
+
+<b>Lead Product Designer, Sportsbook</b>
+🏢 Magic Eden
+📍 Melbourne, Australia
+🔗 https://jobs.ashbyhq.com/magiceden/fc1d42f8-3b5c-49c5-a36f-c5ef555a42d4
+
+<b>Product Manager, Security, Trust &amp; Governance</b>
+🏢 Render Network
+📍 Remote
+🔗 https://jobs.ashbyhq.com/render/a537929c-d3b2-4289-a6aa-33dca9003c6a
+
+<b>Staff Product Manager, Platform &amp; Infrastructure</b>
+🏢 Render Network
+📍 Remote
+🔗 https://jobs.ashbyhq.com/render/d5f62097-29f5-4078-ad24-3b604380c1c0
+
+<b>Product Lead</b>
+🏢 Stacks Foundation
+📍 London
+🔗 https://jobs.ashbyhq.com/stacks/180e7759-db80-4f25-8a77-c9a151da3e23
+
+<b>Delivery Project Manager</b>
+🏢 Blockstream
+📍 Zurich
+🔗 https://jobs.ashbyhq.com/blockstream/a00b13e2-2ca5-4aee-84a5-172fba5b5328
+
+<b>Product Owner</b>
+🏢 Blockstream
+📍 Zurich
+🔗 https://jobs.ashbyhq.com/blockstream/4cf529b6-ea59-46b0-a95d-7e2afbd5d02e
+
+<b>Project Manager</b>
+🏢 Blockstream
+📍 Geneva
+🔗 https://jobs.ashbyhq.com/blockstream/ae985166-e11f-4fee-a16f-08dfaff338a0
+
+<b>Senior Product Manager, Enterprise</b>
+🏢 Blockstream
+📍 Remote
+🔗 https://jobs.ashbyhq.com/blockstream/db997f96-5bb3-4597-a841-9273ab664d78
+
+<b>Senior Project Manager Delivery</b>
+🏢 Blockstream
+📍 Geneva
+🔗 https://jobs.ashbyhq.com/blockstream/643e12ae-dced-46aa-bdb9-c91ee58a1353
+
+<b>Product Manager, Cards</b>
+🏢 Rain.fi
+📍 New York
+🔗 https://jobs.ashbyhq.com/rain/95ae1a01-a3a7-4059-847d-e842fa7e13cb
+
+<b>Senior Product Manager</b>
+🏢 Rain.fi
+📍 New York
+🔗 https://jobs.ashbyhq.com/rain/149dccf1-fdbf-4a14-8f2c-7551fe8ba43e
+
+<b>Staff Product Designer</b>
+🏢 Dusk Network
+📍 New York
+🔗 https://jobs.ashbyhq.com/dusk/cfc2fb40-1f29-4dc6-8dbe-064dfd66d114
+
+<b>Product Manager</b>
+🏢 Allium
+📍 New York
+🔗 https://jobs.ashbyhq.com/allium/413fb57d-7d68-4c5c-ba5e-c05824595ad1
+
+<b>Principal Product Designer</b>
+🏢 Ethena Labs
+📍 Remote
+🔗 https://jobs.lever.co/ethena/448fe98a-0075-4615-8a78-3c059aedccc5
+
+<b>Product Manager I</b>
+🏢 Zeta Markets
+📍 Hyderabad
+🔗 https://jobs.lever.co/zeta/ffc67958-ce58-442d-a76d-1e8417d31279
+
+<b>Product Manager II</b>
+🏢 Zeta Markets
+🔗 https://jobs.lever.co/zeta/0634dbe9-0cbc-4cee-a8a7-c6185dbae42e
+
+<b>Project Manager I</b>
+🏢 Zeta Markets
+📍 Mumbai/Bangalore/Hyderabad
+🔗 https://jobs.lever.co/zeta/b2da8d9c-34a3-4abe-9cec-2ae4c57f85fa
+
+<b>Project Manager II</b>
+🏢 Zeta Markets
+📍 Bangalore
+🔗 https://jobs.lever.co/zeta/d80d21c8-6510-410e-bc1a-372f0c6bcbbd
