@@ -1,2 +1,13 @@
-<b>Solana / Rust — 18 May 2026</b>
-No new jobs since last run.
+🆕 <b>Solana / Rust Jobs — 19 May 2026 08:26</b>
+<i>1 new jobs</i>
+
+<b>Senior Backend Engineer (Rust)</b>
+🔗 https://cryptocurrencyjobs.co/engineering/cow-dao-senior-backend-engineer-rust
+
+
+🏦 <b>Big Co Jobs — 19 May 2026 08:26</b>
+<i>1 roles from larger companies</i>
+
+<b>Solana Blockchain Engineer</b>
+🏢 Fireblocks
+🔗 https://venturecareers.galaxy.com/jobs/companies/fireblocks/jobs/79147098-solana-blockchain-engineer
