@@ -145,6 +145,42 @@ def get(url: str, timeout=15):
         print(f"  [WARN] {url}: {e}", file=sys.stderr)
         return None
 
+
+# Cache validation results within a single run so we don't HEAD the same
+# URL more than once if the same job appears on multiple boards.
+_URL_VALIDATION_CACHE: dict[str, bool] = {}
+
+
+def url_is_alive(url: str, timeout: int = 8) -> bool:
+    """HEAD-probe (with GET fallback) to check that a job URL actually
+    resolves before we ship it to Telegram. Aggregator boards like Getro
+    sometimes serve URLs for jobs that have already been removed from
+    that specific portfolio view (the same job lives on the canonical
+    board but the cross-listed copy 404s when clicked).
+
+    Treats anything in 2xx/3xx as alive. Counts 4xx (especially 404, 410)
+    as dead. Network failure → treat as alive (don't punish transient
+    blips that aren't really about the URL).
+    """
+    if not url:
+        return False
+    if url in _URL_VALIDATION_CACHE:
+        return _URL_VALIDATION_CACHE[url]
+    alive = True
+    try:
+        r = requests.head(url, headers=HEADERS, timeout=timeout, allow_redirects=True)
+        # Some servers don't support HEAD (return 405 / 400) — fall back to GET.
+        if r.status_code in (400, 403, 405, 501):
+            r = requests.get(url, headers=HEADERS, timeout=timeout, allow_redirects=True, stream=True)
+            r.close()
+        if 400 <= r.status_code < 500:
+            alive = False
+    except requests.RequestException:
+        alive = True  # transient — give it the benefit of the doubt
+    _URL_VALIDATION_CACHE[url] = alive
+    return alive
+
+
 def soup(r) -> BeautifulSoup:
     return BeautifulSoup(r.text, "lxml")
 
@@ -1723,6 +1759,94 @@ def scrape_company_ashby(company: str, slug: str) -> list[dict]:
     return jobs
 
 
+def scrape_linkedin_jobs() -> list[dict]:
+    """Best-effort scrape of LinkedIn's guest job-search page.
+
+    LinkedIn aggressively rate-limits and IP-blocks (esp. from cloud
+    runners like GitHub Actions). On any given day this scraper might
+    return 0, 5, or rarely 20+ jobs. Built to fail silently rather than
+    error — we'd rather a quiet 0 than a noisy stack trace.
+
+    Uses the guest job search endpoint which sometimes returns HTML for
+    the first few requests before serving a login wall. We hit several
+    keyword variants with delays between to maximise our chances.
+    """
+    jobs: list[dict] = []
+    seen_urls: set[str] = set()
+    # Each search: (label, keywords). Time filter is last-24h (r86400).
+    searches = [
+        ("solana rust",      "solana%20rust"),
+        ("anchor solana",    "anchor%20solana"),
+        ("solana engineer",  "solana%20engineer"),
+        ("rust blockchain",  "rust%20blockchain"),
+    ]
+    base_url = (
+        "https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search"
+        "?keywords={kw}&f_TPR=r86400&position=1&pageNum=0"
+    )
+    blocked = False
+    for label, kw in searches:
+        if blocked:
+            break  # don't keep hammering once we hit a block
+        url = base_url.format(kw=kw)
+        try:
+            r = requests.get(url, headers=HEADERS, timeout=10)
+        except requests.RequestException as e:
+            print(f"  [INFO] LinkedIn {label}: {e}", file=sys.stderr)
+            continue
+        # 429 / 999 / 403 → blocked. Bail rather than burning more attempts.
+        if r.status_code in (403, 429, 999):
+            print(
+                f"  [INFO] LinkedIn blocked us ({r.status_code}) — stopping",
+                file=sys.stderr,
+            )
+            blocked = True
+            break
+        if r.status_code != 200 or not r.text:
+            continue
+
+        # The guest API returns HTML fragments — parse with BeautifulSoup.
+        try:
+            s = BeautifulSoup(r.text, "lxml")
+        except Exception:
+            continue
+        cards = s.select("li, div.job-search-card")
+        for card in cards:
+            title_el = card.select_one(
+                "h3.base-search-card__title, .job-search-card__title, a.base-card__full-link"
+            )
+            company_el = card.select_one(
+                "h4.base-search-card__subtitle, .job-search-card__subtitle a"
+            )
+            link_el = card.select_one("a.base-card__full-link, a.job-search-card__link")
+            if not link_el:
+                continue
+            href = link_el.get("href", "").strip()
+            # Strip the LinkedIn tracking query params so dedup works.
+            if "?" in href:
+                href = href.split("?", 1)[0]
+            if not href or "linkedin.com/jobs/view/" not in href:
+                continue
+            if href in seen_urls:
+                continue
+            seen_urls.add(href)
+            title = clean(title_el.get_text()) if title_el else ""
+            company = clean(company_el.get_text()) if company_el else ""
+            if not title or not is_real_job(title, href):
+                continue
+            if is_intern(title):
+                continue
+            jobs.append({
+                "title": title,
+                "company": company,
+                "url": href,
+                "location": "",
+                "source": "LinkedIn",
+            })
+        time.sleep(2.0)  # be polite, lower chance of triggering block
+    return jobs
+
+
 def scrape_wellfound() -> list[dict]:
     """Wellfound - try role-specific crypto searches."""
     jobs, seen_urls = [], set()
@@ -1864,6 +1988,8 @@ SCRAPERS = [
     scrape_web3career,
     # Direct company boards (Greenhouse JSON API + Ashby appData)
     scrape_direct_companies,
+    # Best-effort LinkedIn (often blocked; degrades gracefully to 0)
+    scrape_linkedin_jobs,
     # Additional boards
     scrape_blockchain_works,
     scrape_builtin_web3,
@@ -2096,6 +2222,87 @@ def _save_seen_for(path: Path, seen: dict) -> None:
 
 
 # ---------------------------------------------------------------------------
+# Daily search-link footer
+# ---------------------------------------------------------------------------
+# Pre-built URLs the user can click straight from Telegram to manually
+# explore fresh postings on sites we can't reliably scrape (LinkedIn,
+# Twitter, broad Google). One footer per profile, tailored to that
+# profile's keywords. Costs nothing to generate — they're just links.
+
+import urllib.parse as _urlparse
+
+
+def _q(s: str) -> str:
+    return _urlparse.quote_plus(s)
+
+
+def _search_links_for(profile_name: str) -> list[tuple[str, str]]:
+    """Return list of (label, url) pairs to render in the digest footer."""
+    if profile_name == "jay":
+        return [
+            ("LinkedIn — Solana jobs (last 24h)",
+             f"https://www.linkedin.com/jobs/search?keywords={_q('solana')}&f_TPR=r86400"),
+            ("LinkedIn — Rust jobs in crypto (last 24h)",
+             f"https://www.linkedin.com/jobs/search?keywords={_q('rust blockchain')}&f_TPR=r86400"),
+            ("LinkedIn — Anchor (Solana) jobs",
+             f"https://www.linkedin.com/jobs/search?keywords={_q('anchor solana')}&f_TPR=r86400"),
+            ("Google — Solana hiring this week",
+             f"https://www.google.com/search?q={_q('solana hiring engineer')}&tbs=qdr:w"),
+            ("Google — Rust crypto careers this week",
+             f"https://www.google.com/search?q={_q('rust crypto careers')}&tbs=qdr:w"),
+            ("Twitter — Solana hiring tweets",
+             f"https://twitter.com/search?q={_q('solana hiring rust')}&f=live"),
+        ]
+    if profile_name == "naveed":
+        return [
+            ("LinkedIn — Solidity jobs (last 24h)",
+             f"https://www.linkedin.com/jobs/search?keywords={_q('solidity')}&f_TPR=r86400"),
+            ("LinkedIn — Smart contract jobs (last 24h)",
+             f"https://www.linkedin.com/jobs/search?keywords={_q('smart contract engineer')}&f_TPR=r86400"),
+            ("Google — Solidity hiring this week",
+             f"https://www.google.com/search?q={_q('solidity hiring engineer')}&tbs=qdr:w"),
+            ("Twitter — Solidity hiring tweets",
+             f"https://twitter.com/search?q={_q('solidity hiring')}&f=live"),
+        ]
+    if profile_name == "casey":
+        return [
+            ("LinkedIn — Crypto marketing jobs (last 24h)",
+             f"https://www.linkedin.com/jobs/search?keywords={_q('crypto marketing')}&f_TPR=r86400"),
+            ("LinkedIn — Web3 growth jobs (last 24h)",
+             f"https://www.linkedin.com/jobs/search?keywords={_q('web3 growth')}&f_TPR=r86400"),
+            ("Google — Crypto marketing hiring",
+             f"https://www.google.com/search?q={_q('crypto marketing hiring')}&tbs=qdr:w"),
+            ("Twitter — Crypto marketing hiring tweets",
+             f"https://twitter.com/search?q={_q('crypto marketing hiring')}&f=live"),
+        ]
+    if profile_name == "helena":
+        return [
+            ("LinkedIn — Crypto product manager jobs (last 24h)",
+             f"https://www.linkedin.com/jobs/search?keywords={_q('crypto product manager')}&f_TPR=r86400"),
+            ("LinkedIn — Web3 product jobs (last 24h)",
+             f"https://www.linkedin.com/jobs/search?keywords={_q('web3 product')}&f_TPR=r86400"),
+            ("Google — Crypto product hiring",
+             f"https://www.google.com/search?q={_q('crypto product manager hiring')}&tbs=qdr:w"),
+            ("Twitter — Web3 product hiring tweets",
+             f"https://twitter.com/search?q={_q('web3 product hiring')}&f=live"),
+        ]
+    return []
+
+
+def _render_search_footer(profile_name: str) -> list[str]:
+    """Render the search-link footer block as digest lines."""
+    links = _search_links_for(profile_name)
+    if not links:
+        return []
+    out = ["", "🔎 <b>Daily searches — click to explore</b>"]
+    for label, url in links:
+        # Telegram HTML mode handles <a> tags
+        out.append(f'• <a href="{url}">{label}</a>')
+    out.append("")
+    return out
+
+
+# ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
 
@@ -2211,17 +2418,27 @@ def run(reset: bool = False) -> list[dict]:
         seen_path = base / p["seen_file"]
 
         new_for_profile: list[dict] = []
+        dead_url_count = 0
         for job in all_jobs:
             if not matches(job):
                 continue
             jid = job["_jid"]
             if jid in seen:
                 continue
+            # HEAD-validate the URL before shipping. Skip if the link 404s
+            # (aggregator boards like Getro sometimes serve URLs whose
+            # target job has been removed from that specific portfolio).
+            # We mark the seen set BEFORE the validation check so dead
+            # URLs don't keep getting re-validated on every future run.
             seen[jid] = today_iso
+            if not url_is_alive(job.get("url", "")):
+                dead_url_count += 1
+                continue
             new_for_profile.append(job)
 
         print(
-            f"\n  → {p['name']:8s} ({p['label']}): {len(new_for_profile)} new",
+            f"\n  → {p['name']:8s} ({p['label']}): {len(new_for_profile)} new"
+            f" ({dead_url_count} dropped as dead links)",
             file=sys.stderr,
         )
 
@@ -2282,6 +2499,11 @@ def run(reset: bool = False) -> list[dict]:
             digest_lines.append("")
             for job in big_co_jobs:
                 digest_lines.extend(format_job_block(job))
+
+        # Always append the search-link footer so the user has a manual
+        # fallback to explore platforms we can't reliably scrape
+        # (LinkedIn, Twitter, broad Google). Per-profile keywords.
+        digest_lines.extend(_render_search_footer(p["name"]))
 
         digest_path.write_text("\n".join(digest_lines), encoding="utf-8")
         _save_seen_for(seen_path, seen)
