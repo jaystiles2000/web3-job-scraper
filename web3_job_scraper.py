@@ -1513,7 +1513,10 @@ CRYPTO_COMPANIES_GREENHOUSE = [
     ("Casa",                "casa"),
     ("Blueshift",           "blueshift"),
     ("Orca",                "orca"),
-    ("Lighthouse Solana",   "lighthouse"),
+    # Removed: Lighthouse Solana — slug 'lighthouse' on Greenhouse returns
+    # ~50 jobs from an unrelated SaaS (Lighthouse Health or similar). The
+    # actual Solana Lighthouse doesn't appear to host a public Greenhouse
+    # board. If they spin one up later, find the real slug and re-add.
 ]
 
 CRYPTO_COMPANIES_ASHBY = [
