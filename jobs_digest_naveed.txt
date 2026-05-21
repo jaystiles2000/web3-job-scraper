@@ -1,2 +1,13 @@
-<b>Solidity — 20 May 2026</b>
-No new jobs since last run.
+🆕 <b>Solidity Jobs — 21 May 2026 10:58</b>
+<i>1 new jobs</i>
+
+<b>Smart Contract Engineer</b>
+🏢 Category Labs
+🔗 https://www.linkedin.com/jobs/view/smart-contract-engineer-at-category-labs-4387264573
+
+
+🔎 <b>Daily searches — click to explore</b>
+• <a href="https://www.linkedin.com/jobs/search?keywords=solidity&f_TPR=r86400">LinkedIn — Solidity jobs (last 24h)</a>
+• <a href="https://www.linkedin.com/jobs/search?keywords=smart+contract+engineer&f_TPR=r86400">LinkedIn — Smart contract jobs (last 24h)</a>
+• <a href="https://www.google.com/search?q=solidity+hiring+engineer&tbs=qdr:w">Google — Solidity hiring this week</a>
+• <a href="https://twitter.com/search?q=solidity+hiring&f=live">Twitter — Solidity hiring tweets</a>
