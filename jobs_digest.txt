@@ -1,26 +1,2 @@
-🆕 <b>Solana / Rust Jobs — 22 May 2026 10:35</b>
-<i>3 new jobs</i>
-
-<b>Warehouse Lead</b>
-🏢 Sonic SVM
-📍 Bellflower, Ca
-🔗 https://boards.greenhouse.io/sonic/jobs/7158802?gh_jid=7158802
-
-<b>Software Engineer, Network Infrastructure</b>
-🏢 Render Network
-📍 Remote
-🔗 https://jobs.ashbyhq.com/render/88cb74a4-bc28-40b1-b792-d3041e3e17d3
-
-<b>Sr. Executive - Real Estate and workplace</b>
-🏢 Zeta Markets
-📍 Hyderabad
-🔗 https://jobs.lever.co/zeta/f335b8a9-eb32-4318-bb8c-89064353a3f2
-
-
-🔎 <b>Daily searches — click to explore</b>
-• <a href="https://www.linkedin.com/jobs/search?keywords=solana&f_TPR=r86400">LinkedIn — Solana jobs (last 24h)</a>
-• <a href="https://www.linkedin.com/jobs/search?keywords=rust+blockchain&f_TPR=r86400">LinkedIn — Rust jobs in crypto (last 24h)</a>
-• <a href="https://www.linkedin.com/jobs/search?keywords=anchor+solana&f_TPR=r86400">LinkedIn — Anchor (Solana) jobs</a>
-• <a href="https://www.google.com/search?q=solana+hiring+engineer&tbs=qdr:w">Google — Solana hiring this week</a>
-• <a href="https://www.google.com/search?q=rust+crypto+careers&tbs=qdr:w">Google — Rust crypto careers this week</a>
-• <a href="https://twitter.com/search?q=solana+hiring+rust&f=live">Twitter — Solana hiring tweets</a>
+<b>Solana / Rust — 22 May 2026</b>
+No new jobs since last run.
