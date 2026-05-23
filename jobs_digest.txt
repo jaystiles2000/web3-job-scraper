@@ -1,2 +1,45 @@
-<b>Solana / Rust — 22 May 2026</b>
-No new jobs since last run.
+🆕 <b>Solana / Rust Jobs — 23 May 2026 09:32</b>
+<i>8 new jobs</i>
+
+<b>Senior Solana Engineer</b>
+🏢 M^0 Labs
+📍 Remote
+🔗 https://job-boards.greenhouse.io/m0dbathenextthingltd/jobs/4257979009
+
+<b>Recruiting Coordinator</b>
+🏢 Render Network
+📍 Remote
+🔗 https://jobs.ashbyhq.com/render/9ea0f458-30ca-48ca-a3e3-3db386bafee4
+
+<b>Data Engineer II</b>
+🏢 Zeta Markets
+🔗 https://jobs.lever.co/zeta/c7c7d877-199a-461f-a70b-c4cd1741277a
+
+<b>Database Administrator II</b>
+🏢 Zeta Markets
+🔗 https://jobs.lever.co/zeta/9d7b99b5-f3b3-4974-9c8f-7e9c02cdaa61
+
+<b>Lead - Data Engineer</b>
+🏢 Zeta Markets
+🔗 https://jobs.lever.co/zeta/ecf8cfdc-e029-4e58-bef1-8b48f7b125c8
+
+<b>Lead Database Administrator</b>
+🏢 Zeta Markets
+🔗 https://jobs.lever.co/zeta/a46bedff-8db9-4859-9ec8-d81717fe5c36
+
+<b>Senior Solana Engineer</b>
+🏢 M0
+🔗 https://www.linkedin.com/jobs/view/senior-solana-engineer-at-m0-4418466557
+
+<b>Software Engineer - Rust</b>
+🏢 Alexander Chapman
+🔗 https://www.linkedin.com/jobs/view/software-engineer-rust-at-alexander-chapman-4418096693
+
+
+🔎 <b>Daily searches — click to explore</b>
+• <a href="https://www.linkedin.com/jobs/search?keywords=solana&f_TPR=r86400">LinkedIn — Solana jobs (last 24h)</a>
+• <a href="https://www.linkedin.com/jobs/search?keywords=rust+blockchain&f_TPR=r86400">LinkedIn — Rust jobs in crypto (last 24h)</a>
+• <a href="https://www.linkedin.com/jobs/search?keywords=anchor+solana&f_TPR=r86400">LinkedIn — Anchor (Solana) jobs</a>
+• <a href="https://www.google.com/search?q=solana+hiring+engineer&tbs=qdr:w">Google — Solana hiring this week</a>
+• <a href="https://www.google.com/search?q=rust+crypto+careers&tbs=qdr:w">Google — Rust crypto careers this week</a>
+• <a href="https://twitter.com/search?q=solana+hiring+rust&f=live">Twitter — Solana hiring tweets</a>
