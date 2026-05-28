@@ -1,15 +1,24 @@
-🆕 <b>Solana / Rust Jobs — 25 May 2026 11:42</b>
-<i>2 new jobs</i>
+🆕 <b>Solana / Rust Jobs — 28 May 2026 11:29</b>
+<i>4 new jobs</i>
 
-<b>Manager Site Reliability Engineer</b>
+<b>Frontend Engineer, Growth &amp; Engagement Team</b>
+🏢 Phantom
+📍 Remote
+🔗 https://jobs.ashbyhq.com/phantom/454d771f-bf8f-42fe-884f-eb390d24e167
+
+<b>Staff Performance Engineer, Trading Infrastructure</b>
+🏢 Helius
+📍 North America
+🔗 https://jobs.ashbyhq.com/helius/0ec462ba-d448-4586-a07c-6c702aa42234
+
+<b>Software Development Engineer II - Frontend</b>
 🏢 Zeta Markets
 📍 Hyderabad
-🔗 https://jobs.lever.co/zeta/cac1b9e2-b9fd-4450-8d20-16d3c4f37a10
+🔗 https://jobs.lever.co/zeta/6768f225-3c6f-4a15-a5e2-a41b254a676f
 
-<b>Software Development Engineer in Test II</b>
-🏢 Zeta Markets
-📍 Hyderabad
-🔗 https://jobs.lever.co/zeta/570f6cf7-5525-4357-81c4-658534458043
+<b>Performance Engineer, Rust</b>
+🏢 Adaptive ML
+🔗 https://www.linkedin.com/jobs/view/performance-engineer-rust-at-adaptive-ml-4389298093
 
 
 🔎 <b>Daily searches — click to explore</b>
