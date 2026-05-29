@@ -2087,6 +2087,26 @@ SOLANA_ECOSYSTEM_COMPANIES: set[str] = {
     "modular cloud", "shyft technologies",
     # Older identifiers kept for legacy match
     "bitsadmin", "bitsadminteam",
+    # --- Additions May 2026 — recent SVM/Solana ecosystem launches +
+    # companies on Jay's patch DB that weren't here yet.
+    "eclipse", "eclipse labs", "eclipse foundation",
+    "sonic", "sonic svm", "sonic labs",
+    "monad", "monad labs", "monad foundation",
+    "berachain", "berachain foundation",
+    "succinct", "succinct labs",
+    "fragmetric", "fragmetric labs",
+    "drift labs", "drift foundation",
+    "marginfi labs", "marginfi network",
+    "tensor labs", "tensor protocol",
+    "ondo labs", "ondo finance labs",
+    "openserv", "openserv labs",
+    "alephium", "alephium foundation",
+    "chainflip", "chainflip labs", "chainflip foundation",
+    "lighthouse labs",
+    "magic eden labs",
+    "kamino lend", "kamino swap",
+    "perena labs", "perena finance",
+    "render labs", "render foundation",
 }
 
 # Substring keywords — terms with no realistic false-positive in a job

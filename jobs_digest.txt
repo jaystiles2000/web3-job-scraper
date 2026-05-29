@@ -1,24 +1,68 @@
-🆕 <b>Solana / Rust Jobs — 28 May 2026 11:29</b>
-<i>4 new jobs</i>
+🆕 <b>Solana / Rust Jobs — 29 May 2026 09:50</b>
+<i>14 new jobs</i>
 
-<b>Frontend Engineer, Growth &amp; Engagement Team</b>
-🏢 Phantom
+<b>Senior Backend Engineer (Rust)</b>
+🔗 https://myweb3jobs.com/job/senior-backend-engineer-rust
+
+<b>Senior Solana Engineer</b>
+🏢 M^0 Labs
 📍 Remote
-🔗 https://jobs.ashbyhq.com/phantom/454d771f-bf8f-42fe-884f-eb390d24e167
+🔗 https://job-boards.greenhouse.io/m0dbathenextthingltd/jobs/4257979009
 
-<b>Staff Performance Engineer, Trading Infrastructure</b>
-🏢 Helius
-📍 North America
-🔗 https://jobs.ashbyhq.com/helius/0ec462ba-d448-4586-a07c-6c702aa42234
+<b>MDU Growth Lead</b>
+🏢 Sonic SVM
+🔗 https://boards.greenhouse.io/sonic/jobs/7961627?gh_jid=7961627
+
+<b>Warehouse Lead</b>
+🏢 Sonic SVM
+📍 Bellflower, Ca
+🔗 https://boards.greenhouse.io/sonic/jobs/7158802?gh_jid=7158802
+
+<b>Recruiting Coordinator</b>
+🏢 Render Network
+📍 Remote
+🔗 https://jobs.ashbyhq.com/render/9ea0f458-30ca-48ca-a3e3-3db386bafee4
+
+<b>Software Engineer, Network Infrastructure</b>
+🏢 Render Network
+📍 Remote
+🔗 https://jobs.ashbyhq.com/render/88cb74a4-bc28-40b1-b792-d3041e3e17d3
+
+<b>Data Engineer II</b>
+🏢 Zeta Markets
+🔗 https://jobs.lever.co/zeta/c7c7d877-199a-461f-a70b-c4cd1741277a
+
+<b>Database Administrator II</b>
+🏢 Zeta Markets
+🔗 https://jobs.lever.co/zeta/9d7b99b5-f3b3-4974-9c8f-7e9c02cdaa61
+
+<b>Lead - Data Engineer</b>
+🏢 Zeta Markets
+🔗 https://jobs.lever.co/zeta/ecf8cfdc-e029-4e58-bef1-8b48f7b125c8
+
+<b>Lead Database Administrator</b>
+🏢 Zeta Markets
+🔗 https://jobs.lever.co/zeta/a46bedff-8db9-4859-9ec8-d81717fe5c36
+
+<b>Manager Site Reliability Engineer</b>
+🏢 Zeta Markets
+📍 Hyderabad
+🔗 https://jobs.lever.co/zeta/cac1b9e2-b9fd-4450-8d20-16d3c4f37a10
 
 <b>Software Development Engineer II - Frontend</b>
 🏢 Zeta Markets
 📍 Hyderabad
 🔗 https://jobs.lever.co/zeta/6768f225-3c6f-4a15-a5e2-a41b254a676f
 
-<b>Performance Engineer, Rust</b>
-🏢 Adaptive ML
-🔗 https://www.linkedin.com/jobs/view/performance-engineer-rust-at-adaptive-ml-4389298093
+<b>Software Development Engineer in Test II</b>
+🏢 Zeta Markets
+📍 Hyderabad
+🔗 https://jobs.lever.co/zeta/570f6cf7-5525-4357-81c4-658534458043
+
+<b>Sr. Executive - Real Estate and workplace</b>
+🏢 Zeta Markets
+📍 Hyderabad
+🔗 https://jobs.lever.co/zeta/f335b8a9-eb32-4318-bb8c-89064353a3f2
 
 
 🔎 <b>Daily searches — click to explore</b>
