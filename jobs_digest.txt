@@ -1,68 +1,42 @@
-🆕 <b>Solana / Rust Jobs — 29 May 2026 09:50</b>
-<i>14 new jobs</i>
+🆕 <b>Solana / Rust Jobs — 29 May 2026 11:04</b>
+<i>8 new jobs</i>
 
-<b>Senior Backend Engineer (Rust)</b>
-🔗 https://myweb3jobs.com/job/senior-backend-engineer-rust
-
-<b>Senior Solana Engineer</b>
-🏢 M^0 Labs
+<b>Data Scientist (AI Data &amp; LLM Specialist)</b>
+🏢 Eclipse
 📍 Remote
-🔗 https://job-boards.greenhouse.io/m0dbathenextthingltd/jobs/4257979009
+🔗 https://job-boards.greenhouse.io/eclipse/jobs/4981191008
 
-<b>MDU Growth Lead</b>
-🏢 Sonic SVM
-🔗 https://boards.greenhouse.io/sonic/jobs/7961627?gh_jid=7961627
+<b>Business Development Lead, Financial Institutions</b>
+🏢 Monad Foundation
+📍 New York
+🔗 https://jobs.ashbyhq.com/monad.foundation/796fb90b-83c2-480f-820f-8ac9532ef80e
 
-<b>Warehouse Lead</b>
-🏢 Sonic SVM
-📍 Bellflower, Ca
-🔗 https://boards.greenhouse.io/sonic/jobs/7158802?gh_jid=7158802
-
-<b>Recruiting Coordinator</b>
-🏢 Render Network
+<b>Tokenization Lead</b>
+🏢 Monad Foundation
 📍 Remote
-🔗 https://jobs.ashbyhq.com/render/9ea0f458-30ca-48ca-a3e3-3db386bafee4
+🔗 https://jobs.ashbyhq.com/monad.foundation/1c0abfd1-bea2-47a5-b459-dfa7c3261687
 
-<b>Software Engineer, Network Infrastructure</b>
-🏢 Render Network
-📍 Remote
-🔗 https://jobs.ashbyhq.com/render/88cb74a4-bc28-40b1-b792-d3041e3e17d3
+<b>Strategic Account Manager</b>
+🏢 Blockdaemon
+📍 Miami
+🔗 https://www.linkedin.com/jobs/view/strategic-account-manager-at-blockdaemon-4420644224
 
-<b>Data Engineer II</b>
-🏢 Zeta Markets
-🔗 https://jobs.lever.co/zeta/c7c7d877-199a-461f-a70b-c4cd1741277a
+<b>Retail Sales Specialist (Solana Beach, CA)</b>
+🏢 Staples
+🔗 https://www.linkedin.com/jobs/view/retail-sales-specialist-solana-beach-ca-at-staples-4420410933
 
-<b>Database Administrator II</b>
-🏢 Zeta Markets
-🔗 https://jobs.lever.co/zeta/9d7b99b5-f3b3-4974-9c8f-7e9c02cdaa61
+<b>Courtyard by Marriott Solana Beach, Housekeeping Manager $55,000-$58,000 based on experience!</b>
+🏢 Remington Hospitality
+🔗 https://www.linkedin.com/jobs/view/courtyard-by-marriott-solana-beach-housekeeping-manager-%2455-000-%2458-000-based-on-experience%21-at-remington-hospitality-4400789500
 
-<b>Lead - Data Engineer</b>
-🏢 Zeta Markets
-🔗 https://jobs.lever.co/zeta/ecf8cfdc-e029-4e58-bef1-8b48f7b125c8
+<b>DeFi Algorithmic Trader</b>
+🏢 Wintermute
+📍 New York
+🔗 https://www.linkedin.com/jobs/view/defi-algorithmic-trader-at-wintermute-4393875150
 
-<b>Lead Database Administrator</b>
-🏢 Zeta Markets
-🔗 https://jobs.lever.co/zeta/a46bedff-8db9-4859-9ec8-d81717fe5c36
-
-<b>Manager Site Reliability Engineer</b>
-🏢 Zeta Markets
-📍 Hyderabad
-🔗 https://jobs.lever.co/zeta/cac1b9e2-b9fd-4450-8d20-16d3c4f37a10
-
-<b>Software Development Engineer II - Frontend</b>
-🏢 Zeta Markets
-📍 Hyderabad
-🔗 https://jobs.lever.co/zeta/6768f225-3c6f-4a15-a5e2-a41b254a676f
-
-<b>Software Development Engineer in Test II</b>
-🏢 Zeta Markets
-📍 Hyderabad
-🔗 https://jobs.lever.co/zeta/570f6cf7-5525-4357-81c4-658534458043
-
-<b>Sr. Executive - Real Estate and workplace</b>
-🏢 Zeta Markets
-📍 Hyderabad
-🔗 https://jobs.lever.co/zeta/f335b8a9-eb32-4318-bb8c-89064353a3f2
+<b>Principal Software Engineer (RUST, AWS, Docker, Kubernetes)</b>
+🏢 Fidelity Investments
+🔗 https://www.linkedin.com/jobs/view/principal-software-engineer-rust-aws-docker-kubernetes-at-fidelity-investments-4402275616
 
 
 🔎 <b>Daily searches — click to explore</b>
