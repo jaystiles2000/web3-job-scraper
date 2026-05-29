@@ -20,7 +20,12 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install requests beautifulsoup4 feedparser lxml
+        # playwright + chromium for the LinkedIn fetcher. The chromium
+        # install is cached in the runner image's pip cache so subsequent
+        # runs are fast. Adds ~30s on a cold run, ~5s on a warm one.
+        run: |
+          pip install requests beautifulsoup4 feedparser lxml playwright
+          python -m playwright install --with-deps chromium
 
       # Each profile maintains its own seen_jobs_<name>.json and
       # jobs_digest_<name>.txt — Jay keeps the legacy unsuffixed names

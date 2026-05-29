@@ -1619,6 +1619,31 @@ CRYPTO_COMPANIES_ASHBY = [
     ("Dusk Network",        "dusk"),
     ("Parity",              "parity"),
     ("Allium",              "allium"),
+    # --- Discovery pass May 2026: more Solana ecosystem + adjacent
+    # SVM/L2 companies from Jay's patch DB + known direct boards.
+    ("Anza",                "anza"),
+    ("Marinade Finance",    "marinade"),
+    ("Mango Markets",       "mango"),
+    ("Drift Protocol",      "drift"),
+    ("Tensor",              "tensor"),
+    ("Pyth Network Labs",   "pythdataassociation"),
+    ("Wormhole",            "wormholefoundation"),
+    ("Hivemapper",          "hivemapper"),
+    ("Sky / MakerDAO",      "makerdao"),
+    ("Sui",                 "mystenlabs"),
+    ("Eigen Labs",          "eigenlabs"),
+    ("Polygon Labs",        "polygontechnology"),
+    ("Risc Zero",           "riscolabs"),
+    ("Linea (ConsenSys)",   "consensys"),
+    ("Optimism",            "oplabs"),
+    ("Arbitrum Foundation", "offchainlabs"),
+    ("Across Protocol",     "across"),
+    ("Lit Protocol",        "litprotocol"),
+    ("Worldcoin",           "worldcoin"),
+    ("Toku",                "tokucareers"),
+    ("Toggl Crypto",        "togglcrypto"),
+    ("Tally",               "tallyho"),
+    ("Sui Foundation",      "suifoundation"),
 ]
 
 # Lever-hosted careers boards. JSON API is public + simple.
@@ -1631,6 +1656,24 @@ CRYPTO_COMPANIES_LEVER = [
     ("InfStones",       "infstones"),
     ("Maple Finance",   "maple-finance"),
     ("Basis Markets",   "basis"),
+    # --- Discovery pass May 2026
+    ("Helius",                "helius"),
+    ("Jupiter Aggregator",    "jup"),
+    ("Sanctum",               "sanctum"),
+    ("Squads",                "squads"),
+    ("Triton One",            "triton-one"),
+    ("Blockworks",            "blockworks"),
+    ("Marinade",              "marinade-finance"),
+    ("Kamino Finance",        "kamino"),
+    ("Step Finance",          "step-finance"),
+    ("Star Atlas",            "staratlas"),
+    ("Aurory",                "aurorystudios"),
+    ("Backpack Exchange",     "backpack-exchange"),
+    ("Bonk",                  "bonk"),
+    ("Drift Protocol",        "drift-protocol"),
+    ("OpenBook",              "openbook"),
+    ("Solflare",              "solflare"),
+    ("Lighthouse",            "lighthouse-protocol"),
 ]
 
 
@@ -1759,7 +1802,128 @@ def scrape_company_ashby(company: str, slug: str) -> list[dict]:
     return jobs
 
 
+def scrape_linkedin_playwright() -> list[dict]:
+    """Headless-browser LinkedIn fetch via Playwright.
+
+    The HTTP-only scraper below gets blocked by LinkedIn most days
+    (403/999). A real browser session sidesteps that — LinkedIn serves
+    the public guest job search page to actual browsers reliably.
+
+    Playwright is optional: if it's not installed (e.g. local dev
+    without it, or the GitHub Action package missing) we silently
+    return [] and let the HTTP scraper try its luck instead.
+
+    Hits the SAME keyword variants as the HTTP scraper but parses the
+    rendered DOM instead of fragmenting raw HTML. Adds a 5-10s cost
+    per run but typically returns 30-100 jobs vs 0 for HTTP-only.
+    """
+    try:
+        from playwright.sync_api import sync_playwright
+    except ImportError:
+        print("  [INFO] Playwright not installed — falling back to HTTP scraper", file=sys.stderr)
+        return []
+
+    jobs: list[dict] = []
+    seen_urls: set[str] = set()
+    # Per Jay (29 May 2026): "anything solana, SVM based with any mention
+    # of it" — broader queries, not just engineering. Time filter = last
+    # 24h (f_TPR=r86400) so we don't drown in stale roles.
+    searches = [
+        ("solana",           "solana"),
+        ("svm",              "svm%20blockchain"),
+        ("rust crypto",      "rust%20crypto"),
+        ("anchor solana",    "anchor%20solana"),
+        ("solana engineer",  "solana%20engineer"),
+        ("pinocchio",        "pinocchio"),
+        ("firedancer",       "firedancer"),
+    ]
+    list_url = (
+        "https://www.linkedin.com/jobs/search/?keywords={kw}"
+        "&f_TPR=r86400&position=1&pageNum=0"
+    )
+
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=True)
+        try:
+            context = browser.new_context(
+                user_agent=(
+                    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                    "AppleWebKit/537.36 (KHTML, like Gecko) "
+                    "Chrome/123.0.0.0 Safari/537.36"
+                ),
+                viewport={"width": 1280, "height": 900},
+            )
+            for label, kw in searches:
+                page = context.new_page()
+                try:
+                    page.goto(list_url.format(kw=kw), wait_until="domcontentloaded", timeout=20000)
+                    # Wait a beat for the JS-rendered list to populate;
+                    # LinkedIn lazy-loads with intersection observer.
+                    page.wait_for_timeout(2500)
+                    cards = page.query_selector_all(
+                        "ul.jobs-search__results-list > li, div.base-card"
+                    )
+                    accepted = 0
+                    for card in cards:
+                        link_el = card.query_selector("a.base-card__full-link, a.job-card-container__link")
+                        if not link_el:
+                            continue
+                        href = (link_el.get_attribute("href") or "").strip()
+                        if "?" in href:
+                            href = href.split("?", 1)[0]
+                        if not href or "linkedin.com/jobs/view/" not in href:
+                            continue
+                        if href in seen_urls:
+                            continue
+                        seen_urls.add(href)
+                        title_el = card.query_selector(
+                            "h3.base-search-card__title, .job-search-card__title"
+                        )
+                        company_el = card.query_selector(
+                            "h4.base-search-card__subtitle, .job-search-card__subtitle a"
+                        )
+                        loc_el = card.query_selector(".job-search-card__location")
+                        title = clean(title_el.inner_text()) if title_el else ""
+                        company = clean(company_el.inner_text()) if company_el else ""
+                        location = clean(loc_el.inner_text()) if loc_el else ""
+                        if not title or not is_real_job(title, href):
+                            continue
+                        if is_intern(title):
+                            continue
+                        jobs.append({
+                            "title": title,
+                            "company": company,
+                            "url": href,
+                            "location": location,
+                            "source": "LinkedIn",
+                        })
+                        accepted += 1
+                    print(f"  [LinkedIn:{label}] {accepted} from {len(cards)} cards", file=sys.stderr)
+                except Exception as e:
+                    print(f"  [WARN] LinkedIn Playwright {label}: {e}", file=sys.stderr)
+                finally:
+                    page.close()
+                time.sleep(2.0)
+        finally:
+            browser.close()
+
+    return jobs
+
+
 def scrape_linkedin_jobs() -> list[dict]:
+    """Combined LinkedIn fetcher: Playwright first, HTTP fallback.
+
+    Tries the headless-browser variant which actually returns results.
+    If Playwright fails or isn't installed, falls back to the HTTP-only
+    variant below (which usually returns 0 these days but won't crash).
+    """
+    pw_jobs = scrape_linkedin_playwright()
+    if pw_jobs:
+        return pw_jobs
+    return _scrape_linkedin_http()
+
+
+def _scrape_linkedin_http() -> list[dict]:
     """Best-effort scrape of LinkedIn's guest job-search page.
 
     LinkedIn aggressively rate-limits and IP-blocks (esp. from cloud
@@ -2110,11 +2274,15 @@ SOLANA_ECOSYSTEM_COMPANIES: set[str] = {
 }
 
 # Substring keywords — terms with no realistic false-positive in a job
-# title. We check these before the regex pass because they're cheap.
+# title or description. Per Jay (29 May 2026): "anything solana, SVM
+# based with any mention of it" — we want any role mentioning these,
+# not just engineering. So we now also check the job description /
+# body text when available, not only title+company.
 JAY_KEYWORDS_SUBSTR: tuple[str, ...] = (
     "solana", "anchor framework", "pinocchio", "sealevel", "spl token",
     "geyser", "solana program", "agave validator", "firedancer",
-    "anza protocol",
+    "anza protocol", "svm based", "svm-based", "svm chain",
+    "solana virtual machine", "solana ecosystem",
 )
 
 # Regex word-boundary patterns for terms that need it to avoid false
