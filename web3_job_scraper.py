@@ -358,6 +358,16 @@ BLOCKED_COMPANIES = {
     "employinc", "employ inc",
     "fullcircl", "ncino",  # Non-crypto from general VC portfolios
     "zscaler",  # Enterprise security, not web3
+    # --- Additions May 2026 — companies that snuck in because the role
+    # was located in "Solana Beach, CA" (a real California town with no
+    # relation to the blockchain). Pure retail/hospitality/etc — block
+    # them at source so the "solana" substring match doesn't snag them.
+    "staples", "remington hospitality", "marriott", "courtyard by marriott",
+    # Fidelity's general engineering org occasionally posts Rust roles
+    # that aren't crypto-related. Fidelity Digital Assets is the crypto
+    # arm — that one comes through under "Fidelity Digital Assets" so
+    # blocking the parent here doesn't lose anything Jay would chase.
+    "fidelity investments", "fidelity",
 }
 
 
@@ -2322,6 +2332,19 @@ def _haystack(job: dict) -> str:
 
 def _matches_jay(job: dict) -> bool:
     hay = _haystack(job)
+    # "Solana Beach" is a real Californian town. Retail and hospitality
+    # roles based there were snagging the "solana" substring match
+    # without any blockchain context. Kill those at the source: if the
+    # ONLY "solana" mention in the haystack comes from "solana beach",
+    # the match is invalid.
+    if "solana beach" in hay:
+        # Strip the false-positive and see if any real signal remains.
+        stripped = hay.replace("solana beach", "")
+        if not any(kw in stripped for kw in JAY_KEYWORDS_SUBSTR) and not JAY_KEYWORDS_REGEX.search(stripped):
+            company = apply_company_fixes(job.get("company", "")).lower().strip()
+            if company not in SOLANA_ECOSYSTEM_COMPANIES:
+                return False
+
     # Cheap substring pass first
     if any(kw in hay for kw in JAY_KEYWORDS_SUBSTR):
         return True
