@@ -1,2 +1,17 @@
-<b>Solidity — 29 May 2026</b>
-No new jobs since last run.
+🆕 <b>Solidity Jobs — 30 May 2026 09:51</b>
+<i>2 new jobs</i>
+
+<b>Software Engineer - Smart Contract, Bridge</b>
+🏢 Stripe
+📍 New York
+🔗 https://www.linkedin.com/jobs/view/software-engineer-smart-contract-bridge-at-stripe-4413485621
+
+<b>Smart Contract Developer</b>
+🔗 https://www.cryptojobs.com/job/smart-contract-developer-12131
+
+
+🔎 <b>Daily searches — click to explore</b>
+• <a href="https://www.linkedin.com/jobs/search?keywords=solidity&f_TPR=r86400">LinkedIn — Solidity jobs (last 24h)</a>
+• <a href="https://www.linkedin.com/jobs/search?keywords=smart+contract+engineer&f_TPR=r86400">LinkedIn — Smart contract jobs (last 24h)</a>
+• <a href="https://www.google.com/search?q=solidity+hiring+engineer&tbs=qdr:w">Google — Solidity hiring this week</a>
+• <a href="https://twitter.com/search?q=solidity+hiring&f=live">Twitter — Solidity hiring tweets</a>

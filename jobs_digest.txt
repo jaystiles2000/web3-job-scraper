@@ -1,42 +1,15 @@
-🆕 <b>Solana / Rust Jobs — 29 May 2026 11:04</b>
-<i>8 new jobs</i>
+🆕 <b>Solana / Rust Jobs — 30 May 2026 09:51</b>
+<i>2 new jobs</i>
 
-<b>Data Scientist (AI Data &amp; LLM Specialist)</b>
-🏢 Eclipse
+<b>Solutions Engineer</b>
+🏢 Render Network
 📍 Remote
-🔗 https://job-boards.greenhouse.io/eclipse/jobs/4981191008
+🔗 https://jobs.ashbyhq.com/render/d74e304b-7e7e-4c43-9467-cf4b0764cc24
 
-<b>Business Development Lead, Financial Institutions</b>
-🏢 Monad Foundation
-📍 New York
-🔗 https://jobs.ashbyhq.com/monad.foundation/796fb90b-83c2-480f-820f-8ac9532ef80e
-
-<b>Tokenization Lead</b>
-🏢 Monad Foundation
-📍 Remote
-🔗 https://jobs.ashbyhq.com/monad.foundation/1c0abfd1-bea2-47a5-b459-dfa7c3261687
-
-<b>Strategic Account Manager</b>
-🏢 Blockdaemon
-📍 Miami
-🔗 https://www.linkedin.com/jobs/view/strategic-account-manager-at-blockdaemon-4420644224
-
-<b>Retail Sales Specialist (Solana Beach, CA)</b>
-🏢 Staples
-🔗 https://www.linkedin.com/jobs/view/retail-sales-specialist-solana-beach-ca-at-staples-4420410933
-
-<b>Courtyard by Marriott Solana Beach, Housekeeping Manager $55,000-$58,000 based on experience!</b>
-🏢 Remington Hospitality
-🔗 https://www.linkedin.com/jobs/view/courtyard-by-marriott-solana-beach-housekeeping-manager-%2455-000-%2458-000-based-on-experience%21-at-remington-hospitality-4400789500
-
-<b>DeFi Algorithmic Trader</b>
-🏢 Wintermute
-📍 New York
-🔗 https://www.linkedin.com/jobs/view/defi-algorithmic-trader-at-wintermute-4393875150
-
-<b>Principal Software Engineer (RUST, AWS, Docker, Kubernetes)</b>
-🏢 Fidelity Investments
-🔗 https://www.linkedin.com/jobs/view/principal-software-engineer-rust-aws-docker-kubernetes-at-fidelity-investments-4402275616
+<b>Vice President - Sales &amp; Business Development</b>
+🏢 Zeta Markets
+📍 Usa
+🔗 https://jobs.lever.co/zeta/7c0e0301-f6e0-4092-980d-7e7ec3b566f1
 
 
 🔎 <b>Daily searches — click to explore</b>
