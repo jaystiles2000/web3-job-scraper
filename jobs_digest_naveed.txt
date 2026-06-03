@@ -1,2 +1,12 @@
-<b>Solidity — 02 Jun 2026</b>
-No new jobs since last run.
+🆕 <b>Solidity Jobs — 03 Jun 2026 12:30</b>
+<i>1 new jobs</i>
+
+<b>Blockchain Developer (Solidity + Web3 + MERN Stack</b>
+🔗 https://www.cryptojobs.com/job/blockchain-developer-solidity-web3-mern-stack-12448
+
+
+🔎 <b>Daily searches — click to explore</b>
+• <a href="https://www.linkedin.com/jobs/search?keywords=solidity&f_TPR=r86400">LinkedIn — Solidity jobs (last 24h)</a>
+• <a href="https://www.linkedin.com/jobs/search?keywords=smart+contract+engineer&f_TPR=r86400">LinkedIn — Smart contract jobs (last 24h)</a>
+• <a href="https://www.google.com/search?q=solidity+hiring+engineer&tbs=qdr:w">Google — Solidity hiring this week</a>
+• <a href="https://twitter.com/search?q=solidity+hiring&f=live">Twitter — Solidity hiring tweets</a>

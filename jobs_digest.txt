@@ -1,45 +1,23 @@
-🆕 <b>Solana / Rust Jobs — 02 Jun 2026 11:59</b>
-<i>8 new jobs</i>
+🆕 <b>Solana / Rust Jobs — 03 Jun 2026 12:30</b>
+<i>4 new jobs</i>
 
-<b>Project Engineer I</b>
+<b>Engineering Lead Rust C++ Trading Technologies</b>
+🔗 https://web3.career/engineering-lead-rust-c-trading-technologies-binance/149974
+
+<b>OSP Project Engineer I</b>
 🏢 Sonic SVM
 📍 Santa Rosa
 🔗 https://boards.greenhouse.io/sonic/jobs/472970?gh_jid=472970
 
-<b>Backend Engineer, Data Platform</b>
+<b>SF Office Manager (Contract)</b>
 🏢 Phantom
-📍 Remote
-🔗 https://jobs.ashbyhq.com/phantom/b7d0a7f7-c1d0-43c3-936f-c97ff46ee72e
+📍 San Francisco
+🔗 https://jobs.ashbyhq.com/phantom/6ecf08ea-6292-4673-a636-3e2a852ed027
 
-<b>Product Management Lead, Growth</b>
-🏢 Magic Eden
+<b>Technical Product Marketing Manager (TPMM)</b>
+🏢 Anza
 📍 United States
-🔗 https://jobs.ashbyhq.com/magiceden/a88435b2-d197-4577-b44c-081e2878289e
-
-<b>Product Strategy Lead</b>
-🏢 Magic Eden
-📍 Melbourne, Australia
-🔗 https://jobs.ashbyhq.com/magiceden/53ab8226-bcbc-4078-82ce-cbe9033b8e63
-
-<b>Product Engineer</b>
-🏢 Squads
-📍 Anywhere
-🔗 https://jobs.ashbyhq.com/squads/d55321fb-d459-4834-ab67-e4bbfae3daa8
-
-<b>Senior Account Executive</b>
-🏢 Switchboard
-📍 Denver
-🔗 https://jobs.ashbyhq.com/switchboard/ceed455a-7d15-4891-acee-bec93fa0989d
-
-<b>Growth Lead, Korea &amp; APAC</b>
-🏢 Jito
-📍 South Korea
-🔗 https://jobs.lever.co/jito/05f7a0fa-7b0b-4d26-aca3-5d056c2b5b9b
-
-<b>Business Development Lead</b>
-🏢 Perena
-📍 Chicago
-🔗 https://www.linkedin.com/jobs/view/business-development-lead-at-perena-4423245978
+🔗 https://www.linkedin.com/jobs/view/technical-product-marketing-manager-tpmm-at-anza-4422488935
 
 
 🔎 <b>Daily searches — click to explore</b>
