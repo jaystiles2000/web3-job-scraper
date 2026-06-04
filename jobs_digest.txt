@@ -1,23 +1,19 @@
-🆕 <b>Solana / Rust Jobs — 03 Jun 2026 12:30</b>
-<i>4 new jobs</i>
+🆕 <b>Solana / Rust Jobs — 04 Jun 2026 10:56</b>
+<i>3 new jobs</i>
 
-<b>Engineering Lead Rust C++ Trading Technologies</b>
-🔗 https://web3.career/engineering-lead-rust-c-trading-technologies-binance/149974
-
-<b>OSP Project Engineer I</b>
-🏢 Sonic SVM
-📍 Santa Rosa
-🔗 https://boards.greenhouse.io/sonic/jobs/472970?gh_jid=472970
-
-<b>SF Office Manager (Contract)</b>
+<b>Staff Frontend Engineer (Platform)</b>
 🏢 Phantom
-📍 San Francisco
-🔗 https://jobs.ashbyhq.com/phantom/6ecf08ea-6292-4673-a636-3e2a852ed027
+📍 Remote
+🔗 https://jobs.ashbyhq.com/phantom/1abf3c00-bb38-4590-ae01-098acf510acd
 
-<b>Technical Product Marketing Manager (TPMM)</b>
-🏢 Anza
-📍 United States
-🔗 https://www.linkedin.com/jobs/view/technical-product-marketing-manager-tpmm-at-anza-4422488935
+<b>Seasonal Associate-Shoppes at Solana</b>
+🏢 Victoria’s Secret &amp; Co.
+🔗 https://www.linkedin.com/jobs/view/seasonal-associate-shoppes-at-solana-at-victoria%E2%80%99s-secret-co-4404334049
+
+<b>Platform Engineer</b>
+🏢 Moonshot
+📍 New York
+🔗 https://www.linkedin.com/jobs/view/platform-engineer-at-moonshot-4423027463
 
 
 🔎 <b>Daily searches — click to explore</b>
