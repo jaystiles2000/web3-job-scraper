@@ -1,37 +1,19 @@
-🆕 <b>Solana / Rust Jobs — 05 Jun 2026 11:19</b>
-<i>7 new jobs</i>
+🆕 <b>Solana / Rust Jobs — 06 Jun 2026 09:55</b>
+<i>3 new jobs</i>
 
-<b>Engineering Lead (Rust/C++), Trading Technologies</b>
-🔗 https://myweb3jobs.com/job/engineering-lead-rust-c-trading-technologies
-
-<b>Inside Sales Representative</b>
-🏢 Sonic SVM
-🔗 https://boards.greenhouse.io/sonic/jobs/232312?gh_jid=232312
-
-<b>Engineering Manager, Platform</b>
+<b>Customer Engineer</b>
 🏢 Render Network
 📍 Remote
-🔗 https://jobs.ashbyhq.com/render/f26084f3-992a-4fd3-8065-40cd51a8688f
+🔗 https://jobs.ashbyhq.com/render/4bf72ced-b09f-4b42-a4b3-92b38ff21025
 
-<b>Site Reliability Engineer II</b>
-🏢 Zeta Markets
-📍 Hyderabad
-🔗 https://jobs.lever.co/zeta/ffb2ba62-1678-49d7-896b-36d808d946b4
-
-<b>Senior Solana Engineer</b>
-🏢 MLabs
+<b>Senior Blockchain Engineer (Solana/Rust) Remote</b>
+🏢 Ant-Tech
 📍 United States
-🔗 https://www.linkedin.com/jobs/view/senior-solana-engineer-at-mlabs-4424702067
+🔗 https://www.linkedin.com/jobs/view/senior-blockchain-engineer-solana-rust-remote-at-ant-tech-4421503083
 
-<b>Account Executive, Solana</b>
-🏢 Alchemy
-📍 San Francisco
-🔗 https://www.linkedin.com/jobs/view/account-executive-solana-at-alchemy-4300121660
-
-<b>DLT Developer Solana</b>
-🏢 Tata Consultancy Services
-📍 Charlotte, Nc
-🔗 https://www.linkedin.com/jobs/view/dlt-developer-solana-at-tata-consultancy-services-4424443569
+<b>Key Lead - The Shoppes at Solana, Hollister</b>
+🏢 Abercrombie &amp; Fitch Co.
+🔗 https://www.linkedin.com/jobs/view/key-lead-the-shoppes-at-solana-hollister-at-abercrombie-fitch-co-4411550404
 
 
 🔎 <b>Daily searches — click to explore</b>
