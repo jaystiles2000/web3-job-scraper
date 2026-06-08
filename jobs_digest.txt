@@ -1,10 +1,29 @@
-🆕 <b>Solana / Rust Jobs — 07 Jun 2026 10:23</b>
-<i>1 new jobs</i>
+🆕 <b>Solana / Rust Jobs — 08 Jun 2026 12:22</b>
+<i>3 new jobs</i>
 
-<b>Rust, AI Engineer, Director</b>
-🏢 BlackRock
-📍 New York
-🔗 https://www.linkedin.com/jobs/view/rust-ai-engineer-director-at-blackrock-4425144206
+<b>Backend Engineer – Rust &amp; C++ (Distributed Systems &amp; Databases)</b>
+🏢 UMATR
+📍 San Francisco
+🔗 https://www.linkedin.com/jobs/view/backend-engineer-%E2%80%93-rust-c%2B%2B-distributed-systems-databases-at-umatr-4420113476
+
+<b>Senior Rust Engineer - Build the future of developer tooling</b>
+🏢 UMATR
+📍 United States
+🔗 https://www.linkedin.com/jobs/view/senior-rust-engineer-build-the-future-of-developer-tooling-at-umatr-4403740081
+
+<b>Staff /Senior Staff Rust Software Engineer</b>
+🏢 SciTec
+📍 Boulder, Co
+🔗 https://www.linkedin.com/jobs/view/staff-senior-staff-rust-software-engineer-at-scitec-4405384644
+
+
+🏦 <b>Big Co Jobs — 08 Jun 2026 12:22</b>
+<i>1 roles from larger companies</i>
+
+<b>Product Partnerships Manager</b>
+🏢 Solana Foundation
+📍 Remote
+🔗 https://jobs.ashbyhq.com/solana-foundation/35ec193f-cb4d-4df9-ab8e-ba70d4c54d28
 
 
 🔎 <b>Daily searches — click to explore</b>
