@@ -1,29 +1,44 @@
-🆕 <b>Solana / Rust Jobs — 08 Jun 2026 12:22</b>
-<i>3 new jobs</i>
+🆕 <b>Solana / Rust Jobs — 09 Jun 2026 10:53</b>
+<i>6 new jobs</i>
 
-<b>Backend Engineer – Rust &amp; C++ (Distributed Systems &amp; Databases)</b>
-🏢 UMATR
+<b>Software Engineer (C++/Rust)</b>
+🏢 Databento
+📍 New York
+🔗 https://www.linkedin.com/jobs/view/software-engineer-c%2B%2B-rust-at-databento-4425623042
+
+<b>Founding Engineer Rust (Full remote)</b>
+🏢 A Player
+📍 New York
+🔗 https://www.linkedin.com/jobs/view/founding-engineer-rust-full-remote-at-a-player-4426308187
+
+<b>Rust Developer</b>
+🏢 SAIC
+📍 Huntsville, Al
+🔗 https://www.linkedin.com/jobs/view/rust-developer-at-saic-4422249949
+
+<b>Senior Software Engineer, Core Systems (Rust)</b>
+🏢 PubNub
 📍 San Francisco
-🔗 https://www.linkedin.com/jobs/view/backend-engineer-%E2%80%93-rust-c%2B%2B-distributed-systems-databases-at-umatr-4420113476
+🔗 https://www.linkedin.com/jobs/view/senior-software-engineer-core-systems-rust-at-pubnub-4425822250
 
-<b>Senior Rust Engineer - Build the future of developer tooling</b>
-🏢 UMATR
+<b>Senior Software Engineer [Rust]</b>
+🏢 TrueLayer
 📍 United States
-🔗 https://www.linkedin.com/jobs/view/senior-rust-engineer-build-the-future-of-developer-tooling-at-umatr-4403740081
+🔗 https://www.linkedin.com/jobs/view/senior-software-engineer-rust-at-truelayer-4414012094
 
-<b>Staff /Senior Staff Rust Software Engineer</b>
-🏢 SciTec
-📍 Boulder, Co
-🔗 https://www.linkedin.com/jobs/view/staff-senior-staff-rust-software-engineer-at-scitec-4405384644
+<b>Senior Staff / Principal Software Engineer, Rust Genomics Infrastructure</b>
+🏢 St. Jude Children&#x27;s Research Hospital
+📍 Memphis, Tn
+🔗 https://www.linkedin.com/jobs/view/senior-staff-principal-software-engineer-rust-genomics-infrastructure-at-st-jude-children-s-research-hospital-4425257889
 
 
-🏦 <b>Big Co Jobs — 08 Jun 2026 12:22</b>
+🏦 <b>Big Co Jobs — 09 Jun 2026 10:53</b>
 <i>1 roles from larger companies</i>
 
-<b>Product Partnerships Manager</b>
-🏢 Solana Foundation
+<b>Staff Software Engineer, Solana Staking Protocol</b>
+🏢 Coinbase
 📍 Remote
-🔗 https://jobs.ashbyhq.com/solana-foundation/35ec193f-cb4d-4df9-ab8e-ba70d4c54d28
+🔗 https://www.coinbase.com/careers/positions/7684298?gh_jid=7684298
 
 
 🔎 <b>Daily searches — click to explore</b>

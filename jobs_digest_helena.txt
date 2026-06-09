@@ -1,41 +1,43 @@
-🆕 <b>Product Jobs — 08 Jun 2026 12:22</b>
-<i>8 new jobs</i>
+🆕 <b>Product Jobs — 09 Jun 2026 10:53</b>
+<i>2 new jobs</i>
 
-<b>Product Manager / Director – GPU &amp; AI Services</b>
-🔗 https://myweb3jobs.com/job/product-manager-director-gpu-ai-services
-
-<b>Product Manager, DeFi integrations</b>
-🔗 https://web3.career/product-manager-defi-integrations-koinly/150211
-
-<b>Director, Stock Tokenization Product Manager</b>
-🏢 Securitize
-📍 New York
-🔗 https://www.linkedin.com/jobs/view/director-stock-tokenization-product-manager-at-securitize-4385377331
-
-<b>Senior Product Manager, Custody &amp; Blockchain</b>
-🏢 Ladders
-📍 United States
-🔗 https://www.linkedin.com/jobs/view/senior-product-manager-custody-blockchain-at-ladders-4421929713
-
-<b>Principal Product Manager, Splice - US</b>
-🏢 Digital Asset
-📍 New York
-🔗 https://www.linkedin.com/jobs/view/principal-product-manager-splice-us-at-digital-asset-4367009284
-
-<b>Director of Product Management, Clearing</b>
+<b>Lead Product Manager, Tokenization</b>
 🏢 Bullish
 📍 New York
-🔗 https://www.linkedin.com/jobs/view/director-of-product-management-clearing-at-bullish-4367699625
+🔗 https://www.linkedin.com/jobs/view/lead-product-manager-tokenization-at-bullish-4425947308
 
-<b>Senior / Staff Product Engineer, Backend</b>
-🏢 Radar
+<b>Principal Product Manager, Canton Network Ecosystem</b>
+🏢 Digital Asset
 📍 New York
-🔗 https://www.linkedin.com/jobs/view/senior-staff-product-engineer-backend-at-radar-4291980096
+🔗 https://www.linkedin.com/jobs/view/principal-product-manager-canton-network-ecosystem-at-digital-asset-4384276541
 
-<b>Staff / Principal Product Engineer, Security</b>
-🏢 Radar
+
+🏦 <b>Big Co Jobs — 09 Jun 2026 10:53</b>
+<i>5 roles from larger companies</i>
+
+<b>(Senior) Product Manager, Tokenized Stocks/Equity Trading (DEX)</b>
+🏢 Okx
+🔗 https://jobs.theblockchainassociation.org/jobs/companies/okx/jobs/82008834-senior-product-manager-tokenized-stocks-equity-trading-dex
+
+<b>Sr. Program Manager, Learning &amp; Development</b>
+🏢 Coinbase
+📍 Remote
+🔗 https://www.coinbase.com/careers/positions/7773124?gh_jid=7773124
+
+<b>Staff Product Designer - Advanced Trade</b>
+🏢 Coinbase
+📍 Remote
+🔗 https://www.coinbase.com/careers/positions/7989037?gh_jid=7989037
+
+<b>Lead Product Manager, Payments Network</b>
+🏢 Ripple
 📍 New York
-🔗 https://www.linkedin.com/jobs/view/staff-principal-product-engineer-security-at-radar-4405719820
+🔗 https://www.linkedin.com/jobs/view/lead-product-manager-payments-network-at-ripple-4271361827
+
+<b>Director of Product Management, Clearing</b>
+🏢 CoinDesk
+📍 New York
+🔗 https://www.linkedin.com/jobs/view/director-of-product-management-clearing-at-coindesk-4367663833
 
 
 🔎 <b>Daily searches — click to explore</b>
