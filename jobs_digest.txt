@@ -1,44 +1,10 @@
-🆕 <b>Solana / Rust Jobs — 09 Jun 2026 10:53</b>
-<i>6 new jobs</i>
+🆕 <b>Solana / Rust Jobs — 10 Jun 2026 11:32</b>
+<i>1 new jobs</i>
 
-<b>Software Engineer (C++/Rust)</b>
-🏢 Databento
-📍 New York
-🔗 https://www.linkedin.com/jobs/view/software-engineer-c%2B%2B-rust-at-databento-4425623042
-
-<b>Founding Engineer Rust (Full remote)</b>
-🏢 A Player
-📍 New York
-🔗 https://www.linkedin.com/jobs/view/founding-engineer-rust-full-remote-at-a-player-4426308187
-
-<b>Rust Developer</b>
-🏢 SAIC
-📍 Huntsville, Al
-🔗 https://www.linkedin.com/jobs/view/rust-developer-at-saic-4422249949
-
-<b>Senior Software Engineer, Core Systems (Rust)</b>
-🏢 PubNub
-📍 San Francisco
-🔗 https://www.linkedin.com/jobs/view/senior-software-engineer-core-systems-rust-at-pubnub-4425822250
-
-<b>Senior Software Engineer [Rust]</b>
-🏢 TrueLayer
-📍 United States
-🔗 https://www.linkedin.com/jobs/view/senior-software-engineer-rust-at-truelayer-4414012094
-
-<b>Senior Staff / Principal Software Engineer, Rust Genomics Infrastructure</b>
-🏢 St. Jude Children&#x27;s Research Hospital
-📍 Memphis, Tn
-🔗 https://www.linkedin.com/jobs/view/senior-staff-principal-software-engineer-rust-genomics-infrastructure-at-st-jude-children-s-research-hospital-4425257889
-
-
-🏦 <b>Big Co Jobs — 09 Jun 2026 10:53</b>
-<i>1 roles from larger companies</i>
-
-<b>Staff Software Engineer, Solana Staking Protocol</b>
-🏢 Coinbase
-📍 Remote
-🔗 https://www.coinbase.com/careers/positions/7684298?gh_jid=7684298
+<b>Solutions Engineer</b>
+🏢 Helius
+📍 North America
+🔗 https://jobs.ashbyhq.com/helius/e98b2c54-2baa-4bc5-8bd8-eb5b1b35b910
 
 
 🔎 <b>Daily searches — click to explore</b>
