@@ -1,2 +1,15 @@
-<b>Solidity — 10 Jun 2026</b>
-No new jobs since last run.
+🆕 <b>Solidity Jobs — 11 Jun 2026 12:04</b>
+<i>2 new jobs</i>
+
+<b>Smart Contract Engineer</b>
+🔗 https://cryptocurrencyjobs.co/engineering/category-labs-smart-contract-engineer
+
+<b>Senior Smart Contract Engineer</b>
+🔗 https://web3.career/senior-smart-contract-engineer-galaxy/150338
+
+
+🔎 <b>Daily searches — click to explore</b>
+• <a href="https://www.linkedin.com/jobs/search?keywords=solidity&f_TPR=r86400">LinkedIn — Solidity jobs (last 24h)</a>
+• <a href="https://www.linkedin.com/jobs/search?keywords=smart+contract+engineer&f_TPR=r86400">LinkedIn — Smart contract jobs (last 24h)</a>
+• <a href="https://www.google.com/search?q=solidity+hiring+engineer&tbs=qdr:w">Google — Solidity hiring this week</a>
+• <a href="https://twitter.com/search?q=solidity+hiring&f=live">Twitter — Solidity hiring tweets</a>
