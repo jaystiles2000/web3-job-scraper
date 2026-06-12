@@ -1,18 +1,27 @@
-🆕 <b>Solana / Rust Jobs — 11 Jun 2026 12:04</b>
-<i>3 new jobs</i>
+🆕 <b>Solana / Rust Jobs — 12 Jun 2026 11:35</b>
+<i>5 new jobs</i>
 
-<b>DLT Developer – Solana</b>
-🔗 https://web3.career/dlt-developer-solana-centraprise/150339
+<b>Blockchain Security Engineer - (Solidity / Rust / Golang)</b>
+🔗 https://cryptocurrencyjobs.co/engineering/certik-blockchain-security-engineer-solidity-rust-golang
 
-<b>Assistant Community Manager - Solana Central Park</b>
-🏢 Greystar
-📍 Denver
-🔗 https://www.linkedin.com/jobs/view/assistant-community-manager-solana-central-park-at-greystar-4426131311
+<b>Construction Coordinator</b>
+🏢 Sonic SVM
+📍 Bellflower, Ca
+🔗 https://boards.greenhouse.io/sonic/jobs/7997402?gh_jid=7997402
 
-<b>DLT Developer – Solana</b>
-🏢 Centraprise
-📍 Charlotte, Nc
-🔗 https://www.linkedin.com/jobs/view/dlt-developer-%E2%80%93-solana-at-centraprise-4426125099
+<b>Field Safety Inspector</b>
+🏢 Sonic SVM
+🔗 https://boards.greenhouse.io/sonic/jobs/1204710?gh_jid=1204710
+
+<b>MDU Sales Specialist</b>
+🏢 Sonic SVM
+📍 Berkeley, Ca
+🔗 https://boards.greenhouse.io/sonic/jobs/6384826?gh_jid=6384826
+
+<b>Senior Backend Engineer, Rust</b>
+🏢 Offchain
+📍 United States
+🔗 https://www.linkedin.com/jobs/view/senior-backend-engineer-rust-at-offchain-4427537022
 
 
 🔎 <b>Daily searches — click to explore</b>
