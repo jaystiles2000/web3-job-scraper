@@ -1,27 +1,20 @@
-🆕 <b>Solana / Rust Jobs — 12 Jun 2026 11:35</b>
-<i>5 new jobs</i>
+🆕 <b>Solana / Rust Jobs — 13 Jun 2026 10:23</b>
+<i>3 new jobs</i>
 
-<b>Blockchain Security Engineer - (Solidity / Rust / Golang)</b>
-🔗 https://cryptocurrencyjobs.co/engineering/certik-blockchain-security-engineer-solidity-rust-golang
-
-<b>Construction Coordinator</b>
+<b>MDU Estimator</b>
 🏢 Sonic SVM
-📍 Bellflower, Ca
-🔗 https://boards.greenhouse.io/sonic/jobs/7997402?gh_jid=7997402
+📍 Bellflower Ca
+🔗 https://boards.greenhouse.io/sonic/jobs/7504994?gh_jid=7504994
 
-<b>Field Safety Inspector</b>
-🏢 Sonic SVM
-🔗 https://boards.greenhouse.io/sonic/jobs/1204710?gh_jid=1204710
+<b>DLT Developer – Solana</b>
+🏢 Jobs via Dice
+📍 Charlotte, Nc
+🔗 https://www.linkedin.com/jobs/view/dlt-developer-%E2%80%93-solana-at-jobs-via-dice-4427223002
 
-<b>MDU Sales Specialist</b>
-🏢 Sonic SVM
-📍 Berkeley, Ca
-🔗 https://boards.greenhouse.io/sonic/jobs/6384826?gh_jid=6384826
-
-<b>Senior Backend Engineer, Rust</b>
-🏢 Offchain
-📍 United States
-🔗 https://www.linkedin.com/jobs/view/senior-backend-engineer-rust-at-offchain-4427537022
+<b>Service Technician - Solana Central Park</b>
+🏢 Greystar
+📍 Denver
+🔗 https://www.linkedin.com/jobs/view/service-technician-solana-central-park-at-greystar-4426984472
 
 
 🔎 <b>Daily searches — click to explore</b>

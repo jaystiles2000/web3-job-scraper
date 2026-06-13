@@ -1,26 +1,2 @@
-🆕 <b>Solidity Jobs — 12 Jun 2026 11:35</b>
-<i>2 new jobs</i>
-
-<b>Blockchain Security Engineer - (Solidity / Rust / Golang)</b>
-🔗 https://cryptocurrencyjobs.co/engineering/certik-blockchain-security-engineer-solidity-rust-golang
-
-<b>Smart Contract Engineer</b>
-🏢 Category Labs
-📍 New York
-🔗 https://www.linkedin.com/jobs/view/smart-contract-engineer-at-category-labs-4387264573
-
-
-🏦 <b>Big Co Jobs — 12 Jun 2026 11:35</b>
-<i>1 roles from larger companies</i>
-
-<b>Member of Technical Staff - Smart Contract</b>
-🏢 Galaxy
-📍 New York
-🔗 https://www.linkedin.com/jobs/view/member-of-technical-staff-smart-contract-at-galaxy-4427631366
-
-
-🔎 <b>Daily searches — click to explore</b>
-• <a href="https://www.linkedin.com/jobs/search?keywords=solidity&f_TPR=r86400">LinkedIn — Solidity jobs (last 24h)</a>
-• <a href="https://www.linkedin.com/jobs/search?keywords=smart+contract+engineer&f_TPR=r86400">LinkedIn — Smart contract jobs (last 24h)</a>
-• <a href="https://www.google.com/search?q=solidity+hiring+engineer&tbs=qdr:w">Google — Solidity hiring this week</a>
-• <a href="https://twitter.com/search?q=solidity+hiring&f=live">Twitter — Solidity hiring tweets</a>
+<b>Solidity — 13 Jun 2026</b>
+No new jobs since last run.
