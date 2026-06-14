@@ -1,26 +1,2 @@
-🆕 <b>Solana / Rust Jobs — 13 Jun 2026 10:23</b>
-<i>3 new jobs</i>
-
-<b>MDU Estimator</b>
-🏢 Sonic SVM
-📍 Bellflower Ca
-🔗 https://boards.greenhouse.io/sonic/jobs/7504994?gh_jid=7504994
-
-<b>DLT Developer – Solana</b>
-🏢 Jobs via Dice
-📍 Charlotte, Nc
-🔗 https://www.linkedin.com/jobs/view/dlt-developer-%E2%80%93-solana-at-jobs-via-dice-4427223002
-
-<b>Service Technician - Solana Central Park</b>
-🏢 Greystar
-📍 Denver
-🔗 https://www.linkedin.com/jobs/view/service-technician-solana-central-park-at-greystar-4426984472
-
-
-🔎 <b>Daily searches — click to explore</b>
-• <a href="https://www.linkedin.com/jobs/search?keywords=solana&f_TPR=r86400">LinkedIn — Solana jobs (last 24h)</a>
-• <a href="https://www.linkedin.com/jobs/search?keywords=rust+blockchain&f_TPR=r86400">LinkedIn — Rust jobs in crypto (last 24h)</a>
-• <a href="https://www.linkedin.com/jobs/search?keywords=anchor+solana&f_TPR=r86400">LinkedIn — Anchor (Solana) jobs</a>
-• <a href="https://www.google.com/search?q=solana+hiring+engineer&tbs=qdr:w">Google — Solana hiring this week</a>
-• <a href="https://www.google.com/search?q=rust+crypto+careers&tbs=qdr:w">Google — Rust crypto careers this week</a>
-• <a href="https://twitter.com/search?q=solana+hiring+rust&f=live">Twitter — Solana hiring tweets</a>
+<b>Solana / Rust — 14 Jun 2026</b>
+No new jobs since last run.
