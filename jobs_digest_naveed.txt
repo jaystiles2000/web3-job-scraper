@@ -1,12 +1,2 @@
-🆕 <b>Solidity Jobs — 15 Jun 2026 13:47</b>
-<i>1 new jobs</i>
-
-<b>Smart Contract Engineer</b>
-🔗 https://www.cryptojobs.com/job/smart-contract-engineer-12450
-
-
-🔎 <b>Daily searches — click to explore</b>
-• <a href="https://www.linkedin.com/jobs/search?keywords=solidity&f_TPR=r86400">LinkedIn — Solidity jobs (last 24h)</a>
-• <a href="https://www.linkedin.com/jobs/search?keywords=smart+contract+engineer&f_TPR=r86400">LinkedIn — Smart contract jobs (last 24h)</a>
-• <a href="https://www.google.com/search?q=solidity+hiring+engineer&tbs=qdr:w">Google — Solidity hiring this week</a>
-• <a href="https://twitter.com/search?q=solidity+hiring&f=live">Twitter — Solidity hiring tweets</a>
+<b>Solidity — 16 Jun 2026</b>
+No new jobs since last run.
