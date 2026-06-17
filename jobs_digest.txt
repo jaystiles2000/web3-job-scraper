@@ -1,2 +1,30 @@
-<b>Solana / Rust — 16 Jun 2026</b>
-No new jobs since last run.
+🆕 <b>Solana / Rust Jobs — 17 Jun 2026 12:11</b>
+<i>4 new jobs</i>
+
+<b>HR Coordinator</b>
+🏢 Sonic SVM
+🔗 https://boards.greenhouse.io/sonic/jobs/2718457?gh_jid=2718457
+
+<b>Certified Caregiver - Solana at The Park</b>
+🏢 Koelsch Communities
+📍 Surprise, Az
+🔗 https://www.linkedin.com/jobs/view/certified-caregiver-solana-at-the-park-at-koelsch-communities-4428420336
+
+<b>Server - Solana at The Park</b>
+🏢 Koelsch Communities
+📍 Surprise, Az
+🔗 https://www.linkedin.com/jobs/view/server-solana-at-the-park-at-koelsch-communities-4428434207
+
+<b>Licensed Nurse - Solana at The Park</b>
+🏢 Koelsch Communities
+📍 Surprise, Az
+🔗 https://www.linkedin.com/jobs/view/licensed-nurse-solana-at-the-park-at-koelsch-communities-4428415689
+
+
+🔎 <b>Daily searches — click to explore</b>
+• <a href="https://www.linkedin.com/jobs/search?keywords=solana&f_TPR=r86400">LinkedIn — Solana jobs (last 24h)</a>
+• <a href="https://www.linkedin.com/jobs/search?keywords=rust+blockchain&f_TPR=r86400">LinkedIn — Rust jobs in crypto (last 24h)</a>
+• <a href="https://www.linkedin.com/jobs/search?keywords=anchor+solana&f_TPR=r86400">LinkedIn — Anchor (Solana) jobs</a>
+• <a href="https://www.google.com/search?q=solana+hiring+engineer&tbs=qdr:w">Google — Solana hiring this week</a>
+• <a href="https://www.google.com/search?q=rust+crypto+careers&tbs=qdr:w">Google — Rust crypto careers this week</a>
+• <a href="https://twitter.com/search?q=solana+hiring+rust&f=live">Twitter — Solana hiring tweets</a>
