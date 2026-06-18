@@ -1,24 +1,45 @@
-🆕 <b>Solana / Rust Jobs — 17 Jun 2026 12:11</b>
-<i>4 new jobs</i>
+🆕 <b>Solana / Rust Jobs — 18 Jun 2026 11:49</b>
+<i>7 new jobs</i>
 
-<b>HR Coordinator</b>
-🏢 Sonic SVM
-🔗 https://boards.greenhouse.io/sonic/jobs/2718457?gh_jid=2718457
+<b>Staff Backend Engineer (Rust)</b>
+🔗 https://cryptocurrencyjobs.co/engineering/cow-dao-staff-backend-engineer-rust
 
-<b>Certified Caregiver - Solana at The Park</b>
+<b>Business Development Manager - Software Sales</b>
+🏢 Orca
+📍 Maidenhead
+🔗 https://job-boards.eu.greenhouse.io/orca/jobs/4902476101
+
+<b>Head of Marketing Operations</b>
+🏢 Render Network
+📍 Remote
+🔗 https://jobs.ashbyhq.com/render/17576493-bb92-4181-95e7-e4585f7b6be7
+
+<b>Senior Manager - Account Management</b>
+🏢 Zeta Markets
+🔗 https://jobs.lever.co/zeta/47676c8f-2824-4dcd-9d4c-9f15e16b807f
+
+<b>Active Living Coordinator - Solana at The Park</b>
 🏢 Koelsch Communities
 📍 Surprise, Az
-🔗 https://www.linkedin.com/jobs/view/certified-caregiver-solana-at-the-park-at-koelsch-communities-4428420336
+🔗 https://www.linkedin.com/jobs/view/active-living-coordinator-solana-at-the-park-at-koelsch-communities-4428777346
 
-<b>Server - Solana at The Park</b>
-🏢 Koelsch Communities
-📍 Surprise, Az
-🔗 https://www.linkedin.com/jobs/view/server-solana-at-the-park-at-koelsch-communities-4428434207
+<b>Brand Representative - The Shoppes at Solana, Hollister</b>
+🏢 Abercrombie &amp; Fitch Co.
+🔗 https://www.linkedin.com/jobs/view/brand-representative-the-shoppes-at-solana-hollister-at-abercrombie-fitch-co-4408455862
 
-<b>Licensed Nurse - Solana at The Park</b>
-🏢 Koelsch Communities
-📍 Surprise, Az
-🔗 https://www.linkedin.com/jobs/view/licensed-nurse-solana-at-the-park-at-koelsch-communities-4428415689
+<b>Service Technician - Solana Lakewood - $1,000 Sign-On</b>
+🏢 Greystar
+📍 Lakewood, Co
+🔗 https://www.linkedin.com/jobs/view/service-technician-solana-lakewood-%241-000-sign-on-at-greystar-4428732603
+
+
+🏦 <b>Big Co Jobs — 18 Jun 2026 11:49</b>
+<i>1 roles from larger companies</i>
+
+<b>Senior Product Designer</b>
+🏢 Solana Foundation
+📍 Remote
+🔗 https://jobs.ashbyhq.com/solana-foundation/3ea82c08-496e-4908-a5e2-54717dc44262
 
 
 🔎 <b>Daily searches — click to explore</b>
