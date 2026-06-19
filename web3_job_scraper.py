@@ -368,7 +368,51 @@ BLOCKED_COMPANIES = {
     # arm — that one comes through under "Fidelity Digital Assets" so
     # blocking the parent here doesn't lose anything Jay would chase.
     "fidelity investments", "fidelity",
+    # --- Additions Jun 2026 — "Solana" the venue / mall / retirement
+    # home, not the blockchain. Each surfaced as a noisy LinkedIn hit.
+    "koelsch communities",          # "Solana at The Park" — retirement home
+    "abercrombie & fitch co.",      # "Shoppes at Solana, Hollister" — mall
+    "abercrombie & fitch",
+    "greystar",                     # "Solana Lakewood" — apartment complex
 }
+
+# Title-fragment patterns that indicate the role has nothing to do with
+# the Solana blockchain even when the title mentions "Solana" (because
+# "Solana" is a venue name in the role). Any title containing one of
+# these phrases is dropped before the company-level filter even runs.
+JUNK_TITLE_PATTERNS = (
+    "active living coordinator",
+    "brand representative",
+    "service technician",
+    "leasing agent",
+    "leasing consultant",
+    "concierge",
+    "front desk",
+    "barista",
+    "host/hostess",
+    "groundskeeper",
+    "housekeeper",
+    "maintenance technician",
+    "assistant property manager",
+    "property manager",
+    "sales associate",
+    "store manager",
+    "lifeguard",
+    "bartender",
+    # NB intentionally NOT blocking "community manager" or "server" —
+    # both terms are heavily used by web3 / infrastructure projects.
+)
+
+# When "Solana" appears as part of a venue / mall / apartment name the
+# surrounding phrase usually has a tell-tale shape. These regex hits
+# scream "this is a place, not the blockchain" — drop even if the rest
+# of the role looks plausible.
+SOLANA_AS_PLACE_PATTERNS = (
+    re.compile(r"\bat\s+the\s+(shoppes?|shops?|plaza|mall)\s+(at|of)\s+solana\b", re.I),
+    re.compile(r"\bsolana\s+(beach|lakewood|park|crossing|place|ranch|heights|village|estates|apartments|gardens)\b", re.I),
+    re.compile(r"\bshoppes?\s+at\s+solana\b", re.I),
+    re.compile(r"\bsolana\s+at\s+the\s+park\b", re.I),
+)
 
 
 BLOCKED_URL_FRAGMENTS = {
@@ -458,6 +502,14 @@ def is_web3_relevant(job: dict) -> bool:
     # Always filter junk titles regardless of source
     title_lower = job.get("title", "").lower().strip()
     if title_lower in JUNK_JOB_TITLES:
+        return False
+    # Title-fragment blocklist runs BEFORE the pure-source pass too — a
+    # "Brand Representative" role at a clean-web3 source is still wrong.
+    if any(p in title_lower for p in JUNK_TITLE_PATTERNS):
+        return False
+    # "Solana" appearing as a venue / mall / suburb in the title.
+    raw_title = job.get("title", "")
+    if any(pat.search(raw_title) for pat in SOLANA_AS_PLACE_PATTERNS):
         return False
 
     pure_sources = {
