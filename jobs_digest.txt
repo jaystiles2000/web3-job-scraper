@@ -1,38 +1,15 @@
-🆕 <b>Solana / Rust Jobs — 19 Jun 2026 12:00</b>
-<i>7 new jobs</i>
+🆕 <b>Solana / Rust Jobs — 20 Jun 2026 10:26</b>
+<i>2 new jobs</i>
 
-<b>Senior Systems Engineer Solana Remote Germany Europe m f d</b>
-🔗 https://web3.career/senior-systems-engineer-solana-remote-germany-europe-m-f-d-stakingfacilitiesgmbh/150582
-
-<b>DeFi Growth Lead</b>
-🏢 Monad Foundation
-📍 Remote
-🔗 https://jobs.ashbyhq.com/monad.foundation/c62f41a9-6164-4bf1-be68-646172c1733f
-
-<b>Head of Japan</b>
-🏢 Monad Foundation
-📍 Japan
-🔗 https://jobs.ashbyhq.com/monad.foundation/64b15075-270b-4e07-91a7-52a90f590da0
-
-<b>Solana-native Account Executive</b>
-🏢 talents lab
-📍 New York
-🔗 https://www.linkedin.com/jobs/view/solana-native-account-executive-at-talents-lab-4429327105
-
-<b>Senior SVM Engineer</b>
-🏢 REALM
+<b>Solutions Architect</b>
+🏢 Blockdaemon
 📍 United States
-🔗 https://www.linkedin.com/jobs/view/senior-svm-engineer-at-realm-4430498989
+🔗 https://www.linkedin.com/jobs/view/solutions-architect-at-blockdaemon-4431103068
 
-<b>Product Design Project Manager</b>
-🏢 Solana HR Consulting
-📍 Campbell, Ca
-🔗 https://www.linkedin.com/jobs/view/product-design-project-manager-at-solana-hr-consulting-4424625088
-
-<b>Crypto Software Engineer - Rust</b>
-🏢 Career Renew
-📍 San Francisco
-🔗 https://www.linkedin.com/jobs/view/crypto-software-engineer-rust-at-career-renew-4430940469
+<b>Senior Full-stack Engineer - Agentic Payments (NYC / MIA)</b>
+🏢 Crossmint
+📍 New York
+🔗 https://www.linkedin.com/jobs/view/senior-full-stack-engineer-agentic-payments-nyc-mia-at-crossmint-4430008779
 
 
 🔎 <b>Daily searches — click to explore</b>

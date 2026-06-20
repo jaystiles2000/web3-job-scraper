@@ -1,41 +1,32 @@
-🆕 <b>Product Jobs — 19 Jun 2026 12:00</b>
-<i>6 new jobs</i>
+🆕 <b>Product Jobs — 20 Jun 2026 10:26</b>
+<i>3 new jobs</i>
 
-<b>Program Manager Mining (100% remote Worldwide)</b>
-🔗 https://myweb3jobs.com/job/program-manager-mining-100-remote-worldwide
+<b>Senior Product Manager - Platform</b>
+🏢 Honeycomb Protocol
+📍 Remote
+🔗 https://job-boards.greenhouse.io/honeycomb/jobs/5270451008
 
-<b>Project Manager Japanese Speaking</b>
-🔗 https://web3.career/project-manager-japanese-speaking-fireblocks/150583
+<b>Senior Product Manager - Scale</b>
+🏢 Honeycomb Protocol
+📍 Remote
+🔗 https://job-boards.greenhouse.io/honeycomb/jobs/5270407008
 
-<b>Principal Production Engineer</b>
-🔗 https://web3.career/principal-production-engineer-zscaler/150564
-
-<b>Staff Product Manager, World ID</b>
-🏢 Tools for Humanity
-📍 San Francisco
-🔗 https://jobs.ashbyhq.com/tools-for-humanity/8ceee582-41e5-4ff2-8f06-cfd712ffa544
-
-<b>Product Design Project Manager</b>
-🏢 Solana HR Consulting
-📍 Campbell, Ca
-🔗 https://www.linkedin.com/jobs/view/product-design-project-manager-at-solana-hr-consulting-4424625088
-
-<b>Technical Program Manager, CX Intelligence &amp; AI</b>
-🔗 https://builtin.com/job/technical-program-manager-cx-intelligence-ai/9819206
+<b>Group Product Manager, Developer Infrastructure</b>
+🔗 https://builtin.com/job/group-product-manager-developer-infrastructure/9833495
 
 
-🏦 <b>Big Co Jobs — 19 Jun 2026 12:00</b>
+🏦 <b>Big Co Jobs — 20 Jun 2026 10:26</b>
 <i>2 roles from larger companies</i>
 
-<b>Technical Program Manager, CX Intelligence &amp; AI</b>
+<b>Group Product Manager, Core Infrastructure &amp; Reliability</b>
 🏢 Coinbase
 📍 Remote
-🔗 https://www.coinbase.com/careers/positions/8013948?gh_jid=8013948
+🔗 https://www.coinbase.com/careers/positions/7997785?gh_jid=7997785
 
-<b>Senior GRC Program Manager</b>
-🏢 Ripple
-📍 Luxembourg, Luxembourg
-🔗 https://ripple.com/careers/all-jobs/job/8011676?gh_jid=8011676
+<b>Group Product Manager, Developer Infrastructure</b>
+🏢 Coinbase
+📍 Remote
+🔗 https://www.coinbase.com/careers/positions/8017607?gh_jid=8017607
 
 
 🔎 <b>Daily searches — click to explore</b>
