@@ -1,9 +1,26 @@
-🆕 <b>Solana / Rust Jobs — 22 Jun 2026 13:27</b>
-<i>1 new jobs</i>
+🆕 <b>Solana / Rust Jobs — 23 Jun 2026 10:54</b>
+<i>5 new jobs</i>
 
-<b>Associate - Payroll &amp; Compliance</b>
-🏢 Zeta Markets
-🔗 https://jobs.lever.co/zeta/3c3f4c4d-d3da-435b-863d-dd922b331d5f
+<b>Rust Developer — EVM Systems &amp; Trading Infrastructure</b>
+🔗 https://myweb3jobs.com/job/rust-developer-evm-systems-trading-infrastructure-2
+
+<b>Software Engineer Solana</b>
+🔗 https://web3.career/software-engineer-solana-fireblocks/150662
+
+<b>Technical Support Representative</b>
+🏢 Sonic SVM
+📍 Sf/Bay Area
+🔗 https://boards.greenhouse.io/sonic/jobs/194930?gh_jid=194930
+
+<b>VP of Operations</b>
+🏢 Sphere Labs
+📍 United States
+🔗 https://www.linkedin.com/jobs/view/vp-of-operations-at-sphere-labs-4431766745
+
+<b>Staff Performance Engineer Rust</b>
+🏢 Lawrence Harvey
+📍 United States
+🔗 https://www.linkedin.com/jobs/view/staff-performance-engineer-rust-at-lawrence-harvey-4430550851
 
 
 🔎 <b>Daily searches — click to explore</b>
