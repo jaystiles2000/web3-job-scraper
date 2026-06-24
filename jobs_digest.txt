@@ -1,26 +1,15 @@
-🆕 <b>Solana / Rust Jobs — 23 Jun 2026 10:54</b>
-<i>5 new jobs</i>
+🆕 <b>Solana / Rust Jobs — 24 Jun 2026 10:41</b>
+<i>2 new jobs</i>
 
-<b>Rust Developer — EVM Systems &amp; Trading Infrastructure</b>
-🔗 https://myweb3jobs.com/job/rust-developer-evm-systems-trading-infrastructure-2
+<b>Aesthetics &amp; Med Spa Talent Network</b>
+🏢 Switchboard
+📍 Denver
+🔗 https://jobs.ashbyhq.com/switchboard/6f911431-10c2-409f-8aa0-010ce4b75ba4
 
-<b>Software Engineer Solana</b>
-🔗 https://web3.career/software-engineer-solana-fireblocks/150662
-
-<b>Technical Support Representative</b>
-🏢 Sonic SVM
-📍 Sf/Bay Area
-🔗 https://boards.greenhouse.io/sonic/jobs/194930?gh_jid=194930
-
-<b>VP of Operations</b>
-🏢 Sphere Labs
+<b>Senior Rust Engineer</b>
+🏢 Cura Label Technologies
 📍 United States
-🔗 https://www.linkedin.com/jobs/view/vp-of-operations-at-sphere-labs-4431766745
-
-<b>Staff Performance Engineer Rust</b>
-🏢 Lawrence Harvey
-📍 United States
-🔗 https://www.linkedin.com/jobs/view/staff-performance-engineer-rust-at-lawrence-harvey-4430550851
+🔗 https://www.linkedin.com/jobs/view/senior-rust-engineer-at-cura-label-technologies-4431479006
 
 
 🔎 <b>Daily searches — click to explore</b>
