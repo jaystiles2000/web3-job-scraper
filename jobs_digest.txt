@@ -1,15 +1,24 @@
-🆕 <b>Solana / Rust Jobs — 24 Jun 2026 10:41</b>
-<i>2 new jobs</i>
+🆕 <b>Solana / Rust Jobs — 25 Jun 2026 10:35</b>
+<i>4 new jobs</i>
 
-<b>Aesthetics &amp; Med Spa Talent Network</b>
+<b>NY Office Manager</b>
+🏢 Phantom
+📍 San Francisco
+🔗 https://jobs.ashbyhq.com/phantom/e12e829e-3d78-4d40-9764-81f8cb52531b
+
+<b>Software Engineer, Dev Velocity (all levels)</b>
+🏢 Render Network
+📍 Remote
+🔗 https://jobs.ashbyhq.com/render/a3f88090-5e37-43a7-b392-04b02056db6d
+
+<b>Personal Assistant &amp; House Manager</b>
 🏢 Switchboard
-📍 Denver
-🔗 https://jobs.ashbyhq.com/switchboard/6f911431-10c2-409f-8aa0-010ce4b75ba4
+📍 Baltimore, Md
+🔗 https://jobs.ashbyhq.com/switchboard/a7007c03-a784-4148-96d0-dee46240da04
 
-<b>Senior Rust Engineer</b>
-🏢 Cura Label Technologies
-📍 United States
-🔗 https://www.linkedin.com/jobs/view/senior-rust-engineer-at-cura-label-technologies-4431479006
+<b>Associate Director/Director - Account Management</b>
+🏢 Zeta Markets
+🔗 https://jobs.lever.co/zeta/47676c8f-2824-4dcd-9d4c-9f15e16b807f
 
 
 🔎 <b>Daily searches — click to explore</b>
