@@ -1,24 +1,49 @@
-🆕 <b>Solana / Rust Jobs — 25 Jun 2026 10:35</b>
-<i>4 new jobs</i>
+🆕 <b>Solana / Rust Jobs — 26 Jun 2026 10:44</b>
+<i>9 new jobs</i>
 
-<b>NY Office Manager</b>
-🏢 Phantom
+<b>Solutions Engineer (United States)</b>
+🏢 Ondo Finance
+📍 United States
+🔗 https://www.linkedin.com/jobs/view/solutions-engineer-united-states-at-ondo-finance-4430264437
+
+<b>Rust Software Developer</b>
+🏢 Booz Allen Hamilton
+📍 Chantilly, Va
+🔗 https://www.linkedin.com/jobs/view/rust-software-developer-at-booz-allen-hamilton-4424112957
+
+<b>Senior Software Engineer -Trading Platform (Go/Rust)</b>
+🏢 Longbridge
+🔗 https://www.linkedin.com/jobs/view/senior-software-engineer-trading-platform-go-rust-at-longbridge-4432665245
+
+<b>Senior Rust Systems Engineer (Remote)</b>
+🏢 Quik Hire Staffing
+📍 United States
+🔗 https://www.linkedin.com/jobs/view/senior-rust-systems-engineer-remote-at-quik-hire-staffing-4433376429
+
+<b>Senior Staff Systems Engineer, Rust Eng.</b>
+🏢 Sequen
 📍 San Francisco
-🔗 https://jobs.ashbyhq.com/phantom/e12e829e-3d78-4d40-9764-81f8cb52531b
+🔗 https://www.linkedin.com/jobs/view/senior-staff-systems-engineer-rust-eng-at-sequen-4432698414
 
-<b>Software Engineer, Dev Velocity (all levels)</b>
-🏢 Render Network
-📍 Remote
-🔗 https://jobs.ashbyhq.com/render/a3f88090-5e37-43a7-b392-04b02056db6d
+<b>Staff Rust SDK Engineer</b>
+🏢 LiveKit
+📍 United States
+🔗 https://www.linkedin.com/jobs/view/staff-rust-sdk-engineer-at-livekit-4410363145
 
-<b>Personal Assistant &amp; House Manager</b>
-🏢 Switchboard
-📍 Baltimore, Md
-🔗 https://jobs.ashbyhq.com/switchboard/a7007c03-a784-4148-96d0-dee46240da04
+<b>URGENT Rust Engineer Opportunity!</b>
+🏢 Jobot
+📍 Los Angeles
+🔗 https://www.linkedin.com/jobs/view/urgent-rust-engineer-opportunity%21-at-jobot-4430267818
 
-<b>Associate Director/Director - Account Management</b>
-🏢 Zeta Markets
-🔗 https://jobs.lever.co/zeta/47676c8f-2824-4dcd-9d4c-9f15e16b807f
+<b>Embedded Rust Software Engineer - (Clearance Required)</b>
+🏢 Nickerson Talent Solutions
+📍 Austin
+🔗 https://www.linkedin.com/jobs/view/embedded-rust-software-engineer-clearance-required-at-nickerson-talent-solutions-4418818925
+
+<b>Full-Stack Software Developer (Svelte + Rust )</b>
+🏢 Stoke Space
+📍 Kent, Wa
+🔗 https://www.linkedin.com/jobs/view/full-stack-software-developer-svelte-%2B-rust-at-stoke-space-4340996335
 
 
 🔎 <b>Daily searches — click to explore</b>
