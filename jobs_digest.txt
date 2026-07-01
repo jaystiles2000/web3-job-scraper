@@ -1,10 +1,40 @@
-🆕 <b>Solana / Rust Jobs — 30 Jun 2026 10:49</b>
-<i>1 new jobs</i>
+🆕 <b>Solana / Rust Jobs — 01 Jul 2026 11:03</b>
+<i>8 new jobs</i>
 
-<b>Software Engineer, Compute Infrastructure</b>
-🏢 Render Network
-📍 Remote
-🔗 https://jobs.ashbyhq.com/render/af5b6699-2e4a-47de-99f7-664baa738190
+<b>Staff Rust Engineer</b>
+🔗 https://web3.career/staff-rust-engineer-bullet/150993
+
+<b>Associate/Sr Associate- People Experience</b>
+🏢 Zeta Markets
+🔗 https://jobs.lever.co/zeta/0540f33b-1576-4727-a835-08b1cd6ebd56
+
+<b>Principal Site Reliability Engineer I</b>
+🏢 Zeta Markets
+📍 Hyderabad
+🔗 https://jobs.lever.co/zeta/31a75866-6674-4aa5-9af4-8202507d83a7
+
+<b>Graduate Algorithmic Trader</b>
+🏢 Wintermute
+📍 New York
+🔗 https://www.linkedin.com/jobs/view/graduate-algorithmic-trader-at-wintermute-4393848367
+
+<b>Software Engineer (Rust) - Remote Work | REF#289846</b>
+🏢 BairesDev
+🔗 https://www.linkedin.com/jobs/view/software-engineer-rust-remote-work-ref%23289846-at-bairesdev-4420458741
+
+<b>Rust backend architect Engineer – Twitter/X Style Infrastructure</b>
+🏢 Travoom
+📍 Austin
+🔗 https://www.linkedin.com/jobs/view/rust-backend-architect-engineer-%E2%80%93-twitter-x-style-infrastructure-at-travoom-4435320986
+
+<b>Senior Software Engineer (Rust) - Remote Work | REF#289693</b>
+🏢 BairesDev
+🔗 https://www.linkedin.com/jobs/view/senior-software-engineer-rust-remote-work-ref%23289693-at-bairesdev-4420459694
+
+<b>Software Engineer, Embedded Rust</b>
+🏢 Gentherm
+📍 Novi, Mi
+🔗 https://www.linkedin.com/jobs/view/software-engineer-embedded-rust-at-gentherm-4435339052
 
 
 🔎 <b>Daily searches — click to explore</b>
