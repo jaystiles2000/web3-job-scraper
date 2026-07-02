@@ -1,40 +1,35 @@
-🆕 <b>Solana / Rust Jobs — 01 Jul 2026 11:03</b>
-<i>8 new jobs</i>
+🆕 <b>Solana / Rust Jobs — 02 Jul 2026 10:29</b>
+<i>6 new jobs</i>
 
-<b>Staff Rust Engineer</b>
-🔗 https://web3.career/staff-rust-engineer-bullet/150993
+<b>Head of Brand Creative</b>
+🏢 Phantom
+📍 Remote
+🔗 https://jobs.ashbyhq.com/phantom/815cacde-243b-4e59-87b1-d8536374a125
 
-<b>Associate/Sr Associate- People Experience</b>
-🏢 Zeta Markets
-🔗 https://jobs.lever.co/zeta/0540f33b-1576-4727-a835-08b1cd6ebd56
-
-<b>Principal Site Reliability Engineer I</b>
-🏢 Zeta Markets
-📍 Hyderabad
-🔗 https://jobs.lever.co/zeta/31a75866-6674-4aa5-9af4-8202507d83a7
-
-<b>Graduate Algorithmic Trader</b>
-🏢 Wintermute
+<b>Senior Backend Engineer</b>
+🏢 Moonshot
 📍 New York
-🔗 https://www.linkedin.com/jobs/view/graduate-algorithmic-trader-at-wintermute-4393848367
+🔗 https://www.linkedin.com/jobs/view/senior-backend-engineer-at-moonshot-4436104107
 
-<b>Software Engineer (Rust) - Remote Work | REF#289846</b>
-🏢 BairesDev
-🔗 https://www.linkedin.com/jobs/view/software-engineer-rust-remote-work-ref%23289846-at-bairesdev-4420458741
+<b>Software Engineer – Rust</b>
+🏢 Strativ Group
+📍 New York
+🔗 https://www.linkedin.com/jobs/view/software-engineer-%E2%80%93-rust-at-strativ-group-4435836319
 
-<b>Rust backend architect Engineer – Twitter/X Style Infrastructure</b>
-🏢 Travoom
-📍 Austin
-🔗 https://www.linkedin.com/jobs/view/rust-backend-architect-engineer-%E2%80%93-twitter-x-style-infrastructure-at-travoom-4435320986
+<b>Principal Software Engineering - Rust Systems Engineer</b>
+🏢 Progress Software
+📍 Burlington, Ma
+🔗 https://www.linkedin.com/jobs/view/principal-software-engineering-rust-systems-engineer-at-progress-software-4426770374
 
-<b>Senior Software Engineer (Rust) - Remote Work | REF#289693</b>
-🏢 BairesDev
-🔗 https://www.linkedin.com/jobs/view/senior-software-engineer-rust-remote-work-ref%23289693-at-bairesdev-4420459694
+<b>Senior Software Engineer – Rust &amp; Tauri</b>
+🏢 Amtex Systems Inc
+📍 New York
+🔗 https://www.linkedin.com/jobs/view/senior-software-engineer-%E2%80%93-rust-tauri-at-amtex-systems-inc-4436108613
 
-<b>Software Engineer, Embedded Rust</b>
-🏢 Gentherm
-📍 Novi, Mi
-🔗 https://www.linkedin.com/jobs/view/software-engineer-embedded-rust-at-gentherm-4435339052
+<b>Software Engineer, Rust</b>
+🏢 Anduril Industries
+📍 Broomfield, Co
+🔗 https://www.linkedin.com/jobs/view/software-engineer-rust-at-anduril-industries-4436109400
 
 
 🔎 <b>Daily searches — click to explore</b>

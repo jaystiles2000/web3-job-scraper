@@ -1,2 +1,25 @@
-<b>Solidity — 01 Jul 2026</b>
-No new jobs since last run.
+🆕 <b>Solidity Jobs — 02 Jul 2026 10:29</b>
+<i>2 new jobs</i>
+
+<b>Senior Staff Smart Contract Engineer</b>
+🔗 https://web3.career/senior-staff-smart-contract-engineer-symbiotic/151006
+
+<b>Senior/Staff Smart Contract Engineer</b>
+🏢 Symbiotic
+🔗 https://www.linkedin.com/jobs/view/senior-staff-smart-contract-engineer-at-symbiotic-4435807386
+
+
+🏦 <b>Big Co Jobs — 02 Jul 2026 10:29</b>
+<i>1 roles from larger companies</i>
+
+<b>Senior Smart Contract Engineer</b>
+🏢 Galaxy
+📍 United States
+🔗 https://www.linkedin.com/jobs/view/senior-smart-contract-engineer-at-galaxy-4426717053
+
+
+🔎 <b>Daily searches — click to explore</b>
+• <a href="https://www.linkedin.com/jobs/search?keywords=solidity&f_TPR=r86400">LinkedIn — Solidity jobs (last 24h)</a>
+• <a href="https://www.linkedin.com/jobs/search?keywords=smart+contract+engineer&f_TPR=r86400">LinkedIn — Smart contract jobs (last 24h)</a>
+• <a href="https://www.google.com/search?q=solidity+hiring+engineer&tbs=qdr:w">Google — Solidity hiring this week</a>
+• <a href="https://twitter.com/search?q=solidity+hiring&f=live">Twitter — Solidity hiring tweets</a>
