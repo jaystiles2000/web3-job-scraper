@@ -1,21 +1,10 @@
-🆕 <b>Solidity Jobs — 02 Jul 2026 10:29</b>
-<i>2 new jobs</i>
+🆕 <b>Solidity Jobs — 03 Jul 2026 10:27</b>
+<i>1 new jobs</i>
 
-<b>Senior Staff Smart Contract Engineer</b>
-🔗 https://web3.career/senior-staff-smart-contract-engineer-symbiotic/151006
-
-<b>Senior/Staff Smart Contract Engineer</b>
-🏢 Symbiotic
-🔗 https://www.linkedin.com/jobs/view/senior-staff-smart-contract-engineer-at-symbiotic-4435807386
-
-
-🏦 <b>Big Co Jobs — 02 Jul 2026 10:29</b>
-<i>1 roles from larger companies</i>
-
-<b>Senior Smart Contract Engineer</b>
-🏢 Galaxy
+<b>Blockchain Security Engineer - Senior Level (Solidity / Rust / Golang )</b>
+🏢 Jobgether
 📍 United States
-🔗 https://www.linkedin.com/jobs/view/senior-smart-contract-engineer-at-galaxy-4426717053
+🔗 https://www.linkedin.com/jobs/view/blockchain-security-engineer-senior-level-solidity-rust-golang-at-jobgether-4435401901
 
 
 🔎 <b>Daily searches — click to explore</b>

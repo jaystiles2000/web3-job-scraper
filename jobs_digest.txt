@@ -1,35 +1,28 @@
-🆕 <b>Solana / Rust Jobs — 02 Jul 2026 10:29</b>
-<i>6 new jobs</i>
+🆕 <b>Solana / Rust Jobs — 03 Jul 2026 10:27</b>
+<i>5 new jobs</i>
 
-<b>Head of Brand Creative</b>
-🏢 Phantom
+<b>Accounting Operations Manager</b>
+🏢 Render Network
 📍 Remote
-🔗 https://jobs.ashbyhq.com/phantom/815cacde-243b-4e59-87b1-d8536374a125
+🔗 https://jobs.ashbyhq.com/render/1829ed2b-7bcf-41a3-a2c1-40ab96e7c993
 
-<b>Senior Backend Engineer</b>
-🏢 Moonshot
-📍 New York
-🔗 https://www.linkedin.com/jobs/view/senior-backend-engineer-at-moonshot-4436104107
+<b>Corporate Risk and Compliance - Associate II</b>
+🏢 Zeta Markets
+📍 Bangalore
+🔗 https://jobs.lever.co/zeta/f43a76bd-ec4e-4b4b-a331-93d5d85434a5
 
-<b>Software Engineer – Rust</b>
-🏢 Strativ Group
-📍 New York
-🔗 https://www.linkedin.com/jobs/view/software-engineer-%E2%80%93-rust-at-strativ-group-4435836319
+<b>Manager Software Development - Mobile</b>
+🏢 Zeta Markets
+📍 Hyderabad
+🔗 https://jobs.lever.co/zeta/3e370c0e-9c98-4cd4-9875-9e219b743b46
 
-<b>Principal Software Engineering - Rust Systems Engineer</b>
-🏢 Progress Software
-📍 Burlington, Ma
-🔗 https://www.linkedin.com/jobs/view/principal-software-engineering-rust-systems-engineer-at-progress-software-4426770374
+<b>Blockchain Security Engineer - Senior Level (Solidity / Rust / Golang )</b>
+🏢 Jobgether
+📍 United States
+🔗 https://www.linkedin.com/jobs/view/blockchain-security-engineer-senior-level-solidity-rust-golang-at-jobgether-4435401901
 
-<b>Senior Software Engineer – Rust &amp; Tauri</b>
-🏢 Amtex Systems Inc
-📍 New York
-🔗 https://www.linkedin.com/jobs/view/senior-software-engineer-%E2%80%93-rust-tauri-at-amtex-systems-inc-4436108613
-
-<b>Software Engineer, Rust</b>
-🏢 Anduril Industries
-📍 Broomfield, Co
-🔗 https://www.linkedin.com/jobs/view/software-engineer-rust-at-anduril-industries-4436109400
+<b>Software Engineer - Solana</b>
+🔗 https://builtin.com/job/software-engineer-solana/8589732
 
 
 🔎 <b>Daily searches — click to explore</b>
