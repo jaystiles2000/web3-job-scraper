@@ -1,14 +1,2 @@
-🆕 <b>Solidity Jobs — 03 Jul 2026 10:27</b>
-<i>1 new jobs</i>
-
-<b>Blockchain Security Engineer - Senior Level (Solidity / Rust / Golang )</b>
-🏢 Jobgether
-📍 United States
-🔗 https://www.linkedin.com/jobs/view/blockchain-security-engineer-senior-level-solidity-rust-golang-at-jobgether-4435401901
-
-
-🔎 <b>Daily searches — click to explore</b>
-• <a href="https://www.linkedin.com/jobs/search?keywords=solidity&f_TPR=r86400">LinkedIn — Solidity jobs (last 24h)</a>
-• <a href="https://www.linkedin.com/jobs/search?keywords=smart+contract+engineer&f_TPR=r86400">LinkedIn — Smart contract jobs (last 24h)</a>
-• <a href="https://www.google.com/search?q=solidity+hiring+engineer&tbs=qdr:w">Google — Solidity hiring this week</a>
-• <a href="https://twitter.com/search?q=solidity+hiring&f=live">Twitter — Solidity hiring tweets</a>
+<b>Solidity — 04 Jul 2026</b>
+No new jobs since last run.
