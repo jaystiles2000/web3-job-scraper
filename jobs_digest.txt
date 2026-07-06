@@ -1,25 +1,2 @@
-🆕 <b>Solana / Rust Jobs — 05 Jul 2026 10:04</b>
-<i>3 new jobs</i>
-
-<b>Senior C++/Rust Developer</b>
-🏢 OpenYield
-📍 New York
-🔗 https://www.linkedin.com/jobs/view/senior-c%2B%2B-rust-developer-at-openyield-4436014938
-
-<b>Senior Software Engineer, Rust</b>
-🏢 Genius Sports
-📍 Los Angeles
-🔗 https://www.linkedin.com/jobs/view/senior-software-engineer-rust-at-genius-sports-4426988201
-
-<b>Rust SW-Silicon Co-verification Engineer</b>
-🏢 MatX
-🔗 https://www.linkedin.com/jobs/view/rust-sw-silicon-co-verification-engineer-at-matx-4401560145
-
-
-🔎 <b>Daily searches — click to explore</b>
-• <a href="https://www.linkedin.com/jobs/search?keywords=solana&f_TPR=r86400">LinkedIn — Solana jobs (last 24h)</a>
-• <a href="https://www.linkedin.com/jobs/search?keywords=rust+blockchain&f_TPR=r86400">LinkedIn — Rust jobs in crypto (last 24h)</a>
-• <a href="https://www.linkedin.com/jobs/search?keywords=anchor+solana&f_TPR=r86400">LinkedIn — Anchor (Solana) jobs</a>
-• <a href="https://www.google.com/search?q=solana+hiring+engineer&tbs=qdr:w">Google — Solana hiring this week</a>
-• <a href="https://www.google.com/search?q=rust+crypto+careers&tbs=qdr:w">Google — Rust crypto careers this week</a>
-• <a href="https://twitter.com/search?q=solana+hiring+rust&f=live">Twitter — Solana hiring tweets</a>
+<b>Solana / Rust — 06 Jul 2026</b>
+No new jobs since last run.
