@@ -399,6 +399,11 @@ JUNK_TITLE_PATTERNS = (
     "store manager",
     "lifeguard",
     "bartender",
+    # Non-crypto financial / lending roles that surface at similarly-
+    # named companies (wrong Switchboard, wrong Bullet, etc.).
+    "mortgage lender",
+    "loan officer",
+    "mortgage broker",
     # NB intentionally NOT blocking "community manager" or "server" —
     # both terms are heavily used by web3 / infrastructure projects.
 )
@@ -497,35 +502,216 @@ JUNK_JOB_TITLES = {
     "view all jobs",
 }
 
+# =============================================================================
+# NEW MODEL (Jul 2026) - allowlist first, strict topical gate second.
+#
+# The old model was "block bad stuff, everything else passes" — which worked
+# for pure crypto sources but LinkedIn kept slipping through generic Rust
+# roles at defense / automotive / outsourcing shops.
+#
+# The new model has three gates, checked in order:
+#   1. HARD BLOCK: junk titles, place-name titles, blocked companies,
+#      Rust-farm outsourcing shops, banned URL fragments -> return False.
+#   2. PURE CRYPTO SOURCES: crypto-only job boards -> return True.
+#   3. ALLOWLIST GATE: company is in SOLANA_ECOSYSTEM_COMPANIES ->
+#      True for ANY role (People Ops, Marketing, Compliance, etc.).
+#      This is the biggest lever — any role at Render Network, Zeta,
+#      Phantom, Moonshot, etc. is fair game since they're Solana-native.
+#   4. TOPICAL GATE: title or URL mentions a crypto signal keyword
+#      (blockchain, solana, anchor, defi, web3, dApp, SVM, MEV,
+#      validator, wallet, stablecoin, tokenomics, etc.) -> True.
+#   5. Everything else -> False (stricter default).
+# =============================================================================
+
+# Solana-ecosystem companies. Any role at these passes without needing a
+# crypto keyword in the title. Populated from jobs.solana.com and the
+# ecosystem list Jay curated. Case-insensitive substring match against
+# the company field — so "Render" catches "Render Network", "Render Labs"
+# etc. Keep entries as short as safe.
+SOLANA_ECOSYSTEM_COMPANIES = {
+    # Core protocol / infra
+    "solana foundation", "solana labs", "anza", "jito labs", "jito foundation",
+    "helius", "syndica", "triton one", "quicknode",
+    # Wallets
+    "phantom", "solflare", "backpack",
+    # DeFi / DEXs
+    "jupiter", "raydium", "orca", "drift protocol", "drift labs",
+    "marginfi", "margin.fi", "kamino", "sanctum", "marinade",
+    "meteora", "lifinity", "solend", "cega", "exponent", "flash.trade",
+    "hedgehog markets", "step finance", "ranger finance", "reflect",
+    "loopscale", "bridgesplit", "defituna", "cropper finance",
+    "keel", "hylo", "perena", "veda", "streamflow",
+    # Perps / trading infra
+    "zeta markets", "01 exchange", "ellipsis labs", "phoenix",
+    "bullet", "bulk labs", "bulk trade", "deriverse", "joyride labs",
+    "hive labs",
+    # NFT / gaming / consumer
+    "magic eden", "tensor", "metaplex", "moonshot", "pump.fun",
+    "baton corporation", "star atlas", "aurory", "genopets",
+    "nyan heroes", "the seeds labs", "chillchat games", "chain crisis",
+    "earth from another sun",
+    # AI / DePIN / infra
+    "render network", "render foundation", "hivemapper", "nosana",
+    "nous research", "kuzco", "mawari", "raad", "pipe network",
+    "sendai",
+    # Payments / stablecoins / RWA
+    "helio", "coinflow", "crossmint", "sphere", "kast", "easy labs",
+    "espresso cash", "huma", "fin", "sempo", "rain", "zynta",
+    "m0", "metawealth", "ondo finance", "ctrl alt",
+    # Security / dev tools
+    "sec3", "range", "almanax", "asymmetric research", "codigo",
+    "runtime verification", "darklake labs", "invariant",
+    # LSTs / restaking / oracles
+    "kyros", "pyth network", "douro labs", "switchboard",
+    # L2 / SVM / networking
+    "solayer", "soon", "magicblock", "termina", "nitro labs",
+    "sonic svm", "mirror world", "rome protocol",
+    # DAOs / governance / social
+    "squads", "metadao", "monkedao", "nation", "primitives",
+    "dialect", "solana id", "bonfida", "sns",
+    # Community / accelerators / research
+    "colosseum", "superteam", "blockworks",
+    # Compliance / RegTech in crypto
+    "fireblocks", "anchorage digital", "fidelity digital assets",
+    # Market makers with crypto mandate
+    "wintermute", "ergonia",
+    # Wormhole family
+    "wormhole", "wormhole foundation", "wormhole labs",
+    # Cross-chain infra
+    "li.fi", "cow dao", "credix", "wasabi",
+    # Analytics / data
+    "flipside", "artemis", "vybe network", "solanafm",
+    # Wrapped / DePIN misc
+    "trustless engineering", "hedgehog markets",
+    # Newer additions
+    "trojan trading",
+}
+
+# Words that when present in the JOB TITLE (or URL slug) strongly
+# indicate the role is crypto/blockchain-related. Keep tight — must
+# be signals that never (or rarely) mean anything else.
+CRYPTO_SIGNAL_KEYWORDS = (
+    "solana", "anchor", "blockchain", "web3", "defi", "cefi",
+    "crypto", "cryptocurrency", "cryptography",
+    "dapp", "d-app",
+    "svm", "evm",
+    "validator", "validators", "staking",
+    "mev",
+    "wallet", "custody",
+    "stablecoin", "stablecoins",
+    "smart contract", "smart contracts",
+    "onchain", "on-chain",
+    "l2", "layer 2", "layer-2",
+    "rollup", "rollups",
+    "zk ", "zero knowledge", "zero-knowledge",
+    "zksnark", "zk-snark", "snark",
+    "erc20", "erc-20", "erc721", "erc-721", "spl token",
+    "nft", "nfts",
+    "solidity", "vyper", "cairo",
+    "tokenomics",
+    "consensus",
+    "ethereum", "polygon", "arbitrum", "optimism", "avalanche",
+    "cosmos", "polkadot", "sui", "aptos", "near protocol",
+    "bitcoin",
+)
+
+# Companies that RELIABLY post Rust roles that are NOT crypto — hard
+# block them so LinkedIn's "keywords=rust" search stops polluting.
+# Add liberally: cost of a false negative (missing a genuinely crypto
+# job from BairesDev) is much lower than the noise cost.
+NON_CRYPTO_RUST_COMPANIES = {
+    # Outsourcing agencies / body shops
+    "bairesdev", "strativ group", "amtex systems inc", "amtex systems",
+    # Defense / hardware
+    "anduril industries", "anduril",
+    # Automotive
+    "gentherm",
+    # AI chips
+    "matx",
+    # Enterprise SaaS
+    "progress software", "genius sports",
+    # Fixed-income tradfi
+    "openyield",
+    # Not crypto
+    "travoom",
+    # Big generic tech (already partially blocked, but Rust roles slip)
+    "amazon", "amazon web services", "aws",
+    "google", "microsoft", "meta", "apple",
+    # NB: not blocking "switchboard" — the Solana oracle IS on the
+    # allowlist. Wrong-Switchboard mortgage roles are handled by the
+    # "mortgage lender" title pattern instead.
+}
+
+# Pure crypto job boards — end-to-end trusted, no title-signal check
+# needed. Defined here so is_web3_relevant can consult it during
+# both the hard-block sweep and the admit gate.
+PURE_CRYPTO_SOURCES = {
+    "EthereumJobBoard", "BitcoinerJobs", "TalentWeb3",
+    "DeFi.jobs", "CryptoJobsList", "CryptocurrencyJobs",
+    "MyWeb3Jobs", "BlockchainHeadhunter", "BitcoinJobs",
+    "SolanaJobs",           # jobs.solana.com — Solana Foundation board
+    "Web3.career",          # web3.career — pure crypto agg
+    "HashtagWeb3",          # hashtag.web3 aggregator
+}
+
 def is_web3_relevant(job: dict) -> bool:
-    """Filter out obvious non-web3 jobs from aggregator boards."""
-    # Always filter junk titles regardless of source
-    title_lower = job.get("title", "").lower().strip()
-    if title_lower in JUNK_JOB_TITLES:
+    """Filter out obvious non-web3 jobs from aggregator boards.
+
+    New model (Jul 2026): allowlist + topical gate. See module doc above."""
+    title_raw = job.get("title", "")
+    title = title_raw.lower().strip()
+    company = job.get("company", "").lower().strip()
+    url = job.get("url", "").lower()
+    source = job.get("source", "")
+
+    # -------- HARD BLOCKS (nothing survives these) -----------------
+    if title in JUNK_JOB_TITLES:
         return False
-    # Title-fragment blocklist runs BEFORE the pure-source pass too — a
-    # "Brand Representative" role at a clean-web3 source is still wrong.
-    if any(p in title_lower for p in JUNK_TITLE_PATTERNS):
+    if any(p in title for p in JUNK_TITLE_PATTERNS):
         return False
-    # "Solana" appearing as a venue / mall / suburb in the title.
-    raw_title = job.get("title", "")
-    if any(pat.search(raw_title) for pat in SOLANA_AS_PLACE_PATTERNS):
+    if any(pat.search(title_raw) for pat in SOLANA_AS_PLACE_PATTERNS):
+        return False
+    if any(b in company for b in BLOCKED_COMPANIES):
+        return False
+    if any(f in url for f in BLOCKED_URL_FRAGMENTS):
         return False
 
-    pure_sources = {
-        "EthereumJobBoard", "BitcoinerJobs", "TalentWeb3",
-        "DeFi.jobs", "CryptoJobsList", "CryptocurrencyJobs",
-        "MyWeb3Jobs", "BlockchainHeadhunter", "BitcoinJobs",
-    }
-    if job.get("source") in pure_sources:
+    # Non-crypto Rust farms — LinkedIn-only. Pure crypto sources are
+    # already trusted and shouldn't be gated by this. Switchboard is
+    # the only overlap; deal with it below.
+    if source not in PURE_CRYPTO_SOURCES:
+        if any(b in company for b in NON_CRYPTO_RUST_COMPANIES):
+            return False
+
+    # -------- ADMIT GATES (any pass = keep) ------------------------
+    # 1. Pure crypto sources trusted end-to-end.
+    if source in PURE_CRYPTO_SOURCES:
         return True
-    company = job.get("company", "").lower().strip()
-    if any(blocked in company for blocked in BLOCKED_COMPANIES):
-        return False
-    url = job.get("url", "").lower()
-    if any(frag in url for frag in BLOCKED_URL_FRAGMENTS):
-        return False
-    return True
+
+    # 2. Company is on the Solana-ecosystem allowlist — ANY role type
+    #    is relevant (People Ops, Marketing, Compliance, engineering,
+    #    etc.). This is what lets Render Network / Zeta / Phantom
+    #    non-eng roles land.
+    if any(a in company for a in SOLANA_ECOSYSTEM_COMPANIES):
+        return True
+
+    # 3. Title contains a crypto signal — the job is crypto-adjacent
+    #    regardless of company. Handles "Blockchain Security Engineer
+    #    at Jobgether", "Software Engineer - Solana at Builtin", etc.
+    if any(kw in title for kw in CRYPTO_SIGNAL_KEYWORDS):
+        return True
+
+    # 4. URL slug contains a crypto signal (catches web3.career and
+    #    similar where the company field is missing but the URL says
+    #    "/rust-engineer-bullet/" — bullet is a Solana infra company).
+    if any(kw in url for kw in CRYPTO_SIGNAL_KEYWORDS):
+        return True
+
+    # -------- DEFAULT: DROP --------------------------------------
+    # Anything not admitted by a gate is dropped. This is the big
+    # behavioural change vs. the old model — LinkedIn results without
+    # a crypto signal in the title no longer get through.
+    return False
 
 def loc_from_url(url: str) -> str:
     """CryptoJobsList embeds location in URL: /jobs/title-CITY-COUNTRY-at-company"""
@@ -2553,16 +2739,15 @@ def _search_links_for(profile_name: str) -> list[tuple[str, str]]:
 
 
 def _render_search_footer(profile_name: str) -> list[str]:
-    """Render the search-link footer block as digest lines."""
-    links = _search_links_for(profile_name)
-    if not links:
-        return []
-    out = ["", "🔎 <b>Daily searches — click to explore</b>"]
-    for label, url in links:
-        # Telegram HTML mode handles <a> tags
-        out.append(f'• <a href="{url}">{label}</a>')
-    out.append("")
-    return out
+    """Render the search-link footer block as digest lines.
+
+    Kept as a no-op by default because Jay found the daily-search
+    links required too much manual clicking without generating high-
+    signal hires. Flip the return to _search_links_for(profile_name)
+    output if you want the old footer back for a specific profile.
+    """
+    _ = _search_links_for  # keep the helper referenced for future revival
+    return []
 
 
 # ---------------------------------------------------------------------------
