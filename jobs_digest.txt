@@ -1,16 +1,2 @@
-🆕 <b>Solana / Rust Jobs — 07 Jul 2026 10:46</b>
-<i>1 new jobs</i>
-
-<b>GM, AI Ecosystem</b>
-🏢 Solana
-📍 San Francisco
-🔗 https://www.linkedin.com/jobs/view/gm-ai-ecosystem-at-solana-4437718500
-
-
-🏦 <b>Big Co Jobs — 07 Jul 2026 10:46</b>
-<i>1 roles from larger companies</i>
-
-<b>GM, AI Ecosystem</b>
-🏢 Solana Foundation
-📍 San Francisco
-🔗 https://jobs.ashbyhq.com/solana-foundation/1dc31c3e-1f5f-47d0-8e01-d95e396e7119
+<b>Solana / Rust — 08 Jul 2026</b>
+No new jobs since last run.
