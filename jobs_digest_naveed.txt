@@ -1,2 +1,2 @@
-<b>Solidity — 08 Jul 2026</b>
+<b>Solidity — 09 Jul 2026</b>
 No new jobs since last run.
