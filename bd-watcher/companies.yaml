@@ -1,0 +1,811 @@
+# BD Trigger Watcher — watchlist.
+#
+# Add/remove companies here. Structure per entry:
+#   name:      Human-readable canonical name (used in Telegram alert)
+#   ats:       null on first entry (discovery fills it in), then one of:
+#              greenhouse | lever | ashby | none
+#   ats_id:    Slug/token used by the ATS API (discovery fills)
+#   aliases:   Extra strings to match against on the jobs.solana.com
+#              fallback (case-insensitive). Add rename history, parent-co,
+#              etc. Optional.
+#   priority:  normal | high. `high` also alerts on weekends. Default normal.
+#
+# Discovery: run the workflow with `mode: discover` to fill in ats/ats_id
+# for any entry where ats is null. Re-run any time you paste new companies.
+#
+# Removing a company: just delete the entry. Its state (last alert time,
+# seen jobs) will be garbage-collected on the next run.
+
+companies:
+  # Core protocol / infra
+  - name: Solana Foundation
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: high
+  - name: Solana Labs
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: high
+  - name: Anza
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: high
+  - name: Jito Labs
+    ats: null
+    ats_id: null
+    aliases: [jito]
+    priority: high
+  - name: Jito Foundation
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+  - name: Helius
+    ats: null
+    ats_id: null
+    aliases: [helius labs]
+    priority: high
+  - name: Syndica
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+  - name: Triton One
+    ats: null
+    ats_id: null
+    aliases: [triton]
+    priority: normal
+  - name: QuickNode
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+
+  # Wallets
+  - name: Phantom
+    ats: null
+    ats_id: null
+    aliases: [phantom technologies]
+    priority: high
+  - name: Solflare
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+  - name: Backpack
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: high
+
+  # DeFi / DEXs
+  - name: Jupiter
+    ats: null
+    ats_id: null
+    aliases: [jupiter exchange, jup]
+    priority: high
+  - name: Raydium
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+  - name: Orca
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+  - name: Drift Protocol
+    ats: null
+    ats_id: null
+    aliases: [drift labs, drift]
+    priority: high
+  - name: Marginfi
+    ats: null
+    ats_id: null
+    aliases: [margin.fi, mrgn]
+    priority: high
+  - name: Kamino
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+  - name: Sanctum
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+  - name: Marinade
+    ats: null
+    ats_id: null
+    aliases: [marinade finance]
+    priority: normal
+  - name: Meteora
+    ats: null
+    ats_id: null
+    aliases: [mercurial finance]
+    priority: normal
+  - name: Lifinity
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+  - name: Solend
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+  - name: Cega
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+  - name: Exponent
+    ats: null
+    ats_id: null
+    aliases: [exponent finance]
+    priority: normal
+  - name: Flash.Trade
+    ats: null
+    ats_id: null
+    aliases: [flash trade]
+    priority: normal
+  - name: Hedgehog Markets
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+  - name: Step Finance
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+  - name: Ranger Finance
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+  - name: Reflect
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+  - name: Loopscale
+    ats: null
+    ats_id: null
+    aliases: [bridgesplit]
+    priority: normal
+  - name: Defituna
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+  - name: Keel
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+  - name: Hylo
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+  - name: Perena
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+  - name: Veda
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+  - name: StreamFlow
+    ats: null
+    ats_id: null
+    aliases: [streamflow finance]
+    priority: normal
+
+  # Perps / trading infra
+  - name: Zeta Markets
+    ats: null
+    ats_id: null
+    aliases: [zeta]
+    priority: high
+  - name: 01 Exchange
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+  - name: Ellipsis Labs
+    ats: null
+    ats_id: null
+    aliases: [phoenix]
+    priority: high
+  - name: Bullet
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: high
+  - name: BULK Labs
+    ats: null
+    ats_id: null
+    aliases: [bulk trade]
+    priority: normal
+  - name: Deriverse
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+  - name: Joyride Labs
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+  - name: Hive Labs
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+
+  # NFT / gaming / consumer
+  - name: Magic Eden
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: high
+  - name: Tensor
+    ats: null
+    ats_id: null
+    aliases: [tensor labs, tensor foundation]
+    priority: normal
+  - name: Metaplex
+    ats: null
+    ats_id: null
+    aliases: [metaplex studios]
+    priority: normal
+  - name: Moonshot
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: high
+  - name: Baton Corporation
+    ats: null
+    ats_id: null
+    aliases: [pump.fun, pumpfun]
+    priority: high
+  - name: Star Atlas
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+  - name: Aurory
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+  - name: Genopets
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+  - name: Nyan Heroes
+    ats: null
+    ats_id: null
+    aliases: [9 lives interactive]
+    priority: normal
+
+  # AI / DePIN / infra
+  - name: Render Network
+    ats: null
+    ats_id: null
+    aliases: [render foundation, render labs]
+    priority: high
+  - name: Hivemapper
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+  - name: Nosana
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+  - name: Nous Research
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: high
+  - name: Kuzco
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+  - name: Mawari
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+  - name: Raad
+    ats: null
+    ats_id: null
+    aliases: [raad labs]
+    priority: normal
+  - name: Pipe Network
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+  - name: SendAI
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+
+  # Payments / stablecoins / RWA
+  - name: Helio
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+  - name: Coinflow Labs
+    ats: null
+    ats_id: null
+    aliases: [coinflow]
+    priority: high
+  - name: Crossmint
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: high
+  - name: Sphere
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+  - name: Kast
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: high
+  - name: Easy Labs
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+  - name: Espresso Cash
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+  - name: Huma
+    ats: null
+    ats_id: null
+    aliases: [huma finance]
+    priority: normal
+  - name: Fin
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+  - name: Sempo
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+  - name: Rain
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: high
+  - name: Zynta
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+  - name: M0
+    ats: null
+    ats_id: null
+    aliases: [m^0, m^0 labs]
+    priority: normal
+  - name: MetaWealth
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+  - name: Ondo Finance
+    ats: null
+    ats_id: null
+    aliases: [ondo]
+    priority: high
+  - name: Ctrl Alt
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+
+  # Security / dev tools
+  - name: Sec3
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+  - name: Range
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+  - name: Almanax
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+  - name: Asymmetric Research
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+  - name: Codigo
+    ats: null
+    ats_id: null
+    aliases: [código]
+    priority: normal
+  - name: Runtime Verification
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+  - name: Darklake Labs
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+  - name: Invariant
+    ats: null
+    ats_id: null
+    aliases: [invariant labs]
+    priority: normal
+
+  # LSTs / restaking / oracles
+  - name: Kyros
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+  - name: Pyth Network
+    ats: null
+    ats_id: null
+    aliases: [pyth]
+    priority: normal
+  - name: Douro Labs
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: high
+  - name: Switchboard
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+
+  # L2 / SVM / networking
+  - name: Solayer
+    ats: null
+    ats_id: null
+    aliases: [solayer labs]
+    priority: normal
+  - name: SOON
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+  - name: MagicBlock
+    ats: null
+    ats_id: null
+    aliases: [magicblock labs]
+    priority: normal
+  - name: Termina
+    ats: null
+    ats_id: null
+    aliases: [nitro labs]
+    priority: normal
+  - name: Sonic SVM
+    ats: null
+    ats_id: null
+    aliases: [mirror world]
+    priority: normal
+  - name: Rome Protocol
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+  - name: DoubleZero
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: high
+
+  # DAOs / governance / social
+  - name: Squads
+    ats: null
+    ats_id: null
+    aliases: [squads labs]
+    priority: normal
+  - name: MetaDAO
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+  - name: MonkeDAO
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+  - name: Dialect
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+  - name: Solana ID
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+  - name: Bonfida
+    ats: null
+    ats_id: null
+    aliases: [sns, solana name service]
+    priority: normal
+
+  # Community / accelerators / research
+  - name: Colosseum
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+  - name: Superteam
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+  - name: Blockworks
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+
+  # Regulated / crypto-native institutions
+  - name: Fireblocks
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: high
+  - name: Anchorage Digital
+    ats: null
+    ats_id: null
+    aliases: [anchorage]
+    priority: high
+
+  # Market makers with Solana mandate
+  - name: Wintermute
+    ats: null
+    ats_id: null
+    aliases: [wintermute trading]
+    priority: normal
+  - name: Ergonia
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+
+  # Wormhole family
+  - name: Wormhole
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+  - name: Wormhole Foundation
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+  - name: Wormhole Labs
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+
+  # Cross-chain infra / interop
+  - name: LI.FI
+    ats: null
+    ats_id: null
+    aliases: [lifi]
+    priority: normal
+  - name: CoW DAO
+    ats: null
+    ats_id: null
+    aliases: [cowdao]
+    priority: normal
+  - name: Credix
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+  - name: Wasabi
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+
+  # Analytics / data
+  - name: Flipside
+    ats: null
+    ats_id: null
+    aliases: [flipside crypto]
+    priority: normal
+  - name: Artemis
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+  - name: Vybe Network
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+  - name: SolanaFM
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+
+  # Misc infra / RPC
+  - name: Trustless Engineering
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+  - name: Trojan Trading
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+  - name: Chorus One
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+  - name: Figment
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+  - name: Kiln
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+  - name: Everstake
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+  - name: Staking Facilities
+    ats: null
+    ats_id: null
+    aliases: [staking facilities gmbh]
+    priority: normal
+
+  # xLabs / other infra
+  - name: xLabs
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+  - name: Neon EVM
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+  - name: Astralane
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+  - name: Fermah
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+  - name: Composable Foundation
+    ats: null
+    ats_id: null
+    aliases: [picasso network]
+    priority: normal
+  - name: BitRobot Foundation
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+  - name: Luminous Labs
+    ats: null
+    ats_id: null
+    aliases: [light protocol]
+    priority: normal
+  - name: Molecule
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+  - name: Perle
+    ats: null
+    ats_id: null
+    aliases: [perle ai]
+    priority: normal
+  - name: Cube Group
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+  - name: Ooble Studio
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+  - name: Chainflow
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+  - name: Celebratix
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+  - name: SkyTrade
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+  - name: WeRate
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+  - name: VeryAI
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+  - name: Raiku
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+  - name: Phase Labs
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+  - name: GLAM
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+  - name: Nightly
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+  - name: Swig
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal
+  - name: Sanctum
+    ats: null
+    ats_id: null
+    aliases: []
+    priority: normal

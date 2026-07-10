@@ -1,0 +1,65 @@
+name: BD Trigger Watcher
+
+on:
+  schedule:
+    # Twice daily, 07:30 and 16:30 UK time (BST = UTC+1, GMT = UTC).
+    # Cron runs on UTC — use 06:30 + 15:30 UTC so it lands at the
+    # intended UK-morning-then-afternoon slots year-round (yes there's
+    # a 1h drift during BST, which is fine for a BD alert).
+    - cron: '30 6 * * *'
+    - cron: '30 15 * * *'
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "watch (default) or discover"
+        required: false
+        default: watch
+        type: choice
+        options: [watch, discover]
+
+permissions:
+  contents: write
+
+jobs:
+  bd-watcher:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install deps
+        run: pip install requests pyyaml
+
+      - name: Run BD watcher
+        working-directory: bd-watcher
+        env:
+          TELEGRAM_TOKEN:    ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID:  ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          MODE="${{ github.event.inputs.mode }}"
+          if [ -z "$MODE" ]; then MODE=watch; fi
+          echo "Running BD watcher in mode: $MODE"
+          if [ "$MODE" = "discover" ]; then
+            python discover.py
+          else
+            python watch.py
+          fi
+
+      - name: Commit state + companies back
+        # Persist state.json (dedupe + cooldown) and companies.yaml
+        # (ATS discovery fills in ats/ats_id fields). No-op if unchanged.
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add bd-watcher/state.json bd-watcher/companies.yaml
+          if git diff --staged --quiet; then
+            echo "Nothing to commit"
+            exit 0
+          fi
+          git commit -m "BD watcher: update state / discovery [skip ci]"
+          git push

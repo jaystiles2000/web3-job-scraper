@@ -1,0 +1,108 @@
+# BD Trigger Watcher — tunables. Anything here can change without a
+# code change (workflow just re-reads it each run).
+
+# Cooldown: max one instant alert per company per N days. A company on
+# a hiring spree is one BD conversation, not four pings.
+cooldown_days: 7
+
+# Re-probe ATS for `ats: none` companies at most once every N days.
+# Discovery is cheap but let's not hammer Greenhouse/Lever/Ashby with
+# 4xx probes daily either.
+none_reprobe_days: 30
+
+# If more than this fraction of ATS calls fail in a single run, send
+# a warning message rather than silently degrading.
+max_ats_failure_ratio: 0.25
+
+# Politeness between HTTP calls (seconds).
+request_delay_seconds: 0.4
+
+# HTTP timeout (seconds). Above this, log + skip that company.
+request_timeout_seconds: 20
+
+# Fallback board for companies without an ATS (or before discovery
+# has run). Fetched once per run and filtered by company name/aliases.
+fallback_source_url: "https://jobs.solana.com"
+
+# Lane classification. First keyword-hit wins. Order matters.
+# Keywords are lowercase substrings matched against the job TITLE.
+lanes:
+  engineering:
+    - rust
+    - solana
+    - anchor
+    - smart contract
+    - protocol
+    - blockchain engineer
+    - svm
+    - solidity
+    - infra engineer
+    - infrastructure engineer
+    - backend engineer
+    - full stack
+    - fullstack
+    - staff engineer
+    - senior engineer
+    - principal engineer
+    - security engineer
+    - devops
+    - sre
+    - reliability
+    - cryptography
+  legal_compliance_finance:
+    - legal
+    - counsel
+    - compliance
+    - mlro
+    - aml
+    - kyc
+    - regulatory
+    - fp&a
+    - fpna
+    - finance
+    - accountant
+    - accounting
+    - controller
+    - audit
+    - tax
+    - treasurer
+    - treasury
+  bd_sales:
+    - business development
+    - sales
+    - partnerships
+    - partnership
+    - growth
+    - account executive
+    - revenue
+  ops:
+    - operations
+    - chief of staff
+    - people
+    - hr
+    - talent
+    - recruiter
+    - recruitment
+    - workplace
+    - office manager
+
+# Per-lane opener hooks. Keyed by lane. `{title}` is substituted with
+# the role title. Other lanes get a default angle.
+angles:
+  engineering: "They are hiring {title}. Lead with a relevant Rust/Solana profile."
+  legal_compliance_finance: "Compliance/finance hire = regulated growth. Lead with MLRO/legal bench strength."
+  bd_sales: "GTM build-out. Ask who owns the hiring plan."
+  ops: "Ops hire often precedes a wider wave. Ask what else is on the roadmap."
+  other: "Company is hiring — worth a check-in even if the role isn't in your lane."
+
+# Which lanes go INSTANT vs into the daily digest.
+instant_lanes: ["engineering", "legal_compliance_finance", "bd_sales", "ops"]
+digest_lanes: ["other"]
+
+# Telegram message prefixes so BD alerts are visually distinct.
+prefix_instant: "🎯 BD TRIGGER"
+prefix_digest: "📋 BD DIGEST"
+prefix_warning: "⚠️ BD Watcher warning"
+
+# TODO: Phase 2 — watch funding announcement feeds (Messari, CryptoRank)
+# and alert when a watched company raises a round. Same mechanism, new source.
