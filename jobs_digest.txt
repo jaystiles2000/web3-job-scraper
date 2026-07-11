@@ -1,6 +1,19 @@
-🆕 <b>Solana / Rust Jobs — 10 Jul 2026 10:44</b>
-<i>1 new jobs</i>
+🆕 <b>Solana / Rust Jobs — 11 Jul 2026 09:16</b>
+<i>2 new jobs</i>
 
-<b>Specialist / Manager – People Tech &amp; Transformation</b>
-🏢 Zeta Markets
-🔗 https://jobs.lever.co/zeta/2f14b7a2-da7f-42e6-a9d5-72438e23f419
+<b>GTM Engineer</b>
+🏢 Render Network
+📍 Remote
+🔗 https://jobs.ashbyhq.com/render/ca865a27-e5c2-4b3d-843a-076f898ad1df
+
+<b>Rust Engineer, Defi</b>
+🔗 https://builtin.com/job/senior-blockchain-engineer/6637741
+
+
+🏦 <b>Big Co Jobs — 11 Jul 2026 09:16</b>
+<i>1 roles from larger companies</i>
+
+<b>Trading Growth Lead, Americas</b>
+🏢 Solana Foundation
+📍 Remote
+🔗 https://jobs.ashbyhq.com/solana-foundation/c52330c6-eece-4da2-8882-47386cc49423
