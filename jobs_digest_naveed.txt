@@ -1,2 +1,26 @@
-<b>Solidity — 13 Jul 2026</b>
-No new jobs since last run.
+🆕 <b>Solidity Jobs — 14 Jul 2026 09:45</b>
+<i>8 new jobs</i>
+
+<b>Remote Solidity Developer</b>
+🔗 https://myweb3jobs.com/job/remote-solidity-developer
+
+<b>Smart Contract Engineer</b>
+🔗 https://web3.career/smart-contract-engineer-lista-protocol/151336
+
+<b>Blockchain Smart Contract Engineer</b>
+🔗 https://web3.career/blockchain-smart-contract-engineer-hallmarkglobalsolutionsltd/151333
+
+<b>Solidity Smart Contract Developer</b>
+🔗 https://web3.career/solidity-smart-contract-developer-vmcsofttechnologies-inc/151332
+
+<b>Solidity Developer</b>
+🔗 https://web3.career/solidity-developer-techclubinc/151331
+
+<b>Solidity Engineer USC GC</b>
+🔗 https://web3.career/solidity-engineer-usc-gc-ampstek/151330
+
+<b>Solidity Engineer</b>
+🔗 https://web3.career/solidity-engineer-ampstek/151329
+
+<b>Senior Solidity Smart Contract Developer</b>
+🔗 https://web3.career/senior-solidity-smart-contract-developer-vmcsofttechnologies-inc/151328
