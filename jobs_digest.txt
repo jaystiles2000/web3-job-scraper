@@ -1,12 +1,16 @@
-🆕 <b>Solana / Rust Jobs — 14 Jul 2026 09:45</b>
-<i>2 new jobs</i>
+🆕 <b>Solana / Rust Jobs — 15 Jul 2026 09:49</b>
+<i>3 new jobs</i>
 
-<b>Senior Product Designer</b>
+<b>Staff Engineer Market Data</b>
+🏢 Douro Labs
+🔗 https://jobs.solana.com/jobs/companies/douro-labs-2/jobs/86209346-staff-engineer-market-data
+
+<b>Senior Brand Designer</b>
+🏢 Phantom
+📍 Remote
+🔗 https://jobs.ashbyhq.com/phantom/0e208910-a03b-4807-9c47-bf9e495a8839
+
+<b>Senior Engineering Manager, Product</b>
 🏢 Render Network
 📍 Remote
-🔗 https://jobs.ashbyhq.com/render/0f0ccf3e-4caf-4586-9a66-411dbf49fcc5
-
-<b>Staff Product Designer</b>
-🏢 Render Network
-📍 Remote
-🔗 https://jobs.ashbyhq.com/render/b847e042-6be5-4f8b-b36e-fe6a462cbb63
+🔗 https://jobs.ashbyhq.com/render/eec2ab67-ea1c-4f1c-9119-51e1235f2593
