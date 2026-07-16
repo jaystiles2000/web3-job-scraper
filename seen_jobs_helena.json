@@ -1,5 +1,6 @@
 {
   "job::associateproductmanager::talos": "2026-05-15",
+  "job::binanceacceleratorprogramproductmanageraiagentharness::binancehongkonghongkong": "2026-07-16",
   "job::boysclubcontentprojectmanager::polygonlabs": "2026-06-25",
   "job::constructionprojectmanager::zephyrpartners": "2026-06-05",
   "job::creativeprogrammanager::ripple": "2026-05-15",
@@ -71,6 +72,7 @@
   "job::productmanager::layerzerolabs": "2026-05-15",
   "job::productmanager::phoenixellipsis": "2026-06-27",
   "job::productmanager::stellardevelopmentfoundation": "2026-06-30",
+  "job::productmanageraiagentharness::binancehongkonghongkong": "2026-07-16",
   "job::productmanagerapi::layerzerolabs": "2026-06-12",
   "job::productmanagerappbrokeragesystem::matrixport": "2026-06-16",
   "job::productmanagercardissuing::redotpay": "2026-05-31",
@@ -110,6 +112,7 @@
   "job::programmanager::ripple": "2026-07-15",
   "job::programmanagerdei::ripple": "2026-06-03",
   "job::projectmanager::blockstream": "2026-05-19",
+  "job::projectmanager::bullish": "2026-07-16",
   "job::projectmanager::ripple": "2026-05-15",
   "job::projectmanagercollectiblesdivision::culturefly": "2026-07-01",
   "job::projectmanageri::zetamarkets": "2026-05-19",

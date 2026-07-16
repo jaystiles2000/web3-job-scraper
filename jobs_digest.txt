@@ -1,16 +1,15 @@
-🆕 <b>Solana / Rust Jobs — 15 Jul 2026 09:49</b>
+🆕 <b>Solana / Rust Jobs — 16 Jul 2026 09:56</b>
 <i>3 new jobs</i>
 
-<b>Staff Engineer Market Data</b>
-🏢 Douro Labs
-🔗 https://jobs.solana.com/jobs/companies/douro-labs-2/jobs/86209346-staff-engineer-market-data
+<b>Senior Software Engineer – Rust – Payward Services</b>
+🔗 https://myweb3jobs.com/job/senior-software-engineer-rust-payward-services
 
-<b>Senior Brand Designer</b>
-🏢 Phantom
-📍 Remote
-🔗 https://jobs.ashbyhq.com/phantom/0e208910-a03b-4807-9c47-bf9e495a8839
+<b>Construction Project Coordinator I</b>
+🏢 Sonic SVM
+📍 Bellflower, Ca
+🔗 https://boards.greenhouse.io/sonic/jobs/8049192?gh_jid=8049192
 
-<b>Senior Engineering Manager, Product</b>
-🏢 Render Network
-📍 Remote
-🔗 https://jobs.ashbyhq.com/render/eec2ab67-ea1c-4f1c-9119-51e1235f2593
+<b>Solutions Architect, US</b>
+🏢 Blockdaemon
+📍 Miami
+🔗 https://www.linkedin.com/jobs/view/solutions-architect-us-at-blockdaemon-4441209879
