@@ -1,15 +1,22 @@
-🆕 <b>Solana / Rust Jobs — 16 Jul 2026 09:56</b>
-<i>3 new jobs</i>
+🆕 <b>Solana / Rust Jobs — 17 Jul 2026 09:46</b>
+<i>4 new jobs</i>
 
-<b>Senior Software Engineer – Rust – Payward Services</b>
-🔗 https://myweb3jobs.com/job/senior-software-engineer-rust-payward-services
+<b>Object Storage Product Engineer</b>
+🏢 Render Network
+📍 Remote
+🔗 https://jobs.ashbyhq.com/render/40378b18-ad46-4040-9514-121ec5eb047f
 
-<b>Construction Project Coordinator I</b>
-🏢 Sonic SVM
-📍 Bellflower, Ca
-🔗 https://boards.greenhouse.io/sonic/jobs/8049192?gh_jid=8049192
+<b>Postgres Product Engineer</b>
+🏢 Render Network
+📍 Remote
+🔗 https://jobs.ashbyhq.com/render/f4883b3d-ada1-4859-931b-61881f7f9c00
 
-<b>Solutions Architect, US</b>
-🏢 Blockdaemon
-📍 Miami
-🔗 https://www.linkedin.com/jobs/view/solutions-architect-us-at-blockdaemon-4441209879
+<b>Valkey Product Engineer</b>
+🏢 Render Network
+📍 Remote
+🔗 https://jobs.ashbyhq.com/render/b011a0c1-eed8-4afd-ab8b-3b4f974df199
+
+<b>Nurse Injector - 3 Day Work Week</b>
+🏢 Switchboard
+📍 Highlands Ranch
+🔗 https://jobs.ashbyhq.com/switchboard/ad3eb9c5-52d3-412a-a5bd-49d949d70cba

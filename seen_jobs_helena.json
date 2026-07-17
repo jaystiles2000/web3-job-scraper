@@ -1,4 +1,5 @@
 {
+  "job::associateproductmanager12monthmaternityleavecontract::spexivancouvercanada": "2026-07-17",
   "job::associateproductmanager::talos": "2026-05-15",
   "job::binanceacceleratorprogramproductmanageraiagentharness::binancehongkonghongkong": "2026-07-16",
   "job::boysclubcontentprojectmanager::polygonlabs": "2026-06-25",
@@ -79,6 +80,7 @@
   "job::productmanagercards::rainfi": "2026-05-19",
   "job::productmanagercdpandconsumermdm::mattelinc": "2026-07-05",
   "job::productmanagercompliancebridge::stripe": "2026-07-02",
+  "job::productmanagercryptotokenization::charlesschwabaustintxunitedsta": "2026-07-17",
   "job::productmanagercurrencyexpansionpaymentslatam::openfx": "2026-06-07",
   "job::productmanagerdefiproductsapplications::zerogravity": "2026-07-07",
   "job::productmanagerdigitalpayment::redotpay": "2026-05-20",
@@ -133,6 +135,8 @@
   "job::seniorproductmanageragentictrading::phantom": "2026-05-15",
   "job::seniorproductmanageraienablement::bullish": "2026-05-30",
   "job::seniorproductmanagercompliance::kast": "2026-06-25",
+  "job::seniorproductmanagercomplianceandonboarding::sphere": "2026-07-17",
+  "job::seniorproductmanagercomplianceandonboarding::sphereunitedstates": "2026-07-17",
   "job::seniorproductmanagercustodyblockchain::ladders": "2026-06-08",
   "job::seniorproductmanagercustodyblockchain::paxos": "2026-06-03",
   "job::seniorproductmanagercxaitooling::coinbase": "2026-06-16",
