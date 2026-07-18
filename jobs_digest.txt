@@ -1,22 +1,7 @@
-🆕 <b>Solana / Rust Jobs — 17 Jul 2026 09:46</b>
-<i>4 new jobs</i>
+🆕 <b>Solana / Rust Jobs — 18 Jul 2026 09:16</b>
+<i>1 new jobs</i>
 
-<b>Object Storage Product Engineer</b>
-🏢 Render Network
-📍 Remote
-🔗 https://jobs.ashbyhq.com/render/40378b18-ad46-4040-9514-121ec5eb047f
-
-<b>Postgres Product Engineer</b>
-🏢 Render Network
-📍 Remote
-🔗 https://jobs.ashbyhq.com/render/f4883b3d-ada1-4859-931b-61881f7f9c00
-
-<b>Valkey Product Engineer</b>
-🏢 Render Network
-📍 Remote
-🔗 https://jobs.ashbyhq.com/render/b011a0c1-eed8-4afd-ab8b-3b4f974df199
-
-<b>Nurse Injector - 3 Day Work Week</b>
-🏢 Switchboard
-📍 Highlands Ranch
-🔗 https://jobs.ashbyhq.com/switchboard/ad3eb9c5-52d3-412a-a5bd-49d949d70cba
+<b>Lead / Manager Data Reliability Engineering</b>
+🏢 Zeta Markets
+📍 Hyderabad
+🔗 https://jobs.lever.co/zeta/32ea9654-98a8-445b-98ef-e6ada520d35a
