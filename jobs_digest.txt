@@ -1,7 +1,2 @@
-🆕 <b>Solana / Rust Jobs — 18 Jul 2026 09:16</b>
-<i>1 new jobs</i>
-
-<b>Lead / Manager Data Reliability Engineering</b>
-🏢 Zeta Markets
-📍 Hyderabad
-🔗 https://jobs.lever.co/zeta/32ea9654-98a8-445b-98ef-e6ada520d35a
+<b>Solana / Rust — 19 Jul 2026</b>
+No new jobs since last run.
