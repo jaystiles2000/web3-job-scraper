@@ -1,14 +1,20 @@
-🆕 <b>Solana / Rust Jobs — 20 Jul 2026 10:40</b>
-<i>3 new jobs</i>
+🆕 <b>Solana / Rust Jobs — 21 Jul 2026 10:15</b>
+<i>4 new jobs</i>
 
-<b>Rust Engineer – Trading Systems</b>
-🔗 https://myweb3jobs.com/job/rust-engineer-trading-systems
+<b>Pubky - Rust Senior Engineer</b>
+🏢 Synonym 📍Remote
+🔗 https://web3.career/pubky-rust-senior-engineer-synonym/138209
 
-<b>Director – Enterprise Applications &amp; IT Infrastructure</b>
-🏢 Zeta Markets
-🔗 https://jobs.lever.co/zeta/500c585f-65ba-4f6a-b515-7d73680038c3
+<b>Staff Engineer Solana</b>
+🏢 R3 📍 Mumbai, India
+🔗 https://web3.career/staff-engineer-solana-r3/151611
 
-<b>Staff Engineer, Solana</b>
-🏢 R3
+<b>Systems Engineering Manager</b>
+🏢 Sonic SVM
+📍 Santa Rosa
+🔗 https://boards.greenhouse.io/sonic/jobs/8073108?gh_jid=8073108
+
+<b>Team Lead / Solana Trading Bot</b>
+🏢 PrivateAI
 📍 United States
-🔗 https://www.linkedin.com/jobs/view/staff-engineer-solana-at-r3-4442542857
+🔗 https://www.linkedin.com/jobs/view/team-lead-solana-trading-bot-at-privateai-4440423019
