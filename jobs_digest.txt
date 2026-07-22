@@ -1,20 +1,40 @@
-🆕 <b>Solana / Rust Jobs — 21 Jul 2026 10:15</b>
-<i>4 new jobs</i>
+🆕 <b>Solana / Rust Jobs — 22 Jul 2026 10:14</b>
+<i>8 new jobs</i>
 
-<b>Pubky - Rust Senior Engineer</b>
-🏢 Synonym 📍Remote
-🔗 https://web3.career/pubky-rust-senior-engineer-synonym/138209
+<b>Pubky – Rust Senior Engineer</b>
+🔗 https://myweb3jobs.com/job/pubky-rust-senior-engineer
 
-<b>Staff Engineer Solana</b>
-🏢 R3 📍 Mumbai, India
-🔗 https://web3.career/staff-engineer-solana-r3/151611
-
-<b>Systems Engineering Manager</b>
+<b>Field Service Dispatcher</b>
 🏢 Sonic SVM
-📍 Santa Rosa
-🔗 https://boards.greenhouse.io/sonic/jobs/8073108?gh_jid=8073108
+📍 Hayward
+🔗 https://boards.greenhouse.io/sonic/jobs/4514003?gh_jid=4514003
 
-<b>Team Lead / Solana Trading Bot</b>
-🏢 PrivateAI
-📍 United States
-🔗 https://www.linkedin.com/jobs/view/team-lead-solana-trading-bot-at-privateai-4440423019
+<b>Release Management Engineer, Mobile</b>
+🏢 Phantom
+📍 Remote
+🔗 https://jobs.ashbyhq.com/phantom/b746f064-ea9d-4742-a6f2-8d85e7939438
+
+<b>Staff / Principal Product Manager, Platform &amp; Infrastructure</b>
+🏢 Render Network
+📍 Remote
+🔗 https://jobs.ashbyhq.com/render/d5f62097-29f5-4078-ad24-3b604380c1c0
+
+<b>Staff Product Manager - Agent &amp; Systems Observability</b>
+🏢 Render Network
+📍 Remote
+🔗 https://jobs.ashbyhq.com/render/3ec7433c-efbc-42f2-8f28-b8eca42f384c
+
+<b>Staff Product Manager - Datastores (Postgres Specialist)</b>
+🏢 Render Network
+📍 Remote
+🔗 https://jobs.ashbyhq.com/render/d0860ea9-fdbd-4a66-82bc-1d75228cf594
+
+<b>Product Security Engineer II</b>
+🏢 Zeta Markets
+📍 Hyderabad
+🔗 https://jobs.lever.co/zeta/e21ca17d-7bf2-4781-94bb-bcfc8943aae0
+
+<b>Senior Software Engineer, Block Production</b>
+🏢 Anza
+📍 San Francisco
+🔗 https://www.linkedin.com/jobs/view/senior-software-engineer-block-production-at-anza-4443584853
