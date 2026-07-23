@@ -1,40 +1,17 @@
-🆕 <b>Solana / Rust Jobs — 22 Jul 2026 10:14</b>
-<i>8 new jobs</i>
+🆕 <b>Solana / Rust Jobs — 23 Jul 2026 10:12</b>
+<i>3 new jobs</i>
 
-<b>Pubky – Rust Senior Engineer</b>
-🔗 https://myweb3jobs.com/job/pubky-rust-senior-engineer
-
-<b>Field Service Dispatcher</b>
+<b>Payroll Coordinator</b>
 🏢 Sonic SVM
-📍 Hayward
-🔗 https://boards.greenhouse.io/sonic/jobs/4514003?gh_jid=4514003
+📍 Santa Rosa
+🔗 https://boards.greenhouse.io/sonic/jobs/4077685?gh_jid=4077685
 
-<b>Release Management Engineer, Mobile</b>
+<b>Staff Software Engineer, Full Stack</b>
 🏢 Phantom
-📍 Remote
-🔗 https://jobs.ashbyhq.com/phantom/b746f064-ea9d-4742-a6f2-8d85e7939438
-
-<b>Staff / Principal Product Manager, Platform &amp; Infrastructure</b>
-🏢 Render Network
-📍 Remote
-🔗 https://jobs.ashbyhq.com/render/d5f62097-29f5-4078-ad24-3b604380c1c0
-
-<b>Staff Product Manager - Agent &amp; Systems Observability</b>
-🏢 Render Network
-📍 Remote
-🔗 https://jobs.ashbyhq.com/render/3ec7433c-efbc-42f2-8f28-b8eca42f384c
-
-<b>Staff Product Manager - Datastores (Postgres Specialist)</b>
-🏢 Render Network
-📍 Remote
-🔗 https://jobs.ashbyhq.com/render/d0860ea9-fdbd-4a66-82bc-1d75228cf594
-
-<b>Product Security Engineer II</b>
-🏢 Zeta Markets
-📍 Hyderabad
-🔗 https://jobs.lever.co/zeta/e21ca17d-7bf2-4781-94bb-bcfc8943aae0
-
-<b>Senior Software Engineer, Block Production</b>
-🏢 Anza
 📍 San Francisco
-🔗 https://www.linkedin.com/jobs/view/senior-software-engineer-block-production-at-anza-4443584853
+🔗 https://jobs.ashbyhq.com/phantom/98bf7516-80fc-446f-86a7-2fa275b58f15
+
+<b>Account Executive, Crypto GTM</b>
+🏢 Turnkey
+📍 United States
+🔗 https://www.linkedin.com/jobs/view/account-executive-crypto-gtm-at-turnkey-4443929963
