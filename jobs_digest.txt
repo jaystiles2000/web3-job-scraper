@@ -1,17 +1,26 @@
-🆕 <b>Solana / Rust Jobs — 23 Jul 2026 10:12</b>
+🆕 <b>Solana / Rust Jobs — 24 Jul 2026 10:07</b>
 <i>3 new jobs</i>
 
-<b>Payroll Coordinator</b>
-🏢 Sonic SVM
-📍 Santa Rosa
-🔗 https://boards.greenhouse.io/sonic/jobs/4077685?gh_jid=4077685
+<b>Startup Marketing</b>
+🏢 Render Network
+📍 Remote
+🔗 https://jobs.ashbyhq.com/render/503569c8-f629-44fa-9d69-72e2c6c532f1
 
-<b>Staff Software Engineer, Full Stack</b>
-🏢 Phantom
-📍 San Francisco
-🔗 https://jobs.ashbyhq.com/phantom/98bf7516-80fc-446f-86a7-2fa275b58f15
-
-<b>Account Executive, Crypto GTM</b>
-🏢 Turnkey
+<b>Senior Blockchain Engineer</b>
+🏢 Ondo Finance
 📍 United States
-🔗 https://www.linkedin.com/jobs/view/account-executive-crypto-gtm-at-turnkey-4443929963
+🔗 https://www.linkedin.com/jobs/view/senior-blockchain-engineer-at-ondo-finance-4444080332
+
+<b>Senior Product Manager</b>
+🏢 Ondo Finance
+📍 United States
+🔗 https://www.linkedin.com/jobs/view/senior-product-manager-at-ondo-finance-4444067595
+
+
+🏦 <b>Big Co Jobs — 24 Jul 2026 10:07</b>
+<i>1 roles from larger companies</i>
+
+<b>DeFi Growth Lead</b>
+🏢 Solana Foundation
+📍 Remote
+🔗 https://jobs.ashbyhq.com/solana-foundation/b40cbc32-a29c-44a8-b20a-4b0a5d3fc127
