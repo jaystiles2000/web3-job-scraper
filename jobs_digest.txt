@@ -1,26 +1,7 @@
-🆕 <b>Solana / Rust Jobs — 24 Jul 2026 10:07</b>
-<i>3 new jobs</i>
+🆕 <b>Solana / Rust Jobs — 25 Jul 2026 09:27</b>
+<i>1 new jobs</i>
 
-<b>Startup Marketing</b>
-🏢 Render Network
-📍 Remote
-🔗 https://jobs.ashbyhq.com/render/503569c8-f629-44fa-9d69-72e2c6c532f1
-
-<b>Senior Blockchain Engineer</b>
-🏢 Ondo Finance
-📍 United States
-🔗 https://www.linkedin.com/jobs/view/senior-blockchain-engineer-at-ondo-finance-4444080332
-
-<b>Senior Product Manager</b>
-🏢 Ondo Finance
-📍 United States
-🔗 https://www.linkedin.com/jobs/view/senior-product-manager-at-ondo-finance-4444067595
-
-
-🏦 <b>Big Co Jobs — 24 Jul 2026 10:07</b>
-<i>1 roles from larger companies</i>
-
-<b>DeFi Growth Lead</b>
-🏢 Solana Foundation
-📍 Remote
-🔗 https://jobs.ashbyhq.com/solana-foundation/b40cbc32-a29c-44a8-b20a-4b0a5d3fc127
+<b>SIEM &amp; SecOps Engineer II</b>
+🏢 Zeta Markets
+📍 Hyderabad
+🔗 https://jobs.lever.co/zeta/f140e9d7-8d0c-4e24-bace-8568385b6f5c
