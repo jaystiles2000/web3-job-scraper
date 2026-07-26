@@ -1,6 +1,2 @@
-🆕 <b>Solidity Jobs — 25 Jul 2026 09:27</b>
-<i>1 new jobs</i>
-
-<b>Smart Contract Engineer</b>
-🏢 Matrixport
-🔗 https://jobs.dragonfly.xyz/companies/matrixport/jobs/87476970-smart-contract-engineer
+<b>Solidity — 26 Jul 2026</b>
+No new jobs since last run.

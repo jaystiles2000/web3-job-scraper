@@ -1,7 +1,2 @@
-🆕 <b>Solana / Rust Jobs — 25 Jul 2026 09:27</b>
-<i>1 new jobs</i>
-
-<b>SIEM &amp; SecOps Engineer II</b>
-🏢 Zeta Markets
-📍 Hyderabad
-🔗 https://jobs.lever.co/zeta/f140e9d7-8d0c-4e24-bace-8568385b6f5c
+<b>Solana / Rust — 26 Jul 2026</b>
+No new jobs since last run.
