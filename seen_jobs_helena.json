@@ -167,6 +167,7 @@
   "job::seniorproductmanagerpayments::bitpanda": "2026-06-16",
   "job::seniorproductmanagerpayments::kraken": "2026-06-24",
   "job::seniorproductmanagerplatform::honeycombprotocol": "2026-06-20",
+  "job::seniorproductmanagerpredictionsexchange::cryptocom": "2026-07-27",
   "job::seniorproductmanagerrepublicwallet::republic": "2026-07-01",
   "job::seniorproductmanagerscale::honeycombprotocol": "2026-06-20",
   "job::seniorproductmanagertokenizedstocksequitytradingdex::okx": "2026-06-09",
