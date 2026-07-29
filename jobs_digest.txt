@@ -1,55 +1,12 @@
-🆕 <b>Solana / Rust Jobs — 28 Jul 2026 10:22</b>
-<i>9 new jobs</i>
+🆕 <b>Solana / Rust Jobs — 29 Jul 2026 10:28</b>
+<i>2 new jobs</i>
 
-<b>Trading Growth Lead</b>
-🏢 Solana Foundation 📍 Asia
-🔗 https://web3.career/trading-growth-lead-solanafoundation/151973
-
-<b>Traffic Control Technician</b>
+<b>Accounting Manager</b>
 🏢 Sonic SVM
 📍 Santa Rosa
-🔗 https://boards.greenhouse.io/sonic/jobs/3980706?gh_jid=3980706
+🔗 https://boards.greenhouse.io/sonic/jobs/2081835?gh_jid=2081835
 
-<b>Senior IT Engineer</b>
-🏢 Magic Eden
-📍 Melbourne, Australia
-🔗 https://jobs.ashbyhq.com/magiceden/70e3955e-23b7-42d9-9263-d5f72f702aa9
-
-<b>Executive Business Partner (CEO, VP of Finance, VP of People)</b>
-🏢 Render Network
-📍 San Francisco
-🔗 https://jobs.ashbyhq.com/render/1fffd796-b589-4cc1-9664-ed1d2c3d9938
-
-<b>People Partner</b>
-🏢 Render Network
-📍 San Francisco
-🔗 https://jobs.ashbyhq.com/render/bce71e37-e1c4-4605-8906-1c9d6fcbc399
-
-<b>Revenue Operations Manager</b>
-🏢 Render Network
-📍 Remote
-🔗 https://jobs.ashbyhq.com/render/ca865a27-e5c2-4b3d-843a-076f898ad1df
-
-<b>Software Engineer, User Auth Experience</b>
+<b>Software Engineer, Agent Auth Experience</b>
 🏢 Render Network
 📍 Remote
 🔗 https://jobs.ashbyhq.com/render/8815f772-6895-4383-a9e5-6c7bdc2bf141
-
-<b>Trading Growth Lead</b>
-🏢 Solana
-📍 United States
-🔗 https://www.linkedin.com/jobs/view/trading-growth-lead-at-solana-4445929985
-
-<b>Senior Rust Engineer for Exciting Blockchain Project</b>
-🏢 Autheo
-📍 Cheyenne, Wy
-🔗 https://www.linkedin.com/jobs/view/senior-rust-engineer-for-exciting-blockchain-project-at-autheo-4442881932
-
-
-🏦 <b>Big Co Jobs — 28 Jul 2026 10:22</b>
-<i>1 roles from larger companies</i>
-
-<b>Senior IT Security Engineer</b>
-🏢 Solana Foundation
-📍 Remote
-🔗 https://jobs.ashbyhq.com/solana-foundation/4f658f17-45e0-446a-a075-b9761bb7f0ff
