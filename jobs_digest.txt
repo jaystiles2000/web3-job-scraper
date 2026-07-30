@@ -1,12 +1,35 @@
-🆕 <b>Solana / Rust Jobs — 29 Jul 2026 10:28</b>
-<i>2 new jobs</i>
+🆕 <b>Solana / Rust Jobs — 30 Jul 2026 10:12</b>
+<i>5 new jobs</i>
 
-<b>Accounting Manager</b>
-🏢 Sonic SVM
-📍 Santa Rosa
-🔗 https://boards.greenhouse.io/sonic/jobs/2081835?gh_jid=2081835
+<b>FullStack Solana Developer</b>
+🏢 FBYT 📍 Remote
+🔗 https://web3.career/full-stack-solana-developer-fbyt/152053
 
-<b>Software Engineer, Agent Auth Experience</b>
-🏢 Render Network
+<b>Senior Payroll Analyst</b>
+🏢 Phantom
 📍 Remote
-🔗 https://jobs.ashbyhq.com/render/8815f772-6895-4383-a9e5-6c7bdc2bf141
+🔗 https://jobs.ashbyhq.com/phantom/e8904a67-8a5f-4972-b779-aea2ac7bbd40
+
+<b>Staff Software Engineer, Frontend (Platform)</b>
+🏢 Phantom
+📍 Remote
+🔗 https://jobs.ashbyhq.com/phantom/1abf3c00-bb38-4590-ae01-098acf510acd
+
+<b>Staff Software Engineer, Frontend (Trading)</b>
+🏢 Phantom
+📍 Remote
+🔗 https://jobs.ashbyhq.com/phantom/1a7b0f14-556b-4bb0-b1c1-43702d6b56c3
+
+<b>Senior Full-Stack Engineer (Web3)</b>
+🏢 Ondo Finance
+📍 United States
+🔗 https://www.linkedin.com/jobs/view/senior-full-stack-engineer-web3-at-ondo-finance-4444068516
+
+
+🏦 <b>Big Co Jobs — 30 Jul 2026 10:12</b>
+<i>1 roles from larger companies</i>
+
+<b>Senior Executive Assistant, Technology</b>
+🏢 Solana Foundation
+📍 Remote
+🔗 https://jobs.ashbyhq.com/solana-foundation/7cf367f2-ecc0-410f-aad6-f158e9bc4989
