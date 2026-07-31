@@ -1,35 +1,26 @@
-🆕 <b>Solana / Rust Jobs — 30 Jul 2026 10:12</b>
+🆕 <b>Solana / Rust Jobs — 31 Jul 2026 10:28</b>
 <i>5 new jobs</i>
 
-<b>FullStack Solana Developer</b>
-🏢 FBYT 📍 Remote
-🔗 https://web3.career/full-stack-solana-developer-fbyt/152053
-
-<b>Senior Payroll Analyst</b>
-🏢 Phantom
-📍 Remote
-🔗 https://jobs.ashbyhq.com/phantom/e8904a67-8a5f-4972-b779-aea2ac7bbd40
-
-<b>Staff Software Engineer, Frontend (Platform)</b>
-🏢 Phantom
-📍 Remote
-🔗 https://jobs.ashbyhq.com/phantom/1abf3c00-bb38-4590-ae01-098acf510acd
-
-<b>Staff Software Engineer, Frontend (Trading)</b>
-🏢 Phantom
-📍 Remote
-🔗 https://jobs.ashbyhq.com/phantom/1a7b0f14-556b-4bb0-b1c1-43702d6b56c3
-
-<b>Senior Full-Stack Engineer (Web3)</b>
+<b>Senior Brand Designer</b>
 🏢 Ondo Finance
-📍 United States
-🔗 https://www.linkedin.com/jobs/view/senior-full-stack-engineer-web3-at-ondo-finance-4444068516
+🔗 https://jobs.theblockchainassociation.org/jobs/companies/ondo-finance/jobs/88168016-senior-brand-designer
 
-
-🏦 <b>Big Co Jobs — 30 Jul 2026 10:12</b>
-<i>1 roles from larger companies</i>
-
-<b>Senior Executive Assistant, Technology</b>
-🏢 Solana Foundation
+<b>Developer Community Lead</b>
+🏢 Render Network
 📍 Remote
-🔗 https://jobs.ashbyhq.com/solana-foundation/7cf367f2-ecc0-410f-aad6-f158e9bc4989
+🔗 https://jobs.ashbyhq.com/render/4611bde4-47ac-45fc-ab56-235489e52682
+
+<b>Onboarding Operations Specialist</b>
+🏢 Squads
+📍 Remote
+🔗 https://jobs.ashbyhq.com/squads/cde35094-6022-4354-8db9-8f392ef81613
+
+<b>Personal Assistant (Meal Prep &amp; Household Support)</b>
+🏢 Switchboard
+📍 Baltimore, Md
+🔗 https://jobs.ashbyhq.com/switchboard/aadd0ae7-5b66-49a3-9998-faecfcdd7fa8
+
+<b>Prediction Markets Trader</b>
+🏢 Wintermute
+📍 New York
+🔗 https://www.linkedin.com/jobs/view/prediction-markets-trader-at-wintermute-4446766961
