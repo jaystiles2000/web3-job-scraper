@@ -1,7 +1,2 @@
-🆕 <b>Solidity Jobs — 31 Jul 2026 10:28</b>
-<i>1 new jobs</i>
-
-<b>Solidity / Go Developer - Director / VP</b>
-🏢 Morgan Stanley
-📍 New York
-🔗 https://www.linkedin.com/jobs/view/solidity-go-developer-director-vp-at-morgan-stanley-4446945316
+<b>Solidity — 01 Aug 2026</b>
+No new jobs since last run.

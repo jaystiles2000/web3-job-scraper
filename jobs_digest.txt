@@ -1,26 +1,23 @@
-🆕 <b>Solana / Rust Jobs — 31 Jul 2026 10:28</b>
+🆕 <b>Solana / Rust Jobs — 01 Aug 2026 09:50</b>
 <i>5 new jobs</i>
 
-<b>Senior Brand Designer</b>
-🏢 Ondo Finance
-🔗 https://jobs.theblockchainassociation.org/jobs/companies/ondo-finance/jobs/88168016-senior-brand-designer
+<b>GM AI Ecosystem</b>
+🏢 Solana 📍 San Francisco, CA, United States
+🔗 https://web3.career/gm-ai-ecosystem-solana/152147
 
-<b>Developer Community Lead</b>
-🏢 Render Network
+<b>Plant Project Controls Specialist</b>
+🏢 Sonic SVM
+🔗 https://job-boards.greenhouse.io/sonic/jobs/8092489
+
+<b>Staff Accountant</b>
+🏢 Sonic SVM
+🔗 https://job-boards.greenhouse.io/sonic/jobs/7083347
+
+<b>Head of Business and Corporate Development</b>
+🏢 Phantom
 📍 Remote
-🔗 https://jobs.ashbyhq.com/render/4611bde4-47ac-45fc-ab56-235489e52682
+🔗 https://jobs.ashbyhq.com/phantom/a5248174-f846-49ce-924b-403a12914914
 
-<b>Onboarding Operations Specialist</b>
-🏢 Squads
-📍 Remote
-🔗 https://jobs.ashbyhq.com/squads/cde35094-6022-4354-8db9-8f392ef81613
-
-<b>Personal Assistant (Meal Prep &amp; Household Support)</b>
+<b>Personal Banker</b>
 🏢 Switchboard
-📍 Baltimore, Md
-🔗 https://jobs.ashbyhq.com/switchboard/aadd0ae7-5b66-49a3-9998-faecfcdd7fa8
-
-<b>Prediction Markets Trader</b>
-🏢 Wintermute
-📍 New York
-🔗 https://www.linkedin.com/jobs/view/prediction-markets-trader-at-wintermute-4446766961
+🔗 https://jobs.ashbyhq.com/switchboard/bd30caca-3390-4dcf-81a6-76a10e05ba4c
