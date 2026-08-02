@@ -1,23 +1,2 @@
-🆕 <b>Solana / Rust Jobs — 01 Aug 2026 09:50</b>
-<i>5 new jobs</i>
-
-<b>GM AI Ecosystem</b>
-🏢 Solana 📍 San Francisco, CA, United States
-🔗 https://web3.career/gm-ai-ecosystem-solana/152147
-
-<b>Plant Project Controls Specialist</b>
-🏢 Sonic SVM
-🔗 https://job-boards.greenhouse.io/sonic/jobs/8092489
-
-<b>Staff Accountant</b>
-🏢 Sonic SVM
-🔗 https://job-boards.greenhouse.io/sonic/jobs/7083347
-
-<b>Head of Business and Corporate Development</b>
-🏢 Phantom
-📍 Remote
-🔗 https://jobs.ashbyhq.com/phantom/a5248174-f846-49ce-924b-403a12914914
-
-<b>Personal Banker</b>
-🏢 Switchboard
-🔗 https://jobs.ashbyhq.com/switchboard/bd30caca-3390-4dcf-81a6-76a10e05ba4c
+<b>Solana / Rust — 02 Aug 2026</b>
+No new jobs since last run.
