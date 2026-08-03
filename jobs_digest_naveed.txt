@@ -1,6 +1,2 @@
-🆕 <b>Solidity Jobs — 02 Aug 2026 09:49</b>
-<i>1 new jobs</i>
-
-<b>Smart Contract Developer</b>
-🏢 Easiio, Inc 📍 United States
-🔗 https://web3.career/smart-contract-developer-easiio-inc/152188
+<b>Solidity — 03 Aug 2026</b>
+No new jobs since last run.
