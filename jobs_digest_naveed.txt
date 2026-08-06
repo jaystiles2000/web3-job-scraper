@@ -1,6 +1,11 @@
-🆕 <b>Solidity Jobs — 05 Aug 2026 10:24</b>
-<i>1 new jobs</i>
+🆕 <b>Solidity Jobs — 06 Aug 2026 10:36</b>
+<i>2 new jobs</i>
 
-<b>Solidity Protocol Engineer</b>
-🏢 Nodveta 📍 United States
-🔗 https://web3.career/solidity-protocol-engineer-nodveta/152294
+<b>Smart Contract Engineer</b>
+🏢 Crebit 📍 San Francisco, CA, United States
+🔗 https://web3.career/smart-contract-engineer-crebit/152322
+
+<b>Smart Contract Engineer</b>
+🏢 Crebit
+📍 San Francisco
+🔗 https://www.linkedin.com/jobs/view/smart-contract-engineer-at-crebit-4449648266

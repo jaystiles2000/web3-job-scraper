@@ -1,7 +1,14 @@
-🆕 <b>Solana / Rust Jobs — 05 Aug 2026 10:24</b>
-<i>1 new jobs</i>
+🆕 <b>Solana / Rust Jobs — 06 Aug 2026 10:36</b>
+<i>3 new jobs</i>
 
-<b>Product Designer</b>
-🏢 Jito
-📍 Worldwide
-🔗 https://jobs.lever.co/jito/97151aba-e3eb-483d-b56c-34711b873760
+<b>Software Engineer – Rust – Payward Services</b>
+🔗 https://myweb3jobs.com/job/software-engineer-rust-payward-services
+
+<b>Specialist - People Partner</b>
+🏢 Zeta Markets
+🔗 https://jobs.lever.co/zeta/ecd7a54f-218c-47a0-8379-aeb272c35bcb
+
+<b>Specialist Total Rewards</b>
+🏢 Zeta Markets
+📍 Mumbai
+🔗 https://jobs.lever.co/zeta/b099e4fe-87cf-44ad-89b6-21edfe60958b
