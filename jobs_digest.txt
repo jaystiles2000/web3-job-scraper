@@ -1,14 +1,21 @@
-🆕 <b>Solana / Rust Jobs — 06 Aug 2026 10:36</b>
-<i>3 new jobs</i>
+🆕 <b>Solana / Rust Jobs — 07 Aug 2026 08:46</b>
+<i>4 new jobs</i>
 
-<b>Software Engineer – Rust – Payward Services</b>
-🔗 https://myweb3jobs.com/job/software-engineer-rust-payward-services
+<b>Solana Protocol Engineer</b>
+🏢 Perena 📍 United States
+🔗 https://web3.career/solana-protocol-engineer-perena/152391
 
-<b>Specialist - People Partner</b>
-🏢 Zeta Markets
-🔗 https://jobs.lever.co/zeta/ecd7a54f-218c-47a0-8379-aeb272c35bcb
+<b>Fiber Optic Splicing Inspector</b>
+🏢 Sonic SVM
+📍 Dallas
+🔗 https://job-boards.greenhouse.io/sonic/jobs/7009209
 
-<b>Specialist Total Rewards</b>
-🏢 Zeta Markets
-📍 Mumbai
-🔗 https://jobs.lever.co/zeta/b099e4fe-87cf-44ad-89b6-21edfe60958b
+<b>People Operations Generalist</b>
+🏢 Render Network
+📍 San Francisco
+🔗 https://jobs.ashbyhq.com/render/b304eb09-6910-4d7f-9e61-e8abdcf254de
+
+<b>Blockchain Security Engineer - Senior Level (Solidity / Rust / Golang )</b>
+🏢 Ladders
+📍 United States
+🔗 https://www.linkedin.com/jobs/view/blockchain-security-engineer-senior-level-solidity-rust-golang-at-ladders-4448091987
