@@ -1,21 +1,11 @@
-🆕 <b>Solana / Rust Jobs — 07 Aug 2026 08:46</b>
-<i>4 new jobs</i>
+🆕 <b>Solana / Rust Jobs — 08 Aug 2026 08:28</b>
+<i>2 new jobs</i>
 
-<b>Solana Protocol Engineer</b>
-🏢 Perena 📍 United States
-🔗 https://web3.career/solana-protocol-engineer-perena/152391
-
-<b>Fiber Optic Splicing Inspector</b>
-🏢 Sonic SVM
-📍 Dallas
-🔗 https://job-boards.greenhouse.io/sonic/jobs/7009209
-
-<b>People Operations Generalist</b>
+<b>Staff Product Designer - Agent Experience</b>
 🏢 Render Network
-📍 San Francisco
-🔗 https://jobs.ashbyhq.com/render/b304eb09-6910-4d7f-9e61-e8abdcf254de
+📍 Remote
+🔗 https://jobs.ashbyhq.com/render/b4a86799-59d4-4bf3-9681-23264550f1ea
 
-<b>Blockchain Security Engineer - Senior Level (Solidity / Rust / Golang )</b>
-🏢 Ladders
-📍 United States
-🔗 https://www.linkedin.com/jobs/view/blockchain-security-engineer-senior-level-solidity-rust-golang-at-ladders-4448091987
+<b>Senior Rust/Solana Engineer</b>
+🏢 Nodveta
+🔗 https://www.linkedin.com/jobs/view/senior-rust-solana-engineer-at-nodveta-4450792447
