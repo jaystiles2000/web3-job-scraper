@@ -1,11 +1,10 @@
-🆕 <b>Solana / Rust Jobs — 08 Aug 2026 08:28</b>
+🆕 <b>Solana / Rust Jobs — 09 Aug 2026 08:30</b>
 <i>2 new jobs</i>
 
-<b>Staff Product Designer - Agent Experience</b>
-🏢 Render Network
-📍 Remote
-🔗 https://jobs.ashbyhq.com/render/b4a86799-59d4-4bf3-9681-23264550f1ea
+<b>Solana Protocol Engineer</b>
+🔗 https://myweb3jobs.com/job/solana-protocol-engineer
 
-<b>Senior Rust/Solana Engineer</b>
-🏢 Nodveta
-🔗 https://www.linkedin.com/jobs/view/senior-rust-solana-engineer-at-nodveta-4450792447
+<b>Solidity/Solana Smart Contract Developer</b>
+🏢 Gaurav Dot One
+📍 United States
+🔗 https://www.linkedin.com/jobs/view/solidity-solana-smart-contract-developer-at-gaurav-dot-one-4450922971
