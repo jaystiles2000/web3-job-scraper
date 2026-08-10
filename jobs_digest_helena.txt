@@ -1,7 +1,8 @@
-🆕 <b>Product Jobs — 09 Aug 2026 08:30</b>
-<i>1 new jobs</i>
+🆕 <b>Product Jobs — 10 Aug 2026 09:07</b>
+<i>2 new jobs</i>
 
-<b>Product Manager — Stablecoin Infrastructure</b>
-🏢 New Frontier Partners Group
-📍 United States
-🔗 https://www.linkedin.com/jobs/view/product-manager-%E2%80%94-stablecoin-infrastructure-at-new-frontier-partners-group-4449288162
+<b>Staff Product Manager (Vaults)</b>
+🔗 https://morpho.org/jobs/ashby-staff-product-manager-vaults-67c72479-36a8-4c25-bb46-413a8d4eee84
+
+<b>Technical Program Manager (Protocol)</b>
+🔗 https://morpho.org/jobs/ashby-technical-program-manager-protocol-4629f300-5871-4acd-b430-9b2ffdbc524d

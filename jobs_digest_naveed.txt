@@ -1,7 +1,2 @@
-🆕 <b>Solidity Jobs — 09 Aug 2026 08:30</b>
-<i>1 new jobs</i>
-
-<b>Solidity/Solana Smart Contract Developer</b>
-🏢 Gaurav Dot One
-📍 United States
-🔗 https://www.linkedin.com/jobs/view/solidity-solana-smart-contract-developer-at-gaurav-dot-one-4450922971
+<b>Solidity — 10 Aug 2026</b>
+No new jobs since last run.
