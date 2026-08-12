@@ -1,16 +1,15 @@
-🆕 <b>Solana / Rust Jobs — 11 Aug 2026 08:44</b>
+🆕 <b>Solana / Rust Jobs — 12 Aug 2026 09:00</b>
 <i>3 new jobs</i>
 
-<b>Product Marketing Manager</b>
-🏢 Solana Labs 📍 United States
-🔗 https://web3.career/product-marketing-manager-solanalabs/152514
+<b>Senior Software Engineer, Protocol (Rust)</b>
+🔗 https://cryptocurrencyjobs.co/engineering/op-labs-senior-software-engineer-protocol-rust
 
-<b>Plant Project Manager</b>
-🏢 Sonic SVM
-📍 Bellflower, Ca
-🔗 https://job-boards.greenhouse.io/sonic/jobs/8120523
-
-<b>Software Engineer, Expansion (all levels)</b>
-🏢 Render Network
+<b>Growth Marketing Manager (Lifecycle)</b>
+🏢 Phantom
 📍 Remote
-🔗 https://jobs.ashbyhq.com/render/06377f8a-a255-412a-8032-18ace1d005a5
+🔗 https://jobs.ashbyhq.com/phantom/7d8ded79-dc7c-4129-8f46-42f0405713ed
+
+<b>Director of Business Development, Financial Institutions</b>
+🏢 Monad Foundation
+📍 New York
+🔗 https://jobs.ashbyhq.com/monad.foundation/c3707b91-da6a-49ce-90d2-30f5d44bb495
