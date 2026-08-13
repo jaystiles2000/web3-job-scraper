@@ -1,15 +1,49 @@
-🆕 <b>Solana / Rust Jobs — 12 Aug 2026 09:00</b>
-<i>3 new jobs</i>
+🆕 <b>Solana / Rust Jobs — 13 Aug 2026 09:03</b>
+<i>12 new jobs</i>
 
-<b>Senior Software Engineer, Protocol (Rust)</b>
-🔗 https://cryptocurrencyjobs.co/engineering/op-labs-senior-software-engineer-protocol-rust
+<b>Principal Security Engineer Solana</b>
+🏢 OpenZeppelin 📍 Remote
+🔗 https://web3.career/principal-security-engineer-solana-openzeppelin/152594
 
-<b>Growth Marketing Manager (Lifecycle)</b>
-🏢 Phantom
-📍 Remote
-🔗 https://jobs.ashbyhq.com/phantom/7d8ded79-dc7c-4129-8f46-42f0405713ed
-
-<b>Director of Business Development, Financial Institutions</b>
+<b>Strategic Finance Associate</b>
 🏢 Monad Foundation
 📍 New York
-🔗 https://jobs.ashbyhq.com/monad.foundation/c3707b91-da6a-49ce-90d2-30f5d44bb495
+🔗 https://jobs.ashbyhq.com/monad.foundation/4a1320ee-8d8c-440f-a817-7e233044d2ef
+
+<b>Sr. Product Marketing Manager</b>
+🏢 Helius
+📍 North America
+🔗 https://jobs.ashbyhq.com/helius/61fcd2db-46c0-4537-81db-95d04689a124
+
+<b>Rev Ops Analyst</b>
+🏢 Switchboard
+📍 Dallas, Tx
+🔗 https://jobs.ashbyhq.com/switchboard/9eecd08f-0ede-4a56-a67f-6bcc19dfeb28
+
+<b>Treasury Management Officer</b>
+🏢 Switchboard
+🔗 https://jobs.ashbyhq.com/switchboard/434f8c59-fe2d-41bc-9e88-617806d9a836
+
+<b>Trust Department Officer</b>
+🏢 Switchboard
+🔗 https://jobs.ashbyhq.com/switchboard/5668a8e5-bfe5-412b-ae2a-5ea6d45f5898
+
+<b>Principal Security Engineer (Solana)</b>
+🏢 OpenZeppelin
+📍 United States
+🔗 https://www.linkedin.com/jobs/view/principal-security-engineer-solana-at-openzeppelin-4450181317
+
+<b>#077AnalogSenior Rust and Substrate EngineerBuild the omnichain future with Analog, the true Layer-0 blockchain networksubstrateRustBlockchain developmentCompetitiveRemote · 7d</b>
+🔗 https://blockchain.works-hub.com/jobs/remote-senior-rust-and-substrate-engineer-cea
+
+<b>#093Kraken ExchangeSenior Software Engineer - Rust - BackendKraken is a mission-focused company rooted in crypto values. As a Krakenite, you’ll join us on our mission to accelerate the global adoption of crypto, so that everyone can achieve financial freedom and inclusion. For over a decade, Kraken’s focus on our mission and crypto ethos has attracted many of the most talented crypto experts in the world.RustCompetitiveRemote · 7d</b>
+🔗 https://blockchain.works-hub.com/jobs/remote-senior-software-engineer-rust-backend-364
+
+<b>#111HeliusSenior Backend EngineerThe Best Solana RPCsRustSolanaCompetitiveRemote · 7d</b>
+🔗 https://blockchain.works-hub.com/jobs/remote-senior-backend-engineer-342
+
+<b>#133Rather LabsBlockchain Developer / Smart Contract EngineerBuild secure, production-ready smart contracts and blockchain protocols across EVM and emerging Web3 ecosystems.TypeScriptSoliditySolanaSmart Contract$500 - 700 per dayRemote · 7d</b>
+🔗 https://blockchain.works-hub.com/jobs/remote-blockchain-developer-slash-smart-contract-engineer-51a
+
+<b>#156Douro LabsDeveloper Relations Engineer (Solana)Developer Relations Engineer with 3–5 years of technical experience, ideally with a background in SVM-based dApps, to help grow and support the Pyth Network developer communityDeveloper RelationsSolanaCompetitiveRemote · 7d</b>
+🔗 https://blockchain.works-hub.com/jobs/remote-developer-relations-engineer-solana-98b
