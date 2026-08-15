@@ -1,21 +1,7 @@
-🆕 <b>Solana / Rust Jobs — 14 Aug 2026 08:58</b>
-<i>2 new jobs</i>
+🆕 <b>Solana / Rust Jobs — 15 Aug 2026 08:16</b>
+<i>1 new jobs</i>
 
-<b>Billing Representative I</b>
-🏢 Sonic SVM
-📍 Santa Rosa
-🔗 https://job-boards.greenhouse.io/sonic/jobs/238011
-
-<b>Weekend Anchor/ MMJ</b>
-🏢 Sinclair Inc.
-📍 Tulsa, Ok
-🔗 https://www.linkedin.com/jobs/view/weekend-anchor-mmj-at-sinclair-inc-4397429307
-
-
-🏦 <b>Big Co Jobs — 14 Aug 2026 08:58</b>
-<i>1 roles from larger companies</i>
-
-<b>Senior Accountant, Financial Operations</b>
-🏢 Solana Foundation
+<b>Staff DevOps Engineer (Platform)</b>
+🏢 Phantom
 📍 Remote
-🔗 https://jobs.ashbyhq.com/solana-foundation/e9a5aba3-4b4d-4635-b26a-57b7d4591dfd
+🔗 https://jobs.ashbyhq.com/phantom/1ddd1eb8-9b2d-4f2a-9e70-4f76bb764e7f
