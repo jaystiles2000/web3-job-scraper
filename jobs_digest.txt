@@ -1,7 +1,2 @@
-🆕 <b>Solana / Rust Jobs — 15 Aug 2026 08:16</b>
-<i>1 new jobs</i>
-
-<b>Staff DevOps Engineer (Platform)</b>
-🏢 Phantom
-📍 Remote
-🔗 https://jobs.ashbyhq.com/phantom/1ddd1eb8-9b2d-4f2a-9e70-4f76bb764e7f
+<b>Solana / Rust — 16 Aug 2026</b>
+No new jobs since last run.

@@ -1,6 +1,2 @@
-🆕 <b>Solidity Jobs — 15 Aug 2026 08:16</b>
-<i>1 new jobs</i>
-
-<b>Smart Contract Engineer</b>
-🏢 RBC
-🔗 https://www.linkedin.com/jobs/view/smart-contract-engineer-at-rbc-4454831329
+<b>Solidity — 16 Aug 2026</b>
+No new jobs since last run.
