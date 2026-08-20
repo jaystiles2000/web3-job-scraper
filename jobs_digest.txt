@@ -1,7 +1,40 @@
-🆕 <b>Solana / Rust Jobs — 18 Aug 2026 08:23</b>
-<i>1 new jobs</i>
+🆕 <b>Solana / Rust Jobs — 20 Aug 2026 08:24</b>
+<i>8 new jobs</i>
 
-<b>Technical Account Executive</b>
-🏢 Switchboard
-📍 Denver
-🔗 https://jobs.ashbyhq.com/switchboard/17c1cff7-4dc8-48e0-ac0c-77bf7ac062c0
+<b>Software Engineer – Rust – Consumer</b>
+🔗 https://myweb3jobs.com/job/software-engineer-rust-consumer
+
+<b>Senior Copywriter</b>
+🏢 Phantom
+📍 Remote
+🔗 https://jobs.ashbyhq.com/phantom/7ac2190c-cefb-495d-aa3f-92cbb6d165ca
+
+<b>Senior Software Engineer, Backend</b>
+🏢 Helius
+📍 North America
+🔗 https://jobs.ashbyhq.com/helius/fff1e597-ca3c-48aa-a171-d68c624419da
+
+<b>Staff Software Engineer, Backend</b>
+🏢 Helius
+📍 North America
+🔗 https://jobs.ashbyhq.com/helius/2548cac4-348b-4103-8f8c-79c510fbd009
+
+<b>Head of Revenue Partnerships</b>
+🏢 Render Network
+📍 Remote
+🔗 https://jobs.ashbyhq.com/render/0f8243b0-2610-4e7d-935b-0abed0bde208
+
+<b>Social Media &amp; Community Lead</b>
+🏢 Render Network
+📍 Remote
+🔗 https://jobs.ashbyhq.com/render/4611bde4-47ac-45fc-ab56-235489e52682
+
+<b>Solution Train Manager</b>
+🏢 Zeta Markets
+📍 Hyderabad
+🔗 https://jobs.lever.co/zeta/fed5c9f3-42ae-4bf8-89b7-2b7edb333af4
+
+<b>Quantitative Developer - Risk</b>
+🏢 Ellipsis Labs
+📍 New York
+🔗 https://www.linkedin.com/jobs/view/quantitative-developer-risk-at-ellipsis-labs-4456452264
