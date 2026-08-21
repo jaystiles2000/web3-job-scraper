@@ -1,2 +1,7 @@
-<b>Solidity — 20 Aug 2026</b>
-No new jobs since last run.
+🆕 <b>Solidity Jobs — 21 Aug 2026 08:26</b>
+<i>1 new jobs</i>
+
+<b>Smart Contract Auditor</b>
+🏢 XamDesign
+📍 United States
+🔗 https://www.linkedin.com/jobs/view/smart-contract-auditor-at-xamdesign-4451194292
