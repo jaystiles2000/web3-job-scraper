@@ -1,12 +1,2 @@
-🆕 <b>Solana / Rust Jobs — 21 Aug 2026 08:26</b>
-<i>2 new jobs</i>
-
-<b>Fiber Installation Tech</b>
-🏢 Sonic SVM
-📍 Hayward
-🔗 https://job-boards.greenhouse.io/sonic/jobs/2036180
-
-<b>Rust Engineer</b>
-🏢 ArtOfBlockchain
-📍 Austin
-🔗 https://www.linkedin.com/jobs/view/rust-engineer-at-artofblockchain-4456765859
+<b>Solana / Rust — 22 Aug 2026</b>
+No new jobs since last run.
