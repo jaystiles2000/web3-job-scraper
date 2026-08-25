@@ -1,7 +1,2 @@
-🆕 <b>Solidity Jobs — 24 Aug 2026 08:36</b>
-<i>1 new jobs</i>
-
-<b>Smart Contract QA Engineer, Atlas Oracle</b>
-🏢 CryptoCurrency ICO/Airdrop
-📍 United States
-🔗 https://www.linkedin.com/jobs/view/smart-contract-qa-engineer-atlas-oracle-at-cryptocurrency-ico-airdrop-4456842067
+<b>Solidity — 25 Aug 2026</b>
+No new jobs since last run.

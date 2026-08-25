@@ -1,23 +1,2 @@
-🆕 <b>Solana / Rust Jobs — 24 Aug 2026 08:36</b>
-<i>5 new jobs</i>
-
-<b>Backend Engineer – Solana</b>
-🔗 https://myweb3jobs.com/job/backend-engineer-solana-2
-
-<b>Anchor, Weather</b>
-🏢 Nexstar Media Group, Inc.
-🔗 https://www.linkedin.com/jobs/view/anchor-weather-at-nexstar-media-group-inc-4438385927
-
-<b>Morning Anchor</b>
-🏢 Nexstar Media Group, Inc.
-🔗 https://www.linkedin.com/jobs/view/morning-anchor-at-nexstar-media-group-inc-4438911699
-
-<b>News Anchor</b>
-🏢 Nexstar Media Group, Inc.
-📍 Peoria, Il
-🔗 https://www.linkedin.com/jobs/view/news-anchor-at-nexstar-media-group-inc-4379144040
-
-<b>News Anchor - Reporter (Weekends)</b>
-🏢 Sinclair Inc.
-📍 Columbus, Oh
-🔗 https://www.linkedin.com/jobs/view/news-anchor-reporter-weekends-at-sinclair-inc-4411424802
+<b>Solana / Rust — 25 Aug 2026</b>
+No new jobs since last run.
