@@ -61,6 +61,7 @@
   "job::emailmarketingmanager::crux": "2026-05-15",
   "job::eventsmarketingmanager::moonpay": "2026-06-05",
   "job::eventsmarketingmanager::squads": "2026-05-15",
+  "job::fieldmarketingcoordinator::chainalysis": "2026-08-28",
   "job::fieldmarketingmanager::dustprotocol": "2026-05-19",
   "job::fieldmarketingmanager::sardine": "2026-06-23",
   "job::fieldmarketingmanagerapac::lighthousesolana": "2026-05-19",

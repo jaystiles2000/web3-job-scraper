@@ -1,32 +1,27 @@
-🆕 <b>Solana / Rust Jobs — 27 Aug 2026 18:30</b>
-<i>6 new jobs</i>
+🆕 <b>Solana / Rust Jobs — 28 Aug 2026 19:44</b>
+<i>5 new jobs</i>
 
-<b>Strategic Finance Partner</b>
-🏢 Monad Foundation
-📍 New York
-🔗 https://jobs.ashbyhq.com/monad.foundation/4a1320ee-8d8c-440f-a817-7e233044d2ef
+<b>Engineering Manager, Object Storage</b>
+🏢 Render Network
+📍 Remote
+🔗 https://jobs.ashbyhq.com/render/d326d138-568f-49b7-a560-da42a0742886
 
-<b>Telemundo Austin Managing Editor/ Anchor</b>
-🏢 Sinclair Inc.
-📍 Austin
-🔗 https://www.linkedin.com/jobs/view/telemundo-austin-managing-editor-anchor-at-sinclair-inc-4449995458
+<b>Engineering Manager, Postgres</b>
+🏢 Render Network
+📍 Remote
+🔗 https://jobs.ashbyhq.com/render/e1f2d6a2-b9e2-4f16-b863-3ca228c83e75
 
-<b>Regional Business Development Manager - Central</b>
+<b>Special Assets Officer</b>
+🏢 Switchboard
+📍 Denver
+🔗 https://jobs.ashbyhq.com/switchboard/0cada8db-6a54-4788-9303-48cd4e4a4588
+
+<b>Anchor Reporter</b>
+🏢 KSBW 8 NBC • Central Coast ABC • Estrella TV
+📍 Salinas, Ca
+🔗 https://www.linkedin.com/jobs/view/anchor-reporter-at-ksbw-8
+
+<b>Regional Business Development Manager - East</b>
 🏢 Anchor Loans
 📍 United States
-🔗 https://www.linkedin.com/jobs/view/regional-business-development-manager-central-at-anchor-loans-4446452841
-
-<b>Morning News Anchor/Reporter</b>
-🏢 Sinclair Inc.
-📍 Fresno, Ca
-🔗 https://www.linkedin.com/jobs/view/morning-news-anchor-reporter-at-sinclair-inc-4459659247
-
-<b>Telemundo News Anchor/Producer/MMJ</b>
-🏢 Nexstar Media Group, Inc.
-📍 Abilene, Tx
-🔗 https://www.linkedin.com/jobs/view/telemundo-news-anchor-producer-mmj-at-nexstar-media-group-inc-4457989938
-
-<b>Livestream Anchor</b>
-🏢 KXAN
-📍 Austin
-🔗 https://www.linkedin.com/jobs/view/livestream-anchor-at-kxan-4439971165
+🔗 https://www.linkedin.com/jobs/view/regional-business-development-manager-east-at-anchor-loans-4454416674
