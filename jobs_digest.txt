@@ -1,7 +1,32 @@
-🆕 <b>Solana / Rust Jobs — 31 Aug 2026 15:37</b>
-<i>1 new jobs</i>
+🆕 <b>Solana / Rust Jobs — 01 Sep 2026 12:54</b>
+<i>7 new jobs</i>
 
-<b>Senior Risk &amp; Trading Analyst, Sportsbook</b>
-🏢 Magic Eden
-📍 Melbourne, Australia
-🔗 https://jobs.ashbyhq.com/magiceden/d0ffdca1-262a-4006-834f-b71ebe1bf152
+<b>Senior Rust Engineer （Permance engineering</b>
+🏢 Binance 📍 Hong Kong, Hong Kong
+🔗 https://web3.career/senior-rust-engineer-performance-engineering-binance/153471
+
+<b>Sr. Associate / Lead Designer</b>
+🏢 Zeta Markets
+🔗 https://jobs.lever.co/zeta/542861ab-f44c-4b51-b6c4-496db7821f1b
+
+<b>ARC Anchor / MMJ</b>
+🏢 Sinclair Inc.
+🔗 https://www.linkedin.com/jobs/view/arc-anchor-mmj-at-sinclair-inc-4424990260
+
+<b>News Anchor - Reporter</b>
+🏢 Sinclair Inc.
+📍 Redding, Ca
+🔗 https://www.linkedin.com/jobs/view/news-anchor-reporter-at-sinclair-inc-4384891464
+
+<b>News Anchor</b>
+🏢 Sinclair Inc.
+📍 Tulsa, Ok
+🔗 https://www.linkedin.com/jobs/view/news-anchor-at-sinclair-inc-4461556636
+
+<b>Morning News Anchor</b>
+🏢 Sinclair Inc.
+🔗 https://www.linkedin.com/jobs/view/morning-news-anchor-at-sinclair-inc-4461560645
+
+<b>Reporter MMJ/Weather Anchor</b>
+🏢 Nexstar Media Group, Inc.
+🔗 https://www.linkedin.com/jobs/view/reporter-mmj-weather-anchor-at-nexstar-media-group-inc-4460201754
