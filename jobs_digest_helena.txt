@@ -1,10 +1,6 @@
-🆕 <b>Product Jobs — 01 Sep 2026 12:54</b>
-<i>2 new jobs</i>
+🆕 <b>Product Jobs — 02 Sep 2026 12:23</b>
+<i>1 new jobs</i>
 
-<b>AI Product Manager – CrossBorder Payments</b>
-🏢 Coins.ph 📍 Shenzhen, China
-🔗 https://web3.career/ai-product-manager-cross-border-payments-coins/153513
-
-<b>Senior Program Manager Business Integration</b>
-🏢 CoinDesk 📍 New York, NY, United States
-🔗 https://web3.career/senior-program-manager-business-integration-coindesk/153504
+<b>Technical Project Manager Auth</b>
+🏢 zerohash 📍 New York, NY, United States
+🔗 https://web3.career/technical-project-manager-auth-zerohash/153570
