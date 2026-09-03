@@ -1,11 +1,2 @@
-🆕 <b>Solidity Jobs — 02 Sep 2026 12:23</b>
-<i>2 new jobs</i>
-
-<b>Sr. Blockchain Engineer Blockchain Engineer Smart Contract Engineer</b>
-🏢 CREAM, LLC 📍 Las Vegas, NV, United States
-🔗 https://web3.career/sr-blockchain-engineer-blockchain-engineer-smart-contract-engineer-cream-llc/153571
-
-<b>Smart Contract Engineer</b>
-🏢 X-Team
-📍 United States
-🔗 https://www.linkedin.com/jobs/view/smart-contract-engineer-at-x-team-4462006075
+<b>Solidity — 03 Sep 2026</b>
+No new jobs since last run.
