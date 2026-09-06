@@ -1,11 +1,2 @@
-🆕 <b>Solana / Rust Jobs — 05 Sep 2026 11:29</b>
-<i>2 new jobs</i>
-
-<b>Anchor/Reporter</b>
-🏢 Sinclair Inc.
-📍 Asheville, Nc
-🔗 https://www.linkedin.com/jobs/view/anchor-reporter-at-sinclair-inc-4427907762
-
-<b>Traffic Control Technician</b>
-🏢 Sonic
-🔗 https://www.linkedin.com/jobs/view/traffic-control-technician-at-sonic-4463634587
+<b>Solana / Rust — 06 Sep 2026</b>
+No new jobs since last run.
