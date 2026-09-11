@@ -1,17 +1,17 @@
-🆕 <b>Solana / Rust Jobs — 10 Sep 2026 12:29</b>
+🆕 <b>Solana / Rust Jobs — 11 Sep 2026 12:33</b>
 <i>3 new jobs</i>
 
-<b>Staff /Principal Product Manager - Data and Storage</b>
+<b>Growth Partnerships Lead</b>
+🏢 Phantom
+📍 Remote
+🔗 https://jobs.ashbyhq.com/phantom/d1c4fabe-d012-4a5d-845c-986a1e5ea976
+
+<b>Head of Strategic Partnerships &amp; Ecosystem</b>
 🏢 Render Network
 📍 Remote
-🔗 https://jobs.ashbyhq.com/render/d0860ea9-fdbd-4a66-82bc-1d75228cf594
+🔗 https://jobs.ashbyhq.com/render/a08513c2-b39d-45d6-9194-348d38035f55
 
-<b>Executive Assistant/Senior Executive Assistant</b>
+<b>Director - Solution Engineering</b>
 🏢 Zeta Markets
-📍 Mumbai
-🔗 https://jobs.lever.co/zeta/db110756-b496-49a2-bde5-49ab46e963b8
-
-<b>Business Development Manager (Sports/Prediction Markets)</b>
-🏢 Wintermute
-📍 United States
-🔗 https://www.linkedin.com/jobs/view/business-development-manager-sports-prediction-markets-at-wintermute-4463860990
+📍 East Coast
+🔗 https://jobs.lever.co/zeta/fe9b2558-10da-4a2c-907f-0dee2a1d76be
