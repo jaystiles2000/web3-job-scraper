@@ -1,17 +1,51 @@
-🆕 <b>Solana / Rust Jobs — 11 Sep 2026 12:33</b>
-<i>3 new jobs</i>
+🆕 <b>Solana / Rust Jobs — 12 Sep 2026 11:49</b>
+<i>11 new jobs</i>
 
-<b>Growth Partnerships Lead</b>
-🏢 Phantom
-📍 Remote
-🔗 https://jobs.ashbyhq.com/phantom/d1c4fabe-d012-4a5d-845c-986a1e5ea976
+<b>Business Development &amp; Partnerships Director</b>
+🏢 Wintermute
+🔗 https://cryptojobslist.com/jobs/business-development-partnerships-london-at-wintermute
 
-<b>Head of Strategic Partnerships &amp; Ecosystem</b>
+<b>Product Manager</b>
+🏢 Wintermute
+📍 New York
+🔗 https://cryptojobslist.com/jobs/product-manager-london-new-york-at-wintermute
+
+<b>Product Engineering - Team Lead</b>
+🏢 Wintermute
+🔗 https://cryptojobslist.com/jobs/product-engineering-team-lead-london-at-wintermute
+
+<b>Machine Learning Researcher</b>
+🏢 Wintermute
+🔗 https://cryptojobslist.com/jobs/machine-learning-researcher-london-at-wintermute
+
+<b>C++ Quant Developer - Options</b>
+🏢 Wintermute
+📍 Options London
+🔗 https://cryptojobslist.com/jobs/c-quant-developer-options-london-at-wintermute
+
+<b>Core Developer (Python)</b>
+🏢 Wintermute
+📍 Python London
+🔗 https://cryptojobslist.com/jobs/core-developer-python-london-at-wintermute
+
+<b>Infrastructure Support Engineer</b>
+🏢 Wintermute
+🔗 https://cryptojobslist.com/jobs/infrastructure-support-engineer-london-at-wintermute
+
+<b>Graduate Algorithmic Trader 2027</b>
+🏢 Wintermute
+📍 New York
+🔗 https://cryptojobslist.com/jobs/graduate-algorithmic-trader-2027-new-york-at-wintermute
+
+<b>Quant Researcher (MFT Focus)</b>
+🏢 Wintermute
+📍 Focus London
+🔗 https://cryptojobslist.com/jobs/quant-researcher-mft-focus-london-at-wintermute
+
+<b>Forward Deployed Engineer</b>
 🏢 Render Network
-📍 Remote
-🔗 https://jobs.ashbyhq.com/render/a08513c2-b39d-45d6-9194-348d38035f55
+🔗 https://jobs.ashbyhq.com/render/b29de212-fcca-4b5d-8640-a165b23d5d6c
 
-<b>Director - Solution Engineering</b>
-🏢 Zeta Markets
-📍 East Coast
-🔗 https://jobs.lever.co/zeta/fe9b2558-10da-4a2c-907f-0dee2a1d76be
+<b>Evening Anchor</b>
+🏢 Nexstar Media Group, Inc.
+🔗 https://www.linkedin.com/jobs/view/evening-anchor-at-nexstar-media-group-inc-4436884494
