@@ -1,43 +1,14 @@
-🆕 <b>Product Jobs — 12 Sep 2026 11:49</b>
-<i>5 new jobs</i>
+🆕 <b>Product Jobs — 13 Sep 2026 12:56</b>
+<i>1 new jobs</i>
 
-<b>Product Manager</b>
-🏢 Wintermute
-📍 New York
-🔗 https://cryptojobslist.com/jobs/product-manager-london-new-york-at-wintermute
-
-<b>Staff Product Designer - future opportunities</b>
-🏢 Shakepay
-📍 Remote
-🔗 https://cryptojobslist.com/jobs/staff-product-designer-future-remote-canada-at-shakepay
-
-<b>Product Manager - Accounting</b>
-🏢 Jeeves
-📍 Accounting Argentina
-🔗 https://cryptojobslist.com/jobs/product-manager-accounting-argentina-at-jeeves
-
-<b>Senior Technical Product Manager</b>
-🏢 The Raw Denim Bar Limited 📍 New York, NY, United States
-🔗 https://web3.career/senior-technical-product-manager-therawdenimbarlimited/154039
-
-<b>Program Manager Customer Success</b>
-🏢 OpenZeppelin 📍 Remote
-🔗 https://web3.career/program-manager-customer-success-openzeppelin/154015
+<b>Product Lead (Strategy + Full Stack — Leading Crypto Comparison Platform)</b>
+🔗 https://cryptocurrencyjobs.co/engineering/optimizee-group-product-lead-strategy-full-stack-leading-crypto-comparison-platform
 
 
-🏦 <b>Big Co Jobs — 12 Sep 2026 11:49</b>
-<i>3 roles from larger companies</i>
+🏦 <b>Big Co Jobs — 13 Sep 2026 12:56</b>
+<i>1 roles from larger companies</i>
 
-<b>Senior Product Manager — TradFi Wealth</b>
+<b>Product Manager - Wallet</b>
 🏢 Binance
 📍 Australia
-🔗 https://cryptojobslist.com/jobs/senior-product-manager-tradfi-wealth-taiwan-taipei-australia-sydney-at-binance
-
-<b>Technical Project Manager</b>
-🏢 Galaxy
-🔗 https://cryptojobslist.com/jobs/technical-project-manager-london-at-galaxy
-
-<b>Technical Project Manager (Data Centers)</b>
-🏢 Galaxy
-📍 Dallas Texas
-🔗 https://cryptojobslist.com/jobs/technical-project-manager-data-centers-dallas-texas-at-galaxy
+🔗 https://cryptojobslist.com/jobs/product-manager-wallet-taiwan-taipei-australia-brisbane-at-binance

@@ -1,51 +1,6 @@
-🆕 <b>Solana / Rust Jobs — 12 Sep 2026 11:49</b>
-<i>11 new jobs</i>
+🆕 <b>Solana / Rust Jobs — 13 Sep 2026 12:56</b>
+<i>1 new jobs</i>
 
-<b>Business Development &amp; Partnerships Director</b>
-🏢 Wintermute
-🔗 https://cryptojobslist.com/jobs/business-development-partnerships-london-at-wintermute
-
-<b>Product Manager</b>
-🏢 Wintermute
-📍 New York
-🔗 https://cryptojobslist.com/jobs/product-manager-london-new-york-at-wintermute
-
-<b>Product Engineering - Team Lead</b>
-🏢 Wintermute
-🔗 https://cryptojobslist.com/jobs/product-engineering-team-lead-london-at-wintermute
-
-<b>Machine Learning Researcher</b>
-🏢 Wintermute
-🔗 https://cryptojobslist.com/jobs/machine-learning-researcher-london-at-wintermute
-
-<b>C++ Quant Developer - Options</b>
-🏢 Wintermute
-📍 Options London
-🔗 https://cryptojobslist.com/jobs/c-quant-developer-options-london-at-wintermute
-
-<b>Core Developer (Python)</b>
-🏢 Wintermute
-📍 Python London
-🔗 https://cryptojobslist.com/jobs/core-developer-python-london-at-wintermute
-
-<b>Infrastructure Support Engineer</b>
-🏢 Wintermute
-🔗 https://cryptojobslist.com/jobs/infrastructure-support-engineer-london-at-wintermute
-
-<b>Graduate Algorithmic Trader 2027</b>
-🏢 Wintermute
-📍 New York
-🔗 https://cryptojobslist.com/jobs/graduate-algorithmic-trader-2027-new-york-at-wintermute
-
-<b>Quant Researcher (MFT Focus)</b>
-🏢 Wintermute
-📍 Focus London
-🔗 https://cryptojobslist.com/jobs/quant-researcher-mft-focus-london-at-wintermute
-
-<b>Forward Deployed Engineer</b>
-🏢 Render Network
-🔗 https://jobs.ashbyhq.com/render/b29de212-fcca-4b5d-8640-a165b23d5d6c
-
-<b>Evening Anchor</b>
-🏢 Nexstar Media Group, Inc.
-🔗 https://www.linkedin.com/jobs/view/evening-anchor-at-nexstar-media-group-inc-4436884494
+<b>Anchor - Spectrum News NECN</b>
+🏢 Spectrum News
+🔗 https://www.linkedin.com/jobs/view/anchor-spectrum-news-necn-at-spectrum-news-4438612622
