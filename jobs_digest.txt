@@ -1,26 +1,42 @@
-🆕 <b>Solana / Rust Jobs — 16 Sep 2026 12:56</b>
-<i>3 new jobs</i>
+🆕 <b>Solana / Rust Jobs — 17 Sep 2026 12:53</b>
+<i>8 new jobs</i>
 
-<b>Senior Growth Product Manager, AI-Native</b>
-🏢 Magic Eden
+<b>Smart Contract Auditor — Rust</b>
+🏢 Sigintzero
 📍 Remote
-🔗 https://jobs.ashbyhq.com/magiceden/1bde0a10-11c5-4b21-8cef-983e77eb3722
+🔗 https://cryptojobslist.com/jobs/smart-contract-auditor-rust-remote-at-sigintzero
 
-<b>Senior Product Designer, Sportsbook</b>
-🏢 Magic Eden
+<b>Senior Data Engineer (Solana)</b>
+🏢 Blockworks
 📍 United States
-🔗 https://jobs.ashbyhq.com/magiceden/32fff02e-df64-43c2-a087-01292aa4cf5d
+🔗 https://cryptojobslist.com/jobs/senior-data-engineer-solana-united-states-at-blockworks
 
-<b>News Anchor &amp; Reporter</b>
-🏢 BLW Oasis Inc.
-📍 Baltimore, Md
-🔗 https://www.linkedin.com/jobs/view/news-anchor-reporter-at-blw-oasis-inc-4467766381
+<b>Staff Platform Security Engineer (Security)</b>
+🏢 Phantom
+📍 Remote
+🔗 https://jobs.ashbyhq.com/phantom/504baea1-48c7-458d-9f45-36e24dbf7035
 
+<b>Business Marketing Specialist</b>
+🏢 Monad Foundation
+📍 Remote
+🔗 https://jobs.ashbyhq.com/monad.foundation/f223ab05-c179-4ea7-9bbe-da44a71eb065
 
-🏦 <b>Big Co Jobs — 16 Sep 2026 12:56</b>
-<i>1 roles from larger companies</i>
+<b>Talent Operations Manager</b>
+🏢 Render Network
+📍 Remote
+🔗 https://jobs.ashbyhq.com/render/9d06aad8-dc0b-41a1-a4fa-7952430c0d88
 
-<b>Senior Software Engineer - Rust - Core Services</b>
-🏢 Kraken
-📍 Sweden Colombia
-🔗 https://cryptojobslist.com/jobs/senior-software-engineer-rust-core-romania-brazil-peru-sweden-colombia-at-kraken
+<b>Institutional Growth Marketing Lead</b>
+🏢 Solana
+📍 New York
+🔗 https://www.linkedin.com/jobs/view/institutional-growth-marketing-lead-at-solana-4468297058
+
+<b>Software Engineer, Backend Systems – Crypto Trading - Rust</b>
+🏢 Epitria Consulting
+📍 San Francisco
+🔗 https://www.linkedin.com/jobs/view/software-engineer-backend-systems-%E2%80%93-crypto-trading-rust-at-epitria-consulting-4467112291
+
+<b>ServiceNow Application Analyst</b>
+🏢 Anchor Point Technology Resources
+📍 Carmel, In
+🔗 https://www.linkedin.com/jobs/view/servicenow-application-analyst-at-anchor-point-technology-resources-4468284532

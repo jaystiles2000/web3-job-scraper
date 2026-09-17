@@ -1,2 +1,7 @@
-<b>Solidity — 16 Sep 2026</b>
-No new jobs since last run.
+🆕 <b>Solidity Jobs — 17 Sep 2026 12:53</b>
+<i>1 new jobs</i>
+
+<b>Smart Contract Auditor — Rust</b>
+🏢 Sigintzero
+📍 Remote
+🔗 https://cryptojobslist.com/jobs/smart-contract-auditor-rust-remote-at-sigintzero
