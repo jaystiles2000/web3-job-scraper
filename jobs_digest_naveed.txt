@@ -1,7 +1,7 @@
-🆕 <b>Solidity Jobs — 17 Sep 2026 12:53</b>
+🆕 <b>Solidity Jobs — 18 Sep 2026 12:28</b>
 <i>1 new jobs</i>
 
-<b>Smart Contract Auditor — Rust</b>
-🏢 Sigintzero
+<b>Freelance Fullstack Solidity Developer - Stealth</b>
+🏢 Stealth Startup
 📍 Remote
-🔗 https://cryptojobslist.com/jobs/smart-contract-auditor-rust-remote-at-sigintzero
+🔗 https://cryptojobslist.com/jobs/freelance-fullstack-solidity-developer-remote-at-stealth-startup

@@ -1,42 +1,28 @@
-🆕 <b>Solana / Rust Jobs — 17 Sep 2026 12:53</b>
-<i>8 new jobs</i>
+🆕 <b>Solana / Rust Jobs — 18 Sep 2026 12:28</b>
+<i>6 new jobs</i>
 
-<b>Smart Contract Auditor — Rust</b>
-🏢 Sigintzero
+<b>IT Engineer</b>
+🏢 Ondo Finance
 📍 Remote
-🔗 https://cryptojobslist.com/jobs/smart-contract-auditor-rust-remote-at-sigintzero
+🔗 https://cryptojobslist.com/jobs/it-engineer-remote-us-at-ondo-finance
 
-<b>Senior Data Engineer (Solana)</b>
-🏢 Blockworks
-📍 United States
-🔗 https://cryptojobslist.com/jobs/senior-data-engineer-solana-united-states-at-blockworks
-
-<b>Staff Platform Security Engineer (Security)</b>
-🏢 Phantom
-📍 Remote
-🔗 https://jobs.ashbyhq.com/phantom/504baea1-48c7-458d-9f45-36e24dbf7035
-
-<b>Business Marketing Specialist</b>
-🏢 Monad Foundation
-📍 Remote
-🔗 https://jobs.ashbyhq.com/monad.foundation/f223ab05-c179-4ea7-9bbe-da44a71eb065
-
-<b>Talent Operations Manager</b>
+<b>Senior/Staff Analytics Engineer</b>
 🏢 Render Network
-📍 Remote
-🔗 https://jobs.ashbyhq.com/render/9d06aad8-dc0b-41a1-a4fa-7952430c0d88
+🔗 https://jobs.ashbyhq.com/render/68a1d88b-6cc4-4303-b2c6-5405a22bb48b
 
-<b>Institutional Growth Marketing Lead</b>
-🏢 Solana
+<b>Senior/Staff Data Engineer</b>
+🏢 Render Network
+🔗 https://jobs.ashbyhq.com/render/f846e1fc-0099-4456-9232-9abe83dff272
+
+<b>Senior/Staff Data Scientist</b>
+🏢 Render Network
+🔗 https://jobs.ashbyhq.com/render/8685ba32-883a-42e5-b98b-f3c51a77bceb
+
+<b>Director - Strategy &amp; Operations</b>
+🏢 Zeta Markets
+🔗 https://jobs.lever.co/zeta/8b83fe6a-ec31-4532-9738-bb753d9d9ad7
+
+<b>Staff Solana Program Engineer</b>
+🏢 TechChain Talent
 📍 New York
-🔗 https://www.linkedin.com/jobs/view/institutional-growth-marketing-lead-at-solana-4468297058
-
-<b>Software Engineer, Backend Systems – Crypto Trading - Rust</b>
-🏢 Epitria Consulting
-📍 San Francisco
-🔗 https://www.linkedin.com/jobs/view/software-engineer-backend-systems-%E2%80%93-crypto-trading-rust-at-epitria-consulting-4467112291
-
-<b>ServiceNow Application Analyst</b>
-🏢 Anchor Point Technology Resources
-📍 Carmel, In
-🔗 https://www.linkedin.com/jobs/view/servicenow-application-analyst-at-anchor-point-technology-resources-4468284532
+🔗 https://www.linkedin.com/jobs/view/staff-solana-program-engineer-at-techchain-talent-4466292398
