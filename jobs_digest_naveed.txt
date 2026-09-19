@@ -1,7 +1,10 @@
-🆕 <b>Solidity Jobs — 18 Sep 2026 12:28</b>
-<i>1 new jobs</i>
+🆕 <b>Solidity Jobs — 19 Sep 2026 12:09</b>
+<i>2 new jobs</i>
 
-<b>Freelance Fullstack Solidity Developer - Stealth</b>
+<b>Blockchain Security Engineer - (Solidity / Rust / Golang - Senior Level)</b>
+🔗 https://cryptojobslist.com/jobs/blockchain-security-engineer-solidity-rust-golang-senior-level-certik-new-york-ny-seattle-wa-san-francisco-bay-area-ca-remote
+
+<b>Freelance Fullstack Solidity Developer</b>
 🏢 Stealth Startup
 📍 Remote
 🔗 https://cryptojobslist.com/jobs/freelance-fullstack-solidity-developer-remote-at-stealth-startup

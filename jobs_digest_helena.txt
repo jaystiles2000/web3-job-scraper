@@ -1,20 +1,25 @@
-🆕 <b>Product Jobs — 18 Sep 2026 12:28</b>
-<i>1 new jobs</i>
+🆕 <b>Product Jobs — 19 Sep 2026 12:09</b>
+<i>4 new jobs</i>
 
-<b>Program Manager Digital Audience Engagement</b>
-🏢 Franklin Templeton Investments 📍 New York, NY, United States
-🔗 https://web3.career/program-manager-digital-audience-engagement-franklintempletoninvestments/154332
+<b>Product Manager (Protocol)</b>
+🔗 https://morpho.org/jobs/ashby-product-manager-protocol-dbf1ca3b-3b1d-4f3f-8878-dd6981a4168d
+
+<b>Binance Accelerator Program - Content Product Manager</b>
+🔗 https://cryptojobslist.com/jobs/binance-accelerator-program-content-product-manager-binance-taiwan-taipei
+
+<b>Staff Product Designer, DeFi</b>
+🏢 Mysten Labs
+📍 Usa (Remote)
+🔗 https://jobs.ashbyhq.com/mystenlabs/b83dab9a-e925-4628-aaca-4caa122d4d73
+
+<b>Staff Product Designer, DeFi</b>
+🔗 https://builtin.com/job/staff-product-designer-defi/11263743
 
 
-🏦 <b>Big Co Jobs — 18 Sep 2026 12:28</b>
-<i>2 roles from larger companies</i>
+🏦 <b>Big Co Jobs — 19 Sep 2026 12:09</b>
+<i>1 roles from larger companies</i>
 
-<b>VIP Institution Product Manager (6 months contract)</b>
-🏢 Binance
+<b>(Senior)Product Manager, Trading</b>
+🏢 Crypto Com
 📍 Hong Kong
-🔗 https://cryptojobslist.com/jobs/vip-institution-product-manager-6-taiwan-taipei-hong-kong-at-binance
-
-<b>AI Chatbot Product Manager</b>
-🏢 Binance
-📍 Taipei Asia
-🔗 https://cryptojobslist.com/jobs/ai-chatbot-product-manager-hong-kong-taiwan-taipei-asia-at-binance
+🔗 https://cryptojobslist.com/jobs/senior-product-manager-trading-hong-kong-hong-kong-sar-at-crypto-com

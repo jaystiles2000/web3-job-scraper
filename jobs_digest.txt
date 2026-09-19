@@ -1,28 +1,28 @@
-🆕 <b>Solana / Rust Jobs — 18 Sep 2026 12:28</b>
-<i>6 new jobs</i>
+🆕 <b>Solana / Rust Jobs — 19 Sep 2026 12:09</b>
+<i>4 new jobs</i>
 
-<b>IT Engineer</b>
-🏢 Ondo Finance
+<b>Blockchain Security Engineer - (Solidity / Rust / Golang - Senior Level)</b>
+🔗 https://cryptojobslist.com/jobs/blockchain-security-engineer-solidity-rust-golang-senior-level-certik-new-york-ny-seattle-wa-san-francisco-bay-area-ca-remote
+
+<b>Mobile Mechanic</b>
+🏢 Sonic SVM
+🔗 https://job-boards.greenhouse.io/sonic/jobs/8211586
+
+<b>Business Development Representative (BDR)</b>
+🏢 Switchboard
+📍 Dallas, Tx
+🔗 https://jobs.ashbyhq.com/switchboard/5ff55d75-1cd1-4b03-93c3-d9160dadcbd4
+
+<b>FT Traffic Anchor/Producer - Union</b>
+🏢 iHeartMedia
+📍 Medford, Ma
+🔗 https://www.linkedin.com/jobs/view/ft-traffic-anchor-producer-union-at-iheartmedia-4460111479
+
+
+🏦 <b>Big Co Jobs — 19 Sep 2026 12:09</b>
+<i>1 roles from larger companies</i>
+
+<b>Staff Software Engineer, C++/Rust</b>
+🏢 Stellar Development Foundation
 📍 Remote
-🔗 https://cryptojobslist.com/jobs/it-engineer-remote-us-at-ondo-finance
-
-<b>Senior/Staff Analytics Engineer</b>
-🏢 Render Network
-🔗 https://jobs.ashbyhq.com/render/68a1d88b-6cc4-4303-b2c6-5405a22bb48b
-
-<b>Senior/Staff Data Engineer</b>
-🏢 Render Network
-🔗 https://jobs.ashbyhq.com/render/f846e1fc-0099-4456-9232-9abe83dff272
-
-<b>Senior/Staff Data Scientist</b>
-🏢 Render Network
-🔗 https://jobs.ashbyhq.com/render/8685ba32-883a-42e5-b98b-f3c51a77bceb
-
-<b>Director - Strategy &amp; Operations</b>
-🏢 Zeta Markets
-🔗 https://jobs.lever.co/zeta/8b83fe6a-ec31-4532-9738-bb753d9d9ad7
-
-<b>Staff Solana Program Engineer</b>
-🏢 TechChain Talent
-📍 New York
-🔗 https://www.linkedin.com/jobs/view/staff-solana-program-engineer-at-techchain-talent-4466292398
+🔗 https://cryptojobslist.com/jobs/staff-software-engineer-c-rust-remote-at-stellar-development-foundation
