@@ -1,11 +1,32 @@
-🆕 <b>Solana / Rust Jobs — 21 Sep 2026 14:40</b>
-<i>2 new jobs</i>
+🆕 <b>Solana / Rust Jobs — 22 Sep 2026 12:56</b>
+<i>5 new jobs</i>
 
-<b>Full-Time News Reporter/Anchor (KCBS-AM All News Radio)</b>
-🏢 Audacy, Inc.
-📍 San Francisco
-🔗 https://www.linkedin.com/jobs/view/full-time-news-reporter-anchor-kcbs-am-all-news-radio-at-audacy-inc-4415584646
+<b>Senior QA Engineer Rust Java Margin</b>
+🏢 Binance 📍 Taipei, Taiwan
+🔗 https://web3.career/senior-qa-engineer-rust-java-margin-binance/154461
 
-<b>Remote Licensed Sales Producer (P&amp;C)</b>
-🏢 Anchor Line Insurance
-🔗 https://www.linkedin.com/jobs/view/remote-licensed-sales-producer-p-c-at-anchor-line-insurance-4467615053
+<b>MDU Acquisition Specialist</b>
+🏢 Sonic SVM
+🔗 https://job-boards.greenhouse.io/sonic/jobs/7477020
+
+<b>Staff Product Security Engineer (Security)</b>
+🏢 Phantom
+📍 Remote
+🔗 https://jobs.ashbyhq.com/phantom/7a9e300a-14bd-489f-aad8-7d1360941e80
+
+<b>Business Marketing Lead</b>
+🏢 Monad Foundation
+📍 Remote
+🔗 https://jobs.ashbyhq.com/monad.foundation/f223ab05-c179-4ea7-9bbe-da44a71eb065
+
+<b>Senior Software Engineer - Go &amp; Rust, Blockchain Infrastructure</b>
+🔗 https://builtin.com/job/senior-software-engineer-go-rust-blockchain-infrastructure/11284906
+
+
+🏦 <b>Big Co Jobs — 22 Sep 2026 12:56</b>
+<i>1 roles from larger companies</i>
+
+<b>Senior QA Engineer (Rust/Java), Margin</b>
+🏢 Binance
+📍 Kong Thailand
+🔗 https://cryptojobslist.com/jobs/senior-qa-engineer-rust-java-margin-taiwan-taipei-hong-kong-thailand-at-binance
