@@ -1,12 +1,18 @@
-🆕 <b>Product Jobs — 22 Sep 2026 12:56</b>
-<i>2 new jobs</i>
+🆕 <b>Product Jobs — 23 Sep 2026 13:08</b>
+<i>4 new jobs</i>
 
-<b>Senior Product Manager, KYB - MoonPay Enterprise</b>
-🏢 Moonpay
-📍 London
-🔗 https://cryptojobslist.com/jobs/senior-product-manager-kyb-moonpay-new-york-hybrid-london-hybrid-at-moonpay
+<b>Product Manager (Protocol)</b>
+🏢 Morpho Product Manager Protocol
+🔗 https://www.ethereumjobboard.com/jobs/morpho-product-manager-protocol
 
-<b>Staff Product Security Engineer (Security)</b>
-🏢 Phantom
-📍 Remote
-🔗 https://jobs.ashbyhq.com/phantom/7a9e300a-14bd-489f-aad8-7d1360941e80
+<b>Senior Product Manager - Data Platform (Web3)</b>
+🏢 Trust Wallet Senior Product Manager   Data Platform Web3
+🔗 https://www.ethereumjobboard.com/jobs/trust-wallet-senior-product-manager---data-platform-web3
+
+<b>Sr Product Manager - LTV and Retention</b>
+🏢 Kraken Sr Product Manager Ltv And Retention
+🔗 https://www.ethereumjobboard.com/jobs/kraken-sr-product-manager-ltv-and-retention
+
+<b>Staff Product Manager, Crypto</b>
+🏢 Polymarket Staff Product Manager Crypto
+🔗 https://www.ethereumjobboard.com/jobs/polymarket-staff-product-manager-crypto

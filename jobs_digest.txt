@@ -1,32 +1,50 @@
-🆕 <b>Solana / Rust Jobs — 22 Sep 2026 12:56</b>
-<i>5 new jobs</i>
+🆕 <b>Solana / Rust Jobs — 23 Sep 2026 13:08</b>
+<i>9 new jobs</i>
 
-<b>Senior QA Engineer Rust Java Margin</b>
-🏢 Binance 📍 Taipei, Taiwan
-🔗 https://web3.career/senior-qa-engineer-rust-java-margin-binance/154461
-
-<b>MDU Acquisition Specialist</b>
-🏢 Sonic SVM
-🔗 https://job-boards.greenhouse.io/sonic/jobs/7477020
-
-<b>Staff Product Security Engineer (Security)</b>
-🏢 Phantom
-📍 Remote
-🔗 https://jobs.ashbyhq.com/phantom/7a9e300a-14bd-489f-aad8-7d1360941e80
-
-<b>Business Marketing Lead</b>
-🏢 Monad Foundation
-📍 Remote
-🔗 https://jobs.ashbyhq.com/monad.foundation/f223ab05-c179-4ea7-9bbe-da44a71eb065
+<b>Senior Software Engineer, Protocol (Rust)</b>
+🏢 Optimism Senior Software Engineer Protocol Rust
+🔗 https://www.ethereumjobboard.com/jobs/optimism-senior-software-engineer-protocol-rust
 
 <b>Senior Software Engineer - Go &amp; Rust, Blockchain Infrastructure</b>
-🔗 https://builtin.com/job/senior-software-engineer-go-rust-blockchain-infrastructure/11284906
+🏢 Quicknode Senior Software Engineer Go Rust Blockchain Infrastructure
+🔗 https://www.ethereumjobboard.com/jobs/quicknode-senior-software-engineer-go-rust-blockchain-infrastructure
+
+<b>Senior Software Engineer - Rust - Core Services</b>
+🏢 Kraken Senior Software Engineer Rust Core Services
+🔗 https://www.ethereumjobboard.com/jobs/kraken-senior-software-engineer-rust-core-services
+
+<b>Senior Engineer Solana</b>
+🏢 R3 📍 Mumbai, India
+🔗 https://web3.career/senior-engineer-solana-r3/154536
+
+<b>Senior Engineering Manager, Agent Platform &amp; Growth</b>
+🏢 Render Network
+🔗 https://jobs.ashbyhq.com/render/8f22a06f-9ea3-4c71-a52a-e0ea2282769f
+
+<b>CSM Team Lead</b>
+🏢 Switchboard
+📍 Dallas, Tx
+🔗 https://jobs.ashbyhq.com/switchboard/4336a88e-c5ac-4bed-8b79-79a53b7c9545
+
+<b>Executive Assistant</b>
+🏢 Zeta Markets
+🔗 https://jobs.lever.co/zeta/66fc10b7-8b22-4cf2-8d9a-557f9d517bbc
+
+<b>Software Engineer, Backend (Rust) – Crypto Trading</b>
+🏢 Van Kaizen
+📍 New York
+🔗 https://www.linkedin.com/jobs/view/software-engineer-backend-rust-%E2%80%93-crypto-trading-at-van-kaizen-4468908584
+
+<b>ServiceNow CMDB Analyst</b>
+🏢 Anchor Point Technology Resources
+📍 Carmel, In
+🔗 https://www.linkedin.com/jobs/view/servicenow-cmdb-analyst-at-anchor-point-technology-resources-4470457548
 
 
-🏦 <b>Big Co Jobs — 22 Sep 2026 12:56</b>
+🏦 <b>Big Co Jobs — 23 Sep 2026 13:08</b>
 <i>1 roles from larger companies</i>
 
-<b>Senior QA Engineer (Rust/Java), Margin</b>
-🏢 Binance
-📍 Kong Thailand
-🔗 https://cryptojobslist.com/jobs/senior-qa-engineer-rust-java-margin-taiwan-taipei-hong-kong-thailand-at-binance
+<b>Lead Engineer, Frontier Traders</b>
+🏢 Solana Foundation
+📍 Remote
+🔗 https://jobs.ashbyhq.com/solana-foundation/4a3cefc1-82c3-4e6b-a7b6-44f9d087c45a
