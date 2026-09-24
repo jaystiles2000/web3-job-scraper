@@ -1,6 +1,9 @@
-🆕 <b>Solidity Jobs — 23 Sep 2026 13:08</b>
-<i>1 new jobs</i>
+🆕 <b>Solidity Jobs — 24 Sep 2026 13:01</b>
+<i>2 new jobs</i>
 
-<b>Smart Contract Lead</b>
-🏢 Ether Fi Smart Contract Lead
-🔗 https://www.ethereumjobboard.com/jobs/ether-fi-smart-contract-lead
+<b>Talent Pool Blockchain Blockchain Smart Contracts</b>
+🏢 1inch 📍 United States
+🔗 https://web3.career/talent-pool-blockchain-blockchain-smart-contracts-1inch/154562
+
+<b>Senior Smart Contract Engineer</b>
+🔗 https://builtin.com/job/senior-smart-contract-engineer/11339273

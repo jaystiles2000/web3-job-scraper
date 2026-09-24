@@ -1,50 +1,16 @@
-🆕 <b>Solana / Rust Jobs — 23 Sep 2026 13:08</b>
-<i>9 new jobs</i>
+🆕 <b>Solana / Rust Jobs — 24 Sep 2026 13:01</b>
+<i>3 new jobs</i>
 
-<b>Senior Software Engineer, Protocol (Rust)</b>
-🏢 Optimism Senior Software Engineer Protocol Rust
-🔗 https://www.ethereumjobboard.com/jobs/optimism-senior-software-engineer-protocol-rust
+<b>Platform Engineering Lead</b>
+🏢 Helius
+📍 North America
+🔗 https://jobs.ashbyhq.com/helius/dcdd70fd-9297-4675-9f18-d8b7a2063172
 
-<b>Senior Software Engineer - Go &amp; Rust, Blockchain Infrastructure</b>
-🏢 Quicknode Senior Software Engineer Go Rust Blockchain Infrastructure
-🔗 https://www.ethereumjobboard.com/jobs/quicknode-senior-software-engineer-go-rust-blockchain-infrastructure
+<b>NEWS ANCHOR (PRIMARY EVENING) - KOSA</b>
+🏢 Gray Media
+📍 Odessa, Tx
+🔗 https://www.linkedin.com/jobs/view/news-anchor-primary-evening-kosa-at-gray-media-4471103758
 
-<b>Senior Software Engineer - Rust - Core Services</b>
-🏢 Kraken Senior Software Engineer Rust Core Services
-🔗 https://www.ethereumjobboard.com/jobs/kraken-senior-software-engineer-rust-core-services
-
-<b>Senior Engineer Solana</b>
-🏢 R3 📍 Mumbai, India
-🔗 https://web3.career/senior-engineer-solana-r3/154536
-
-<b>Senior Engineering Manager, Agent Platform &amp; Growth</b>
-🏢 Render Network
-🔗 https://jobs.ashbyhq.com/render/8f22a06f-9ea3-4c71-a52a-e0ea2282769f
-
-<b>CSM Team Lead</b>
-🏢 Switchboard
-📍 Dallas, Tx
-🔗 https://jobs.ashbyhq.com/switchboard/4336a88e-c5ac-4bed-8b79-79a53b7c9545
-
-<b>Executive Assistant</b>
-🏢 Zeta Markets
-🔗 https://jobs.lever.co/zeta/66fc10b7-8b22-4cf2-8d9a-557f9d517bbc
-
-<b>Software Engineer, Backend (Rust) – Crypto Trading</b>
-🏢 Van Kaizen
-📍 New York
-🔗 https://www.linkedin.com/jobs/view/software-engineer-backend-rust-%E2%80%93-crypto-trading-at-van-kaizen-4468908584
-
-<b>ServiceNow CMDB Analyst</b>
-🏢 Anchor Point Technology Resources
-📍 Carmel, In
-🔗 https://www.linkedin.com/jobs/view/servicenow-cmdb-analyst-at-anchor-point-technology-resources-4470457548
-
-
-🏦 <b>Big Co Jobs — 23 Sep 2026 13:08</b>
-<i>1 roles from larger companies</i>
-
-<b>Lead Engineer, Frontier Traders</b>
-🏢 Solana Foundation
-📍 Remote
-🔗 https://jobs.ashbyhq.com/solana-foundation/4a3cefc1-82c3-4e6b-a7b6-44f9d087c45a
+<b>Weekend AM Anchor Reporter</b>
+🏢 KOCO 5
+🔗 https://www.linkedin.com/jobs/view/weekend-am-anchor-reporter-at-koco-5-4469332132
