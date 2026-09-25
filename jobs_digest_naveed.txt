@@ -1,9 +1,6 @@
-🆕 <b>Solidity Jobs — 24 Sep 2026 13:01</b>
-<i>2 new jobs</i>
+🆕 <b>Solidity Jobs — 25 Sep 2026 13:07</b>
+<i>1 new jobs</i>
 
-<b>Talent Pool Blockchain Blockchain Smart Contracts</b>
-🏢 1inch 📍 United States
-🔗 https://web3.career/talent-pool-blockchain-blockchain-smart-contracts-1inch/154562
-
-<b>Senior Smart Contract Engineer</b>
-🔗 https://builtin.com/job/senior-smart-contract-engineer/11339273
+<b>Smart Contracts Audit</b>
+🏢 Openzeppelin Smart Contracts Audit
+🔗 https://www.ethereumjobboard.com/jobs/openzeppelin-smart-contracts-audit
