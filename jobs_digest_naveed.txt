@@ -1,6 +1,2 @@
-🆕 <b>Solidity Jobs — 25 Sep 2026 13:07</b>
-<i>1 new jobs</i>
-
-<b>Smart Contracts Audit</b>
-🏢 Openzeppelin Smart Contracts Audit
-🔗 https://www.ethereumjobboard.com/jobs/openzeppelin-smart-contracts-audit
+<b>Solidity — 26 Sep 2026</b>
+No new jobs since last run.
