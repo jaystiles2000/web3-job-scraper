@@ -1,11 +1,2 @@
-🆕 <b>Solana / Rust Jobs — 27 Sep 2026 13:26</b>
-<i>2 new jobs</i>
-
-<b>4PM Anchor Reporter</b>
-🏢 KOCO 5
-🔗 https://www.linkedin.com/jobs/view/4pm-anchor-reporter-at-koco-5-4352615751
-
-<b>Investigative Reporter/Anchor</b>
-🏢 Sinclair Inc.
-📍 Bristol, Tn
-🔗 https://www.linkedin.com/jobs/view/investigative-reporter-anchor-at-sinclair-inc-4427600047
+<b>Solana / Rust — 28 Sep 2026</b>
+No new jobs since last run.
