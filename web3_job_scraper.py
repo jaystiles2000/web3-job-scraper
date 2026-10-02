@@ -2541,27 +2541,6 @@ JAY_KEYWORDS_REGEX = re.compile(
     re.IGNORECASE,
 )
 
-NAVEED_REQUIRE_ANY = (
-    "solidity", "smart contract", "smart-contract",
-)
-
-CASEY_REQUIRE_ANY = (
-    "marketing", "social media", " cmo", "chief marketing",
-    "growth manager", "growth lead", "head of growth", "growth marketer",
-    "community manager", "head of community", "community lead",
-    "brand manager", "head of brand", "content marketing",
-    "content lead", "head of content", "head of comms",
-    "communications manager", "pr manager", "head of pr",
-)
-
-HELENA_REQUIRE_ANY = (
-    "product manager", "product owner", " cpo", "chief product",
-    "program manager", "project manager", "head of product",
-    "vp product", "vp of product", "tpm ", " tpm", "product lead",
-    "lead product", "principal product", "staff product",
-    "director of product",
-)
-
 # Hugo covers Rust across the whole crypto space EXCEPT Solana —
 # Jay owns that lane. Carve-out: a role lands in Hugo's digest when
 # the title/company mentions Rust (word boundary) AND there's no
@@ -2583,8 +2562,127 @@ HUGO_SOLANA_EXCLUDE_SUBSTR: tuple[str, ...] = (
 
 
 def _haystack(job: dict) -> str:
-    """Lowercased title + company string for keyword matching."""
+    """Lowercased title + company string for keyword matching.
+
+    Used for cheap first-pass matching and for exclusion checks (so a
+    tangential Solana mention in a Reth job description doesn't push
+    the role out of Hugo's digest)."""
     return f"{job.get('title', '')} {job.get('company', '')}".lower()
+
+
+# =============================================================================
+# Description fetching — for ATS-sourced jobs (Greenhouse / Lever / Ashby)
+#
+# Many crypto Rust roles are titled "Software Engineer" or "Backend Engineer"
+# with Rust only mentioned in the JD body. To catch those for Jay + Hugo we
+# fetch the full description from the per-job ATS endpoint on demand, cache
+# it on the job dict (`job["_description"]`), and expose it via
+# `_deep_haystack(job)` for keyword matching.
+#
+# Lazy + cached: _description_for() returns "" if the ATS can't be detected
+# from the URL (so most LinkedIn / aggregator jobs stay title-only — those
+# APIs are too varied to deep-fetch reliably). First call per job fetches,
+# subsequent calls return the cached string.
+# =============================================================================
+
+_GREENHOUSE_URL_RE = re.compile(
+    r"https?://(?:boards(?:-api)?\.greenhouse\.io|job-boards(?:-api)?\.(?:greenhouse\.io|eu\.greenhouse\.io))/(?:embed/job_app\?token=|v1/boards/)?([a-z0-9_-]+)(?:/jobs|/embed/job_app)?/(?:gh_jid=|)?(\d+)",
+    re.IGNORECASE,
+)
+_LEVER_URL_RE = re.compile(
+    r"https?://jobs\.(?:eu\.)?lever\.co/([^/]+)/([0-9a-f-]{36})",
+    re.IGNORECASE,
+)
+_ASHBY_URL_RE = re.compile(
+    r"https?://(?:jobs|api)\.ashbyhq\.com/(?:posting-api/job-board/)?([^/]+)/([0-9a-f-]{36})",
+    re.IGNORECASE,
+)
+_HTML_TAG_RE = re.compile(r"<[^>]+>")
+_HTML_ENTITY_RE = re.compile(r"&(nbsp|amp|lt|gt|quot|apos|#\d+);")
+
+
+def _strip_html(s: str) -> str:
+    """Cheap HTML → plain text. Not perfect but good enough for keyword hits."""
+    if not s:
+        return ""
+    s = _HTML_TAG_RE.sub(" ", s)
+    s = _HTML_ENTITY_RE.sub(" ", s)
+    return re.sub(r"\s+", " ", s).strip()
+
+
+def _fetch_description_greenhouse(slug: str, job_id: str) -> str:
+    try:
+        r = get(f"https://boards-api.greenhouse.io/v1/boards/{slug}/jobs/{job_id}")
+        if r is None or r.status_code != 200:
+            return ""
+        data = r.json()
+        return _strip_html(data.get("content", "") or "")
+    except Exception:
+        return ""
+
+
+def _fetch_description_lever(slug: str, job_id: str) -> str:
+    try:
+        r = get(f"https://api.lever.co/v0/postings/{slug}/{job_id}")
+        if r is None or r.status_code != 200:
+            return ""
+        data = r.json()
+        chunks: list[str] = [
+            _strip_html(data.get("description", "") or ""),
+            _strip_html(data.get("additional", "") or ""),
+        ]
+        for lst in data.get("lists", []) or []:
+            chunks.append(_strip_html(lst.get("text", "") or ""))
+            chunks.append(_strip_html(lst.get("content", "") or ""))
+        return " ".join(c for c in chunks if c)
+    except Exception:
+        return ""
+
+
+def _fetch_description_ashby(slug: str, job_id: str) -> str:
+    try:
+        r = get(f"https://api.ashbyhq.com/posting-api/job-board/{slug}/{job_id}")
+        if r is None or r.status_code != 200:
+            return ""
+        data = r.json()
+        # Ashby wraps the record under "job" sometimes, flat other times.
+        rec = data.get("job") if isinstance(data.get("job"), dict) else data
+        txt = rec.get("descriptionText") or rec.get("descriptionPlain") or ""
+        if not txt:
+            txt = _strip_html(rec.get("descriptionHtml", "") or "")
+        return txt
+    except Exception:
+        return ""
+
+
+def _description_for(job: dict) -> str:
+    """Return the job description (lowercase, stripped), lazily fetched + cached.
+
+    Returns "" when the source URL isn't a recognised ATS (so we don't blow
+    time on LinkedIn / aggregator URLs where there's no cheap deep-fetch)."""
+    if "_description" in job:
+        return job["_description"]
+    url = job.get("url", "") or ""
+    desc = ""
+    if m := _GREENHOUSE_URL_RE.search(url):
+        desc = _fetch_description_greenhouse(m.group(1), m.group(2))
+    elif m := _LEVER_URL_RE.search(url):
+        desc = _fetch_description_lever(m.group(1), m.group(2))
+    elif m := _ASHBY_URL_RE.search(url):
+        desc = _fetch_description_ashby(m.group(1), m.group(2))
+    desc_lower = desc.lower() if desc else ""
+    job["_description"] = desc_lower
+    return desc_lower
+
+
+def _deep_haystack(job: dict) -> str:
+    """Lowercased title + company + description (lazy-fetched for ATS jobs).
+
+    Used for INCLUSION matching when the title-only haystack misses. Keep
+    exclusion checks on `_haystack` so a tangential Solana mention in a
+    description doesn't wrongly carve a non-Solana role out of Hugo's digest.
+    """
+    return f"{_haystack(job)} {_description_for(job)}"
 
 
 def _matches_jay(job: dict) -> bool:
@@ -2612,36 +2710,41 @@ def _matches_jay(job: dict) -> bool:
     company = apply_company_fixes(job.get("company", "")).lower().strip()
     if company in SOLANA_ECOSYSTEM_COMPANIES:
         return True
+    # Deep pass — lazy-fetches the description for Greenhouse/Lever/Ashby
+    # jobs and re-runs the keyword checks. Catches "Software Engineer" or
+    # "Backend Engineer" roles with Rust / Solana / Anchor only in the JD
+    # body. Cached per job so Hugo's matcher doesn't double-fetch.
+    deep = _deep_haystack(job)
+    if deep == hay:  # no description retrieved → nothing to add
+        return False
+    if any(kw in deep for kw in JAY_KEYWORDS_SUBSTR):
+        return True
+    if JAY_KEYWORDS_REGEX.search(deep):
+        return True
     return False
-
-
-def _matches_naveed(job: dict) -> bool:
-    return any(kw in _haystack(job) for kw in NAVEED_REQUIRE_ANY)
-
-
-def _matches_casey(job: dict) -> bool:
-    return any(kw in _haystack(job) for kw in CASEY_REQUIRE_ANY)
-
-
-def _matches_helena(job: dict) -> bool:
-    return any(kw in _haystack(job) for kw in HELENA_REQUIRE_ANY)
 
 
 def _matches_hugo(job: dict) -> bool:
     hay = _haystack(job)
-    # Need the Rust signal first — cheap guard before the exclusion check.
-    if not HUGO_KEYWORDS_REGEX.search(hay):
-        return False
-    # Solana-signal in title/company → Jay's lane, not Hugo's.
+    # Exclusions apply BEFORE we spend time deep-fetching. Solana-signal in
+    # title/company → Jay's lane, not Hugo's. (We keep exclusion on title+
+    # company only, not description, because many Reth / Flashbots / etc.
+    # JDs mention Solana tangentially and we don't want to wrongly exclude
+    # those.)
     if any(kw in hay for kw in HUGO_SOLANA_EXCLUDE_SUBSTR):
         return False
-    # Company allowlist — the ~130 Solana-ecosystem companies belong to
-    # Jay even when the title doesn't mention Solana (e.g. "Senior Rust
-    # Engineer at Phantom" has no "solana" string but Phantom is Solana).
     company = apply_company_fixes(job.get("company", "")).lower().strip()
     if company in SOLANA_ECOSYSTEM_COMPANIES:
         return False
-    return True
+    # Rust check — title-only first (cheap), then deep (fetches description
+    # for Greenhouse/Lever/Ashby jobs). Deep catches "Software Engineer at
+    # Flashbots" where Rust only appears in the JD body.
+    if HUGO_KEYWORDS_REGEX.search(hay):
+        return True
+    deep = _deep_haystack(job)
+    if deep == hay:
+        return False
+    return bool(HUGO_KEYWORDS_REGEX.search(deep))
 
 
 # Profile registry. Each profile gets its own dedup file + digest file.
@@ -2656,30 +2759,6 @@ PROFILES = [
         "seen_file": "seen_jobs.json",
         "digest_file": "jobs_digest.txt",
         "matches": _matches_jay,
-    },
-    {
-        "name": "naveed",
-        "label": "Solidity",
-        "chat_id_env": "TELEGRAM_CHAT_ID_NAVEED",
-        "seen_file": "seen_jobs_naveed.json",
-        "digest_file": "jobs_digest_naveed.txt",
-        "matches": _matches_naveed,
-    },
-    {
-        "name": "casey",
-        "label": "Marketing",
-        "chat_id_env": "TELEGRAM_CHAT_ID_CASEY",
-        "seen_file": "seen_jobs_casey.json",
-        "digest_file": "jobs_digest_casey.txt",
-        "matches": _matches_casey,
-    },
-    {
-        "name": "helena",
-        "label": "Product",
-        "chat_id_env": "TELEGRAM_CHAT_ID_HELENA",
-        "seen_file": "seen_jobs_helena.json",
-        "digest_file": "jobs_digest_helena.txt",
-        "matches": _matches_helena,
     },
     {
         "name": "hugo",
@@ -2745,39 +2824,6 @@ def _search_links_for(profile_name: str) -> list[tuple[str, str]]:
              f"https://www.google.com/search?q={_q('rust crypto careers')}&tbs=qdr:w"),
             ("Twitter — Solana hiring tweets",
              f"https://twitter.com/search?q={_q('solana hiring rust')}&f=live"),
-        ]
-    if profile_name == "naveed":
-        return [
-            ("LinkedIn — Solidity jobs (last 24h)",
-             f"https://www.linkedin.com/jobs/search?keywords={_q('solidity')}&f_TPR=r86400"),
-            ("LinkedIn — Smart contract jobs (last 24h)",
-             f"https://www.linkedin.com/jobs/search?keywords={_q('smart contract engineer')}&f_TPR=r86400"),
-            ("Google — Solidity hiring this week",
-             f"https://www.google.com/search?q={_q('solidity hiring engineer')}&tbs=qdr:w"),
-            ("Twitter — Solidity hiring tweets",
-             f"https://twitter.com/search?q={_q('solidity hiring')}&f=live"),
-        ]
-    if profile_name == "casey":
-        return [
-            ("LinkedIn — Crypto marketing jobs (last 24h)",
-             f"https://www.linkedin.com/jobs/search?keywords={_q('crypto marketing')}&f_TPR=r86400"),
-            ("LinkedIn — Web3 growth jobs (last 24h)",
-             f"https://www.linkedin.com/jobs/search?keywords={_q('web3 growth')}&f_TPR=r86400"),
-            ("Google — Crypto marketing hiring",
-             f"https://www.google.com/search?q={_q('crypto marketing hiring')}&tbs=qdr:w"),
-            ("Twitter — Crypto marketing hiring tweets",
-             f"https://twitter.com/search?q={_q('crypto marketing hiring')}&f=live"),
-        ]
-    if profile_name == "helena":
-        return [
-            ("LinkedIn — Crypto product manager jobs (last 24h)",
-             f"https://www.linkedin.com/jobs/search?keywords={_q('crypto product manager')}&f_TPR=r86400"),
-            ("LinkedIn — Web3 product jobs (last 24h)",
-             f"https://www.linkedin.com/jobs/search?keywords={_q('web3 product')}&f_TPR=r86400"),
-            ("Google — Crypto product hiring",
-             f"https://www.google.com/search?q={_q('crypto product manager hiring')}&tbs=qdr:w"),
-            ("Twitter — Web3 product hiring tweets",
-             f"https://twitter.com/search?q={_q('web3 product hiring')}&f=live"),
         ]
     return []
 

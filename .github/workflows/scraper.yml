@@ -43,11 +43,8 @@ jobs:
 
           # Each tuple: (display label, digest file, env var holding chat id)
           PROFILES = [
-              ("Jay (Solana/Rust)",   "jobs_digest.txt",         "TELEGRAM_CHAT_ID"),
-              ("Naveed (Solidity)",   "jobs_digest_naveed.txt",  "TELEGRAM_CHAT_ID_NAVEED"),
-              ("Casey (Marketing)",   "jobs_digest_casey.txt",   "TELEGRAM_CHAT_ID_CASEY"),
-              ("Helena (Product)",    "jobs_digest_helena.txt",  "TELEGRAM_CHAT_ID_HELENA"),
-              ("Hugo (Rust crypto)",  "jobs_digest_hugo.txt",    "TELEGRAM_CHAT_ID_HUGO"),
+              ("Jay (Solana/Rust)",  "jobs_digest.txt",       "TELEGRAM_CHAT_ID"),
+              ("Hugo (Rust crypto)", "jobs_digest_hugo.txt",  "TELEGRAM_CHAT_ID_HUGO"),
           ]
 
           def send_chunked(chat_id: str, body: str, label: str) -> int:
@@ -105,11 +102,8 @@ jobs:
           EOF
         env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
-          TELEGRAM_CHAT_ID:         ${{ secrets.TELEGRAM_CHAT_ID }}
-          TELEGRAM_CHAT_ID_NAVEED:  ${{ secrets.TELEGRAM_CHAT_ID_NAVEED }}
-          TELEGRAM_CHAT_ID_CASEY:   ${{ secrets.TELEGRAM_CHAT_ID_CASEY }}
-          TELEGRAM_CHAT_ID_HELENA:  ${{ secrets.TELEGRAM_CHAT_ID_HELENA }}
-          TELEGRAM_CHAT_ID_HUGO:    ${{ secrets.TELEGRAM_CHAT_ID_HUGO }}
+          TELEGRAM_CHAT_ID:       ${{ secrets.TELEGRAM_CHAT_ID }}
+          TELEGRAM_CHAT_ID_HUGO:  ${{ secrets.TELEGRAM_CHAT_ID_HUGO }}
 
       - name: Commit digests + seen-jobs back to repo
         # Persist every per-profile digest + seen-jobs file so:
