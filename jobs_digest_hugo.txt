@@ -1,0 +1,47 @@
+🆕 <b>Rust (crypto-wide) Jobs — 02 Oct 2026 13:27</b>
+<i>8 new jobs</i>
+
+<b>Senior Backend Engineer (Rust)</b>
+🔗 https://cryptocurrencyjobs.co/engineering/cow-dao-senior-backend-engineer-rust
+
+<b>Decentralised Messaging Engineer - Rust</b>
+🔗 https://cryptocurrencyjobs.co/engineering/logos-decentralised-messaging-engineer-rust
+
+<b>Senior Software Engineer, Protocol (Rust)</b>
+🔗 https://cryptocurrencyjobs.co/engineering/op-labs-senior-software-engineer-protocol-rust
+
+<b>#024Spire LabsSenior Rust Engineer - EVMSpire Labs is building a Based Appchain framework on Ethereum. This “Based Stack” enables people to spin up app-specific L2s that are composable with Ethereum mainnet and other app chains.GoSmart ContractSolidityevmCompetitiveRemote · 57d</b>
+🔗 https://blockchain.works-hub.com/jobs/remote-smart-contract-engineer-preconfirmation-registry-783
+
+<b>#060Kraken ExchangeSenior Software Engineer - Rust - BackendKraken is a mission-focused company rooted in crypto values. As a Krakenite, you’ll join us on our mission to accelerate the global adoption of crypto, so that everyone can achieve financial freedom and inclusion. For over a decade, Kraken’s focus on our mission and crypto ethos has attracted many of the most talented crypto experts in the world.RustCompetitiveRemote · 57d</b>
+🔗 https://blockchain.works-hub.com/jobs/remote-senior-software-engineer-rust-backend-364
+
+<b>#071Irrefutable Labs IncRust, iOS, Android, DevOps (4 Roles)Rust, iOS, Android, and DevOps engineers (BLE transport)TypeScriptRustKotlinprotobufCompetitiveRemote · 57d</b>
+🔗 https://blockchain.works-hub.com/jobs/remote-rust-ios-android-devops-4-roles-612
+
+<b>#108AnalogSenior Rust and Substrate EngineerBuild the omnichain future with Analog, the true Layer-0 blockchain networksubstrateRustBlockchain developmentCompetitiveRemote · 57d</b>
+🔗 https://blockchain.works-hub.com/jobs/remote-senior-rust-and-substrate-engineer-cea
+
+<b>Rust developer positions</b>
+🔗 https://defi-jobs.xyz/jobs/rust
+
+
+🏦 <b>Big Co Jobs — 02 Oct 2026 13:27</b>
+<i>4 roles from larger companies</i>
+
+<b>Information Security Engineer, Product</b>
+🏢 Aptos Labs
+📍 Remote
+🔗 https://job-boards.greenhouse.io/aptoslabs/jobs/4650606005
+
+<b>Senior Software Engineer, Platform Infrastructure</b>
+🏢 Aptos Labs
+🔗 https://job-boards.greenhouse.io/aptoslabs/jobs/4706563005
+
+<b>Senior Software Engineer, Trading Infrastructure</b>
+🏢 Aptos Labs
+🔗 https://job-boards.greenhouse.io/aptoslabs/jobs/4720881005
+
+<b>Software Engineer, Payments Product Lead</b>
+🏢 Aptos Labs
+🔗 https://job-boards.greenhouse.io/aptoslabs/jobs/4720917005
