@@ -2562,6 +2562,15 @@ HELENA_REQUIRE_ANY = (
     "director of product",
 )
 
+# Hugo covers Rust across the whole crypto space (not Solana-scoped).
+# Any crypto role that mentions Rust in the title or company name is
+# fair game. is_web3_relevant() has already filtered out non-crypto
+# roles upstream (BairesDev, Anduril, Gentherm, Progress Software,
+# etc. are hard-blocked at that layer), so this filter just needs the
+# word-boundary Rust check. Word boundary avoids "trust" / "trusted"
+# false positives but still catches "(Rust)", "Rust-based", "Rust/Go".
+HUGO_KEYWORDS_REGEX = re.compile(r"\b(rust)\b", re.IGNORECASE)
+
 
 def _haystack(job: dict) -> str:
     """Lowercased title + company string for keyword matching."""
@@ -2608,6 +2617,10 @@ def _matches_helena(job: dict) -> bool:
     return any(kw in _haystack(job) for kw in HELENA_REQUIRE_ANY)
 
 
+def _matches_hugo(job: dict) -> bool:
+    return bool(HUGO_KEYWORDS_REGEX.search(_haystack(job)))
+
+
 # Profile registry. Each profile gets its own dedup file + digest file.
 # chat_id_env names the GitHub Actions secret that holds the Telegram chat ID.
 # Jay keeps the original file names so the Patch app's raw.githubusercontent
@@ -2644,6 +2657,14 @@ PROFILES = [
         "seen_file": "seen_jobs_helena.json",
         "digest_file": "jobs_digest_helena.txt",
         "matches": _matches_helena,
+    },
+    {
+        "name": "hugo",
+        "label": "Rust (crypto-wide)",
+        "chat_id_env": "TELEGRAM_CHAT_ID_HUGO",
+        "seen_file": "seen_jobs_hugo.json",
+        "digest_file": "jobs_digest_hugo.txt",
+        "matches": _matches_hugo,
     },
 ]
 
