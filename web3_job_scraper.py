@@ -2562,14 +2562,24 @@ HELENA_REQUIRE_ANY = (
     "director of product",
 )
 
-# Hugo covers Rust across the whole crypto space (not Solana-scoped).
-# Any crypto role that mentions Rust in the title or company name is
-# fair game. is_web3_relevant() has already filtered out non-crypto
-# roles upstream (BairesDev, Anduril, Gentherm, Progress Software,
-# etc. are hard-blocked at that layer), so this filter just needs the
-# word-boundary Rust check. Word boundary avoids "trust" / "trusted"
-# false positives but still catches "(Rust)", "Rust-based", "Rust/Go".
+# Hugo covers Rust across the whole crypto space EXCEPT Solana —
+# Jay owns that lane. Carve-out: a role lands in Hugo's digest when
+# the title/company mentions Rust (word boundary) AND there's no
+# Solana signal in the title/company AND the company isn't on the
+# Solana-ecosystem allowlist.
+#
+# Word boundary on "rust" avoids "trust" / "trusted" false positives
+# while still catching "(Rust)", "Rust-based", "Rust/Go".
 HUGO_KEYWORDS_REGEX = re.compile(r"\b(rust)\b", re.IGNORECASE)
+
+# Solana markers used to EXCLUDE roles from Hugo's digest. Substring
+# matches against the title+company haystack. Mirrors JAY_KEYWORDS_SUBSTR
+# plus the raw "solana" / "svm" / "anchor" tokens Jay's regex catches.
+HUGO_SOLANA_EXCLUDE_SUBSTR: tuple[str, ...] = (
+    "solana", "svm", "anchor", "pinocchio", "sealevel", "spl token",
+    "geyser", "solana program", "firedancer", "agave",
+    "solana virtual machine", "solana ecosystem", "jito", "anza",
+)
 
 
 def _haystack(job: dict) -> str:
@@ -2618,7 +2628,20 @@ def _matches_helena(job: dict) -> bool:
 
 
 def _matches_hugo(job: dict) -> bool:
-    return bool(HUGO_KEYWORDS_REGEX.search(_haystack(job)))
+    hay = _haystack(job)
+    # Need the Rust signal first — cheap guard before the exclusion check.
+    if not HUGO_KEYWORDS_REGEX.search(hay):
+        return False
+    # Solana-signal in title/company → Jay's lane, not Hugo's.
+    if any(kw in hay for kw in HUGO_SOLANA_EXCLUDE_SUBSTR):
+        return False
+    # Company allowlist — the ~130 Solana-ecosystem companies belong to
+    # Jay even when the title doesn't mention Solana (e.g. "Senior Rust
+    # Engineer at Phantom" has no "solana" string but Phantom is Solana).
+    company = apply_company_fixes(job.get("company", "")).lower().strip()
+    if company in SOLANA_ECOSYSTEM_COMPANIES:
+        return False
+    return True
 
 
 # Profile registry. Each profile gets its own dedup file + digest file.
