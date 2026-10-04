@@ -1,21 +1,2 @@
-🆕 <b>Solana / Rust Jobs — 03 Oct 2026 12:51</b>
-<i>2 new jobs</i>
-
-<b>Senior iOS Engineer</b>
-🏢 Ondo Finance
-📍 Remote
-🔗 https://cryptojobslist.com/jobs/senior-ios-engineer-remote-us-at-ondo-finance
-
-<b>Head of RWA</b>
-🏢 Solana
-📍 New York
-🔗 https://www.linkedin.com/jobs/view/head-of-rwa-at-solana-4475073459
-
-
-🏦 <b>Big Co Jobs — 03 Oct 2026 12:51</b>
-<i>1 roles from larger companies</i>
-
-<b>Head of RWA</b>
-🏢 Solana Foundation
-📍 New York
-🔗 https://jobs.ashbyhq.com/solana-foundation/cb692853-04c1-4683-bb9a-8bb0783e2c1a
+<b>Solana / Rust — 04 Oct 2026</b>
+No new jobs since last run.
