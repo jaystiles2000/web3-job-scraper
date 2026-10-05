@@ -2541,6 +2541,69 @@ JAY_KEYWORDS_REGEX = re.compile(
     re.IGNORECASE,
 )
 
+# Jay's personal market-mapping digest. Not actively looking but wants
+# to see what's out there over time. Matches internal-recruitment,
+# people, chief-of-staff, BD / sales / partnerships / growth roles
+# across the whole crypto space (any chain, not Solana-scoped).
+# is_web3_relevant() already filters out non-crypto roles upstream.
+JAY_PERSONAL_REQUIRE_ANY: tuple[str, ...] = (
+    # Talent / recruitment / people
+    "talent acquisition",
+    "head of talent",
+    "director of talent",
+    "talent lead",
+    "talent partner",
+    "head of recruiting",
+    "head of recruitment",
+    "director of recruiting",
+    "director of recruitment",
+    "recruitment manager",
+    "recruiting manager",
+    "recruitment lead",
+    "recruiting lead",
+    "senior recruiter",
+    "lead recruiter",
+    "principal recruiter",
+    "staff recruiter",
+    "technical recruiter",
+    "technical sourcer",
+    "senior sourcer",
+    "head of people",
+    "people operations",
+    "people partner",
+    "chief people officer",
+    " chro",
+    "head of hr",
+    # Chief of staff
+    "chief of staff",
+    "chief-of-staff",
+    # BD / sales / partnerships / growth / revenue
+    "business development",
+    " bd manager",
+    "head of business development",
+    "director of business development",
+    " bd lead",
+    "head of bd",
+    "sales manager",
+    "sales lead",
+    "head of sales",
+    "director of sales",
+    "vp sales",
+    "vp of sales",
+    "account executive",
+    "head of partnerships",
+    "director of partnerships",
+    "partnerships manager",
+    "partnerships lead",
+    "head of growth",
+    "director of growth",
+    "growth lead",
+    "head of revenue",
+    "chief revenue officer",
+    " cro ",
+    "revenue operations",
+)
+
 # Hugo covers Rust across the whole crypto space EXCEPT Solana —
 # Jay owns that lane. Carve-out: a role lands in Hugo's digest when
 # the title/company mentions Rust (word boundary) AND there's no
@@ -2724,6 +2787,20 @@ def _matches_jay(job: dict) -> bool:
     return False
 
 
+def _matches_jay_personal(job: dict) -> bool:
+    # Title-only first (cheap). If a function keyword hits, we're done.
+    hay = _haystack(job)
+    if any(kw in hay for kw in JAY_PERSONAL_REQUIRE_ANY):
+        return True
+    # Deep pass — the function title often lives in the JD body not the
+    # posted title. Lazy fetches the description for Greenhouse / Lever /
+    # Ashby jobs and re-runs the substring check.
+    deep = _deep_haystack(job)
+    if deep == hay:
+        return False
+    return any(kw in deep for kw in JAY_PERSONAL_REQUIRE_ANY)
+
+
 def _matches_hugo(job: dict) -> bool:
     hay = _haystack(job)
     # Exclusions apply BEFORE we spend time deep-fetching. Solana-signal in
@@ -2767,6 +2844,14 @@ PROFILES = [
         "seen_file": "seen_jobs_hugo.json",
         "digest_file": "jobs_digest_hugo.txt",
         "matches": _matches_hugo,
+    },
+    {
+        "name": "jay_personal",
+        "label": "Jay — market map (TA / CoS / BD)",
+        "chat_id_env": "TELEGRAM_CHAT_ID_JAY_PERSONAL",
+        "seen_file": "seen_jobs_jay_personal.json",
+        "digest_file": "jobs_digest_jay_personal.txt",
+        "matches": _matches_jay_personal,
     },
 ]
 

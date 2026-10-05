@@ -43,8 +43,9 @@ jobs:
 
           # Each tuple: (display label, digest file, env var holding chat id)
           PROFILES = [
-              ("Jay (Solana/Rust)",  "jobs_digest.txt",       "TELEGRAM_CHAT_ID"),
-              ("Hugo (Rust crypto)", "jobs_digest_hugo.txt",  "TELEGRAM_CHAT_ID_HUGO"),
+              ("Jay (Solana/Rust)",      "jobs_digest.txt",              "TELEGRAM_CHAT_ID"),
+              ("Hugo (Rust crypto)",     "jobs_digest_hugo.txt",         "TELEGRAM_CHAT_ID_HUGO"),
+              ("Jay (market map)",       "jobs_digest_jay_personal.txt", "TELEGRAM_CHAT_ID_JAY_PERSONAL"),
           ]
 
           def send_chunked(chat_id: str, body: str, label: str) -> int:
@@ -102,8 +103,9 @@ jobs:
           EOF
         env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
-          TELEGRAM_CHAT_ID:       ${{ secrets.TELEGRAM_CHAT_ID }}
-          TELEGRAM_CHAT_ID_HUGO:  ${{ secrets.TELEGRAM_CHAT_ID_HUGO }}
+          TELEGRAM_CHAT_ID:               ${{ secrets.TELEGRAM_CHAT_ID }}
+          TELEGRAM_CHAT_ID_HUGO:          ${{ secrets.TELEGRAM_CHAT_ID_HUGO }}
+          TELEGRAM_CHAT_ID_JAY_PERSONAL:  ${{ secrets.TELEGRAM_CHAT_ID_JAY_PERSONAL }}
 
       - name: Commit digests + seen-jobs back to repo
         # Persist every per-profile digest + seen-jobs file so:
