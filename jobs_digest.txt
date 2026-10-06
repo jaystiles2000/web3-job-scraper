@@ -1,6 +1,21 @@
-🆕 <b>Solana / Rust Jobs — 05 Oct 2026 16:34</b>
-<i>1 new jobs</i>
+🆕 <b>Solana / Rust Jobs — 06 Oct 2026 14:36</b>
+<i>4 new jobs</i>
 
-<b>Key Holder</b>
-🏢 MANGO
-🔗 https://www.linkedin.com/jobs/view/key-holder-at-mango-4436842405
+<b>Staff Infrastructure Engineer - Privy</b>
+🏢 Privy
+🔗 https://www.ethereumjobboard.com/jobs/privy-staff-infrastructure-engineer---privy
+
+<b>Head of Ecosystem</b>
+🏢 Monad Foundation
+📍 Hong Kong
+🔗 https://jobs.ashbyhq.com/monad.foundation/193cb265-e09b-4bef-ac37-9224a1f8bca6
+
+<b>Senior Software Engineer, Consensus</b>
+🏢 Anza
+📍 New York
+🔗 https://www.linkedin.com/jobs/view/senior-software-engineer-consensus-at-anza-4476168536
+
+<b>Senior Anchor</b>
+🏢 Rincon Broadcasting Group
+📍 Quincy, Il
+🔗 https://www.linkedin.com/jobs/view/senior-anchor-at-rincon-broadcasting-group-4474671110
