@@ -1,21 +1,17 @@
-🆕 <b>Solana / Rust Jobs — 06 Oct 2026 14:36</b>
-<i>4 new jobs</i>
+🆕 <b>Solana / Rust Jobs — 07 Oct 2026 14:52</b>
+<i>3 new jobs</i>
 
-<b>Staff Infrastructure Engineer - Privy</b>
-🏢 Privy
-🔗 https://www.ethereumjobboard.com/jobs/privy-staff-infrastructure-engineer---privy
+<b>Senior Network Engineer</b>
+🏢 Switchboard
+📍 Centennial, Co
+🔗 https://jobs.ashbyhq.com/switchboard/b38cff1b-7e0c-455e-80c8-44a90038c1d6
 
-<b>Head of Ecosystem</b>
-🏢 Monad Foundation
-📍 Hong Kong
-🔗 https://jobs.ashbyhq.com/monad.foundation/193cb265-e09b-4bef-ac37-9224a1f8bca6
+<b>Head of Partnerships</b>
+🏢 Anchor Conzult
+📍 Miami
+🔗 https://www.linkedin.com/jobs/view/head-of-partnerships-at-anchor-conzult-4476320771
 
-<b>Senior Software Engineer, Consensus</b>
-🏢 Anza
-📍 New York
-🔗 https://www.linkedin.com/jobs/view/senior-software-engineer-consensus-at-anza-4476168536
-
-<b>Senior Anchor</b>
-🏢 Rincon Broadcasting Group
-📍 Quincy, Il
-🔗 https://www.linkedin.com/jobs/view/senior-anchor-at-rincon-broadcasting-group-4474671110
+<b>Anchor, III/Reporter Weekday Evening</b>
+🏢 Nexstar Media Group, Inc.
+📍 Peoria, Il
+🔗 https://www.linkedin.com/jobs/view/anchor-iii-reporter-weekday-evening-at-nexstar-media-group-inc-4475108559
