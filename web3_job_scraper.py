@@ -2614,13 +2614,27 @@ JAY_PERSONAL_REQUIRE_ANY: tuple[str, ...] = (
 # while still catching "(Rust)", "Rust-based", "Rust/Go".
 HUGO_KEYWORDS_REGEX = re.compile(r"\b(rust)\b", re.IGNORECASE)
 
-# Solana markers used to EXCLUDE roles from Hugo's digest. Substring
-# matches against the title+company haystack. Mirrors JAY_KEYWORDS_SUBSTR
-# plus the raw "solana" / "svm" / "anchor" tokens Jay's regex catches.
-HUGO_SOLANA_EXCLUDE_SUBSTR: tuple[str, ...] = (
-    "solana", "svm", "anchor", "pinocchio", "sealevel", "spl token",
-    "geyser", "solana program", "firedancer", "agave",
-    "solana virtual machine", "solana ecosystem", "jito", "anza",
+# Solana markers used to EXCLUDE roles from Hugo's digest.
+#
+# Split into two groups for correctness:
+#   - HUGO_SOLANA_EXCLUDE_PHRASES: multi-word phrases, substring match
+#     safe because collisions are rare.
+#   - HUGO_SOLANA_EXCLUDE_REGEX: single tokens that need word boundaries
+#     ("anchor" shouldn't match "anchorage", "svm" shouldn't match
+#     "nasvm", "jito" shouldn't match "jitosolpool", "agave" shouldn't
+#     match "agavecompany" etc.)
+HUGO_SOLANA_EXCLUDE_PHRASES: tuple[str, ...] = (
+    "spl token",
+    "solana program",
+    "solana virtual machine",
+    "solana ecosystem",
+    "solana foundation",
+    "solana labs",
+    "solana mobile",
+)
+HUGO_SOLANA_EXCLUDE_REGEX = re.compile(
+    r"\b(solana|svm|anchor|pinocchio|sealevel|geyser|firedancer|agave|jito|anza|saga)\b",
+    re.IGNORECASE,
 )
 
 
@@ -2803,12 +2817,13 @@ def _matches_jay_personal(job: dict) -> bool:
 
 def _matches_hugo(job: dict) -> bool:
     hay = _haystack(job)
-    # Exclusions apply BEFORE we spend time deep-fetching. Solana-signal in
-    # title/company → Jay's lane, not Hugo's. (We keep exclusion on title+
-    # company only, not description, because many Reth / Flashbots / etc.
-    # JDs mention Solana tangentially and we don't want to wrongly exclude
-    # those.)
-    if any(kw in hay for kw in HUGO_SOLANA_EXCLUDE_SUBSTR):
+    # Solana-signal in title/company → Jay's lane, not Hugo's. We keep
+    # exclusion on title+company only, not description, because many
+    # Reth / Flashbots / etc. JDs mention Solana tangentially and we
+    # don't want to wrongly exclude those.
+    if any(p in hay for p in HUGO_SOLANA_EXCLUDE_PHRASES):
+        return False
+    if HUGO_SOLANA_EXCLUDE_REGEX.search(hay):
         return False
     company = apply_company_fixes(job.get("company", "")).lower().strip()
     if company in SOLANA_ECOSYSTEM_COMPANIES:
