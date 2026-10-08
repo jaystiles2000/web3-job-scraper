@@ -1,17 +1,14 @@
-🆕 <b>Solana / Rust Jobs — 07 Oct 2026 14:52</b>
-<i>3 new jobs</i>
+🆕 <b>Solana / Rust Jobs — 08 Oct 2026 15:04</b>
+<i>1 new jobs</i>
 
-<b>Senior Network Engineer</b>
-🏢 Switchboard
-📍 Centennial, Co
-🔗 https://jobs.ashbyhq.com/switchboard/b38cff1b-7e0c-455e-80c8-44a90038c1d6
+<b>Senior Software Engineer - Go &amp; Rust, Blockchain Infrastructure</b>
+🔗 https://defi-jobs.xyz/jobs/33375847
 
-<b>Head of Partnerships</b>
-🏢 Anchor Conzult
-📍 Miami
-🔗 https://www.linkedin.com/jobs/view/head-of-partnerships-at-anchor-conzult-4476320771
 
-<b>Anchor, III/Reporter Weekday Evening</b>
-🏢 Nexstar Media Group, Inc.
-📍 Peoria, Il
-🔗 https://www.linkedin.com/jobs/view/anchor-iii-reporter-weekday-evening-at-nexstar-media-group-inc-4475108559
+🏦 <b>Big Co Jobs — 08 Oct 2026 15:04</b>
+<i>1 roles from larger companies</i>
+
+<b>Senior Software Engineer - Rust - Payward Services</b>
+🏢 Kraken
+📍 Sweden Colombia
+🔗 https://cryptojobslist.com/jobs/senior-software-engineer-rust-poland-brazil-peru-sweden-colombia-at-kraken

@@ -2,6 +2,8 @@
   "job::blockchainsitereliabilityengineer::infstones": "2026-10-02",
   "job::informationsecurityengineerproduct::aptoslabs": "2026-10-02",
   "job::seniorsoftwareengineerplatforminfrastructure::aptoslabs": "2026-10-02",
+  "job::seniorsoftwareengineerrustconsumer::kraken": "2026-10-08",
+  "job::seniorsoftwareengineerrustpaywardservices::kraken": "2026-10-08",
   "job::seniorsoftwareengineertradinginfrastructure::aptoslabs": "2026-10-02",
   "job::softwareengineerpaymentsproductlead::aptoslabs": "2026-10-02",
   "url::https://blockchain.works-hub.com/jobs/remote-rust-ios-android-devops-4-roles-612": "2026-10-02",
@@ -11,5 +13,6 @@
   "url::https://cryptocurrencyjobs.co/engineering/cow-dao-senior-backend-engineer-rust": "2026-10-02",
   "url::https://cryptocurrencyjobs.co/engineering/logos-decentralised-messaging-engineer-rust": "2026-10-02",
   "url::https://cryptocurrencyjobs.co/engineering/op-labs-senior-software-engineer-protocol-rust": "2026-10-02",
+  "url::https://defi-jobs.xyz/jobs/33375847": "2026-10-08",
   "url::https://defi-jobs.xyz/jobs/rust": "2026-10-02"
 }
