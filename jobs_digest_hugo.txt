@@ -1,14 +1,8 @@
-🆕 <b>Rust (crypto-wide) Jobs — 08 Oct 2026 15:04</b>
-<i>1 new jobs</i>
+🆕 <b>Rust (crypto-wide) Jobs — 09 Oct 2026 14:48</b>
+<i>2 new jobs</i>
 
-<b>Senior Software Engineer - Go &amp; Rust, Blockchain Infrastructure</b>
-🔗 https://defi-jobs.xyz/jobs/33375847
+<b>Senior QA Engineer (Rust/Java), Margin</b>
+🔗 https://defi-jobs.xyz/jobs/33360116
 
-
-🏦 <b>Big Co Jobs — 08 Oct 2026 15:04</b>
-<i>1 roles from larger companies</i>
-
-<b>Senior Software Engineer - Rust - Payward Services</b>
-🏢 Kraken
-📍 Sweden Colombia
-🔗 https://cryptojobslist.com/jobs/senior-software-engineer-rust-poland-brazil-peru-sweden-colombia-at-kraken
+<b>Senior Software Engineer - Rust - Consumer</b>
+🔗 https://defi-jobs.xyz/jobs/33371552
