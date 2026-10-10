@@ -1,8 +1,2 @@
-🆕 <b>Rust (crypto-wide) Jobs — 09 Oct 2026 14:48</b>
-<i>2 new jobs</i>
-
-<b>Senior QA Engineer (Rust/Java), Margin</b>
-🔗 https://defi-jobs.xyz/jobs/33360116
-
-<b>Senior Software Engineer - Rust - Consumer</b>
-🔗 https://defi-jobs.xyz/jobs/33371552
+<b>Rust (crypto-wide) — 10 Oct 2026</b>
+No new jobs since last run.
