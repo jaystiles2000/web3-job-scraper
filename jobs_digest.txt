@@ -1,12 +1,2 @@
-🆕 <b>Solana / Rust Jobs — 10 Oct 2026 14:05</b>
-<i>2 new jobs</i>
-
-<b>Engineering Manager, Governance &amp; Access</b>
-🏢 Render Network
-📍 Remote
-🔗 https://jobs.ashbyhq.com/render/31c30b8e-7e2a-49e8-ad7c-359201ee27b3
-
-<b>Morning Show Anchor/Reporter</b>
-🏢 Fox Television Stations
-📍 Oakland, Ca
-🔗 https://www.linkedin.com/jobs/view/morning-show-anchor-reporter-at-fox-television-stations-4478009598
+<b>Solana / Rust — 11 Oct 2026</b>
+No new jobs since last run.
