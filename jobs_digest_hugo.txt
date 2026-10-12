@@ -1,2 +1,6 @@
-<b>Rust (crypto-wide) — 11 Oct 2026</b>
-No new jobs since last run.
+🆕 <b>Rust (crypto-wide) Jobs — 12 Oct 2026 17:09</b>
+<i>1 new jobs</i>
+
+<b>Senior Software Engineer - Rust - Consumer</b>
+🏢 Kraken Senior Software Engineer   Rust   Consumer
+🔗 https://www.ethereumjobboard.com/jobs/kraken-senior-software-engineer---rust---consumer
