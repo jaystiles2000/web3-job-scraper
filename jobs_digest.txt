@@ -1,20 +1,6 @@
-🆕 <b>Solana / Rust Jobs — 12 Oct 2026 17:09</b>
-<i>4 new jobs</i>
+🆕 <b>Solana / Rust Jobs — 13 Oct 2026 15:24</b>
+<i>1 new jobs</i>
 
-<b>Senior Software Engineer - Rust - Consumer</b>
-🏢 Kraken Senior Software Engineer   Rust   Consumer
-🔗 https://www.ethereumjobboard.com/jobs/kraken-senior-software-engineer---rust---consumer
-
-<b>Site Reliability Engineer</b>
-🏢 Blockdaemon
-📍 Miami
-🔗 https://www.linkedin.com/jobs/view/site-reliability-engineer-at-blockdaemon-4478398965
-
-<b>Remote Licensed Sales Producer (P&amp;C Allstate Experience)</b>
-🏢 Anchor Line Insurance
-🔗 https://www.linkedin.com/jobs/view/remote-licensed-sales-producer-p-c-allstate-experience-at-anchor-line-insurance-4478533738
-
-<b>Weekday Morning Anchor/Reporter</b>
-🏢 Nexstar Media Group, Inc.
-📍 Augusta, Ga
-🔗 https://www.linkedin.com/jobs/view/weekday-morning-anchor-reporter-at-nexstar-media-group-inc-4281507799
+<b>Senior Associate Legal</b>
+🏢 Zeta Markets
+🔗 https://jobs.lever.co/zeta/c92d46af-5d64-4152-bc75-c9844f1dccf7
