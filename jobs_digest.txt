@@ -1,6 +1,11 @@
-🆕 <b>Solana / Rust Jobs — 13 Oct 2026 15:24</b>
-<i>1 new jobs</i>
+🆕 <b>Solana / Rust Jobs — 14 Oct 2026 13:12</b>
+<i>2 new jobs</i>
 
-<b>Senior Associate Legal</b>
+<b>Senior Product Designer - Growth</b>
+🏢 Render Network
+📍 Remote
+🔗 https://jobs.ashbyhq.com/render/0f0ccf3e-4caf-4586-9a66-411dbf49fcc5
+
+<b>Associate Legal</b>
 🏢 Zeta Markets
-🔗 https://jobs.lever.co/zeta/c92d46af-5d64-4152-bc75-c9844f1dccf7
+🔗 https://jobs.lever.co/zeta/c6ff3085-f2fb-4c56-9fcd-613a5a32c069
