@@ -1,11 +1,15 @@
-🆕 <b>Solana / Rust Jobs — 14 Oct 2026 13:12</b>
-<i>2 new jobs</i>
+🆕 <b>Solana / Rust Jobs — 15 Oct 2026 12:58</b>
+<i>3 new jobs</i>
 
-<b>Senior Product Designer - Growth</b>
-🏢 Render Network
-📍 Remote
-🔗 https://jobs.ashbyhq.com/render/0f0ccf3e-4caf-4586-9a66-411dbf49fcc5
+<b>Software Engineer II - Rust - Pro</b>
+🏢 Kraken Software Engineer Ii   Rust   Pro
+🔗 https://www.ethereumjobboard.com/jobs/kraken-software-engineer-ii---rust---pro
 
-<b>Associate Legal</b>
-🏢 Zeta Markets
-🔗 https://jobs.lever.co/zeta/c6ff3085-f2fb-4c56-9fcd-613a5a32c069
+<b>Drop Technician</b>
+🏢 Sonic SVM
+📍 Bellflower
+🔗 https://job-boards.greenhouse.io/sonic/jobs/4657588
+
+<b>Loan Monitoring Associate</b>
+🏢 Anchor Loans
+🔗 https://www.linkedin.com/jobs/view/loan-monitoring-associate-at-anchor-loans-4478844007
