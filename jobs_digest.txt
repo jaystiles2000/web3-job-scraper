@@ -1,15 +1,15 @@
-🆕 <b>Solana / Rust Jobs — 15 Oct 2026 12:58</b>
+🆕 <b>Solana / Rust Jobs — 16 Oct 2026 12:50</b>
 <i>3 new jobs</i>
 
-<b>Software Engineer II - Rust - Pro</b>
-🏢 Kraken Software Engineer Ii   Rust   Pro
-🔗 https://www.ethereumjobboard.com/jobs/kraken-software-engineer-ii---rust---pro
+<b>Client Success Manager - SMB/MM</b>
+🏢 Switchboard
+📍 Denver
+🔗 https://jobs.ashbyhq.com/switchboard/bd332348-c4b4-47f6-902a-c04363d58f0d
 
-<b>Drop Technician</b>
-🏢 Sonic SVM
-📍 Bellflower
-🔗 https://job-boards.greenhouse.io/sonic/jobs/4657588
+<b>Switchboard Hiring - Active Candidate Network</b>
+🏢 Switchboard
+📍 Denver
+🔗 https://jobs.ashbyhq.com/switchboard/0183677c-76ee-4807-99fe-90a416b6a82d
 
-<b>Loan Monitoring Associate</b>
-🏢 Anchor Loans
-🔗 https://www.linkedin.com/jobs/view/loan-monitoring-associate-at-anchor-loans-4478844007
+<b>Senior Software Engineer - Go &amp; Rust, Blockchain Infrastructure</b>
+🔗 https://defi-jobs.xyz/jobs/33358644
