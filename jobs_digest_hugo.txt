@@ -1,2 +1,10 @@
-<b>Rust (crypto-wide) — 18 Oct 2026</b>
-No new jobs since last run.
+🆕 <b>Rust (crypto-wide) Jobs — 19 Oct 2026 15:08</b>
+<i>2 new jobs</i>
+
+<b>Staff Software Engineer, C++/Rust</b>
+🏢 Stellar Development Foundation 1
+📍 Remote
+🔗 https://cryptojobslist.com/jobs/staff-software-engineer-c-rust-remote-at-stellar-development-foundation-1
+
+<b>Software Engineer II - Rust - Pro</b>
+🔗 https://defi-jobs.xyz/jobs/33400460
