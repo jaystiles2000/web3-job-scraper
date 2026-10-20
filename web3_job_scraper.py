@@ -587,6 +587,87 @@ SOLANA_ECOSYSTEM_COMPANIES = {
     "trojan trading",
 }
 
+# Rust-heavy crypto companies that are NOT Solana-native. Added so
+# is_web3_relevant() admits roles like "Senior Backend Engineer at
+# Flashbots" (title has no crypto word, LinkedIn URL has none either
+# → previously dropped). Hugo's digest depends on this allowlist to
+# catch generic-title Rust roles across the whole crypto space.
+RUST_CRYPTO_COMPANIES = {
+    # Core Ethereum Rust clients + tooling
+    "flashbots", "paradigm", "paradigm.xyz", "paradigmxyz",
+    "lambda class", "lambdaclass",
+    "sigma prime", "lighthouse",
+    "nethermind",
+    # ZK Rust shops
+    "succinct", "succinct labs",
+    "risc zero", "riscv zero", "risczero",
+    "polygon zero",
+    "scroll", "scroll foundation",
+    "linea", "consensys",
+    "matter labs", "zksync", "zksync era",
+    "starkware", "starknet foundation",
+    "aleo", "aleo network",
+    # Rust L1s / L2s / infra
+    "fuel labs", "fuel",
+    "near", "near foundation", "pagoda", "near one",
+    "parity", "parity technologies", "polkadot",
+    "web3 foundation",
+    "dusk", "dusk network",
+    "namada", "heliax", "anoma", "anoma foundation",
+    "chainflip", "chainflip labs",
+    "autonomys", "subspace network",
+    "secret network",
+    "gear", "vara network", "gear foundation",
+    "fluence", "fluence labs",
+    "nervos", "nervos foundation", "ckb",
+    "casper", "casper association",
+    "holochain",
+    "mina", "mina foundation", "o(1) labs",
+    "iota", "iota foundation",
+    "dfinity", "internet computer",
+    "taiko",
+    "celestia", "celestia labs",
+    "monad", "monad foundation", "monad labs",
+    # Bitcoin Rust ecosystem
+    "nomic", "nomic foundation",
+    "blockstream",
+    "foundation devices",
+    "alpen", "alpen labs",
+    "botanix", "botanix labs",
+    "spiral", "lightning labs",
+    "fedimint",
+    "darkfi",
+    # Privacy
+    "nym", "nym technologies",
+    "oasis", "oasis foundation",
+    "zcash", "electric coin", "electric coin co",
+    # Exchanges / institutions with real Rust hiring
+    "kraken", "payward",
+    "coinbase",
+    "stellar", "stellar development foundation",
+    "jump trading", "jump crypto",
+    # Other known Rust-heavy crypto
+    "cow dao", "cow protocol", "cow swap",
+    "op labs", "optimism",
+    "arbitrum", "offchain labs",
+    "mysten", "mysten labs",
+    "aptos", "aptos labs",
+    "polymesh",
+    "concordium",
+    "fluent",
+    "logos", "logos network",
+    "waku",
+    "spire labs",
+    "irrefutable labs",
+    "analog",
+    # Digital-assets institutions that Jay called out
+    "anchorage", "anchorage digital",
+    "fireblocks",
+    "fidelity digital assets",
+    "chainalysis",
+    "elliptic",
+}
+
 # Words that when present in the JOB TITLE (or URL slug) strongly
 # indicate the role is crypto/blockchain-related. Keep tight — must
 # be signals that never (or rarely) mean anything else.
@@ -693,6 +774,14 @@ def is_web3_relevant(job: dict) -> bool:
     #    etc.). This is what lets Render Network / Zeta / Phantom
     #    non-eng roles land.
     if any(a in company for a in SOLANA_ECOSYSTEM_COMPANIES):
+        return True
+
+    # 2b. Company is on the Rust-crypto allowlist (non-Solana) — same
+    #     logic as Solana ecosystem but for Flashbots / Paradigm /
+    #     Succinct / Fuel / NEAR / Parity / Kraken / Stellar etc.
+    #     Lets "Senior Backend Engineer at Flashbots" land in Hugo's
+    #     digest even when title has no crypto word.
+    if any(a in company for a in RUST_CRYPTO_COMPANIES):
         return True
 
     # 3. Title contains a crypto signal — the job is crypto-adjacent
@@ -2816,21 +2905,14 @@ def _matches_jay_personal(job: dict) -> bool:
 
 
 def _matches_hugo(job: dict) -> bool:
+    # Per Jay (20 Oct 2026): "they can be solana too fuck it. just any
+    # that have rust in the description or title and web3/crypto/
+    # blockchain/digital assets and anything else." No Solana exclusion
+    # anymore — if is_web3_relevant() said the job is crypto-adjacent
+    # and there's a Rust word anywhere in title/company/description,
+    # Hugo gets it. Overlap with Jay's Solana/Rust digest is expected
+    # and accepted.
     hay = _haystack(job)
-    # Solana-signal in title/company → Jay's lane, not Hugo's. We keep
-    # exclusion on title+company only, not description, because many
-    # Reth / Flashbots / etc. JDs mention Solana tangentially and we
-    # don't want to wrongly exclude those.
-    if any(p in hay for p in HUGO_SOLANA_EXCLUDE_PHRASES):
-        return False
-    if HUGO_SOLANA_EXCLUDE_REGEX.search(hay):
-        return False
-    company = apply_company_fixes(job.get("company", "")).lower().strip()
-    if company in SOLANA_ECOSYSTEM_COMPANIES:
-        return False
-    # Rust check — title-only first (cheap), then deep (fetches description
-    # for Greenhouse/Lever/Ashby jobs). Deep catches "Software Engineer at
-    # Flashbots" where Rust only appears in the JD body.
     if HUGO_KEYWORDS_REGEX.search(hay):
         return True
     deep = _deep_haystack(job)
