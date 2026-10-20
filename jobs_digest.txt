@@ -1,15 +1,7 @@
-🆕 <b>Solana / Rust Jobs — 19 Oct 2026 15:08</b>
-<i>3 new jobs</i>
+🆕 <b>Solana / Rust Jobs — 20 Oct 2026 13:09</b>
+<i>1 new jobs</i>
 
-<b>Staff Software Engineer, C++/Rust</b>
-🏢 Stellar Development Foundation 1
-📍 Remote
-🔗 https://cryptojobslist.com/jobs/staff-software-engineer-c-rust-remote-at-stellar-development-foundation-1
-
-<b>Development Director</b>
-🏢 Anchor Health Properties
-📍 Charlottesville, Va
-🔗 https://www.linkedin.com/jobs/view/development-director-at-anchor-health-properties-4445232757
-
-<b>Software Engineer II - Rust - Pro</b>
-🔗 https://defi-jobs.xyz/jobs/33400460
+<b>Fiber Splicer/Technician</b>
+🏢 Sonic SVM
+📍 Santa Rosa
+🔗 https://job-boards.greenhouse.io/sonic/jobs/194935

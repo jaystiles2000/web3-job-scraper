@@ -1,10 +1,26 @@
-🆕 <b>Rust (crypto-wide) Jobs — 19 Oct 2026 15:08</b>
-<i>2 new jobs</i>
+🆕 <b>Rust (crypto-wide) Jobs — 20 Oct 2026 13:09</b>
+<i>3 new jobs</i>
+
+<b>Crypto Production Engineer</b>
+🏢 Jump Crypto
+📍 Sydney
+🔗 https://job-boards.greenhouse.io/jumpcrypto/jobs/6472539
+
+<b>Senior Software Engineer (Zig/Rust)</b>
+🏢 Syndica
+📍 Remote
+🔗 https://jobs.ashbyhq.com/syndica/15ab4e32-0f32-41a0-b8b0-16b6518158e9
+
+<b>Rust-Simplicity Maintainer</b>
+🏢 Blockstream
+📍 Remote
+🔗 https://jobs.ashbyhq.com/blockstream/6d5c33ed-e473-4e1f-a19e-cde337d66eaa
+
+
+🏦 <b>Big Co Jobs — 20 Oct 2026 13:09</b>
+<i>1 roles from larger companies</i>
 
 <b>Staff Software Engineer, C++/Rust</b>
-🏢 Stellar Development Foundation 1
-📍 Remote
-🔗 https://cryptojobslist.com/jobs/staff-software-engineer-c-rust-remote-at-stellar-development-foundation-1
-
-<b>Software Engineer II - Rust - Pro</b>
-🔗 https://defi-jobs.xyz/jobs/33400460
+🏢 Stellar Development Foundation
+📍 New York
+🔗 https://www.linkedin.com/jobs/view/staff-software-engineer-c%2B%2B-rust-at-stellar-development-foundation-4469240229
