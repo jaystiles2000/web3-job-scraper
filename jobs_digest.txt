@@ -1,7 +1,43 @@
-🆕 <b>Solana / Rust Jobs — 20 Oct 2026 13:09</b>
-<i>1 new jobs</i>
+🆕 <b>Solana / Rust Jobs — 21 Oct 2026 13:20</b>
+<i>9 new jobs</i>
 
-<b>Fiber Splicer/Technician</b>
+<b>Smart Contract Engineer (Rust, Solana)</b>
+🏢 Saifuro
+📍 Remote
+🔗 https://cryptojobslist.com/jobs/smart-contract-engineer-rust-solana-remote-at-saifuro
+
+<b>Smart Contract Engineer (Rust, Solana)</b>
+🏢 Saifuro 📍Remote
+🔗 https://web3.career/smart-contract-engineer-rust-solana-saifuro/155567
+
+<b>Recruiting Coordinator</b>
 🏢 Sonic SVM
-📍 Santa Rosa
-🔗 https://job-boards.greenhouse.io/sonic/jobs/194935
+🔗 https://job-boards.greenhouse.io/sonic/jobs/5477934
+
+<b>Senior Data Engineer</b>
+🏢 Phantom
+📍 Remote
+🔗 https://jobs.ashbyhq.com/phantom/ced59678-c49a-4e3c-bf12-08582447313d
+
+<b>Business Development Lead, AI</b>
+🏢 Monad Foundation
+📍 San Francisco
+🔗 https://jobs.ashbyhq.com/monad.foundation/481259aa-4817-4047-b175-d0157f042b97
+
+<b>Software Engineering Manager, Billing</b>
+🏢 Render Network
+📍 Remote
+🔗 https://jobs.ashbyhq.com/render/f1340905-8a0b-459b-8047-6f678cb78ff2
+
+<b>Senior Demand Generation Manager, B2B Software</b>
+🏢 Switchboard
+📍 Denver
+🔗 https://jobs.ashbyhq.com/switchboard/15367021-c2bc-4b1e-be1d-191fad9b8111
+
+<b>Manager - Employer Branding &amp; Communications</b>
+🏢 Zeta Markets
+🔗 https://jobs.lever.co/zeta/95e45b27-6712-47ba-8944-1253791e7896
+
+<b>Manager/ Sr. Manager – Learning &amp; Org Development</b>
+🏢 Zeta Markets
+🔗 https://jobs.lever.co/zeta/1dabb3c8-c477-4ee5-b300-dbf5d13b7fa9
