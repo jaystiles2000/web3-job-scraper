@@ -1,11 +1,7 @@
-🆕 <b>Rust (crypto-wide) Jobs — 21 Oct 2026 13:20</b>
-<i>2 new jobs</i>
+🆕 <b>Rust (crypto-wide) Jobs — 22 Oct 2026 13:19</b>
+<i>1 new jobs</i>
 
-<b>Smart Contract Engineer (Rust, Solana)</b>
-🏢 Saifuro
-📍 Remote
-🔗 https://cryptojobslist.com/jobs/smart-contract-engineer-rust-solana-remote-at-saifuro
-
-<b>Smart Contract Engineer (Rust, Solana)</b>
-🏢 Saifuro 📍Remote
-🔗 https://web3.career/smart-contract-engineer-rust-solana-saifuro/155567
+<b>bondex: Fullstack Web3 Engineer (Solidity / Rust / Typescript)</b>
+🏢 React Libraries
+📍 United States
+🔗 https://www.linkedin.com/jobs/view/bondex-fullstack-web3-engineer-solidity-rust-typescript-at-react-libraries-4482431989
