@@ -1,23 +1,11 @@
-🆕 <b>Solana / Rust Jobs — 22 Oct 2026 13:19</b>
-<i>5 new jobs</i>
+🆕 <b>Solana / Rust Jobs — 23 Oct 2026 12:58</b>
+<i>2 new jobs</i>
 
-<b>Founding Solana Token Engineer — Ihsan Gold Dinar</b>
-🏢 Ihsan 📍 Remote
-🔗 https://web3.career/founding-solana-token-engineer-ihsan-gold-dinar-ihsan/155626
+<b>Graduate DeFi Algorithmic Trader</b>
+🏢 Wintermute
+🔗 https://cryptojobslist.com/jobs/graduate-defi-algorithmic-trader-singapore-at-wintermute
 
-<b>Recruiting Specialist</b>
-🏢 Sonic SVM
-🔗 https://job-boards.greenhouse.io/sonic/jobs/5477934
-
-<b>Senior Associate - Banking Operations</b>
-🏢 Zeta Markets
-🔗 https://jobs.lever.co/zeta/f791ce9e-2c8c-4103-9d26-420995384d67
-
-<b>Senior Data Base Engineer</b>
-🏢 Zeta Markets
-🔗 https://jobs.lever.co/zeta/8bd120c7-51aa-4fc9-a50e-37d6e19f0935
-
-<b>bondex: Fullstack Web3 Engineer (Solidity / Rust / Typescript)</b>
-🏢 React Libraries
-📍 United States
-🔗 https://www.linkedin.com/jobs/view/bondex-fullstack-web3-engineer-solidity-rust-typescript-at-react-libraries-4482431989
+<b>Staff/Principal Design Systems Lead</b>
+🏢 Render Network
+📍 Remote
+🔗 https://jobs.ashbyhq.com/render/05215536-110a-4c96-a03f-a4568c2176dc
