@@ -1,2 +1,2 @@
-<b>Rust (crypto-wide) — 27 Oct 2026</b>
+<b>Rust (crypto-wide) — 28 Oct 2026</b>
 No new jobs since last run.
