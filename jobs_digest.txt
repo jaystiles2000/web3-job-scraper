@@ -1,25 +1,6 @@
-🆕 <b>Solana / Rust Jobs — 28 Oct 2026 14:40</b>
-<i>5 new jobs</i>
+🆕 <b>Solana / Rust Jobs — 29 Oct 2026 14:47</b>
+<i>1 new jobs</i>
 
-<b>PMO Closeout Supervisor</b>
-🏢 Sonic SVM
-🔗 https://job-boards.greenhouse.io/sonic/jobs/8328192
-
-<b>Software Engineer, Agent Access &amp; Governance</b>
-🏢 Render Network
-📍 Remote
-🔗 https://jobs.ashbyhq.com/render/8815f772-6895-4383-a9e5-6c7bdc2bf141
-
-<b>Senior Network Engineer - F5 and Application Delivery</b>
-🏢 Switchboard
-📍 Centennial, Co
-🔗 https://jobs.ashbyhq.com/switchboard/41d20cc5-9542-436c-b752-00d41a84ad1b
-
-<b>Business Development &amp; Partnerships Associate</b>
-🏢 Wintermute
-📍 New York
-🔗 https://www.linkedin.com/jobs/view/business-development-partnerships-associate-at-wintermute-4483883558
-
-<b>Care Coordinator - Live In</b>
-🏢 Anchor Co-Living
-🔗 https://www.linkedin.com/jobs/view/care-coordinator-live-in-at-anchor-co-living-4482249683
+<b>Production Reliability Engineer (Weekend Warrior)</b>
+🏢 Jump Crypto
+🔗 https://jobs.theblockchainassociation.org/jobs/companies/jump-crypto/jobs/98424127-production-reliability-engineer-weekend-warrior
