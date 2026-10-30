@@ -1,6 +1,12 @@
-🆕 <b>Solana / Rust Jobs — 29 Oct 2026 14:47</b>
-<i>1 new jobs</i>
+🆕 <b>Solana / Rust Jobs — 30 Oct 2026 14:42</b>
+<i>2 new jobs</i>
 
-<b>Production Reliability Engineer (Weekend Warrior)</b>
-🏢 Jump Crypto
-🔗 https://jobs.theblockchainassociation.org/jobs/companies/jump-crypto/jobs/98424127-production-reliability-engineer-weekend-warrior
+<b>Developer Programs Lead</b>
+🏢 Render Network
+📍 Remote
+🔗 https://jobs.ashbyhq.com/render/76fd7bc4-1808-4bff-8663-16c917f45f4e
+
+<b>BDR Manager</b>
+🏢 Switchboard
+📍 Dallas, Tx
+🔗 https://jobs.ashbyhq.com/switchboard/68e404ae-3cfb-4eb4-91c6-bec4bed24d83
