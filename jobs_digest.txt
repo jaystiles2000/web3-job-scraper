@@ -1,12 +1,7 @@
-🆕 <b>Solana / Rust Jobs — 30 Oct 2026 14:42</b>
-<i>2 new jobs</i>
+🆕 <b>Solana / Rust Jobs — 31 Oct 2026 14:01</b>
+<i>1 new jobs</i>
 
-<b>Developer Programs Lead</b>
+<b>Staff Developer Relations Engineer</b>
 🏢 Render Network
 📍 Remote
-🔗 https://jobs.ashbyhq.com/render/76fd7bc4-1808-4bff-8663-16c917f45f4e
-
-<b>BDR Manager</b>
-🏢 Switchboard
-📍 Dallas, Tx
-🔗 https://jobs.ashbyhq.com/switchboard/68e404ae-3cfb-4eb4-91c6-bec4bed24d83
+🔗 https://jobs.ashbyhq.com/render/5498e2c2-44d7-4a4b-9bb9-20c0eca92440
