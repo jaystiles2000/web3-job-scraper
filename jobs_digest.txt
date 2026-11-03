@@ -1,26 +1,7 @@
-🆕 <b>Solana / Rust Jobs — 02 Nov 2026 17:33</b>
-<i>5 new jobs</i>
+🆕 <b>Solana / Rust Jobs — 03 Nov 2026 15:35</b>
+<i>1 new jobs</i>
 
-<b>Business Development Lead, Agentic Commerce</b>
-🏢 Solana
-🔗 https://jobs.delphiventures.io/jobs/companies/solana-2/jobs/98679240-business-development-lead-agentic-commerce
-
-<b>Rust Engineer</b>
-🏢 Tempo
+<b>Blockchain Security Engineer - (Solidity / Rust / Golang)</b>
+🏢 Certik
 📍 Remote
-🔗 https://cryptojobslist.com/jobs/rust-engineer-remote-at-tempo
-
-<b>Head of Security</b>
-🏢 Helius
-📍 North America
-🔗 https://jobs.ashbyhq.com/helius/5256ef0f-55d0-4a1f-9696-edd6fe56bf1e
-
-<b>Vice President of Credit</b>
-🏢 Switchboard
-📍 Denver
-🔗 https://jobs.ashbyhq.com/switchboard/97f5c729-d801-4a4c-868a-24dc4e83903a
-
-<b>Vice President, Product and Solutions Engineering</b>
-🏢 Zeta Markets
-📍 East Coast
-🔗 https://jobs.lever.co/zeta/e6a9edb6-0db3-4814-a5e7-5814339928ee
+🔗 https://cryptojobslist.com/jobs/blockchain-security-engineer-solidity-us-remote-at-certik
