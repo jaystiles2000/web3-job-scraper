@@ -1,7 +1,2 @@
-🆕 <b>Rust (crypto-wide) Jobs — 03 Nov 2026 15:35</b>
-<i>1 new jobs</i>
-
-<b>Blockchain Security Engineer - (Solidity / Rust / Golang)</b>
-🏢 Certik
-📍 Remote
-🔗 https://cryptojobslist.com/jobs/blockchain-security-engineer-solidity-us-remote-at-certik
+<b>Rust (crypto-wide) — 04 Nov 2026</b>
+No new jobs since last run.
