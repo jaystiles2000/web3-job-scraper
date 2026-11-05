@@ -1,21 +1,26 @@
-🆕 <b>Solana / Rust Jobs — 04 Nov 2026 15:52</b>
-<i>4 new jobs</i>
+🆕 <b>Solana / Rust Jobs — 05 Nov 2026 15:56</b>
+<i>5 new jobs</i>
 
-<b>Engineering Manager, Infrastructure (Privy)</b>
-🏢 Privy
-🔗 https://www.ethereumjobboard.com/jobs/privy-engineering-manager-infrastructure-privy
+<b>Head of Security</b>
+🏢 Solana
+🔗 https://jobs.delphiventures.io/jobs/companies/solana-2/jobs/98838003-head-of-security
 
-<b>Cloud - Bare Metal Infrastructure Engineer</b>
-🏢 Render Network
+<b>Senior Backend Engineer (Data Platform)</b>
+🏢 Phantom
 📍 Remote
-🔗 https://jobs.ashbyhq.com/render/a22230e6-803d-4e2e-82f8-ff5f500cdc3d
+🔗 https://jobs.ashbyhq.com/phantom/b7d0a7f7-c1d0-43c3-936f-c97ff46ee72e
 
-<b>Senior Content Engineer</b>
-🏢 Render Network
-📍 Remote
-🔗 https://jobs.ashbyhq.com/render/90f76393-78e9-4b15-989a-c300395838b9
+<b>Analyst II - SIEM/SecOps</b>
+🏢 Zeta Markets
+📍 Hyderabad
+🔗 https://jobs.lever.co/zeta/38accd53-250f-4e8f-b635-261f31f78b65
 
-<b>Staff DX Engineer</b>
-🏢 Render Network
-📍 Remote
-🔗 https://jobs.ashbyhq.com/render/5e1edcfd-9bc7-4d87-a393-f213e47a9431
+<b>DevSecOps Engineer II</b>
+🏢 Zeta Markets
+📍 Hyderabad
+🔗 https://jobs.lever.co/zeta/a83bd184-4c9b-42b8-a6d4-7be310774a6a
+
+<b>Software Engineer, Storage</b>
+🏢 Anza
+📍 San Francisco
+🔗 https://www.linkedin.com/jobs/view/software-engineer-storage-at-anza-4487785042
