@@ -1,2 +1,12 @@
-<b>Rust (crypto-wide) — 06 Nov 2026</b>
-No new jobs since last run.
+🏦 <b>Big Co Jobs — 07 Nov 2026 14:30</b>
+<i>2 roles from larger companies</i>
+
+<b>Software Engineer - Rust - Payward Services</b>
+🏢 Kraken
+📍 Colombia
+🔗 https://cryptojobslist.com/jobs/software-engineer-rust-payward-brazil-peru-sweden-colombia-romania-at-kraken
+
+<b>Senior Software Engineer - Rust - Backend - Pro</b>
+🏢 Kraken
+📍 Sweden Colombia
+🔗 https://cryptojobslist.com/jobs/senior-software-engineer-rust-pro-romania-brazil-peru-sweden-colombia-at-kraken

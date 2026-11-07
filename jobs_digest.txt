@@ -1,20 +1,23 @@
-🆕 <b>Solana / Rust Jobs — 06 Nov 2026 15:30</b>
-<i>4 new jobs</i>
+🆕 <b>Solana / Rust Jobs — 07 Nov 2026 14:30</b>
+<i>3 new jobs</i>
 
-<b>Senior Event Manager, APAC</b>
-🏢 Ondo Finance
-🔗 https://jobs.theblockchainassociation.org/jobs/companies/ondo-finance/jobs/99133428-senior-event-manager-apac
+<b>Safety Coordinator</b>
+🏢 Sonic SVM
+🔗 https://job-boards.greenhouse.io/sonic/jobs/7008145
 
-<b>Engineering Manager, Security</b>
-🏢 Render Network
-📍 Remote
-🔗 https://jobs.ashbyhq.com/render/73a4d651-dd12-4c12-a695-36593041be63
-
-<b>Vice President - Business Development</b>
-🏢 Zeta Markets
-📍 Usa
-🔗 https://jobs.lever.co/zeta/7c0e0301-f6e0-4092-980d-7e7ec3b566f1
-
-<b>Asset Manager - Special Servicing</b>
+<b>Capital Markets Collateral Coordinator</b>
 🏢 Anchor Loans
-🔗 https://www.linkedin.com/jobs/view/asset-manager-special-servicing-at-anchor-loans-4486922143
+🔗 https://www.linkedin.com/jobs/view/capital-markets-collateral-coordinator-at-anchor-loans-4487353385
+
+<b>Regional Loan Originator - West</b>
+🏢 Anchor Loans
+🔗 https://www.linkedin.com/jobs/view/regional-loan-originator-west-at-anchor-loans-4486950546
+
+
+🏦 <b>Big Co Jobs — 07 Nov 2026 14:30</b>
+<i>1 roles from larger companies</i>
+
+<b>Senior Software Engineer - Rust - Backend - Pro</b>
+🏢 Kraken
+📍 Sweden Colombia
+🔗 https://cryptojobslist.com/jobs/senior-software-engineer-rust-pro-romania-brazil-peru-sweden-colombia-at-kraken
