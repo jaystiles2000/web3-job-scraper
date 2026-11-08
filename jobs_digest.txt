@@ -1,23 +1,19 @@
-🆕 <b>Solana / Rust Jobs — 07 Nov 2026 14:30</b>
-<i>3 new jobs</i>
+🆕 <b>Solana / Rust Jobs — 08 Nov 2026 14:39</b>
+<i>4 new jobs</i>
 
-<b>Safety Coordinator</b>
-🏢 Sonic SVM
-🔗 https://job-boards.greenhouse.io/sonic/jobs/7008145
+<b>Business Development - Perps ($200k - $1m salary + bonus)</b>
+🏢 Solana
+🔗 https://jobs.delphiventures.io/jobs/companies/solana-2/jobs/99277250-business-development-perps-200k-1m-salary-bonus
 
-<b>Capital Markets Collateral Coordinator</b>
-🏢 Anchor Loans
-🔗 https://www.linkedin.com/jobs/view/capital-markets-collateral-coordinator-at-anchor-loans-4487353385
+<b>Sales Partner — Web3 &amp; DeFi</b>
+🏢 Solana
+🔗 https://jobs.delphiventures.io/jobs/companies/solana-2/jobs/99277239-sales-partner-web3-defi
 
-<b>Regional Loan Originator - West</b>
-🏢 Anchor Loans
-🔗 https://www.linkedin.com/jobs/view/regional-loan-originator-west-at-anchor-loans-4486950546
+<b>Staff Software Engineer - Machine Learning</b>
+🏢 Hivemapper
+📍 Francisco Ca
+🔗 https://cryptojobslist.com/jobs/staff-software-engineer-machine-san-francisco-ca-at-hivemapper
 
-
-🏦 <b>Big Co Jobs — 07 Nov 2026 14:30</b>
-<i>1 roles from larger companies</i>
-
-<b>Senior Software Engineer - Rust - Backend - Pro</b>
-🏢 Kraken
-📍 Sweden Colombia
-🔗 https://cryptojobslist.com/jobs/senior-software-engineer-rust-pro-romania-brazil-peru-sweden-colombia-at-kraken
+<b>Senior Software Engineer Zig Rust</b>
+🏢 Syndica 📍 Remote
+🔗 https://web3.career/senior-software-engineer-zig-rust-syndica/156031
