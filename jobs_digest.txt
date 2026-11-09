@@ -1,19 +1,22 @@
-🆕 <b>Solana / Rust Jobs — 08 Nov 2026 14:39</b>
+🆕 <b>Solana / Rust Jobs — 09 Nov 2026 17:57</b>
 <i>4 new jobs</i>
 
-<b>Business Development - Perps ($200k - $1m salary + bonus)</b>
-🏢 Solana
-🔗 https://jobs.delphiventures.io/jobs/companies/solana-2/jobs/99277250-business-development-perps-200k-1m-salary-bonus
-
-<b>Sales Partner — Web3 &amp; DeFi</b>
-🏢 Solana
-🔗 https://jobs.delphiventures.io/jobs/companies/solana-2/jobs/99277239-sales-partner-web3-defi
-
-<b>Staff Software Engineer - Machine Learning</b>
+<b>Engineering Manager - Map AI Platform</b>
 🏢 Hivemapper
 📍 Francisco Ca
-🔗 https://cryptojobslist.com/jobs/staff-software-engineer-machine-san-francisco-ca-at-hivemapper
+🔗 https://cryptojobslist.com/jobs/engineering-manager-map-ai-platform-san-francisco-ca-at-hivemapper
 
-<b>Senior Software Engineer Zig Rust</b>
-🏢 Syndica 📍 Remote
-🔗 https://web3.career/senior-software-engineer-zig-rust-syndica/156031
+<b>Staff Data Scientist</b>
+🏢 Phantom
+📍 Remote
+🔗 https://jobs.ashbyhq.com/phantom/2152bd2d-cdf8-418e-9c03-eae970e630a2
+
+<b>Trading Lead</b>
+🏢 Monad Foundation
+📍 Remote
+🔗 https://jobs.ashbyhq.com/monad.foundation/2e71ca20-5a7a-4400-ac74-56d16a4bacae
+
+<b>VP of Growth</b>
+🏢 Kamino
+📍 New York
+🔗 https://www.linkedin.com/jobs/view/vp-of-growth-at-kamino-4488800761

@@ -1,6 +1,2 @@
-🆕 <b>Rust (crypto-wide) Jobs — 08 Nov 2026 14:39</b>
-<i>1 new jobs</i>
-
-<b>Senior Software Engineer Zig Rust</b>
-🏢 Syndica 📍 Remote
-🔗 https://web3.career/senior-software-engineer-zig-rust-syndica/156031
+<b>Rust (crypto-wide) — 09 Nov 2026</b>
+No new jobs since last run.
