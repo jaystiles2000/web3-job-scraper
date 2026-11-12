@@ -1,12 +1,7 @@
-🆕 <b>Rust (crypto-wide) Jobs — 10 Nov 2026 15:56</b>
-<i>2 new jobs</i>
+🆕 <b>Rust (crypto-wide) Jobs — 12 Nov 2026 16:27</b>
+<i>1 new jobs</i>
 
-<b>Rust Engineer - Fintech/Crypto - $300k - On Site</b>
-🏢 Venchr
-📍 San Francisco
-🔗 https://www.linkedin.com/jobs/view/rust-engineer-fintech-crypto-%24300k-on-site-at-venchr-4489440668
-
-<b>Senior Software Engineer - Go &amp; Rust, Blockchain Infrastructure</b>
-🏢 Quicknode
-📍 United States
-🔗 https://www.linkedin.com/jobs/view/senior-software-engineer-go-rust-blockchain-infrastructure-at-quicknode-4487438409
+<b>Senior Rust Blockchain Developer â€” Autheo | Chain, Node, Smart Contracts &amp; Tooling</b>
+🏢 Autheo
+📍 Cheyenne, Wy
+🔗 https://www.linkedin.com/jobs/view/senior-rust-blockchain-developer-%C3%A2%E2%82%AC%E2%80%9D-autheo-chain-node-smart-contracts-tooling-at-autheo-4488520584
