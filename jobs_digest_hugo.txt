@@ -1,7 +1,2 @@
-🆕 <b>Rust (crypto-wide) Jobs — 12 Nov 2026 16:27</b>
-<i>1 new jobs</i>
-
-<b>Senior Rust Blockchain Developer â€” Autheo | Chain, Node, Smart Contracts &amp; Tooling</b>
-🏢 Autheo
-📍 Cheyenne, Wy
-🔗 https://www.linkedin.com/jobs/view/senior-rust-blockchain-developer-%C3%A2%E2%82%AC%E2%80%9D-autheo-chain-node-smart-contracts-tooling-at-autheo-4488520584
+<b>Rust (crypto-wide) — 13 Nov 2026</b>
+No new jobs since last run.

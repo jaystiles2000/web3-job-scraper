@@ -1,16 +1,26 @@
-🆕 <b>Solana / Rust Jobs — 12 Nov 2026 16:27</b>
-<i>3 new jobs</i>
+🆕 <b>Solana / Rust Jobs — 13 Nov 2026 15:48</b>
+<i>5 new jobs</i>
 
-<b>Recruiting Coordinator (Contract)</b>
-🏢 Phantom
-🔗 https://jobs.solana.com/companies/phantom/jobs/99580527-recruiting-coordinator-contract
+<b>Outreach &amp; Partnerships Associate</b>
+🏢 Solana
+🔗 https://jobs.delphiventures.io/jobs/companies/solana-2/jobs/99649924-outreach-partnerships-associate
 
-<b>Senior Engineer, Backend (Data Platform)</b>
-🏢 Phantom
+<b>Brand Designer</b>
+🏢 Render Network
 📍 Remote
-🔗 https://jobs.ashbyhq.com/phantom/b7d0a7f7-c1d0-43c3-936f-c97ff46ee72e
+🔗 https://jobs.ashbyhq.com/render/e95722d4-2c08-42d7-840c-3f718cb515fd
 
-<b>Senior Rust Blockchain Developer â€” Autheo | Chain, Node, Smart Contracts &amp; Tooling</b>
-🏢 Autheo
-📍 Cheyenne, Wy
-🔗 https://www.linkedin.com/jobs/view/senior-rust-blockchain-developer-%C3%A2%E2%82%AC%E2%80%9D-autheo-chain-node-smart-contracts-tooling-at-autheo-4488520584
+<b>Developer Documentation Writer</b>
+🏢 Render Network
+📍 Remote
+🔗 https://jobs.ashbyhq.com/render/0ed7bac4-72f1-4d73-ab0c-e231af4ec06e
+
+<b>Staff Brand Designer</b>
+🏢 Render Network
+📍 Remote
+🔗 https://jobs.ashbyhq.com/render/5a36070b-69a7-49c4-a955-8d4447b7d7b4
+
+<b>Materials &amp; Logistics Driver</b>
+🏢 SVM
+📍 Sparks, Nv
+🔗 https://www.linkedin.com/jobs/view/materials-logistics-driver-at-svm-4489276870
