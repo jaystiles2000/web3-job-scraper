@@ -1,26 +1,19 @@
-🆕 <b>Solana / Rust Jobs — 13 Nov 2026 15:48</b>
-<i>5 new jobs</i>
+🆕 <b>Solana / Rust Jobs — 14 Nov 2026 14:38</b>
+<i>4 new jobs</i>
 
-<b>Outreach &amp; Partnerships Associate</b>
-🏢 Solana
-🔗 https://jobs.delphiventures.io/jobs/companies/solana-2/jobs/99649924-outreach-partnerships-associate
+<b>Senior Product Manager (Prediction Markets)</b>
+🏢 Phantom
+🔗 https://jobs.jumpcrypto.com/jobs/companies/phantom/jobs/99843095-senior-product-manager-prediction-markets
 
-<b>Brand Designer</b>
+<b>Workplace Program Manager</b>
 🏢 Render Network
-📍 Remote
-🔗 https://jobs.ashbyhq.com/render/e95722d4-2c08-42d7-840c-3f718cb515fd
+📍 San Francisco
+🔗 https://jobs.ashbyhq.com/render/d4a81805-6943-4017-99c5-765f1f8fc701
 
-<b>Developer Documentation Writer</b>
-🏢 Render Network
-📍 Remote
-🔗 https://jobs.ashbyhq.com/render/0ed7bac4-72f1-4d73-ab0c-e231af4ec06e
+<b>Event Marketing Manager (FinTech)</b>
+🏢 Switchboard
+📍 Denver
+🔗 https://jobs.ashbyhq.com/switchboard/6d225281-7be5-4966-b37e-5920890ffc97
 
-<b>Staff Brand Designer</b>
-🏢 Render Network
-📍 Remote
-🔗 https://jobs.ashbyhq.com/render/5a36070b-69a7-49c4-a955-8d4447b7d7b4
-
-<b>Materials &amp; Logistics Driver</b>
-🏢 SVM
-📍 Sparks, Nv
-🔗 https://www.linkedin.com/jobs/view/materials-logistics-driver-at-svm-4489276870
+<b>Staff Solana Program Engineer ($300 - $500k salary)</b>
+🔗 https://defi-jobs.xyz/jobs/33442688
