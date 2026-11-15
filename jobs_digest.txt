@@ -1,19 +1,2 @@
-🆕 <b>Solana / Rust Jobs — 14 Nov 2026 14:38</b>
-<i>4 new jobs</i>
-
-<b>Senior Product Manager (Prediction Markets)</b>
-🏢 Phantom
-🔗 https://jobs.jumpcrypto.com/jobs/companies/phantom/jobs/99843095-senior-product-manager-prediction-markets
-
-<b>Workplace Program Manager</b>
-🏢 Render Network
-📍 San Francisco
-🔗 https://jobs.ashbyhq.com/render/d4a81805-6943-4017-99c5-765f1f8fc701
-
-<b>Event Marketing Manager (FinTech)</b>
-🏢 Switchboard
-📍 Denver
-🔗 https://jobs.ashbyhq.com/switchboard/6d225281-7be5-4966-b37e-5920890ffc97
-
-<b>Staff Solana Program Engineer ($300 - $500k salary)</b>
-🔗 https://defi-jobs.xyz/jobs/33442688
+<b>Solana / Rust — 15 Nov 2026</b>
+No new jobs since last run.
