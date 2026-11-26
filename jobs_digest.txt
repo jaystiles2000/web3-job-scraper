@@ -1,34 +1,15 @@
-🆕 <b>Solana / Rust Jobs — 25 Nov 2026 18:18</b>
-<i>7 new jobs</i>
+🆕 <b>Solana / Rust Jobs — 26 Nov 2026 17:59</b>
+<i>3 new jobs</i>
 
-<b>Data Scientist</b>
+<b>Blockchain Engineer</b>
 🏢 Solana
-🔗 https://jobs.delphiventures.io/jobs/companies/solana-2/jobs/100753863-data-scientist
+🔗 https://jobs.delphiventures.io/jobs/companies/solana-2/jobs/100834870-blockchain-engineer
 
-<b>Senior Backend Engineer, Data Platform</b>
-🏢 Helius
-📍 North America
-🔗 https://jobs.ashbyhq.com/helius/fff1e597-ca3c-48aa-a171-d68c624419da
+<b>Senior Rust Engineer Privacy</b>
+🏢 Helius 📍 United States
+🔗 https://web3.career/senior-rust-engineer-privacy-helius/156534
 
-<b>Staff Backend Engineer, Data Platform</b>
-🏢 Helius
-📍 North America
-🔗 https://jobs.ashbyhq.com/helius/2548cac4-348b-4103-8f8c-79c510fbd009
-
-<b>Paid Media Manager</b>
+<b>Software Engineer, Cloud Infrastructure</b>
 🏢 Render Network
 📍 Remote
-🔗 https://jobs.ashbyhq.com/render/d5ee6a37-085c-47c8-8149-692633254cab
-
-<b>Senior Manager Legal</b>
-🏢 Zeta Markets
-🔗 https://jobs.lever.co/zeta/08f158db-9b75-4ec3-b28a-f70db4ed821e
-
-<b>Sr. Associate - Data Privacy</b>
-🏢 Zeta Markets
-🔗 https://jobs.lever.co/zeta/b4c7780b-00a8-41cc-aff1-f65368b27c78
-
-<b>Principal Blockchain, Payments &amp; Exchange Architect Rust</b>
-🏢 Valley Medical Center &amp; Clinics
-📍 Austin
-🔗 https://www.linkedin.com/jobs/view/principal-blockchain-payments-exchange-architect-rust-at-valley-medical-center-clinics-4494663535
+🔗 https://jobs.ashbyhq.com/render/a22230e6-803d-4e2e-82f8-ff5f500cdc3d

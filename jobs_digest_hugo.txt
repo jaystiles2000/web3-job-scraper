@@ -1,7 +1,6 @@
-🆕 <b>Rust (crypto-wide) Jobs — 25 Nov 2026 18:18</b>
+🆕 <b>Rust (crypto-wide) Jobs — 26 Nov 2026 17:59</b>
 <i>1 new jobs</i>
 
-<b>Principal Blockchain, Payments &amp; Exchange Architect Rust</b>
-🏢 Valley Medical Center &amp; Clinics
-📍 Austin
-🔗 https://www.linkedin.com/jobs/view/principal-blockchain-payments-exchange-architect-rust-at-valley-medical-center-clinics-4494663535
+<b>Senior Rust Engineer Privacy</b>
+🏢 Helius 📍 United States
+🔗 https://web3.career/senior-rust-engineer-privacy-helius/156534
