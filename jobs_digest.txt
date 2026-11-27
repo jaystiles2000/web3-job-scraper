@@ -1,15 +1,10 @@
-🆕 <b>Solana / Rust Jobs — 26 Nov 2026 17:59</b>
-<i>3 new jobs</i>
+🆕 <b>Solana / Rust Jobs — 27 Nov 2026 17:44</b>
+<i>2 new jobs</i>
 
-<b>Blockchain Engineer</b>
-🏢 Solana
-🔗 https://jobs.delphiventures.io/jobs/companies/solana-2/jobs/100834870-blockchain-engineer
+<b>Technical Support Engineer I/II</b>
+🏢 Zeta Markets
+📍 Hyderabad
+🔗 https://jobs.lever.co/zeta/d7608271-a46f-4783-b5a9-05737398d320
 
-<b>Senior Rust Engineer Privacy</b>
-🏢 Helius 📍 United States
-🔗 https://web3.career/senior-rust-engineer-privacy-helius/156534
-
-<b>Software Engineer, Cloud Infrastructure</b>
-🏢 Render Network
-📍 Remote
-🔗 https://jobs.ashbyhq.com/render/a22230e6-803d-4e2e-82f8-ff5f500cdc3d
+<b>Senior Rust Engineer, Privacy</b>
+🔗 https://defi-jobs.xyz/jobs/33473598
